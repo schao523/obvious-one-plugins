@@ -28,7 +28,7 @@ MARKER = ".obvious-one-marketplace"
 PLUGIN_ID = "cool-bible-tutor"
 MAX_FILE_BYTES = 100 * 1024 * 1024
 PUBLIC_ROOT_FILES = {
-    "README.md", "DISTRIBUTION.md", "THIRD_PARTY_CONTENT.md",
+    ".gitattributes", "README.md", "DISTRIBUTION.md", "THIRD_PARTY_CONTENT.md",
     "THIRD_PARTY_NOTICES.md", "PRIVACY.md", "SECURITY.md", "LICENSE",
 }
 PUBLIC_PREFIXES = {
