@@ -1,0 +1,66 @@
+name: Validate marketplace
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      run_managed_rag_gate:
+        description: Download and verify the pinned model/runtime
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  public-release:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate marketplace and plugin manifests
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+          market = json.loads(Path('.agents/plugins/marketplace.json').read_text(encoding='utf-8'))
+          assert market['name'] == 'obvious-one'
+          assert market['interface']['displayName'] == '明明可知 Obvious One'
+          entry = market['plugins'][0]
+          assert entry['name'] == 'cool-bible-tutor'
+          plugin = json.loads(Path('plugins/cool-bible-tutor/.codex-plugin/plugin.json').read_text(encoding='utf-8'))
+          assert plugin['name'] == entry['name'] and plugin['version'] == '2.4.5'
+      - name: Run plugin tests
+        run: python -B -m unittest discover -s plugins/cool-bible-tutor/tests -q
+      - name: Audit public distribution
+        run: python -B plugins/cool-bible-tutor/scripts/distribution_audit.py plugins/cool-bible-tutor
+      - name: Check immediate exact retrieval
+        run: python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py passage "約 3:16" --format json
+      - name: Check consent boundary
+        shell: python
+        run: |
+          import json, subprocess, sys
+          command = [sys.executable, '-B', 'plugins/cool-bible-tutor/scripts/cool_bible_tutor.py', 'setup-rag', '--json']
+          result = subprocess.run(command, capture_output=True, text=True)
+          payload = json.loads(result.stdout)
+          assert result.returncode == 2 and payload['status'] == 'consent_required'
+
+  managed-rag:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_managed_rag_gate }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install and verify managed RAG runtime
+        run: python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py setup-rag --accept-downloads --json
+      - name: Check ready state
+        run: python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py status --json
+      - name: Run Traditional Chinese semantic discovery
+        run: python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py rag-discover "神的愛與救恩" --top-k 5

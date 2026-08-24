@@ -1,0 +1,20 @@
+{
+  "name": "obvious-one",
+  "interface": {
+    "displayName": "明明可知 Obvious One"
+  },
+  "plugins": [
+    {
+      "name": "cool-bible-tutor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cool-bible-tutor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    }
+  ]
+}
