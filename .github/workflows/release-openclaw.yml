@@ -54,6 +54,7 @@ jobs:
                       payload = (plugin / member['path']).read_bytes()
                       assert len(payload) == member['size'] and hashlib.sha256(payload).hexdigest() == member['sha256']
                       info = zipfile.ZipInfo(member['path'], (1980, 1, 1, 0, 0, 0))
+                      info.create_system = 0
                       info.compress_type = zipfile.ZIP_DEFLATED
                       info.external_attr = 0o100644 << 16
                       archive.writestr(info, payload, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
