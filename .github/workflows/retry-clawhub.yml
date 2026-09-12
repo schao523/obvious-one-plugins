@@ -1,0 +1,52 @@
+name: Retry Cool Bible Tutor ClawHub Publication
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Existing Cool Bible Tutor release version to publish to ClawHub
+        required: true
+        default: "2.4.6"
+        type: string
+
+permissions:
+  contents: read
+
+env:
+  VERSION: ${{ inputs.version }}
+  RELEASE_TAG: cool-bible-tutor-v${{ inputs.version }}
+  CLAWHUB_VERSION: "0.23.3"
+
+jobs:
+  publish-clawhub:
+    runs-on: ubuntu-latest
+    environment: release
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify the immutable GitHub release already exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release view "${RELEASE_TAG}" --json tagName,targetCommitish
+      - name: Verify package version matches requested release
+        run: |
+          PACKAGE_VERSION=$(node -p "require('./openclaw/cool-bible-tutor/package.json').version")
+          if [ "${PACKAGE_VERSION}" != "${VERSION}" ]; then
+            echo "Package version ${PACKAGE_VERSION} does not match requested release ${VERSION}." >&2
+            exit 1
+          fi
+      - name: Authenticate, validate, and publish only to ClawHub
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          if [ -z "${CLAWHUB_TOKEN}" ]; then
+            echo "CLAWHUB_TOKEN is not configured." >&2
+            exit 1
+          fi
+          npm install --global clawhub@${CLAWHUB_VERSION}
+          timeout 60s clawhub login --token "${CLAWHUB_TOKEN}"
+          clawhub whoami
+          clawhub package validate openclaw/cool-bible-tutor --json
+          timeout 60s clawhub package publish openclaw/cool-bible-tutor --family bundle-plugin --bundle-format codex --host-targets openclaw --owner obvious-one --version "${VERSION}" --json
