@@ -433,7 +433,10 @@ class RagSetupStateTests(unittest.TestCase):
         staged_python = staged / (
             "Scripts/python.exe" if sys.platform == "win32" else "bin/python"
         )
-        self.assertEqual(runner.commands[0][0], [sys.executable, "-m", "venv", str(staged)])
+        self.assertEqual(
+            runner.commands[0][0],
+            [str(Path(sys.executable).resolve()), "-m", "venv", str(staged)],
+        )
         self.assertEqual(
             runner.commands[1][0],
             [
