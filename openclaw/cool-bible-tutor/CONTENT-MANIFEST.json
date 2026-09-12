@@ -1,5 +1,5 @@
 {
-  "content_sha256": "14f77a00cd591676ada5b8e21f5b1aeebafd316a98e7f54657df91470fa5fe96",
+  "content_sha256": "77c84fd600867cf1bd93862c6152b1c2ddabec3f9ca5ca1ad4e4cc2c44de8360",
   "file_count": 92,
   "files": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "path": "assets/openclaw/remote-assets.json",
-      "sha256": "a19579960ff8e54583888ed619492302a469939bf7c4d1098b547b0dd9ed1d7f",
+      "sha256": "f523f35b67cc569f4af43e50d94f340c3108adafc00b645d4af3c448d6bba975",
       "size": 1858
     },
     {

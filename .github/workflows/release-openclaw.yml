@@ -49,15 +49,15 @@ jobs:
           output.mkdir()
           for group in manifest['asset_groups']:
               archive_path = output / group['name']
-              with zipfile.ZipFile(archive_path, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+              with zipfile.ZipFile(archive_path, 'w', compression=zipfile.ZIP_STORED) as archive:
                   for member in sorted(group['members'], key=lambda item: item['path']):
                       payload = (plugin / member['path']).read_bytes()
                       assert len(payload) == member['size'] and hashlib.sha256(payload).hexdigest() == member['sha256']
                       info = zipfile.ZipInfo(member['path'], (1980, 1, 1, 0, 0, 0))
                       info.create_system = 0
-                      info.compress_type = zipfile.ZIP_DEFLATED
+                      info.compress_type = zipfile.ZIP_STORED
                       info.external_attr = 0o100644 << 16
-                      archive.writestr(info, payload, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
+                      archive.writestr(info, payload, compress_type=zipfile.ZIP_STORED)
               payload = archive_path.read_bytes()
               assert len(payload) == group['size'] and hashlib.sha256(payload).hexdigest() == group['sha256']
           (output / 'remote-assets.json').write_bytes((plugin / 'assets/openclaw/remote-assets.json').read_bytes())

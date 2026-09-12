@@ -16,8 +16,8 @@
       ],
       "name": "cool-bible-tutor-rag-index-2.4.6.zip",
       "owner_plugin_id": "cool-bible-tutor",
-      "sha256": "cdbbc914c50443349949b2945af73bb600368f81e86027f48e31a7e037bd8167",
-      "size": 41638982,
+      "sha256": "3babdb0ab413153d8b5ceada43c55116bdff8bdbf6e839b8a6fe84e8c4ec1731",
+      "size": 55052558,
       "url": "https://github.com/schao523/obvious-one-plugins/releases/download/cool-bible-tutor-v2.4.6/cool-bible-tutor-rag-index-2.4.6.zip"
     },
     {
@@ -36,8 +36,8 @@
       ],
       "name": "cool-bible-tutor-source-pdfs-2.4.6.zip",
       "owner_plugin_id": "cool-bible-tutor",
-      "sha256": "c3d3e78dc9e1bd9dca15a836e4b79133cf572661bb40c4546a4d64eb669473c1",
-      "size": 5176739,
+      "sha256": "3a283b647f1833da9bf5651f68d1b08192aae43f06a08e92362dcf89f1504eac",
+      "size": 5985949,
       "url": "https://github.com/schao523/obvious-one-plugins/releases/download/cool-bible-tutor-v2.4.6/cool-bible-tutor-source-pdfs-2.4.6.zip"
     }
   ],
