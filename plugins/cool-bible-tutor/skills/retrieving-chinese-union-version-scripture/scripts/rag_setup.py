@@ -247,7 +247,9 @@ def inspect_rag_setup(paths: RuntimePaths, assets: RuntimeAssets) -> RagSetupRep
         schema_version = payload["schema_version"]
         if schema_version not in {1, 2}:
             raise ValueError("private config schema version is unsupported")
-        python_executable = Path(str(payload["python_executable"])).expanduser().resolve()
+        python_executable = Path(
+            os.path.abspath(Path(str(payload["python_executable"])).expanduser())
+        )
         model_path = Path(str(payload["model_dir"] if schema_version == 2 else payload["model_path"])).expanduser().resolve()
         runtime_dir = Path(str(payload.get("runtime_dir", python_executable.parent.parent))).expanduser().resolve()
         index_path = Path(str(payload.get("index_dir", assets.plugin_root / "assets" / "rag"))).expanduser().resolve()
@@ -465,7 +467,7 @@ def _write_remote_setup_config(
         "namespace": "cool-bible-tutor:zh:bge-large-zh",
         "runtime_lock_digest": assets.runtime_lock_id,
         "runtime_dir": str(runtime_dir),
-        "python_executable": str(_runtime_python(runtime_dir).resolve()),
+        "python_executable": str(_runtime_python(runtime_dir).absolute()),
         "model_dir": str(model_dir),
         "model_revision": manifest.revision,
         "model_digest": assets.model_digest,
@@ -792,7 +794,7 @@ def activate_runtime(
         "namespace": "cool-bible-tutor:zh:bge-large-zh",
         "runtime_lock_digest": assets.runtime_lock_id,
         "runtime_dir": str(runtime_destination.resolve()),
-        "python_executable": str(python_executable.resolve()),
+        "python_executable": str(python_executable.absolute()),
         "model_dir": str(model_destination.resolve()),
         "model_revision": assets.model_revision,
         "model_digest": assets.model_digest,

@@ -137,6 +137,33 @@ class RagRuntimeTests(unittest.TestCase):
         self.assertEqual(calls[0][1]["_COOL_BIBLE_TUTOR_RAG_REEXEC"], "1")
         self.assertEqual(calls[0][1]["PRESERVED"], "yes")
 
+    def test_reexec_preserves_the_configured_venv_executable_path(self):
+        calls = []
+        fake_python = RUNTIME / "venv" / "python.exe"
+        system_python = RUNTIME / "system" / "python.exe"
+        fake_python.parent.mkdir(parents=True, exist_ok=True)
+        system_python.parent.mkdir(parents=True, exist_ok=True)
+        fake_python.touch()
+        system_python.touch()
+        original_resolve = Path.resolve
+
+        def simulated_resolve(path):
+            if path == fake_python:
+                return system_python
+            return original_resolve(path)
+
+        with patch("rag_runtime.Path.resolve", autospec=True, side_effect=simulated_resolve):
+            reexec_if_configured(
+                Path("adapter.py"),
+                [],
+                {"COOL_BIBLE_TUTOR_RAG_PYTHON": str(fake_python)},
+                runner=lambda command, env: calls.append(command)
+                or SimpleNamespace(returncode=0),
+                current_python=RUNTIME / "current.exe",
+            )
+
+        self.assertEqual(calls[0][0], str(fake_python.absolute()))
+
     def test_guarded_process_does_not_reexec(self):
         result = reexec_if_configured(
             Path("adapter.py"),

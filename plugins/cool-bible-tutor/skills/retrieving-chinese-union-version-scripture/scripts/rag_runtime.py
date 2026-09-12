@@ -224,7 +224,7 @@ def reexec_if_configured(
     configured_python = str(env.get("COOL_BIBLE_TUTOR_RAG_PYTHON", "")).strip()
     if not configured_python:
         return None
-    executable = Path(configured_python).expanduser().resolve()
+    executable = Path(os.path.abspath(Path(configured_python).expanduser()))
     if not executable.is_file():
         raise AdapterConfigError("COOL_BIBLE_TUTOR_RAG_PYTHON must name an existing executable")
 

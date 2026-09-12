@@ -1,5 +1,6 @@
 import json
 from dataclasses import replace
+import os
 from pathlib import Path
 import shutil
 import sys
@@ -392,6 +393,25 @@ class RagSetupStateTests(unittest.TestCase):
         self.assertTrue(old_runtime.is_dir())
         self.assertTrue(old_model.is_dir())
         self.assertFalse((self.paths.root / "config.json.tmp").exists())
+
+    @unittest.skipIf(os.name == "nt", "POSIX venv executables are symlinks")
+    def test_activation_preserves_posix_venv_python_symlink_path(self):
+        staged_venv = self.paths.staging / "runtime-symlink"
+        staged_python = staged_venv / "bin" / "python"
+        staged_python.parent.mkdir(parents=True)
+        staged_python.symlink_to(Path(sys.executable))
+        staged_model = self.paths.staging / "model-symlink"
+        staged_model.mkdir(parents=True)
+
+        activate_runtime(staged_venv, staged_model, self.paths, self.assets)
+
+        expected = self.paths.venv / self.assets.runtime_lock_id / "bin" / "python"
+        payload = json.loads(self.paths.config.read_text(encoding="utf-8"))
+        self.assertEqual(Path(payload["python_executable"]), expected.absolute())
+        self.assertEqual(
+            inspect_rag_setup(self.paths, self.assets).python_executable,
+            expected.absolute(),
+        )
 
     def test_smoke_test_ignores_legacy_model_specific_override(self):
         staged_venv = self.paths.staging / "runtime-smoke"
