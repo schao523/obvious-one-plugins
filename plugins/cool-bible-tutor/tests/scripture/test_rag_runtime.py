@@ -33,6 +33,17 @@ class RagRuntimeTests(unittest.TestCase):
         )
         self.assertEqual(environment["PRESERVED"], "yes")
 
+    def test_runtime_preserves_verified_managed_index(self):
+        managed = RUNTIME / "managed" / "cuv-rag-index.sqlite3"
+        managed.parent.mkdir(parents=True, exist_ok=True)
+        managed.touch()
+        self.addCleanup(shutil.rmtree, managed.parents[1], True)
+        environment = build_bundled_rag_environment({
+            "RAG_VECTOR_STORE_BACKEND": "sqlite_readonly",
+            "RAG_VECTOR_STORE_PATH": str(managed),
+        })
+        self.assertEqual(Path(environment["RAG_VECTOR_STORE_PATH"]), managed)
+
     def test_bundled_index_status_detects_tamper_and_incompatibility(self):
         plugin = Path(__file__).parents[2]
         source_assets = plugin / "assets"

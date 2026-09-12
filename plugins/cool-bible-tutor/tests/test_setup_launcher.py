@@ -87,7 +87,10 @@ class SetupLauncherTests(unittest.TestCase):
             self.launcher.resolve_data_dir(
                 None, {}, local_app_data=local_app_data,
             ),
-            (local_app_data / "ObviousOne" / "cool-bible-tutor").resolve(),
+            (
+                local_app_data / "ObviousOne" / "plugins" / "cool-bible-tutor"
+                / "authoring-data"
+            ).resolve(),
         )
 
     def test_init_delegates_to_builder_with_advanced_options(self):
@@ -254,6 +257,34 @@ class SetupLauncherTests(unittest.TestCase):
         self.assertEqual(report["status"], "consent_required")
         self.assertIn("setup-rag", report["next_command"])
         self.assertEqual(runner.calls, [])
+
+    def test_lightweight_package_uses_remote_asset_setup_after_consent(self):
+        from types import SimpleNamespace
+        from unittest.mock import Mock, patch
+
+        output = io.StringIO()
+        assets = SimpleNamespace(core_ready=False)
+        required = SimpleNamespace(status="rag_setup_required")
+        ready = SimpleNamespace(status="rag_ready")
+        remote_setup = Mock(return_value=ready)
+        bundled_setup = Mock(side_effect=AssertionError("bundled setup must not run"))
+        with patch.object(self.launcher, "bundled_runtime_assets", return_value=assets), patch.object(
+            self.launcher, "inspect_rag_setup", return_value=required
+        ), patch.object(self.launcher, "setup_remote_rag", remote_setup, create=True), patch.object(
+            self.launcher, "setup_rag", bundled_setup
+        ):
+            result = self.launcher.main(
+                ["setup-rag", "--accept-downloads", "--json"],
+                environ={"LOCALAPPDATA": str(self.launcher.PLUGIN_ROOT.parent / ".remote-rag-test")},
+                runner=RecordingRunner(),
+                stdin=io.StringIO(""),
+                stdout=output,
+            )
+
+        self.assertEqual(result, 0)
+        self.assertEqual(json.loads(output.getvalue())["status"], "rag_ready")
+        remote_setup.assert_called_once()
+        bundled_setup.assert_not_called()
 
     def test_generated_data_inside_the_plugin_is_rejected(self):
         with self.assertRaisesRegex(ValueError, "outside the installed plugin"):

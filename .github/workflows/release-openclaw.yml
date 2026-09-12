@@ -1,0 +1,116 @@
+name: Release Cool Bible Tutor for OpenClaw
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_managed_rag_gate:
+        description: Download and run the real pinned model/runtime semantic gate
+        required: true
+        default: true
+        type: boolean
+      publish:
+        description: Publish the immutable GitHub Release and ClawHub package
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+env:
+  VERSION: "2.4.6"
+  RELEASE_TAG: "cool-bible-tutor-v2.4.6"
+  CLAWHUB_VERSION: "0.23.3"
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run full artifact tests and exact lookup
+        run: |
+          python -B -m unittest discover -s plugins/cool-bible-tutor/tests -q
+          python -B plugins/cool-bible-tutor/scripts/distribution_audit.py plugins/cool-bible-tutor
+          python -B openclaw/cool-bible-tutor/scripts/cool_bible_tutor.py passage "約 3:16" --format json
+      - name: Rebuild and verify plugin-owned release archives
+        shell: python
+        run: |
+          import hashlib, json, pathlib, zipfile
+          plugin = pathlib.Path('plugins/cool-bible-tutor')
+          manifest = json.loads((plugin / 'assets/openclaw/remote-assets.json').read_text(encoding='utf-8'))
+          assert manifest['version'] == '2.4.6' and manifest['release_tag'] == 'cool-bible-tutor-v2.4.6'
+          output = pathlib.Path('release-assets')
+          output.mkdir()
+          for group in manifest['asset_groups']:
+              archive_path = output / group['name']
+              with zipfile.ZipFile(archive_path, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+                  for member in sorted(group['members'], key=lambda item: item['path']):
+                      payload = (plugin / member['path']).read_bytes()
+                      assert len(payload) == member['size'] and hashlib.sha256(payload).hexdigest() == member['sha256']
+                      info = zipfile.ZipInfo(member['path'], (1980, 1, 1, 0, 0, 0))
+                      info.compress_type = zipfile.ZIP_DEFLATED
+                      info.external_attr = 0o100644 << 16
+                      archive.writestr(info, payload, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
+              payload = archive_path.read_bytes()
+              assert len(payload) == group['size'] and hashlib.sha256(payload).hexdigest() == group['sha256']
+          (output / 'remote-assets.json').write_bytes((plugin / 'assets/openclaw/remote-assets.json').read_bytes())
+      - name: Validate and dry-run ClawHub package publication
+        run: |
+          npm install --global clawhub@${CLAWHUB_VERSION}
+          clawhub package validate openclaw/cool-bible-tutor --json
+          clawhub package publish openclaw/cool-bible-tutor --family bundle-plugin --owner obvious-one --version ${VERSION} --dry-run --json
+      - name: Run real managed RAG semantic gate
+        if: ${{ inputs.run_managed_rag_gate }}
+        env:
+          LOCALAPPDATA: ${{ runner.temp }}/obvious-one-runtime
+        run: |
+          python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py setup-rag --accept-downloads --json
+          python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py rag-discover "神的愛與救恩" --top-k 5
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cool-bible-tutor-v2.4.6-release-assets
+          path: release-assets/*
+          if-no-files-found: error
+
+  publish:
+    if: ${{ inputs.publish }}
+    needs: prepare
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/download-artifact@v4
+        with:
+          name: cool-bible-tutor-v2.4.6-release-assets
+          path: release-assets
+      - name: Refuse an existing immutable release version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "${RELEASE_TAG}" >/dev/null 2>&1; then
+            echo "Release ${RELEASE_TAG} already exists; publish a new patch version." >&2
+            exit 1
+          fi
+      - name: Publish GitHub release assets first
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${RELEASE_TAG}" release-assets/* --target "${GITHUB_SHA}" --title "Cool Bible Tutor ${VERSION}" --notes "Immutable Cool Bible Tutor ${VERSION} OpenClaw RAG assets."
+      - name: Publish immutable ClawHub bundle
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          npm install --global clawhub@${CLAWHUB_VERSION}
+          clawhub login --token "${CLAWHUB_TOKEN}"
+          clawhub package publish openclaw/cool-bible-tutor --family bundle-plugin --owner obvious-one --version ${VERSION} --json

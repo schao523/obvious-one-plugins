@@ -16,6 +16,7 @@ sys.path.insert(0, str(SCRIPTS))
 RUNTIME = Path(__file__).parents[1] / "_runtime_fixture" / "rag-setup"
 
 from rag_setup import (  # noqa: E402
+    CONFIG_KEYS,
     ConsentRequired,
     ModelFile,
     ModelManifest,
@@ -28,8 +29,10 @@ from rag_setup import (  # noqa: E402
     download_model,
     inspect_rag_setup,
     install_runtime,
+    load_remote_asset_groups,
     select_runtime_lock,
     setup_rag,
+    setup_remote_rag,
     smoke_test_runtime,
 )
 
@@ -90,14 +93,18 @@ class RagSetupStateTests(unittest.TestCase):
             shutil.rmtree(RUNTIME)
 
     def test_runtime_paths_are_outside_plugin_and_stable(self):
+        obvious_one = (RUNTIME / "app-data" / "ObviousOne").resolve()
         self.assertEqual(
             self.paths.root,
-            (RUNTIME / "app-data" / "ObviousOne" / "cool-bible-tutor").resolve(),
+            obvious_one / "plugins" / "cool-bible-tutor",
         )
         self.assertEqual(self.paths.config, self.paths.root / "config.json")
-        self.assertEqual(self.paths.venv, self.paths.root / "rag-runtime")
-        self.assertEqual(self.paths.model_cache, self.paths.root / "model-cache")
+        self.assertEqual(self.paths.venv, obvious_one / "shared-rag" / "runtimes")
+        self.assertEqual(self.paths.model_cache, obvious_one / "shared-rag" / "models")
         self.assertEqual(self.paths.staging, self.paths.root / ".staging")
+        self.assertEqual(self.paths.indexes, self.paths.root / "indexes")
+        self.assertEqual(self.paths.source_assets, self.paths.root / "source-assets")
+        self.assertEqual(self.paths.authoring, self.paths.root / "authoring-data")
 
     def test_missing_runtime_requires_setup_but_core_remains_ready(self):
         report = inspect_rag_setup(self.paths, self.assets)
@@ -112,19 +119,28 @@ class RagSetupStateTests(unittest.TestCase):
         self.assertTrue(report.core_ready)
 
     def write_ready_config(self):
-        python = self.paths.venv / "v1" / ("python.exe" if sys.platform == "win32" else "bin/python")
-        model = self.paths.model_cache / "model-v1"
+        runtime = self.paths.venv / self.assets.runtime_lock_id
+        python = runtime / ("Scripts/python.exe" if sys.platform == "win32" else "bin/python")
+        model = self.paths.model_cache / self.assets.model_digest
         python.parent.mkdir(parents=True)
         python.touch()
         model.mkdir(parents=True)
+        self.paths.indexes.mkdir(parents=True)
+        self.paths.source_assets.mkdir(parents=True)
         self.paths.root.mkdir(parents=True, exist_ok=True)
         self.paths.config.write_text(json.dumps({
-            "schema_version": 1,
-            "runtime_lock_id": self.assets.runtime_lock_id,
+            "schema_version": 2,
+            "plugin_id": "cool-bible-tutor",
+            "app_id": "cool-bible-tutor",
+            "namespace": "cool-bible-tutor:zh:bge-large-zh",
+            "runtime_lock_digest": self.assets.runtime_lock_id,
+            "runtime_dir": str(runtime),
             "python_executable": str(python),
-            "model_path": str(model),
+            "model_dir": str(model),
             "model_revision": self.assets.model_revision,
             "model_digest": self.assets.model_digest,
+            "index_dir": str(self.paths.indexes),
+            "source_assets_dir": str(self.paths.source_assets),
             "completed_at": "2026-08-24T00:00:00Z",
         }), encoding="utf-8")
         return python, model
@@ -139,11 +155,11 @@ class RagSetupStateTests(unittest.TestCase):
     def test_identity_path_and_schema_mismatches_are_incompatible(self):
         python, _model = self.write_ready_config()
         payload = json.loads(self.paths.config.read_text(encoding="utf-8"))
-        payload["runtime_lock_id"] = "wrong"
+        payload["runtime_lock_digest"] = "wrong"
         self.paths.config.write_text(json.dumps(payload), encoding="utf-8")
         self.assertEqual(inspect_rag_setup(self.paths, self.assets).status, "rag_incompatible")
 
-        payload["runtime_lock_id"] = self.assets.runtime_lock_id
+        payload["runtime_lock_digest"] = self.assets.runtime_lock_id
         payload["unknown"] = True
         self.paths.config.write_text(json.dumps(payload), encoding="utf-8")
         self.assertEqual(inspect_rag_setup(self.paths, self.assets).status, "rag_incompatible")
@@ -161,6 +177,100 @@ class RagSetupStateTests(unittest.TestCase):
         self.assertIn("windows-x86_64", lock.supported_platforms)
         self.assertEqual(lock.python_min, (3, 10))
         self.assertEqual(lock.python_max, (3, 13))
+
+    def test_remote_asset_manifest_keeps_bible_assets_plugin_owned(self):
+        groups = load_remote_asset_groups(
+            Path(__file__).parents[2] / "assets" / "openclaw" / "remote-assets.json"
+        )
+        self.assertEqual(
+            {group.install_subdir: group.name for group in groups},
+            {
+                "indexes": "cool-bible-tutor-rag-index-2.4.6.zip",
+                "source-assets": "cool-bible-tutor-source-pdfs-2.4.6.zip",
+            },
+        )
+        self.assertEqual(
+            {group.install_subdir for group in groups}, {"indexes", "source-assets"}
+        )
+        self.assertTrue(all(group.url.startswith("https://github.com/") for group in groups))
+
+    def test_remote_setup_maps_generic_bootstrap_to_product_config(self):
+        from unittest.mock import patch
+        from obvious_one_runtime.paths import resolve_runtime_paths
+        from obvious_one_runtime.status import RAG_READY, RuntimeStatus
+
+        remote_assets = replace(self.assets, runtime_lock_id="c" * 64)
+        lock = replace(
+            self.synthetic_lock(),
+            runtime_lock_id=remote_assets.runtime_lock_id,
+            required_free_bytes=0,
+        )
+        manifest, _payloads = self.synthetic_model_manifest()
+        observed = {}
+
+        def fake_bootstrap(config, accept_downloads, repair=False, **callbacks):
+            observed["config"] = config
+            observed["accept_downloads"] = accept_downloads
+            observed["repair"] = repair
+            observed["callbacks"] = callbacks
+            generic = resolve_runtime_paths(
+                config.plugin_id,
+                config.runtime_lock_digest,
+                config.model_digest,
+                config.data_root,
+            )
+            python = generic.runtime_dir / (
+                "Scripts/python.exe" if sys.platform == "win32" else "bin/python"
+            )
+            python.parent.mkdir(parents=True)
+            python.touch()
+            generic.model_dir.mkdir(parents=True)
+            generic.indexes_dir.mkdir(parents=True)
+            generic.source_assets_dir.mkdir(parents=True)
+            generic.plugin_root.mkdir(parents=True, exist_ok=True)
+            config_path = generic.plugin_root / "config.json"
+            config_path.write_text(json.dumps({
+                "schema_version": 2,
+                "plugin_id": config.plugin_id,
+                "app_id": config.app_id,
+                "namespace": config.namespace,
+                "runtime_lock_digest": config.runtime_lock_digest,
+                "runtime_dir": str(generic.runtime_dir),
+                "model_digest": config.model_digest,
+                "model_dir": str(generic.model_dir),
+                "index_dir": str(generic.indexes_dir),
+                "source_assets_dir": str(generic.source_assets_dir),
+                "asset_groups": [],
+            }), encoding="utf-8")
+            return RuntimeStatus(RAG_READY, {}, config_path)
+
+        remote_manifest = Path(__file__).parents[2] / "assets" / "openclaw" / "remote-assets.json"
+        with patch("rag_setup.select_runtime_lock", return_value=lock), patch(
+            "rag_setup.load_model_manifest", return_value=manifest
+        ):
+            report = setup_remote_rag(
+                self.paths,
+                remote_assets,
+                consent=True,
+                runner=RecordingRunner(),
+                downloader=RecordingDownloader(),
+                platform_tag="windows-x86_64",
+                python_version=(3, 11),
+                manifest_path=remote_manifest,
+                bootstrap_setup=fake_bootstrap,
+            )
+
+        self.assertEqual(report.status, "rag_ready")
+        self.assertTrue(observed["accept_downloads"])
+        self.assertEqual(observed["config"].plugin_id, "cool-bible-tutor")
+        self.assertEqual(
+            {group.install_subdir for group in observed["config"].asset_groups},
+            {"indexes", "source-assets"},
+        )
+        payload = json.loads(self.paths.config.read_text(encoding="utf-8"))
+        self.assertEqual(set(payload), CONFIG_KEYS)
+        self.assertEqual(payload["model_revision"], manifest.revision)
+        self.assertNotIn("asset_groups", payload)
 
     def test_rejects_python_outside_supported_range(self):
         with self.assertRaisesRegex(UnsupportedRuntime, "3.10 through 3.13"):
@@ -272,10 +382,13 @@ class RagSetupStateTests(unittest.TestCase):
         activate_runtime(staged_venv, staged_model, self.paths, self.assets)
 
         payload = json.loads(self.paths.config.read_text(encoding="utf-8"))
-        self.assertEqual(payload["runtime_lock_id"], self.assets.runtime_lock_id)
+        self.assertEqual(payload["runtime_lock_digest"], self.assets.runtime_lock_id)
+        self.assertEqual(payload["schema_version"], 2)
+        self.assertEqual(Path(payload["runtime_dir"]), self.paths.venv / self.assets.runtime_lock_id)
+        self.assertEqual(Path(payload["model_dir"]), self.paths.model_cache / self.assets.model_digest)
         self.assertEqual(payload["model_revision"], self.assets.model_revision)
         self.assertTrue(Path(payload["python_executable"]).is_file())
-        self.assertTrue(Path(payload["model_path"]).is_dir())
+        self.assertTrue(Path(payload["model_dir"]).is_dir())
         self.assertTrue(old_runtime.is_dir())
         self.assertTrue(old_model.is_dir())
         self.assertFalse((self.paths.root / "config.json.tmp").exists())

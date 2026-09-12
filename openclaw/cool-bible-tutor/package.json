@@ -1,0 +1,10 @@
+{
+  "description": "Generated OpenClaw bundle for cool-bible-tutor",
+  "license": "MIT",
+  "name": "@obvious-one/cool-bible-tutor",
+  "openclaw": {
+    "family": "bundle-plugin"
+  },
+  "repository": "https://github.com/schao523/obvious-one-plugins",
+  "version": "2.4.6"
+}

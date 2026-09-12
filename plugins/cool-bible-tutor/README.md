@@ -54,7 +54,7 @@ python scripts/cool_bible_tutor.py passage "約 3:16" --format json
 
 ## 選用 RAGenius 探索
 
-RAG 只負責由主題探索候選經文，不是精確引文的必要條件。Marketplace 安裝已一次下載完整核心插件、已核實語料、約 53 MiB 的精簡向量索引、頂層啟動器，以及固定版本的 `rag_subsystem` wheel；精確引用立即可用。
+RAG 只負責由主題探索候選經文，不是精確引文的必要條件。Codex 完整版內附公版 PDF 與精簡向量索引；OpenClaw 輕量版不內附這些大型資產。兩種版本都內附已核實的 `cuv.sqlite3`、頂層啟動器、固定版本的 `rag_subsystem` wheel 與 package-local bootstrap，所以精確引用安裝後立即可用。
 
 ```powershell
 python scripts/cool_bible_tutor.py passage "約 3:16" --format json
@@ -68,7 +68,9 @@ python scripts/cool_bible_tutor.py setup-rag
 python scripts/cool_bible_tutor.py setup-rag --accept-downloads --json
 ```
 
-`setup-rag` 會先顯示約 1.30 GB 模型下載與最多約 6 GB 安裝空間需求，再把 hash-locked、CPU-only 的 Python 相依套件和固定 revision 的 MIT 模型安裝到個人應用程式資料目錄。它不需管理員權限，不會寫進插件，支援中斷續傳，並只在離線模型嵌入和內附索引 smoke test 都成功後原子啟用。未同意時不會下載或寫入；失敗不會取代上一個可用 runtime。
+`setup-rag` 會先顯示約 1.30 GB 模型下載與最多約 6 GB 安裝空間需求，再把 hash-locked、CPU-only 的 Python 相依套件和固定 revision 的 MIT 模型安裝到個人應用程式資料目錄。OpenClaw 版也會依 `assets/openclaw/remote-assets.json` 下載並核對本插件自己的索引與 PDF。未同意時不下載；所有摘要與成員雜湊、離線模型嵌入及語意 smoke test 通過後才原子啟用。
+
+可相容插件只共用內容定址的執行依賴：`ObviousOne/shared-rag/runtimes/<digest>` 與 `ObviousOne/shared-rag/models/<digest>`。聖經資產不共用：本插件各自保存在 `ObviousOne/plugins/cool-bible-tutor/indexes` 與 `ObviousOne/plugins/cool-bible-tutor/source-assets`。移除插件不會自動刪除共用快取，因為其他插件可能仍在使用同一 digest。
 
 設定完成後：
 

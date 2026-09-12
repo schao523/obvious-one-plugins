@@ -244,7 +244,15 @@ class DistributionAuditTests(unittest.TestCase):
         self.assertIn("build_cuv_index.py --data-dir", setup)
         self.assertIn("RAGenius", third_party)
         self.assertIn("MIT", third_party)
-        self.assertEqual(manifest["version"], "2.4.5")
+        self.assertEqual(manifest["version"], "2.4.6")
+
+        combined = "\n".join((distribution, third_party, setup))
+        self.assertIn("ObviousOne/shared-rag/runtimes", combined)
+        self.assertIn("ObviousOne/shared-rag/models", combined)
+        self.assertIn("ObviousOne/plugins/cool-bible-tutor/indexes", combined)
+        self.assertIn("setup-rag --accept-downloads", combined)
+        self.assertIn("no shared bible content pack", combined.lower())
+        self.assertIn("public-domain", combined.lower())
 
     def test_clean_tree_has_no_errors(self):
         (self.root / "SKILL.md").write_text("# Valid skill", encoding="utf-8")

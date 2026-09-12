@@ -12,3 +12,5 @@
 - `unverified`、`missing` 或 stale index 候選可以引導後續核查，但不可冒充精確引文。
 - 探索工具退出碼 4 時，退化為請學習者提供引用或貼上經文，不以模型記憶補出逐字經文。
 - RAG 是可選支援工具，不新增第九個使用者技能，也不改變目前查經、神學、釋經或應用階段。
+- 輕量版未設定 RAG 時仍可立即精確檢索；只有明確執行 `setup-rag --accept-downloads` 才下載模型與本插件的索引/PDF。
+- runtime/model 可按 digest 共用，但 `app_id`、namespace、index 與 source assets 必須維持插件隔離；跨插件結果一律拒絕。

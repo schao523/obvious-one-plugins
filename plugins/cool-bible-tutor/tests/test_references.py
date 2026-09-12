@@ -20,6 +20,7 @@ def load_audit_module():
 class MarkdownReferenceTests(unittest.TestCase):
     def setUp(self):
         self.root = FIXTURE_ROOT
+        self.root.mkdir(parents=True, exist_ok=True)
         for candidate in self.root.rglob("*"):
             if candidate.is_file() and candidate.name != ".gitkeep":
                 candidate.unlink()
@@ -29,6 +30,7 @@ class MarkdownReferenceTests(unittest.TestCase):
 
     def test_collects_relative_markdown_links(self):
         reference = self.root / "references" / "guide.md"
+        reference.parent.mkdir(parents=True, exist_ok=True)
         reference.write_text("guide", encoding="utf-8")
         skill = self.root / "SKILL.md"
         skill.write_text("Read [the guide](references/guide.md).", encoding="utf-8")

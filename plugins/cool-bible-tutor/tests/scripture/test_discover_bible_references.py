@@ -44,14 +44,15 @@ class FakeCandidate:
     source: str
 
 
-def candidate(reference, text, *, source="hybrid", source_hashes="synthetic.pdf=abc"):
+def candidate(reference, text, *, source="hybrid", source_hashes="synthetic.pdf=abc",
+              app_id="cool-bible-tutor", namespace="cool-bible-tutor:zh:bge-large-zh"):
     return FakeCandidate(
         chunk=FakeChunk(
             doc_id="cuv:40:5", chunk_id=f"chunk:{reference}", text=text,
             section_path=reference, order=0, language="zh", embedding_model="bge-large-zh",
-            namespace="cool-bible-tutor:zh", embedding=[0.1],
+            namespace=namespace, embedding=[0.1],
             metadata={
-                "app_id": "cool-bible-tutor", "corpus": "cuv-private",
+                "app_id": app_id, "corpus": "cuv-private",
                 "book_id": "40", "book_name": "馬太福音", "chapter": "5",
                 "canonical_reference": reference, "start_verse": "3", "end_verse": "4",
                 "verified_all": "true", "unverified_count": "0",
@@ -141,6 +142,13 @@ class DiscoverBibleReferencesTests(unittest.TestCase):
             "invalid_reference_count": 1,
             "duplicate_reference_count": 1,
         })
+
+    def test_discovery_rejects_cross_plugin_results(self):
+        api = self.api_for(candidate(
+            "太5:3", "foreign", app_id="another-plugin", namespace="another-plugin:docs"
+        ))
+        with self.assertRaisesRegex(Exception, "cross_plugin_result"):
+            discover_references("恩典", 1, self.connection, api)
 
     def test_partial_range_is_missing_and_changed_hash_is_stale(self):
         payload = discover_references(

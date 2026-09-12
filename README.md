@@ -1,34 +1,46 @@
 # 明明可知 Obvious One
 
-「明明可知 Obvious One」是可公開散布的 Codex 技能插件 marketplace。The Obvious One marketplace publishes redistributable Codex skill plugins with bilingual discovery metadata and auditable local runtimes.
+「明明可知 Obvious One」是可公開散布的 Codex 與 OpenClaw 技能插件 marketplace. The Obvious One marketplace publishes redistributable skill plugins with bilingual discovery metadata, deterministic artifacts, and auditable local runtimes.
 
 ## 酷聖經教師 Cool Bible Tutor
 
-`cool-bible-tutor` v2.4.5 是繁體中文歸納式聖經教師，涵蓋觀察、解釋、釋經處境、神學討論、原文／譯本比較與生活應用。The plugin provides the complete Bible Tutor v2.4 teaching workflow; the church-ministry prompt-template module is intentionally excluded.
+`cool-bible-tutor` v2.4.6 是繁體中文歸納式聖經教師，涵蓋觀察、解釋、釋經處境、神學討論、原文／譯本比較與生活應用。The plugin provides the complete Bible Tutor v2.4 workflow; the church-ministry prompt-template module is intentionally excluded.
 
-Marketplace 下載約 64 MiB，已包括兩份發布者聲明為公版的和合本 PDF、31,008 列唯讀經文資料庫、9,942 chunks 的精簡語意索引、啟動器，以及固定版本的 MIT `rag_subsystem` wheel。精確經文檢索離線立即可用：
+Two editions are generated from the same verified source:
 
-```powershell
-python plugins/cool-bible-tutor/scripts/cool_bible_tutor.py passage "約 3:16" --format json
-```
+- `plugins/cool-bible-tutor` is the fully bundled Codex artifact. It includes the public-domain PDFs, immutable 31,008-row verse database, compact semantic index, launcher, and pinned `rag_subsystem` wheel.
+- `openclaw/cool-bible-tutor` is the lightweight OpenClaw artifact. Exact verse retrieval works immediately from its bundled database; explicit `setup-rag --accept-downloads` installs the shared runtime/model and downloads this plugin's independently owned index/PDF archives.
 
-主題式探索需要另行明確同意下載約 1.30 GB 的固定 embedding model，以及 hash-locked CPU runtime（安裝時預留約 6 GB）：
+RAG only discovers candidate references. Exact quotations are always read again from the verified read-only verse database.
 
-```powershell
-python plugins/cool-bible-tutor/scripts/cool_bible_tutor.py setup-rag
-```
+## Install in Codex
 
-RAG 只找候選引用；所有精確引文仍由內附唯讀資料庫重新讀取和驗證。
-
-## Install locally
-
-Clone this repository, then register its non-default marketplace and install the plugin:
+Clone this repository, register the checkout, and install the plugin:
 
 ```text
 codex plugin marketplace add <absolute-path-to-this-checkout>
 codex plugin add cool-bible-tutor@obvious-one
 ```
 
-Start a new Codex task after installation so the eight skills are loaded. See the plugin's `README.md`, `PRIVACY.md`, `SECURITY.md`, and `THIRD_PARTY_NOTICES.md` for setup, privacy, provenance, and dependency details.
+Start a new Codex task so all eight skills are loaded.
+
+## Find and install in OpenClaw
+
+After the ClawHub release is published:
+
+```text
+openclaw plugins search "酷聖經教師"
+openclaw plugins search "Cool Bible Tutor"
+openclaw plugins install clawhub:@obvious-one/cool-bible-tutor
+```
+
+Immediate exact lookup and optional semantic setup:
+
+```text
+python openclaw/cool-bible-tutor/scripts/cool_bible_tutor.py passage "約 3:16" --format json
+python openclaw/cool-bible-tutor/scripts/cool_bible_tutor.py setup-rag --accept-downloads
+```
+
+See each artifact's `README.md`, `PRIVACY.md`, `SECURITY.md`, and `THIRD_PARTY_NOTICES.md` for setup, provenance, privacy, and dependency details.
 
 Search terms: 明明可知, Obvious One, 酷聖經教師, Cool Bible Tutor, 繁體中文查經, Traditional Chinese Bible study.

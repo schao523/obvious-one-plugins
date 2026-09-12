@@ -13,6 +13,7 @@
 - 頁面核實只涵蓋畫面已載入、仍未變動、屬於同一來源頁的完整列集合，且要求明確確認。
 - 語料修改後，將 RAG discovery 標記為 stale；只有成功的完整無篩選 ingestion 才清除 stale 狀態。
 - 精確和合本引文仍必須通過 `get_passage.py` 退出碼 0；review tool 本身不繞過引文 gate。
+- OpenClaw 版的核對來源只從 `ObviousOne/plugins/cool-bible-tutor/source-assets` 解析；可寫副本與歷史只進入 `authoring-data`，不寫入共享 cache。
 
 不得：
 

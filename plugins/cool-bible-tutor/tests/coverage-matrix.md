@@ -22,6 +22,9 @@
 | PDF 支援的和合本精確檢索 | `retrieving-chinese-union-version-scripture` 的來源解析、OCR、SQLite、驗證與 CLI 腳本 | **已實作**：預設使用內附公版 PDF；索引留在使用者私有資料目錄；無索引時要求貼上或核實經文 |
 | 主題式經文探索（選用 RAG） | `ingest_bible_rag.py`、`discover_bible_references.py`；四個既有技能的候選引用路由 | `discovering-biblical-passages-with-rag.md`；RAG 只作 discovery，精確引文仍由 `get_passage.py` 退出碼 0 核實 |
 | 私有語料人工核對 | `review_cuv_index.py` 的 tokenized localhost 工作台、來源 PDF、backup、audit、optimistic concurrency 與 RAG stale contract | `reviewing-private-cuv-corpus.md`；不可自動核實，正式資料庫不作自動化修改 |
+| Codex/OpenClaw 雙發行 | `openclaw/distribution.json`、generic framework CLI、package-local bootstrap 與 remote asset manifest | `test_openclaw_release.py` 鎖定 deterministic、大小、八技能、即時 exact corpus，並拒絕 PDF/大型 index 混入輕量版 |
+| 共用執行依賴、隔離內容 | `ObviousOne/shared-rag/{runtimes,models}` 與 `ObviousOne/plugins/cool-bible-tutor/{indexes,source-assets,authoring-data}` | `test_runtime_setup.py`、`test_rag_setup.py`、`test_adapters.py` 驗證 digest reuse、插件 ownership 與跨 namespace 拒絕 |
+| 相容向量衍生 | build-time `index_reuse.py`；只有完整 corpus/chunk/model/vector identity 相容才複製向量並重新綁定 app identity | `test_index_reuse.py` 驗證 source immutable、target independent；不相容時 `reembedding_required` 且不留 destination |
 
 ## 明確排除
 

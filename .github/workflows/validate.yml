@@ -4,15 +4,9 @@ on:
   push:
   pull_request:
   workflow_dispatch:
-    inputs:
-      run_managed_rag_gate:
-        description: Download and verify the pinned model/runtime
-        required: false
-        default: false
-        type: boolean
 
 jobs:
-  public-release:
+  artifact-contracts:
     strategy:
       fail-fast: false
       matrix:
@@ -23,44 +17,52 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Validate marketplace and plugin manifests
+      - name: Validate marketplace and plugin identities
         shell: python
         run: |
-          import json
+          import hashlib, json
           from pathlib import Path
           market = json.loads(Path('.agents/plugins/marketplace.json').read_text(encoding='utf-8'))
           assert market['name'] == 'obvious-one'
           assert market['interface']['displayName'] == '明明可知 Obvious One'
-          entry = market['plugins'][0]
-          assert entry['name'] == 'cool-bible-tutor'
+          assert market['plugins'][0]['name'] == 'cool-bible-tutor'
           plugin = json.loads(Path('plugins/cool-bible-tutor/.codex-plugin/plugin.json').read_text(encoding='utf-8'))
-          assert plugin['name'] == entry['name'] and plugin['version'] == '2.4.5'
-      - name: Run plugin tests
+          assert plugin['name'] == 'cool-bible-tutor' and plugin['version'] == '2.4.6'
+          root = Path('openclaw/cool-bible-tutor')
+          manifest = json.loads((root / 'CONTENT-MANIFEST.json').read_text(encoding='utf-8'))
+          assert manifest['plugin_id'] == 'cool-bible-tutor' and manifest['version'] == '2.4.6'
+          declared = {item['path']: item for item in manifest['files']}
+          actual = {p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file() and p.name != 'CONTENT-MANIFEST.json'}
+          assert actual == set(declared)
+          for relative, item in declared.items():
+              data = (root / relative).read_bytes()
+              assert len(data) == item['size']
+              assert hashlib.sha256(data).hexdigest() == item['sha256']
+          assert not list(root.rglob('*.pdf'))
+          assert not (root / 'assets/rag/cuv-rag-index.sqlite3').exists()
+          assert len(list((root / 'skills').glob('*/SKILL.md'))) == 8
+      - name: Run self-contained Codex artifact tests
         run: python -B -m unittest discover -s plugins/cool-bible-tutor/tests -q
-      - name: Audit public distribution
+      - name: Audit full public distribution
         run: python -B plugins/cool-bible-tutor/scripts/distribution_audit.py plugins/cool-bible-tutor
       - name: Check immediate exact retrieval
-        run: python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py passage "約 3:16" --format json
-      - name: Check consent boundary
+        run: python -B openclaw/cool-bible-tutor/scripts/cool_bible_tutor.py passage "約 3:16" --format json
+      - name: Check explicit-consent boundary
         shell: python
         run: |
           import json, subprocess, sys
-          command = [sys.executable, '-B', 'plugins/cool-bible-tutor/scripts/cool_bible_tutor.py', 'setup-rag', '--json']
+          command = [sys.executable, '-B', 'openclaw/cool-bible-tutor/scripts/cool_bible_tutor.py', 'setup-rag', '--json']
           result = subprocess.run(command, capture_output=True, text=True)
           payload = json.loads(result.stdout)
           assert result.returncode == 2 and payload['status'] == 'consent_required'
 
-  managed-rag:
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_managed_rag_gate }}
+  clawhub-static:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: "3.11"
-      - name: Install and verify managed RAG runtime
-        run: python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py setup-rag --accept-downloads --json
-      - name: Check ready state
-        run: python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py status --json
-      - name: Run Traditional Chinese semantic discovery
-        run: python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py rag-discover "神的愛與救恩" --top-k 5
+          node-version: "22"
+      - run: npm install --global clawhub@0.23.3
+      - run: clawhub package validate openclaw/cool-bible-tutor --json
+      - run: clawhub package publish openclaw/cool-bible-tutor --family bundle-plugin --owner obvious-one --version 2.4.6 --dry-run --json
