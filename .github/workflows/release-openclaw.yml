@@ -116,6 +116,10 @@ jobs:
         env:
           CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
         run: |
+          if [ -z "${CLAWHUB_TOKEN}" ]; then
+            echo "CLAWHUB_TOKEN is not configured; skipping ClawHub publication."
+            exit 0
+          fi
           npm install --global clawhub@${CLAWHUB_VERSION}
-          clawhub login --token "${CLAWHUB_TOKEN}"
-          clawhub package publish openclaw/cool-bible-tutor --family bundle-plugin --bundle-format codex --host-targets openclaw --owner obvious-one --version ${VERSION} --json
+          timeout 60s clawhub login --token "${CLAWHUB_TOKEN}"
+          timeout 60s clawhub package publish openclaw/cool-bible-tutor --family bundle-plugin --bundle-format codex --host-targets openclaw --owner obvious-one --version ${VERSION} --json
