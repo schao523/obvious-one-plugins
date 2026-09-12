@@ -1,5 +1,5 @@
 {
-  "content_sha256": "77c84fd600867cf1bd93862c6152b1c2ddabec3f9ca5ca1ad4e4cc2c44de8360",
+  "content_sha256": "299aeef4138f820f5813f59ce6dfb09f0f07ef8d7f41b3fb77d933f23b03b11c",
   "file_count": 92,
   "files": [
     {
@@ -309,8 +309,8 @@
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_runtime.py",
-      "sha256": "18ef624062ad023d08facc71cf7a1580d7a9c92b0db40c711680a0e0d6e2ae10",
-      "size": 10211
+      "sha256": "b4737229cf858a2133fdb65145d0df8f6808571307ff6fe974bdddd317ca2c1e",
+      "size": 10084
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_setup.py",
@@ -465,6 +465,6 @@
   ],
   "plugin_id": "cool-bible-tutor",
   "schema_version": 1,
-  "total_bytes": 5911014,
+  "total_bytes": 5910887,
   "version": "2.4.6"
 }

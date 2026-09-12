@@ -148,12 +148,7 @@ def managed_runtime_environment(
     environment = dict(os.environ if base is None else base)
     from rag_setup import RuntimePaths, bundled_runtime_assets, inspect_rag_setup
 
-    if sys.platform == "win32":
-        app_data = environment.get("LOCALAPPDATA")
-    elif sys.platform == "darwin":
-        app_data = None
-    else:
-        app_data = environment.get("XDG_DATA_HOME")
+    app_data = environment.get("LOCALAPPDATA") or environment.get("XDG_DATA_HOME")
     paths = RuntimePaths.for_user(Path(app_data) if app_data else None)
     assets = bundled_runtime_assets()
     report = inspect_rag_setup(paths, assets)

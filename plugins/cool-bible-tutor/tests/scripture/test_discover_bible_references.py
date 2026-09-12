@@ -20,6 +20,7 @@ RUNTIME.mkdir(parents=True, exist_ok=True)
 from book_names import resolve_book  # noqa: E402
 from corpus_db import VerseRecord, initialize_database, insert_verses  # noqa: E402
 from discover_bible_references import discover_references, main  # noqa: E402
+import rag_runtime  # noqa: E402
 
 
 @dataclass
@@ -242,6 +243,22 @@ class DiscoverBibleReferencesTests(unittest.TestCase):
         self.assertEqual(payload["status"], "setup_required")
         self.assertIn("setup-rag", payload["next_command"])
         self.assertNotIn("verse_text", payload)
+
+    def test_linux_discovery_honors_launcher_localappdata_override(self):
+        app_data = RUNTIME / "linux-local-app-data"
+        report = SimpleNamespace(status="rag_setup_required")
+        with (
+            patch.object(rag_runtime.sys, "platform", "linux"),
+            patch("rag_setup.RuntimePaths.for_user", return_value=object()) as resolver,
+            patch("rag_setup.bundled_runtime_assets", return_value=object()),
+            patch("rag_setup.inspect_rag_setup", return_value=report),
+        ):
+            _, actual = rag_runtime.managed_runtime_environment(
+                {"LOCALAPPDATA": str(app_data)}
+            )
+
+        resolver.assert_called_once_with(app_data)
+        self.assertIs(actual, report)
 
 
 if __name__ == "__main__":
