@@ -402,18 +402,17 @@ class RagSetupStateTests(unittest.TestCase):
         staged_python.symlink_to(Path(sys.executable))
         staged_model = self.paths.staging / "model-symlink"
         staged_model.mkdir(parents=True)
-        self.paths.indexes.mkdir(parents=True)
-        self.paths.source_assets.mkdir(parents=True)
+        (self.plugin_root / "assets" / "rag").mkdir(parents=True)
+        (self.plugin_root / "assets" / "scripture").mkdir(parents=True)
 
         activate_runtime(staged_venv, staged_model, self.paths, self.assets)
 
         expected = self.paths.venv / self.assets.runtime_lock_id / "bin" / "python"
         payload = json.loads(self.paths.config.read_text(encoding="utf-8"))
+        report = inspect_rag_setup(self.paths, self.assets)
         self.assertEqual(Path(payload["python_executable"]), expected.absolute())
-        self.assertEqual(
-            inspect_rag_setup(self.paths, self.assets).python_executable,
-            expected.absolute(),
-        )
+        self.assertEqual(report.status, "rag_ready", report.reasons)
+        self.assertEqual(report.python_executable, expected.absolute())
 
     def test_smoke_test_ignores_legacy_model_specific_override(self):
         staged_venv = self.paths.staging / "runtime-smoke"
