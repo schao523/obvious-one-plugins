@@ -204,7 +204,10 @@ def load_rag_api(environ: Mapping[str, str] | None = None) -> RagApi:
             default_retrieval_config=module.DEFAULT_RETRIEVAL_CONFIG,
         )
     except Exception as error:
-        raise AdapterRuntimeError("rag_subsystem is unavailable or has an incompatible API") from error
+        detail = f"{type(error).__name__}: {error}"
+        raise AdapterRuntimeError(
+            f"rag_subsystem is unavailable or has an incompatible API ({detail})"
+        ) from error
 
 
 def reexec_if_configured(

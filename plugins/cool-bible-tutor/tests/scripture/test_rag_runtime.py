@@ -113,7 +113,9 @@ class RagRuntimeTests(unittest.TestCase):
 
     def test_import_failure_is_a_runtime_error(self):
         with patch("rag_runtime.importlib.import_module", side_effect=ModuleNotFoundError("missing")):
-            with self.assertRaisesRegex(AdapterRuntimeError, "unavailable"):
+            with self.assertRaisesRegex(
+                AdapterRuntimeError, "ModuleNotFoundError: missing"
+            ):
                 load_rag_api({})
 
     def test_reexec_uses_configured_python_once(self):
