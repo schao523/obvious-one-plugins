@@ -402,6 +402,8 @@ class RagSetupStateTests(unittest.TestCase):
         staged_python.symlink_to(Path(sys.executable))
         staged_model = self.paths.staging / "model-symlink"
         staged_model.mkdir(parents=True)
+        self.paths.indexes.mkdir(parents=True)
+        self.paths.source_assets.mkdir(parents=True)
 
         activate_runtime(staged_venv, staged_model, self.paths, self.assets)
 
