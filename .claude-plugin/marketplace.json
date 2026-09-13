@@ -1,0 +1,13 @@
+{
+  "name": "obvious-one",
+  "version": "1.0.0",
+  "description": "明明可知 Obvious One — redistributable Codex and OpenClaw skill plugins.",
+  "plugins": [
+    {
+      "name": "cool-bible-tutor",
+      "version": "2.4.6",
+      "description": "酷聖經教師 — a Traditional Chinese inductive Bible tutor with verified CUV retrieval and optional local semantic RAG.",
+      "source": "./openclaw/cool-bible-tutor"
+    }
+  ]
+}

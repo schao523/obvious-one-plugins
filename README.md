@@ -26,7 +26,14 @@ Start a new Codex task so all eight skills are loaded.
 
 ## Find and install in OpenClaw
 
-After the ClawHub release is published:
+Install directly from the Obvious One GitHub marketplace; this does not depend on ClawHub:
+
+```text
+openclaw plugins marketplace list schao523/obvious-one-plugins
+openclaw plugins install cool-bible-tutor --marketplace schao523/obvious-one-plugins
+```
+
+After the ClawHub release is published, it also supports global search and a registry install:
 
 ```text
 openclaw plugins search "酷聖經教師"
