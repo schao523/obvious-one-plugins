@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Validate all marketplace catalogs and artifact manifests
+        run: python -B -m unittest discover -s tests -q
       - name: Validate marketplace and plugin identities
         shell: python
         run: |
@@ -45,6 +47,14 @@ jobs:
         run: python -B -m unittest discover -s plugins/cool-bible-tutor/tests -q
       - name: Audit full public distribution
         run: python -B plugins/cool-bible-tutor/scripts/distribution_audit.py plugins/cool-bible-tutor
+      - name: Audit Vibe Coding Designer distributions
+        run: |
+          python -B plugins/vibe-coding-designer/scripts/distribution_audit.py plugins/vibe-coding-designer
+          python -B openclaw/vibe-coding-designer/scripts/distribution_audit.py openclaw/vibe-coding-designer
+      - name: Check Vibe Coding Designer runtime status
+        run: |
+          python -B plugins/vibe-coding-designer/scripts/vibe_designer.py status --json
+          python -B openclaw/vibe-coding-designer/scripts/vibe_designer.py status --json
       - name: Check immediate exact retrieval
         run: python -B openclaw/cool-bible-tutor/scripts/cool_bible_tutor.py passage "約 3:16" --format json
       - name: Check explicit-consent boundary

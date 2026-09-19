@@ -8,6 +8,12 @@
       "version": "2.4.6",
       "description": "酷聖經教師 — a Traditional Chinese inductive Bible tutor with verified CUV retrieval and optional local semantic RAG.",
       "source": "./openclaw/cool-bible-tutor"
+    },
+    {
+      "name": "vibe-coding-designer",
+      "version": "1.0.0",
+      "description": "Design implementation-ready software specifications, workflows, test plans, prompts, and repository development packages without assuming a Web GUI.",
+      "source": "./openclaw/vibe-coding-designer"
     }
   ]
 }

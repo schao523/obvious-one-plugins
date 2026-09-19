@@ -1,520 +1,156 @@
 {
   "files": [
     {
-      "path": "plugins/cool-bible-tutor/.codex-plugin/plugin.json",
-      "sha256": "57ad386b803d5ab74ba6242bb5eb0a2ea6ed14c53d40b2ffd52ea3c1bd66f94b"
+      "path": "plugins/vibe-coding-designer/.codex-plugin/plugin.json",
+      "sha256": "2c326e997fe6526c6756bf4456976000c47cbe59bf1996e049387c873c76e72b"
     },
     {
-      "path": "plugins/cool-bible-tutor/.gitattributes",
-      "sha256": "b9960233e82de416917a8222af70bbcd0e106e3a7360163e5f407d6da44ae2d5"
+      "path": "plugins/vibe-coding-designer/DISTRIBUTION.md",
+      "sha256": "a0ddb2a4eb4ebcfa910387a3e2a99afdc3f217f1e73e20a44b4546fefb8a533b"
     },
     {
-      "path": "plugins/cool-bible-tutor/DISTRIBUTION.md",
-      "sha256": "2a6884b0353d3c0b543a4672c25ceaf92beedcad3d5288433fd665f8eabbef35"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/LICENSE",
+      "path": "plugins/vibe-coding-designer/LICENSE",
       "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db"
     },
     {
-      "path": "plugins/cool-bible-tutor/PRIVACY.md",
-      "sha256": "81dfcd61c02b2184ec0f9199854feebdfd04c75eb241473dfbc0382b8b31ebfb"
+      "path": "plugins/vibe-coding-designer/PRIVACY.md",
+      "sha256": "e06bb103900f28aa1b7c6d3eac0a1611bc340ce6fa365ad609f581327ac17074"
     },
     {
-      "path": "plugins/cool-bible-tutor/README.md",
-      "sha256": "309ebfe44f7774f1913d07f43b8c8c63566331fc5fe523d765bc42ff12a977c5"
+      "path": "plugins/vibe-coding-designer/README.md",
+      "sha256": "574fec78f7e6ddb840ba2207380aa40fe697ef66756a4d3a9bed6c2874e8794b"
     },
     {
-      "path": "plugins/cool-bible-tutor/SECURITY.md",
-      "sha256": "1c65c90a7b3789eaf99dc5e41eb11c9896af47c4c78d0f40fc1a73ea4d3a4b90"
+      "path": "plugins/vibe-coding-designer/SECURITY.md",
+      "sha256": "7917098c7a602dfd071e69819f4fe000f2242c660d37399f4cbb1f735b7fbac0"
     },
     {
-      "path": "plugins/cool-bible-tutor/THIRD_PARTY_CONTENT.md",
-      "sha256": "44758f1cd7cb41e443b2e48c1485564a4aec56da204118117dae40a669deafe9"
+      "path": "plugins/vibe-coding-designer/THIRD_PARTY_CONTENT.md",
+      "sha256": "b9fd672f916c23d6444be659b4f74b0628b246a3287ed065ff3286b48b015601"
     },
     {
-      "path": "plugins/cool-bible-tutor/THIRD_PARTY_NOTICES.md",
-      "sha256": "099d38b90dee63347f346021bc438fdc261d6e50d1a0b0ccfb656d563aab6f3a"
+      "path": "plugins/vibe-coding-designer/THIRD_PARTY_NOTICES.md",
+      "sha256": "95201506015694c277456772b4af82233b96b39ec9f8032e6742f0b1bd98cc26"
     },
     {
-      "path": "plugins/cool-bible-tutor/assets/rag/bge-large-zh-v1.5-model-manifest.json",
-      "sha256": "24c87f0eb20f6f8d296247b8c1d8102499fdf8a307a3780810bba34b23181276"
+      "path": "plugins/vibe-coding-designer/docs/application-invariants.md",
+      "sha256": "339d0a3202aafcb58c2c375e469b971fd2c4b5bebc4c44aa50425f56d627f100"
     },
     {
-      "path": "plugins/cool-bible-tutor/assets/rag/cuv-rag-index.sqlite3",
-      "sha256": "2c48dcb91880276bd917ed8017f7059bb0bd573f26b69f79979b61c3f9706efc"
+      "path": "plugins/vibe-coding-designer/docs/runtime-compatibility.md",
+      "sha256": "31d4faeeeddbfa75e5ffd8116fe32419017428b23e8ed1cc9ffb12928c3dfc6b"
     },
     {
-      "path": "plugins/cool-bible-tutor/assets/rag/cuv-rag-runtime-manifest.json",
-      "sha256": "e2a77684a950a1b57dccc2d1a063e590487c7b4e80be4525b72fcd49d183cc46"
+      "path": "plugins/vibe-coding-designer/docs/source-decisions.md",
+      "sha256": "4c85d0abae4f6fde4139da76052df61abc7bbc0ffb1eec0ed925010a36b32c95"
     },
     {
-      "path": "plugins/cool-bible-tutor/assets/scripture/Bible 新約聖經和合本.pdf",
-      "sha256": "4f0f9ef4c4a78b83f918c74e8f368a7e0eae515c17866c7767c310ca75786490"
+      "path": "plugins/vibe-coding-designer/docs/source-inventory.json",
+      "sha256": "74ea64f3cda17d901dfb62d317f6b8d8a54de54ec5d75d1f2e2ed37e02bc91c6"
     },
     {
-      "path": "plugins/cool-bible-tutor/assets/scripture/Bible 舊約聖經和合本.pdf",
-      "sha256": "2740a6f824f96374cb127d78c3d646b489963898dacc252b842d9a8894a91125"
+      "path": "plugins/vibe-coding-designer/scripts/build_marketplace_release.py",
+      "sha256": "0f30b642f8ebc678e2d26582b9d121294b2b5417c696012103a4497467075a36"
     },
     {
-      "path": "plugins/cool-bible-tutor/assets/scripture/cuv-approved-gaps.json",
-      "sha256": "eb25db662530ef9b93bef4816b62813ca2f2845afe52de369a7d9c3010d48c77"
+      "path": "plugins/vibe-coding-designer/scripts/distribution_audit.py",
+      "sha256": "1c125cec0fbc408fa2d0a91e4e3754f9846b1f55d1bb672cef1dbfed5623988b"
     },
     {
-      "path": "plugins/cool-bible-tutor/assets/scripture/cuv-runtime-manifest.json",
-      "sha256": "3160e6d1377529e31682b9eaea4d4850d47a4f7b783989506d8953d3bf705341"
+      "path": "plugins/vibe-coding-designer/scripts/vibe_designer.py",
+      "sha256": "aabbfa9d87bfe751e9894d02f937f2aa466f1f768f62073250dea37c65066c73"
     },
     {
-      "path": "plugins/cool-bible-tutor/assets/scripture/cuv.sqlite3",
-      "sha256": "47391b73eb65552a6e746492b25bd1b5921b71ff45032c0282556afc6232311b"
+      "path": "plugins/vibe-coding-designer/skills/creating-implementation-prompts/SKILL.md",
+      "sha256": "da994498b33fbbfd12063ff6a667292fb2b17cf62ad543935db0271ba5e4a2ce"
     },
     {
-      "path": "plugins/cool-bible-tutor/docs/top-level-launcher-pattern.md",
-      "sha256": "190fc09ffa8498adc01060580c2281fccb3a2d9a3b3b9b69d3ca40f70d5cb0cc"
+      "path": "plugins/vibe-coding-designer/skills/creating-implementation-prompts/agents/openai.yaml",
+      "sha256": "795554f31452a4b47c760de90c55b2d4e57eef5a29b910b5e20e3865deaef315"
     },
     {
-      "path": "plugins/cool-bible-tutor/scripts/build_marketplace_release.py",
-      "sha256": "6cd174397e594a97ea00c9094ee0871b9d8c736709c90e7e650fc9c63f82d4ab"
+      "path": "plugins/vibe-coding-designer/skills/creating-implementation-prompts/references/prompt-contract.md",
+      "sha256": "f2e81e93da5f577e2f892ae21e648ecfe4feded8cc541b9000197bfa30a9989f"
     },
     {
-      "path": "plugins/cool-bible-tutor/scripts/cool_bible_tutor.py",
-      "sha256": "8fcd2c5c97d10dccd64d27947b8df7d60bb47956726fb8c06d4192d8b32a2869"
+      "path": "plugins/vibe-coding-designer/skills/creating-repo-development-packages/SKILL.md",
+      "sha256": "e2bafc3a3c464925e59dccb02467e4a285c8dff5bef728709b3efdefc63a0369"
     },
     {
-      "path": "plugins/cool-bible-tutor/scripts/distribution_audit.py",
-      "sha256": "81fee21f668d6d9fcaee49d5f613cc0317a654466f8bdc62f173d2f23f41be87"
+      "path": "plugins/vibe-coding-designer/skills/creating-repo-development-packages/agents/openai.yaml",
+      "sha256": "80145206083aa454704d5f163e3d0095db1f4b131aa978b180c475231509073c"
     },
     {
-      "path": "plugins/cool-bible-tutor/scripts/freeze_public_corpus.py",
-      "sha256": "d8a991413c021329d8c9d74e2fd73c9a0abf0e1bb3b0ca6f1d948a78ed5ad696"
+      "path": "plugins/vibe-coding-designer/skills/creating-repo-development-packages/references/repo-package-contract.md",
+      "sha256": "97aa9a714da2d98f96ca2c72aa1cc856a86a35108f063c02742d88091890bc80"
     },
     {
-      "path": "plugins/cool-bible-tutor/scripts/freeze_public_rag_index.py",
-      "sha256": "cd630c484e4ff5314a07b21e0b53a60494bc746f6eb95cb7a72936ec2788cf9a"
+      "path": "plugins/vibe-coding-designer/skills/creating-software-design-specifications/SKILL.md",
+      "sha256": "298232ead86c303c483faab828cbec18c817caf1223df33e14dbff7f2a2d21b5"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/applying-biblical-truth/SKILL.md",
-      "sha256": "c045024f751d501d1277650bedffc4ad5dbed0074a7c4c4cf3404f2fecb245a8"
+      "path": "plugins/vibe-coding-designer/skills/creating-software-design-specifications/agents/openai.yaml",
+      "sha256": "daca942a4fca6e50c2e6dac14856f3db8671fd809dfce0ada60df8d1aa81a309"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/applying-biblical-truth/agents/openai.yaml",
-      "sha256": "26a53788b012883ae68445a05edec899e7bb78a014f0636db73bc626a82cdcdb"
+      "path": "plugins/vibe-coding-designer/skills/creating-software-design-specifications/references/software-design-contract.md",
+      "sha256": "3f875fbc33f0d95ef076cd985df142d60579187902b2edf8365e652b5282970f"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/applying-biblical-truth/references/action.md",
-      "sha256": "4d929767fa8355b9c847951c17d7154256d08c1fa072b70d0da3d7ee69e978b5"
+      "path": "plugins/vibe-coding-designer/skills/designing-data-services-and-workflows/SKILL.md",
+      "sha256": "1ce4c74a4edaba2b8331e6b012fc73b624f3649b93f580fdbd023fab445722d6"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/applying-biblical-truth/references/principles.md",
-      "sha256": "ea130ad33c137e771bfd1b4cbe44fc5f8e89eae0c99da01f0b87eccf53d1b332"
+      "path": "plugins/vibe-coding-designer/skills/designing-data-services-and-workflows/agents/openai.yaml",
+      "sha256": "5d22f837f0edddc753be8756296a4e5e45652062e2eae0f1a07d02b198fb6e67"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/applying-biblical-truth/references/specifics.md",
-      "sha256": "68493b15f61ecb8503ebf25e96e28a223d60108d0c29dcd75896585ade1f55e9"
+      "path": "plugins/vibe-coding-designer/skills/designing-data-services-and-workflows/references/data-and-service-contracts.md",
+      "sha256": "6b9fc088c766f88c48ff68b5aa5b4d5efb81bb68ba46f870d9b3c3bd1f1724a7"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/comparing-biblical-words-and-translations/SKILL.md",
-      "sha256": "2c5569fed6a839a16ed9b02ea34b865a58694058830e87a3ddaf0daaccc2b24e"
+      "path": "plugins/vibe-coding-designer/skills/designing-data-services-and-workflows/references/workflow-execution-map.md",
+      "sha256": "1f70c7c922869dee203c0146511cec0b27fb1d6d1ec112739c0ecdbf49500674"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/comparing-biblical-words-and-translations/agents/openai.yaml",
-      "sha256": "6f49172354191630357b146457db32c318266421ee977d64ae630a68d472feb6"
+      "path": "plugins/vibe-coding-designer/skills/guiding-vibe-design-sessions/SKILL.md",
+      "sha256": "3a0bc0140b00f7029bd6171c65b512722e55e875aca55f3234c7de08d1ed46aa"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/discussing-biblical-theology/SKILL.md",
-      "sha256": "c9cc5cb841168b8a5d23f724d70b8dacc22e48525105f78c6a48c686bab5dbb4"
+      "path": "plugins/vibe-coding-designer/skills/guiding-vibe-design-sessions/agents/openai.yaml",
+      "sha256": "69d0710893f09236841668e87113f75524ab7b4f7d8e2108b3fc9b031c764994"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/discussing-biblical-theology/agents/openai.yaml",
-      "sha256": "96b834a94567ed3aac429b3cae60d420cfc013d660a944717ed50afaab519a39"
+      "path": "plugins/vibe-coding-designer/skills/guiding-vibe-design-sessions/references/session-contract.md",
+      "sha256": "241ee8d4861ff9359751899c029ae388b02ef57ff3d58208f4c823e957ce0228"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/guiding-bible-tutor-sessions/SKILL.md",
-      "sha256": "7f633cb38be944d70d89ed3dc0aa42eaec9b320261f7358815c83671549cfb4e"
+      "path": "plugins/vibe-coding-designer/skills/planning-software-tests/SKILL.md",
+      "sha256": "bbd14de24313e94d8be370118f16ca344176b6008928820d10edccaed3c5f6d2"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/guiding-bible-tutor-sessions/agents/openai.yaml",
-      "sha256": "d0c1e604b2c339b1949e589e5d0a2e37371aae8a8ac4ce33db4ac1294424e04f"
+      "path": "plugins/vibe-coding-designer/skills/planning-software-tests/agents/openai.yaml",
+      "sha256": "d71902dc4c6fc37dab764b126d8718ff168467f8442c19af0c72a96ef8de7bff"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/guiding-bible-tutor-sessions/references/interaction-contract.md",
-      "sha256": "07bf7d0dd97583942683a8bfd35784e2dbbe7a91193d1824390b9c991ff963e8"
+      "path": "plugins/vibe-coding-designer/skills/planning-software-tests/references/test-plan-contract.md",
+      "sha256": "13b58e792a1ef45028365b60f3636a148318b8b1fa4d052c8c187eab59384650"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/guiding-bible-tutor-sessions/references/scripture-theology-safety.md",
-      "sha256": "e253f299481529d64028916c973f108d5f0afc3a8e6e10e43a48ca93c11211fa"
+      "path": "plugins/vibe-coding-designer/skills/reviewing-software-design-specifications/SKILL.md",
+      "sha256": "bbb98a0eb087e430bd7b2bc3a93b46a8f171233fe7511b3f1ce2f63fda7bbc27"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/interpreting-biblical-passages/SKILL.md",
-      "sha256": "4a78bb8cd19d90a33395573174fe5cccb9445da069be46e04388612b933f1193"
+      "path": "plugins/vibe-coding-designer/skills/reviewing-software-design-specifications/agents/openai.yaml",
+      "sha256": "0a1a8923e2895f947bd7fb82f47762f262f941cae7224e26c9b6c9b460975949"
     },
     {
-      "path": "plugins/cool-bible-tutor/skills/interpreting-biblical-passages/agents/openai.yaml",
-      "sha256": "61bffc274ad04a250659fd3b41a96d93da615570ec552a21e87365e0280e77fe"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/interpreting-biblical-passages/references/answering.md",
-      "sha256": "6d92894178d27b370c77c29cdaf302d3eb5e504e5a5d761ec5128748f2ff1ea8"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/interpreting-biblical-passages/references/synthesis.md",
-      "sha256": "1693ac36824a7c67d50ae3d6071db3b00b807452ca33f4cad690a2ff482bbdec"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/interpreting-biblical-passages/references/theme.md",
-      "sha256": "0098761677bbc1d9a68574f7b5813489c2dfb782bda940ea098863d78fbf460a"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/observing-biblical-passages/SKILL.md",
-      "sha256": "705b1a249a7a0f824084cb52c7494fc421741996c8b4c59e3718c38b936164c5"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/observing-biblical-passages/agents/openai.yaml",
-      "sha256": "83a52c80536ae6401871c40717101f55b80f14a7a5529441fea4c7e38c3474f9"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/observing-biblical-passages/references/observation.md",
-      "sha256": "58bc162a7ffbf870c73565015f0f322f18c7f4b2e820fdaee76881ee3036be8e"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/observing-biblical-passages/references/questions.md",
-      "sha256": "4401f9ad83649256c75aa1e91cbc860c5fb0d4b0dfdbab2e5f117fe9783c3b18"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/observing-biblical-passages/references/relationships.md",
-      "sha256": "4b68587e8108c67c1133f8e77133ce5adb621ffdd631c219f357b59432dc946d"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/observing-biblical-passages/references/structure.md",
-      "sha256": "1e219adbb69afe625c1a4b3d3bde6b9e50e1f030196b33f1151de065dcf87ab5"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/SKILL.md",
-      "sha256": "4762ef8b595551f4e5619c2c11052bcfd45366bc66e4de484a722848c7318ec6"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/agents/openai.yaml",
-      "sha256": "f9176be086e26664aba2427503813f447a8699caa4c775bcd5863ea2cd587cd3"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/data/.gitignore",
-      "sha256": "4bb38be6d6d9ef0d2f9bcc339850ff48d821eccfa739369402b354c9ba946ea2"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/references/corpus-and-verification.md",
-      "sha256": "cabd1fe3fb5d5b9fc930cb6a647511abcb24c720f03ac394780d57aa0ecc92c8"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/references/setup-scripture-data.md",
-      "sha256": "7fd45b027672f9af61210faf68ef8777735bd22b6ec9228c38ad7228ff1ba380"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/book_names.py",
-      "sha256": "68e4ed41d2446dad5666e01a0eaa3626eb2bdb2749ef0ca23dbbe65fe84edd30"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/build_cuv_index.py",
-      "sha256": "fb3a5d77ff5a384343dcb7639a16f70fdaf76dbd0edd0db29c2d5847c39a296a"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/corpus_db.py",
-      "sha256": "33a885bebe5d836f699d26ed0ce0d1965601ad71c34d1fd3138caf3e33cfba0d"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/discover_bible_references.py",
-      "sha256": "caf940c4a84379bfd10f273c0af35e9689e0d0aa94ca65b3b22d6fb3ca4059f4"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/get_passage.py",
-      "sha256": "49dbc0afdb17d97379877f479f68c35b92d73b28d76822dac26c3803f64bea1c"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/ingest_bible_rag.py",
-      "sha256": "9d4972067a7d2a5eed32312b81bf8f86bf6b1f061a295fd3aed73e380473db39"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/ocr_adapter.py",
-      "sha256": "725162eb67c259c3d36dd164442ac8203d35d18cf6a73cb5e223d9ad4e6cc054"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/rag_documents.py",
-      "sha256": "57742a050dc8c3fa9fba540b55ae4b4be82964503b071d3d5b7cefd281a7c83a"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/rag_metadata_sync.py",
-      "sha256": "f21940501068199a52cd3fbf67f771a220a9ed84298a71d57acb41f2de929e22"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/rag_runtime.py",
-      "sha256": "13605b1e47c0f1ff306aac6afedfd155c72c6f005dbf5861c48410a2c8af2c85"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/rag_setup.py",
-      "sha256": "9617170a4db1f52d6165964a773fb4ecfe63562b28e26cd9ba5512a67c6c6bd0"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/rag_vector_lock.py",
-      "sha256": "77c9e3ba608c7bf7cf71690934f353e5960631baf9a9a10fd937c2c47e58ee94"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/rag_vector_manifest.py",
-      "sha256": "5a5916a5d2371c9a7b02f0f859df751dfb5d71224bc38a7c6555c2916a0b713b"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/references.py",
-      "sha256": "0825e0a658081e742e136f44570e475afb3de02c2938fa3f2fabb739a18ecc2b"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/review_cuv_index.py",
-      "sha256": "076b4bc31376d636b33492dda8d852ae3c6f5c08380de1a788a35fb19a5d285d"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/review_mutations.py",
-      "sha256": "4d0913c3ab2d098c70e2648671516c2c865b291eded7f6fdf36e2d1d069c09df"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/review_server.py",
-      "sha256": "ad2c59dea6bd0902bf804d5158433c6168200a5b544b6a83e4e995afd98a32b1"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/review_sources.py",
-      "sha256": "0ba5b7727d357e8d84d602880722d3ad49d0c7ba588bacdbf3b7e9d06b3056dd"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/review_store.py",
-      "sha256": "336034f8980d157f6d92183137961bd55a30fa64c0d98443b173632ea8b37be0"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/review_web/app.js",
-      "sha256": "3f07a26f895f3efa2716132e08c9bb3af2307606cb002bbce9bbc66a85d9dcc0"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/review_web/index.html",
-      "sha256": "69715087ac1a3a9d5bde4e1221f3052cc36ba8cea52feca033a427497f4bbd34"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/review_web/styles.css",
-      "sha256": "c96111c1bfb089bf218661fc4d70df815af4ca1e3a3544bf3ef6e528a53bc83a"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/scripture_sources.py",
-      "sha256": "0275d3d3473cbf8c3c12aec4a1a5fd3598fa7a529eb17f5bbf3179c95cbaf1d3"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/retrieving-chinese-union-version-scripture/scripts/verify_cuv_index.py",
-      "sha256": "1fd4c5cdf5fa775b7638dca2d268559c5416e13bc7182eae15253e08be4743d0"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/supporting-biblical-exegesis/SKILL.md",
-      "sha256": "2edd4a311943025c239cf40012d57cd70eae391fead8c6e2129eb9a8ee9f6baf"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/supporting-biblical-exegesis/agents/openai.yaml",
-      "sha256": "d817b13e4f47ccf27c1fca62bf7b4aa75a03c9839914a3c04cf52edcddc11dcb"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/skills/supporting-biblical-exegesis/references/eight-contexts.md",
-      "sha256": "ecc6f9946e73ea08f6ef95932d5ed4e7e457103c123b3a596d2f958fa154ea2e"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/__init__.py",
-      "sha256": "190fc13998f0d6f71572b34c01d0212ef8548a10cd644d2866d8e87b06198209"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/_runtime_fixture/.gitkeep",
-      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/_runtime_fixture/cache-fixture/.gitkeep",
-      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/_runtime_fixture/references/.gitkeep",
-      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/applying-biblical-truth.md",
-      "sha256": "7de05bc78f86d3a5329bfcc9c183dd9dbc5a80127256d7a1c87a6e1737276b47"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/comparing-biblical-words-and-translations.md",
-      "sha256": "8690e9b46737156d9cf155841263895685cc8e5a5cdc1fd15a81c219e3b6d5de"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/discovering-biblical-passages-with-rag.md",
-      "sha256": "872ac2e8ccb4b733e4246ef8e0efe7229ee9a4b3beec108efdb39f25eef24e5f"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/discussing-biblical-theology.md",
-      "sha256": "e7e89abc29d49a4b90c460d940a3a04c290aab58081ec016314176bca2b27ad6"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/guiding-bible-tutor-sessions.md",
-      "sha256": "ffe5062630fbbdc3b04dcab44005b5db0fa81701e06d9909997a54d493e2ef46"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/interpreting-biblical-passages.md",
-      "sha256": "2b0afc1c144ec46616dfeda40f464bac567f2f616be653288646a2838783b195"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/observing-biblical-passages.md",
-      "sha256": "8986b50be2ce1928b6d4e17d1e1828884fb051e113391b5fb03f3a52e8b75876"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/retrieving-chinese-union-version-scripture.md",
-      "sha256": "fad4975b957af34bb4cfbedb7e7ff37ff38ea3beb09bc33a66a10e25b7b840c5"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/reviewing-private-cuv-corpus.md",
-      "sha256": "aae7f2963e020ff4fc462cd74df5ee8f01ee9af979f255aff62e6a4d14ab0ab4"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/behavior/supporting-biblical-exegesis.md",
-      "sha256": "aa33b115c4fc5c11f55edf1203f3d2faec11f4ebf6a79a9215486754786a7382"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/coverage-matrix.md",
-      "sha256": "8e42b96b07019f68efc7b601a25b0c4593b53cdf503552ea6d2cc851c6c54c43"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/fixtures/scripture/synthetic-page.txt",
-      "sha256": "e26003c0965f72511a072418589ccbb0b6ae1a1d82d326a9aed46986bc7b380e"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_build_index.py",
-      "sha256": "702a7be09045be22cff1ea765a0bc30ef39c3a49112f9433ce654582e2993120"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_corpus_db.py",
-      "sha256": "1cef3c68dcca0c8024954692ba32795c4d09d89341cd03f5f7e6d613ea25b2fd"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_discover_bible_references.py",
-      "sha256": "f8aed6d8f474ab406316e359bc5d882816c8f6f32805111e47aea7e9fc6a069c"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_freeze_public_corpus.py",
-      "sha256": "c9fb160b4fd7ce80ec4f14fa944dca8006e0ad96a6819b0f733f78c00998a9ef"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_freeze_public_rag_index.py",
-      "sha256": "8d9ffdd537ed71d357ad697b3f558c7bc3257a2a7bbe5f14e0977fce1e89856d"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_get_passage.py",
-      "sha256": "de5d2d5e887a1f9b162d6462c10800d9f645a1f10f6e391a2321b9a400044a9b"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_ingest_bible_rag.py",
-      "sha256": "30a2a823010ca3352372944cd3204e6e77d65e7f960269ced471ff49263c9f38"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_ocr_adapter.py",
-      "sha256": "162aa29d2a8e83c2153257a1d924f148f4ff576e7d2bc673f75771a9c77afba3"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_public_rag_index.py",
-      "sha256": "644822e232f8dc40e774cd506c7ba0148c037e3fec95a3aeef90d942af33d65f"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_rag_documents.py",
-      "sha256": "a7f8b1675e6145eea38396c6aef5e47fbab3c4a66ef4a3a91b71447bc7e9760d"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_rag_metadata_sync.py",
-      "sha256": "93c01a909e49f92b78c9badb39e5287d4001764a82a01b56b30805f31cb190f7"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_rag_runtime.py",
-      "sha256": "c691633edbc9c460311115607efff85cab9501b590fc34b2fd312c78bba824ce"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_rag_setup.py",
-      "sha256": "1b83f4efcd26201dcc18c8400e09956f05b6793989ce9d48daf39e6f6f55e937"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_references.py",
-      "sha256": "4ef7dc2e49d5d687d3b24022301007e0eb00b43bbff72e1784be4bc6b3cbd2fa"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_review_mutations.py",
-      "sha256": "fcb080adace5923b3812fa09aadb2d336aff62f20877e671360c22cfee9742cc"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_review_server.py",
-      "sha256": "1257239701ac50411fd2659e1db88e48519c9786bc4d17ff35e956374cef41bc"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_review_sources.py",
-      "sha256": "18b10d1287b34a0301b432b7aa9edbc1b7e3016b93a643084fc96ad75cfd7ad1"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_review_store.py",
-      "sha256": "a670af2b0558aa5b5967beb2e124009331277f138ae8765dec00ce399499ae42"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_review_web.py",
-      "sha256": "58c3bf7ad6244f93233e1daaa97f92b568928b3dbef2883cfaa3f4e2efd7a833"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_scripture_sources.py",
-      "sha256": "e7d53a2671f8b4152e2b0f134eedbf70d519c5d883386252ed90ef5c8c723b67"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/scripture/test_verify_index.py",
-      "sha256": "0fbde8a4cd45dc0a916b4ea860359fe3598d2dd2f7e8321acaa8eae3e14b9b8f"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/test_distribution.py",
-      "sha256": "b93a38d76890b3a732c3c673d2d622d6838bb23668c75e2bbdf8ae14867d257d"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/test_marketplace_release.py",
-      "sha256": "6864eefef05b271da18a46671c3bfa9faf0bdf5744cc4325a2d21f0ea7f53060"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/test_references.py",
-      "sha256": "b3ec78341c2644b74d8dd2a7f10c2c0d1304ccbdab12e8c3244bd9d3e3b99fb6"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/test_setup_launcher.py",
-      "sha256": "755af5bc96235be13064650bad01efdb0dc340103f4e11d7b42ee56d0e16b5ca"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/tests/test_skill_contracts.py",
-      "sha256": "72f9740a945c8ca3574c5495cb09ca466c930505366ef77595594aae5eb4491c"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/vendor/rag-runtime/model-manifest.json",
-      "sha256": "cee45b25fdafa8c1485399f41cdd02343c724cca84f7a1f54f1b356a08984a89"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/vendor/rag-runtime/requirements-rag.in",
-      "sha256": "ee4650c98df413888c37ead5deea4d4eaa3b40921f823cfaf768d149e746235a"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/vendor/rag-runtime/requirements-rag.lock",
-      "sha256": "11b614da90628c263d9b8d004c8474dd770172a6daeacfea9a9eed7d83557a36"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/vendor/rag-runtime/runtime-lock.json",
-      "sha256": "b70660a9331edb8a6a210ee1db6c558bc1d6916e6dcf45a6f9c88973b24294a2"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/vendor/rag-subsystem/manifest.json",
-      "sha256": "f0d4220de40503a23e29d732394be8dbfd4a141ea2c25b22c3d59ed101c2caf7"
-    },
-    {
-      "path": "plugins/cool-bible-tutor/vendor/rag-subsystem/rag_subsystem-0.2.1-py3-none-any.whl",
-      "sha256": "163778ca8b3e6cf1ffcf591395beab4ce4467024d3293a12c9a41bd6a9d746df"
+      "path": "plugins/vibe-coding-designer/skills/reviewing-software-design-specifications/references/review-contract.md",
+      "sha256": "9e7c2b4f8c895c4ca311808e09bb8e6de1942513be1aed020197c5b9fed0bd4b"
     }
   ],
-  "plugin_id": "cool-bible-tutor",
+  "plugin_id": "vibe-coding-designer",
   "schema_version": 1,
-  "total_bytes": 67121025,
-  "version": "2.4.5"
+  "total_bytes": 53508,
+  "version": "1.0.0"
 }

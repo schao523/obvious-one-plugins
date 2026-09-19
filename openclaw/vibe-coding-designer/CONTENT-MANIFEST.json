@@ -1,0 +1,200 @@
+{
+  "content_sha256": "81851d9a2297c3de6cf2edd1e850daf4f21c326292f375944049bf8e8fc2a226",
+  "file_count": 38,
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "2c326e997fe6526c6756bf4456976000c47cbe59bf1996e049387c873c76e72b",
+      "size": 1474
+    },
+    {
+      "path": "DISTRIBUTION.md",
+      "sha256": "a0ddb2a4eb4ebcfa910387a3e2a99afdc3f217f1e73e20a44b4546fefb8a533b",
+      "size": 474
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
+      "size": 1086
+    },
+    {
+      "path": "PRIVACY.md",
+      "sha256": "e06bb103900f28aa1b7c6d3eac0a1611bc340ce6fa365ad609f581327ac17074",
+      "size": 427
+    },
+    {
+      "path": "README.md",
+      "sha256": "c2ce27699676849b92dcb01aefd9e6891ea06b10d864be331837e8e0de81a935",
+      "size": 386
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "7917098c7a602dfd071e69819f4fe000f2242c660d37399f4cbb1f735b7fbac0",
+      "size": 428
+    },
+    {
+      "path": "THIRD_PARTY_CONTENT.md",
+      "sha256": "b9fd672f916c23d6444be659b4f74b0628b246a3287ed065ff3286b48b015601",
+      "size": 327
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "95201506015694c277456772b4af82233b96b39ec9f8032e6742f0b1bd98cc26",
+      "size": 257
+    },
+    {
+      "path": "docs/application-invariants.md",
+      "sha256": "339d0a3202aafcb58c2c375e469b971fd2c4b5bebc4c44aa50425f56d627f100",
+      "size": 943
+    },
+    {
+      "path": "docs/runtime-compatibility.md",
+      "sha256": "31d4faeeeddbfa75e5ffd8116fe32419017428b23e8ed1cc9ffb12928c3dfc6b",
+      "size": 1540
+    },
+    {
+      "path": "docs/source-decisions.md",
+      "sha256": "4c85d0abae4f6fde4139da76052df61abc7bbc0ffb1eec0ed925010a36b32c95",
+      "size": 1129
+    },
+    {
+      "path": "docs/source-inventory.json",
+      "sha256": "74ea64f3cda17d901dfb62d317f6b8d8a54de54ec5d75d1f2e2ed37e02bc91c6",
+      "size": 3017
+    },
+    {
+      "path": "package.json",
+      "sha256": "441a7b5603a2b1ee02ae6717346138ebe65c9173a4c8ce13000f19bc9291d166",
+      "size": 281
+    },
+    {
+      "path": "scripts/build_marketplace_release.py",
+      "sha256": "0f30b642f8ebc678e2d26582b9d121294b2b5417c696012103a4497467075a36",
+      "size": 5505
+    },
+    {
+      "path": "scripts/distribution_audit.py",
+      "sha256": "1c125cec0fbc408fa2d0a91e4e3754f9846b1f55d1bb672cef1dbfed5623988b",
+      "size": 3434
+    },
+    {
+      "path": "scripts/vibe_designer.py",
+      "sha256": "aabbfa9d87bfe751e9894d02f937f2aa466f1f768f62073250dea37c65066c73",
+      "size": 10333
+    },
+    {
+      "path": "skills/creating-implementation-prompts/SKILL.md",
+      "sha256": "da994498b33fbbfd12063ff6a667292fb2b17cf62ad543935db0271ba5e4a2ce",
+      "size": 1205
+    },
+    {
+      "path": "skills/creating-implementation-prompts/agents/openai.yaml",
+      "sha256": "795554f31452a4b47c760de90c55b2d4e57eef5a29b910b5e20e3865deaef315",
+      "size": 148
+    },
+    {
+      "path": "skills/creating-implementation-prompts/references/prompt-contract.md",
+      "sha256": "f2e81e93da5f577e2f892ae21e648ecfe4feded8cc541b9000197bfa30a9989f",
+      "size": 899
+    },
+    {
+      "path": "skills/creating-repo-development-packages/SKILL.md",
+      "sha256": "e2bafc3a3c464925e59dccb02467e4a285c8dff5bef728709b3efdefc63a0369",
+      "size": 1250
+    },
+    {
+      "path": "skills/creating-repo-development-packages/agents/openai.yaml",
+      "sha256": "80145206083aa454704d5f163e3d0095db1f4b131aa978b180c475231509073c",
+      "size": 146
+    },
+    {
+      "path": "skills/creating-repo-development-packages/references/repo-package-contract.md",
+      "sha256": "97aa9a714da2d98f96ca2c72aa1cc856a86a35108f063c02742d88091890bc80",
+      "size": 1226
+    },
+    {
+      "path": "skills/creating-software-design-specifications/SKILL.md",
+      "sha256": "298232ead86c303c483faab828cbec18c817caf1223df33e14dbff7f2a2d21b5",
+      "size": 1589
+    },
+    {
+      "path": "skills/creating-software-design-specifications/agents/openai.yaml",
+      "sha256": "daca942a4fca6e50c2e6dac14856f3db8671fd809dfce0ada60df8d1aa81a309",
+      "size": 141
+    },
+    {
+      "path": "skills/creating-software-design-specifications/references/software-design-contract.md",
+      "sha256": "3f875fbc33f0d95ef076cd985df142d60579187902b2edf8365e652b5282970f",
+      "size": 2604
+    },
+    {
+      "path": "skills/designing-data-services-and-workflows/SKILL.md",
+      "sha256": "1ce4c74a4edaba2b8331e6b012fc73b624f3649b93f580fdbd023fab445722d6",
+      "size": 1594
+    },
+    {
+      "path": "skills/designing-data-services-and-workflows/agents/openai.yaml",
+      "sha256": "5d22f837f0edddc753be8756296a4e5e45652062e2eae0f1a07d02b198fb6e67",
+      "size": 149
+    },
+    {
+      "path": "skills/designing-data-services-and-workflows/references/data-and-service-contracts.md",
+      "sha256": "6b9fc088c766f88c48ff68b5aa5b4d5efb81bb68ba46f870d9b3c3bd1f1724a7",
+      "size": 966
+    },
+    {
+      "path": "skills/designing-data-services-and-workflows/references/workflow-execution-map.md",
+      "sha256": "1f70c7c922869dee203c0146511cec0b27fb1d6d1ec112739c0ecdbf49500674",
+      "size": 1799
+    },
+    {
+      "path": "skills/guiding-vibe-design-sessions/SKILL.md",
+      "sha256": "3a0bc0140b00f7029bd6171c65b512722e55e875aca55f3234c7de08d1ed46aa",
+      "size": 1791
+    },
+    {
+      "path": "skills/guiding-vibe-design-sessions/agents/openai.yaml",
+      "sha256": "69d0710893f09236841668e87113f75524ab7b4f7d8e2108b3fc9b031c764994",
+      "size": 142
+    },
+    {
+      "path": "skills/guiding-vibe-design-sessions/references/session-contract.md",
+      "sha256": "241ee8d4861ff9359751899c029ae388b02ef57ff3d58208f4c823e957ce0228",
+      "size": 1843
+    },
+    {
+      "path": "skills/planning-software-tests/SKILL.md",
+      "sha256": "bbd14de24313e94d8be370118f16ca344176b6008928820d10edccaed3c5f6d2",
+      "size": 1093
+    },
+    {
+      "path": "skills/planning-software-tests/agents/openai.yaml",
+      "sha256": "d71902dc4c6fc37dab764b126d8718ff168467f8442c19af0c72a96ef8de7bff",
+      "size": 126
+    },
+    {
+      "path": "skills/planning-software-tests/references/test-plan-contract.md",
+      "sha256": "13b58e792a1ef45028365b60f3636a148318b8b1fa4d052c8c187eab59384650",
+      "size": 901
+    },
+    {
+      "path": "skills/reviewing-software-design-specifications/SKILL.md",
+      "sha256": "bbb98a0eb087e430bd7b2bc3a93b46a8f171233fe7511b3f1ce2f63fda7bbc27",
+      "size": 1157
+    },
+    {
+      "path": "skills/reviewing-software-design-specifications/agents/openai.yaml",
+      "sha256": "0a1a8923e2895f947bd7fb82f47762f262f941cae7224e26c9b6c9b460975949",
+      "size": 146
+    },
+    {
+      "path": "skills/reviewing-software-design-specifications/references/review-contract.md",
+      "sha256": "9e7c2b4f8c895c4ca311808e09bb8e6de1942513be1aed020197c5b9fed0bd4b",
+      "size": 956
+    }
+  ],
+  "plugin_id": "vibe-coding-designer",
+  "schema_version": 1,
+  "total_bytes": 52912,
+  "version": "1.0.0"
+}

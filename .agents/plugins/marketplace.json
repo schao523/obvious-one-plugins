@@ -15,6 +15,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Education"
+    },
+    {
+      "name": "vibe-coding-designer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vibe-coding-designer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
