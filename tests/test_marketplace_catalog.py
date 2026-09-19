@@ -75,6 +75,14 @@ class MarketplaceCatalogTests(unittest.TestCase):
             ]
             self.assertEqual(forbidden, [])
 
+    def test_vibe_ci_is_independent_from_legacy_product_gates(self) -> None:
+        workflow = (ROOT / ".github" / "workflows" / "validate.yml").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("  vibe-coding-designer:\n", workflow)
+        self.assertIn("      - name: Audit Vibe Coding Designer distributions\n", workflow)
+        self.assertIn("      - name: Check Vibe Coding Designer runtime status\n", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
