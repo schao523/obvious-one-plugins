@@ -1,5 +1,5 @@
 {
-  "content_sha256": "b2e3ad69bdfd196fff331eb04d3301a36d3c9f894dd05d18a866c02ef3fa7fa4",
+  "content_sha256": "653c25be0f764226049025b686bb106b29bef3db5c9e459abf1dd2007b65f69e",
   "file_count": 92,
   "files": [
     {
@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitattributes",
-      "sha256": "7c750881d32ba8993a5b94b13041af95fe724159c110479364df064877c4994b",
-      "size": 449
+      "sha256": "edac343e38f84a6b024b1860bb786c0c44c683bf9fa01df7370af5ec0c0839e8",
+      "size": 635
     },
     {
       "path": "DISTRIBUTION.md",
@@ -64,13 +64,13 @@
     },
     {
       "path": "assets/scripture/cuv-approved-gaps.json",
-      "sha256": "6fe1f41aeddbff8647a9dda5fc2542f5d7fa2d6655658953b9fb00791a3ad92f",
-      "size": 1761
+      "sha256": "eb25db662530ef9b93bef4816b62813ca2f2845afe52de369a7d9c3010d48c77",
+      "size": 1846
     },
     {
       "path": "assets/scripture/cuv-runtime-manifest.json",
-      "sha256": "13072de20aadefe2277179acd12c7c59c9ef771e200fc7c6b39d1186d7c0f33f",
-      "size": 656
+      "sha256": "3160e6d1377529e31682b9eaea4d4850d47a4f7b783989506d8953d3bf705341",
+      "size": 670
     },
     {
       "path": "assets/scripture/cuv.sqlite3",
@@ -465,6 +465,6 @@
   ],
   "plugin_id": "cool-bible-tutor",
   "schema_version": 1,
-  "total_bytes": 5912183,
+  "total_bytes": 5912468,
   "version": "2.4.6"
 }
