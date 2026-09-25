@@ -1,0 +1,346 @@
+{
+  "content_sha256": "01acce2483de35d572b49d401033be0d28c4dfd2e2141dfcf28d99c99978cd71",
+  "file_count": 48,
+  "files": [
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "32d53d56602c225a06af7db8c9b21266f4cca8a07614bf96397c920267e4038e",
+      "size": 1539
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "DISTRIBUTION.md",
+      "sha256": "8e8161b92cd5ac56a551293719895091dde1334d441cc9d0cf8bac9d5cdd4879",
+      "size": 1283
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "LICENSE",
+      "sha256": "40b321bc8e642103f76ccb883a6be822f4d072aa9522e5f86aec9c8fa8230fb2",
+      "size": 1065
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "PRIVACY.md",
+      "sha256": "4d8670006cae0fcaf95615c944e7e656a5b1497db9f5dd04a461aa79bae2c82c",
+      "size": 369
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "README.md",
+      "sha256": "cb50f4880b31516ed75c7257d9be41894a15e1078b1b7fa1e4c2a406c57da726",
+      "size": 953
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "SECURITY.md",
+      "sha256": "479264abf0dffaa56bb74cc487e44f96e3f76552d73f71df7038d0cd3ca7eb99",
+      "size": 404
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "THIRD_PARTY_CONTENT.md",
+      "sha256": "edb4c86eaf9c4eeb43fe7f11a00710e46c6e3f60ef4737e3ed7fcfacf5e55086",
+      "size": 315
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "55620e4b599a0634dbb3a306022c88cf88c24846ab5d11c16bf1c26fbaba228e",
+      "size": 216
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/application-invariants.md",
+      "sha256": "649e8c93d7444e9dbc6c60a014c703e21955daec6368cc0a9aa1dfaee7f6add2",
+      "size": 1580
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/runtime-compatibility.md",
+      "sha256": "d7e7777f79469c7109fec7024edca6797d19b6229a6cc25ef5641487cc4b33fe",
+      "size": 5669
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/source-decisions.md",
+      "sha256": "f543a9a61639ce86878c66db815588681ada508601bac8fe1a8030f80ab6ebc3",
+      "size": 1219
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/source-inventory.json",
+      "sha256": "9ebc4302efa8df57393ba8497d86103ef7b0c28c864054942dc9ead6d62b0407",
+      "size": 3376
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/validation-fixtures/design-spec-valid.md",
+      "sha256": "b915d41eb4e30dc365f8de12e8e3d463f3d1934ca0e1940e61a0380976b1efac",
+      "size": 2375
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/validation-fixtures/design-statement-valid.md",
+      "sha256": "c396a82ca3f96544a38c8286098c47c9c3aabd0f6ab6664b54bac06025b7513f",
+      "size": 454
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/validation-fixtures/handoff-valid.json",
+      "sha256": "e8113b02a2bbd89a4c29c7bb69ddb9e99b2b4cf59226fedd2f4f8063f21482c2",
+      "size": 917
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/validation-fixtures/modules-valid.json",
+      "sha256": "144e3aa70a87702bc9aa7d5c457a707dec78764672372370a76e8ae7617e320c",
+      "size": 3482
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "docs/validation-fixtures/workflow-valid.json",
+      "sha256": "e86ba43a31e48e335408abb89c557aee672d5bf42c6c7ea25452c1c41b33506a",
+      "size": 1354
+    },
+    {
+      "canonicalization": "canonical-json-v1",
+      "classification": "generated-json",
+      "path": "package.json",
+      "sha256": "22ae5f4bf26e7fa19cbdbf98890f3e9b38dbd36c09c84eed0f3ba54937e264ce",
+      "size": 297
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "scripts/README.md",
+      "sha256": "acddb9e6755f9f39e1abc551198d933f7d690be11520363989f6274e82370771",
+      "size": 253
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "scripts/build_marketplace_release.py",
+      "sha256": "12791a90fd0369c8cecd3373d7b6616ffe3073d4d0c9d4d3c474b739a03c4213",
+      "size": 6338
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "scripts/cool_plugin_design_assistant.py",
+      "sha256": "d6dd5942b997f3c745206066405af804b1da025a43df0697edc46c8c4f52908c",
+      "size": 32558
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "scripts/distribution_audit.py",
+      "sha256": "c9d5ff8e61589b375d193c84fab2438af66145a4ea2956c1b29676859138665a",
+      "size": 5267
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/creating-application-plugin-design-specifications/SKILL.md",
+      "sha256": "0db0aa6fc7e393e077bb166a71100aa019dcdbdb28c26ba99655bf2cb6862b32",
+      "size": 1659
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/creating-application-plugin-design-specifications/agents/openai.yaml",
+      "sha256": "15ddb811ad2aa95f18cae9d6f42ca2d2cff5f74b9b6a346f1a7144f7f080ad80",
+      "size": 386
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/creating-application-plugin-design-specifications/references/specification-contract.md",
+      "sha256": "7e1a93e9cacd8f0ae7f76153b0bee865709dd69b374e8ed4ae92de058758d552",
+      "size": 4030
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/creating-application-plugin-design-specifications/references/workbench-handoff-contract.md",
+      "sha256": "7bbe4a582f752c66029bcf64172e208da9b213149507d89391ed35def775042a",
+      "size": 2567
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/creating-design-statements/SKILL.md",
+      "sha256": "1c0de778d5d2f816a5d2aa9faa0d27cd4fd680f3d86fa81391363666b3bc0dfd",
+      "size": 1675
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/creating-design-statements/agents/openai.yaml",
+      "sha256": "813a64c8b21e90938a520a64c5104d0980c9298a08b2c329ab059a30d841ff9b",
+      "size": 294
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/creating-design-statements/references/design-statement-contract.md",
+      "sha256": "9ce56605bb3483685d447f0b1b9a1a87f262a5e78004219fdf5b4da6f9d28873",
+      "size": 2886
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/designing-application-workflows-and-instruction-modules/SKILL.md",
+      "sha256": "80114c3c90bc30342b5bcbab285d23e192264485184e42fc3d7a7dc7105c8941",
+      "size": 1764
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/designing-application-workflows-and-instruction-modules/agents/openai.yaml",
+      "sha256": "a78f1870c414f011e5fcfce240e19156f0bd13b419b0225ea1f5b65837447c7f",
+      "size": 363
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/designing-application-workflows-and-instruction-modules/references/instruction-module-contract.md",
+      "sha256": "5787f574443d049dc44902a92d0998bd1ceca60de256253b0e23809e3459c8f5",
+      "size": 1459
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/designing-application-workflows-and-instruction-modules/references/user-interaction-protocols.md",
+      "sha256": "eee10201b67a6b38319282a6a5957482bcdd905fe6727b5642b7cdda7c6ef757",
+      "size": 1834
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/designing-application-workflows-and-instruction-modules/references/workflow-blueprint-contract.md",
+      "sha256": "cb0bd3f7cf1d5c1e3db95936239b9c520952d0ec833102673706f7e5c121476d",
+      "size": 2661
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/evaluating-reference-materials/SKILL.md",
+      "sha256": "62e99200029f994dcce43e0206376ec06a2268c7f422406448c25547617f732d",
+      "size": 1469
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/evaluating-reference-materials/agents/openai.yaml",
+      "sha256": "3736a94aabc2141242b419fc6b1440f391f3ba8f19d35937412a94b5cd7a88ba",
+      "size": 314
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/evaluating-reference-materials/references/reference-material-evaluation.md",
+      "sha256": "11e0819802ae730dee3f3e3445b776693ff89b73ecb1a826c3da263827a4c2ce",
+      "size": 1893
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/evaluating-reference-materials/references/reference-material-usage-map.md",
+      "sha256": "320a56fdf55cb979a0817cc00e3ae0a00728029638f059b448982c43129ff588",
+      "size": 1810
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/guiding-ai-application-design-sessions/SKILL.md",
+      "sha256": "c581e1cf3a6d87915386a967d85ea112e433c10a2ad8fda1561accaa2a1db24e",
+      "size": 2109
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/guiding-ai-application-design-sessions/agents/openai.yaml",
+      "sha256": "8b647e57ec47220cfe3e2c20315ffb16673eb0ea3c2cb94e8208dcd2f7e88186",
+      "size": 347
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/guiding-ai-application-design-sessions/references/session-contract.md",
+      "sha256": "f9395fa598ba3f5f0b5516d374838c8c194f0004f1de74affe58b92f4b77b316",
+      "size": 3176
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/planning-application-tests-and-improvements/SKILL.md",
+      "sha256": "2d9e1183f4e833b0dca45f80f2470235be6ec5c26424fe70a58a780c1a33450e",
+      "size": 1258
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/planning-application-tests-and-improvements/agents/openai.yaml",
+      "sha256": "1082fd279aa6f08ba8a70bc3d0588521bea99245eb20507f7157686da81b5cde",
+      "size": 339
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/planning-application-tests-and-improvements/references/application-test-plan-contract.md",
+      "sha256": "e0d350e3594fb4c69c2432b20fecc699ce3b9a5f3237652f5d75217ce3028beb",
+      "size": 2332
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/planning-application-tests-and-improvements/references/improvement-patch-contract.md",
+      "sha256": "7da6d5c32818f131951d4c6c324702c378b4370172c63bec59e6e84ba0e772fd",
+      "size": 1257
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/reviewing-application-implementations/SKILL.md",
+      "sha256": "b7e5b76ae23866794b75eafc2593bc5e14144e55db12695565d4a379648d8c09",
+      "size": 1458
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/reviewing-application-implementations/agents/openai.yaml",
+      "sha256": "1a5eb9b971e13df85b514d2b6472d20482dc2718cfd08861d90b8c87e73a9beb",
+      "size": 332
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/reviewing-application-implementations/references/implementation-review-contract.md",
+      "sha256": "221769cf98cd4f12af142a3bf491ea9b35b65733021e247f2cf77ccee7c6f434",
+      "size": 2271
+    }
+  ],
+  "plugin_id": "cool-plugin-design-assistant",
+  "schema_version": 2,
+  "total_bytes": 113226,
+  "version": "1.0.0"
+}

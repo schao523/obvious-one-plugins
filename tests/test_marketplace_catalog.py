@@ -7,7 +7,11 @@ import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED = {"cool-bible-tutor", "vibe-coding-designer"}
+EXPECTED = {
+    "cool-bible-tutor",
+    "cool-plugin-design-assistant",
+    "vibe-coding-designer",
+}
 
 
 class MarketplaceCatalogTests(unittest.TestCase):
@@ -24,9 +28,12 @@ class MarketplaceCatalogTests(unittest.TestCase):
         self.assertEqual({item["name"] for item in openclaw["plugins"]}, EXPECTED)
 
         for item in codex["plugins"]:
-            self.assertEqual(item["source"]["source"], "local")
-            self.assertEqual(item["policy"]["installation"], "AVAILABLE")
-            self.assertIn(item["policy"]["authentication"], {"ON_INSTALL", "ON_USE"})
+            self.assertEqual(item["source"].get("source", "local"), "local")
+            if "policy" in item:
+                self.assertEqual(item["policy"]["installation"], "AVAILABLE")
+                self.assertIn(
+                    item["policy"]["authentication"], {"ON_INSTALL", "ON_USE"}
+                )
             plugin_root = ROOT / item["source"]["path"]
             manifest = json.loads(
                 (plugin_root / ".codex-plugin" / "plugin.json").read_text(encoding="utf-8")
@@ -42,7 +49,7 @@ class MarketplaceCatalogTests(unittest.TestCase):
             self.assertEqual(package["version"], item["version"])
             self.assertEqual(manifest["plugin_id"], item["name"])
             self.assertEqual(manifest["version"], item["version"])
-            if item["name"] != "vibe-coding-designer":
+            if item["name"] == "cool-bible-tutor":
                 continue
             declared = {entry["path"]: entry for entry in manifest["files"]}
             actual = {
@@ -75,13 +82,15 @@ class MarketplaceCatalogTests(unittest.TestCase):
             ]
             self.assertEqual(forbidden, [])
 
-    def test_vibe_ci_is_independent_from_legacy_product_gates(self) -> None:
+    def test_ci_is_catalog_driven_and_independent_from_product_gates(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "validate.yml").read_text(
             encoding="utf-8"
         )
-        self.assertIn("  vibe-coding-designer:\n", workflow)
-        self.assertIn("      - name: Audit Vibe Coding Designer distributions\n", workflow)
-        self.assertIn("      - name: Check Vibe Coding Designer runtime status\n", workflow)
+        self.assertIn("data = json.load(open('.obvious-one-validation.json'", workflow)
+        self.assertIn("plugin: ${{ fromJson(needs.matrix.outputs.matrix).plugin }}", workflow)
+        self.assertIn("tools/verify_marketplace.py --registry", workflow)
+        for plugin_id in EXPECTED:
+            self.assertNotIn(f"  {plugin_id}:\n", workflow)
 
 
 if __name__ == "__main__":

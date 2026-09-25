@@ -1,0 +1,10 @@
+{
+  "description": "Generated OpenClaw bundle for cool-plugin-design-assistant",
+  "license": "MIT",
+  "name": "@obvious-one/cool-plugin-design-assistant",
+  "openclaw": {
+    "family": "bundle-plugin"
+  },
+  "repository": "https://github.com/schao523/obvious-one-plugins",
+  "version": "1.0.0"
+}
