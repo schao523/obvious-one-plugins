@@ -92,6 +92,15 @@ class MarketplaceCatalogTests(unittest.TestCase):
         for plugin_id in EXPECTED:
             self.assertNotIn(f"  {plugin_id}:\n", workflow)
 
+    def test_artifact_registry_uses_portable_posix_path_order(self) -> None:
+        registry = json.loads(
+            (ROOT / ".obvious-one-validation.json").read_text(encoding="utf-8")
+        )
+        for plugin in registry["plugins"]:
+            for artifact in plugin["artifacts"].values():
+                paths = [record["path"] for record in artifact["files"]]
+                self.assertEqual(paths, sorted(paths))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -4,7 +4,7 @@
     {
       "artifacts": {
         "codex": {
-          "content_sha256": "3322795dbbc4b888cfaddaa74ded135449aa6d50ff5cc8e5f2a7daf4ceb9f240",
+          "content_sha256": "2f0c5ca79f71f933dd2a11e0d363d19a09234b3432525d2f9251931d810aa724",
           "file_count": 139,
           "files": [
             {
@@ -16,6 +16,41 @@
               "path": ".gitattributes",
               "sha256": "edac343e38f84a6b024b1860bb786c0c44c683bf9fa01df7370af5ec0c0839e8",
               "size": 635
+            },
+            {
+              "path": "DISTRIBUTION.md",
+              "sha256": "9ad7ce38d513c04d7d33c8201e7e458cc1afd54ebfaa51f0891656e602e8cc69",
+              "size": 7436
+            },
+            {
+              "path": "LICENSE",
+              "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
+              "size": 1086
+            },
+            {
+              "path": "PRIVACY.md",
+              "sha256": "427a8815e9fc61b96f52464bc03887b18a543020a8a266105aa810fc85e087c2",
+              "size": 1248
+            },
+            {
+              "path": "README.md",
+              "sha256": "c76977030b3334de1814e91ba8f8d7dd8c650b7970d26b7b99f3f79676493731",
+              "size": 6025
+            },
+            {
+              "path": "SECURITY.md",
+              "sha256": "55c3ee4efa6781f81633b3e9721ff063e21db1e5a8fd87a1687e9dde15b1b7eb",
+              "size": 1163
+            },
+            {
+              "path": "THIRD_PARTY_CONTENT.md",
+              "sha256": "15f133ad2c6a3e7b0d699533025e8286de4508a39211506e97b9c1e79897fb19",
+              "size": 2260
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "fc43f7a10e0ace315cadf8a4836e90ca1bebe2fc766b7602c26ef7b42d862618",
+              "size": 2758
             },
             {
               "path": "assets/openclaw/remote-assets.json",
@@ -63,29 +98,9 @@
               "size": 5410816
             },
             {
-              "path": "DISTRIBUTION.md",
-              "sha256": "9ad7ce38d513c04d7d33c8201e7e458cc1afd54ebfaa51f0891656e602e8cc69",
-              "size": 7436
-            },
-            {
               "path": "docs/top-level-launcher-pattern.md",
               "sha256": "1991dc604b5e59d9655e78eabf44d7fc27442de6d294b4fa377ee48cda99ac1a",
               "size": 2017
-            },
-            {
-              "path": "LICENSE",
-              "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
-              "size": 1086
-            },
-            {
-              "path": "PRIVACY.md",
-              "sha256": "427a8815e9fc61b96f52464bc03887b18a543020a8a266105aa810fc85e087c2",
-              "size": 1248
-            },
-            {
-              "path": "README.md",
-              "sha256": "c76977030b3334de1814e91ba8f8d7dd8c650b7970d26b7b99f3f79676493731",
-              "size": 6025
             },
             {
               "path": "scripts/build_marketplace_release.py",
@@ -118,9 +133,9 @@
               "size": 2103
             },
             {
-              "path": "SECURITY.md",
-              "sha256": "55c3ee4efa6781f81633b3e9721ff063e21db1e5a8fd87a1687e9dde15b1b7eb",
-              "size": 1163
+              "path": "skills/applying-biblical-truth/SKILL.md",
+              "sha256": "c045024f751d501d1277650bedffc4ad5dbed0074a7c4c4cf3404f2fecb245a8",
+              "size": 1736
             },
             {
               "path": "skills/applying-biblical-truth/agents/openai.yaml",
@@ -143,9 +158,9 @@
               "size": 1002
             },
             {
-              "path": "skills/applying-biblical-truth/SKILL.md",
-              "sha256": "c045024f751d501d1277650bedffc4ad5dbed0074a7c4c4cf3404f2fecb245a8",
-              "size": 1736
+              "path": "skills/comparing-biblical-words-and-translations/SKILL.md",
+              "sha256": "2c5569fed6a839a16ed9b02ea34b865a58694058830e87a3ddaf0daaccc2b24e",
+              "size": 2697
             },
             {
               "path": "skills/comparing-biblical-words-and-translations/agents/openai.yaml",
@@ -153,9 +168,9 @@
               "size": 293
             },
             {
-              "path": "skills/comparing-biblical-words-and-translations/SKILL.md",
-              "sha256": "2c5569fed6a839a16ed9b02ea34b865a58694058830e87a3ddaf0daaccc2b24e",
-              "size": 2697
+              "path": "skills/discussing-biblical-theology/SKILL.md",
+              "sha256": "c9cc5cb841168b8a5d23f724d70b8dacc22e48525105f78c6a48c686bab5dbb4",
+              "size": 2927
             },
             {
               "path": "skills/discussing-biblical-theology/agents/openai.yaml",
@@ -163,9 +178,9 @@
               "size": 271
             },
             {
-              "path": "skills/discussing-biblical-theology/SKILL.md",
-              "sha256": "c9cc5cb841168b8a5d23f724d70b8dacc22e48525105f78c6a48c686bab5dbb4",
-              "size": 2927
+              "path": "skills/guiding-bible-tutor-sessions/SKILL.md",
+              "sha256": "7f633cb38be944d70d89ed3dc0aa42eaec9b320261f7358815c83671549cfb4e",
+              "size": 2991
             },
             {
               "path": "skills/guiding-bible-tutor-sessions/agents/openai.yaml",
@@ -183,9 +198,9 @@
               "size": 1708
             },
             {
-              "path": "skills/guiding-bible-tutor-sessions/SKILL.md",
-              "sha256": "7f633cb38be944d70d89ed3dc0aa42eaec9b320261f7358815c83671549cfb4e",
-              "size": 2991
+              "path": "skills/interpreting-biblical-passages/SKILL.md",
+              "sha256": "4a78bb8cd19d90a33395573174fe5cccb9445da069be46e04388612b933f1193",
+              "size": 2091
             },
             {
               "path": "skills/interpreting-biblical-passages/agents/openai.yaml",
@@ -208,9 +223,9 @@
               "size": 898
             },
             {
-              "path": "skills/interpreting-biblical-passages/SKILL.md",
-              "sha256": "4a78bb8cd19d90a33395573174fe5cccb9445da069be46e04388612b933f1193",
-              "size": 2091
+              "path": "skills/observing-biblical-passages/SKILL.md",
+              "sha256": "705b1a249a7a0f824084cb52c7494fc421741996c8b4c59e3718c38b936164c5",
+              "size": 1560
             },
             {
               "path": "skills/observing-biblical-passages/agents/openai.yaml",
@@ -238,9 +253,9 @@
               "size": 1082
             },
             {
-              "path": "skills/observing-biblical-passages/SKILL.md",
-              "sha256": "705b1a249a7a0f824084cb52c7494fc421741996c8b4c59e3718c38b936164c5",
-              "size": 1560
+              "path": "skills/retrieving-chinese-union-version-scripture/SKILL.md",
+              "sha256": "4762ef8b595551f4e5619c2c11052bcfd45366bc66e4de484a722848c7318ec6",
+              "size": 5146
             },
             {
               "path": "skills/retrieving-chinese-union-version-scripture/agents/openai.yaml",
@@ -383,9 +398,9 @@
               "size": 13336
             },
             {
-              "path": "skills/retrieving-chinese-union-version-scripture/SKILL.md",
-              "sha256": "4762ef8b595551f4e5619c2c11052bcfd45366bc66e4de484a722848c7318ec6",
-              "size": 5146
+              "path": "skills/supporting-biblical-exegesis/SKILL.md",
+              "sha256": "2edd4a311943025c239cf40012d57cd70eae391fead8c6e2129eb9a8ee9f6baf",
+              "size": 2068
             },
             {
               "path": "skills/supporting-biblical-exegesis/agents/openai.yaml",
@@ -396,11 +411,6 @@
               "path": "skills/supporting-biblical-exegesis/references/eight-contexts.md",
               "sha256": "ecc6f9946e73ea08f6ef95932d5ed4e7e457103c123b3a596d2f958fa154ea2e",
               "size": 3696
-            },
-            {
-              "path": "skills/supporting-biblical-exegesis/SKILL.md",
-              "sha256": "2edd4a311943025c239cf40012d57cd70eae391fead8c6e2129eb9a8ee9f6baf",
-              "size": 2068
             },
             {
               "path": "tests/__init__.py",
@@ -628,16 +638,6 @@
               "size": 11570
             },
             {
-              "path": "THIRD_PARTY_CONTENT.md",
-              "sha256": "15f133ad2c6a3e7b0d699533025e8286de4508a39211506e97b9c1e79897fb19",
-              "size": 2260
-            },
-            {
-              "path": "THIRD_PARTY_NOTICES.md",
-              "sha256": "fc43f7a10e0ace315cadf8a4836e90ca1bebe2fc766b7602c26ef7b42d862618",
-              "size": 2758
-            },
-            {
               "path": "vendor/obvious-one-runtime/obvious_one_runtime/__init__.py",
               "sha256": "5774617628b0f2a8a5a9390b1ae37e8675f667d0c6d3560819279eb67b1fe524",
               "size": 108
@@ -706,7 +706,7 @@
           "total_bytes": 67181605
         },
         "openclaw": {
-          "content_sha256": "ae0511daa2c688ff1c2b44ea02431819cfc03972d913e8f9134250a98e75e290",
+          "content_sha256": "e3ae2a009d1e78bd03e1da40c275bb0103f30ab10b1337aa3255ce0a838e7fd2",
           "file_count": 93,
           "files": [
             {
@@ -718,6 +718,46 @@
               "path": ".gitattributes",
               "sha256": "edac343e38f84a6b024b1860bb786c0c44c683bf9fa01df7370af5ec0c0839e8",
               "size": 635
+            },
+            {
+              "path": "CONTENT-MANIFEST.json",
+              "sha256": "c6b663e9790d551821e7b0bc39fad5523201fae3f539d085a1465e3eb1632f04",
+              "size": 17463
+            },
+            {
+              "path": "DISTRIBUTION.md",
+              "sha256": "9ad7ce38d513c04d7d33c8201e7e458cc1afd54ebfaa51f0891656e602e8cc69",
+              "size": 7436
+            },
+            {
+              "path": "LICENSE",
+              "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
+              "size": 1086
+            },
+            {
+              "path": "PRIVACY.md",
+              "sha256": "427a8815e9fc61b96f52464bc03887b18a543020a8a266105aa810fc85e087c2",
+              "size": 1248
+            },
+            {
+              "path": "README.md",
+              "sha256": "52ca13f8a316feb7eebcea4dcd174b8d309fd3cdee1669a1c20a792df1dc8fff",
+              "size": 2966
+            },
+            {
+              "path": "SECURITY.md",
+              "sha256": "55c3ee4efa6781f81633b3e9721ff063e21db1e5a8fd87a1687e9dde15b1b7eb",
+              "size": 1163
+            },
+            {
+              "path": "THIRD_PARTY_CONTENT.md",
+              "sha256": "15f133ad2c6a3e7b0d699533025e8286de4508a39211506e97b9c1e79897fb19",
+              "size": 2260
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "fc43f7a10e0ace315cadf8a4836e90ca1bebe2fc766b7602c26ef7b42d862618",
+              "size": 2758
             },
             {
               "path": "assets/openclaw/remote-assets.json",
@@ -750,39 +790,14 @@
               "size": 5410816
             },
             {
-              "path": "CONTENT-MANIFEST.json",
-              "sha256": "c6b663e9790d551821e7b0bc39fad5523201fae3f539d085a1465e3eb1632f04",
-              "size": 17463
-            },
-            {
-              "path": "DISTRIBUTION.md",
-              "sha256": "9ad7ce38d513c04d7d33c8201e7e458cc1afd54ebfaa51f0891656e602e8cc69",
-              "size": 7436
-            },
-            {
               "path": "docs/top-level-launcher-pattern.md",
               "sha256": "1991dc604b5e59d9655e78eabf44d7fc27442de6d294b4fa377ee48cda99ac1a",
               "size": 2017
             },
             {
-              "path": "LICENSE",
-              "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
-              "size": 1086
-            },
-            {
               "path": "package.json",
               "sha256": "f3b10f18ec084da01949b32cffe63eb83c12536619b4fc76278f0cfe9c7649a0",
               "size": 283
-            },
-            {
-              "path": "PRIVACY.md",
-              "sha256": "427a8815e9fc61b96f52464bc03887b18a543020a8a266105aa810fc85e087c2",
-              "size": 1248
-            },
-            {
-              "path": "README.md",
-              "sha256": "52ca13f8a316feb7eebcea4dcd174b8d309fd3cdee1669a1c20a792df1dc8fff",
-              "size": 2966
             },
             {
               "path": "scripts/build_marketplace_release.py",
@@ -815,9 +830,9 @@
               "size": 2103
             },
             {
-              "path": "SECURITY.md",
-              "sha256": "55c3ee4efa6781f81633b3e9721ff063e21db1e5a8fd87a1687e9dde15b1b7eb",
-              "size": 1163
+              "path": "skills/applying-biblical-truth/SKILL.md",
+              "sha256": "c045024f751d501d1277650bedffc4ad5dbed0074a7c4c4cf3404f2fecb245a8",
+              "size": 1736
             },
             {
               "path": "skills/applying-biblical-truth/agents/openai.yaml",
@@ -840,9 +855,9 @@
               "size": 1002
             },
             {
-              "path": "skills/applying-biblical-truth/SKILL.md",
-              "sha256": "c045024f751d501d1277650bedffc4ad5dbed0074a7c4c4cf3404f2fecb245a8",
-              "size": 1736
+              "path": "skills/comparing-biblical-words-and-translations/SKILL.md",
+              "sha256": "2c5569fed6a839a16ed9b02ea34b865a58694058830e87a3ddaf0daaccc2b24e",
+              "size": 2697
             },
             {
               "path": "skills/comparing-biblical-words-and-translations/agents/openai.yaml",
@@ -850,9 +865,9 @@
               "size": 293
             },
             {
-              "path": "skills/comparing-biblical-words-and-translations/SKILL.md",
-              "sha256": "2c5569fed6a839a16ed9b02ea34b865a58694058830e87a3ddaf0daaccc2b24e",
-              "size": 2697
+              "path": "skills/discussing-biblical-theology/SKILL.md",
+              "sha256": "c9cc5cb841168b8a5d23f724d70b8dacc22e48525105f78c6a48c686bab5dbb4",
+              "size": 2927
             },
             {
               "path": "skills/discussing-biblical-theology/agents/openai.yaml",
@@ -860,9 +875,9 @@
               "size": 271
             },
             {
-              "path": "skills/discussing-biblical-theology/SKILL.md",
-              "sha256": "c9cc5cb841168b8a5d23f724d70b8dacc22e48525105f78c6a48c686bab5dbb4",
-              "size": 2927
+              "path": "skills/guiding-bible-tutor-sessions/SKILL.md",
+              "sha256": "7f633cb38be944d70d89ed3dc0aa42eaec9b320261f7358815c83671549cfb4e",
+              "size": 2991
             },
             {
               "path": "skills/guiding-bible-tutor-sessions/agents/openai.yaml",
@@ -880,9 +895,9 @@
               "size": 1708
             },
             {
-              "path": "skills/guiding-bible-tutor-sessions/SKILL.md",
-              "sha256": "7f633cb38be944d70d89ed3dc0aa42eaec9b320261f7358815c83671549cfb4e",
-              "size": 2991
+              "path": "skills/interpreting-biblical-passages/SKILL.md",
+              "sha256": "4a78bb8cd19d90a33395573174fe5cccb9445da069be46e04388612b933f1193",
+              "size": 2091
             },
             {
               "path": "skills/interpreting-biblical-passages/agents/openai.yaml",
@@ -905,9 +920,9 @@
               "size": 898
             },
             {
-              "path": "skills/interpreting-biblical-passages/SKILL.md",
-              "sha256": "4a78bb8cd19d90a33395573174fe5cccb9445da069be46e04388612b933f1193",
-              "size": 2091
+              "path": "skills/observing-biblical-passages/SKILL.md",
+              "sha256": "705b1a249a7a0f824084cb52c7494fc421741996c8b4c59e3718c38b936164c5",
+              "size": 1560
             },
             {
               "path": "skills/observing-biblical-passages/agents/openai.yaml",
@@ -935,9 +950,9 @@
               "size": 1082
             },
             {
-              "path": "skills/observing-biblical-passages/SKILL.md",
-              "sha256": "705b1a249a7a0f824084cb52c7494fc421741996c8b4c59e3718c38b936164c5",
-              "size": 1560
+              "path": "skills/retrieving-chinese-union-version-scripture/SKILL.md",
+              "sha256": "4762ef8b595551f4e5619c2c11052bcfd45366bc66e4de484a722848c7318ec6",
+              "size": 5146
             },
             {
               "path": "skills/retrieving-chinese-union-version-scripture/agents/openai.yaml",
@@ -1080,9 +1095,9 @@
               "size": 13336
             },
             {
-              "path": "skills/retrieving-chinese-union-version-scripture/SKILL.md",
-              "sha256": "4762ef8b595551f4e5619c2c11052bcfd45366bc66e4de484a722848c7318ec6",
-              "size": 5146
+              "path": "skills/supporting-biblical-exegesis/SKILL.md",
+              "sha256": "2edd4a311943025c239cf40012d57cd70eae391fead8c6e2129eb9a8ee9f6baf",
+              "size": 2068
             },
             {
               "path": "skills/supporting-biblical-exegesis/agents/openai.yaml",
@@ -1093,21 +1108,6 @@
               "path": "skills/supporting-biblical-exegesis/references/eight-contexts.md",
               "sha256": "ecc6f9946e73ea08f6ef95932d5ed4e7e457103c123b3a596d2f958fa154ea2e",
               "size": 3696
-            },
-            {
-              "path": "skills/supporting-biblical-exegesis/SKILL.md",
-              "sha256": "2edd4a311943025c239cf40012d57cd70eae391fead8c6e2129eb9a8ee9f6baf",
-              "size": 2068
-            },
-            {
-              "path": "THIRD_PARTY_CONTENT.md",
-              "sha256": "15f133ad2c6a3e7b0d699533025e8286de4508a39211506e97b9c1e79897fb19",
-              "size": 2260
-            },
-            {
-              "path": "THIRD_PARTY_NOTICES.md",
-              "sha256": "fc43f7a10e0ace315cadf8a4836e90ca1bebe2fc766b7602c26ef7b42d862618",
-              "size": 2758
             },
             {
               "path": "vendor/obvious-one-runtime/obvious_one_runtime/__init__.py",
@@ -1237,7 +1237,7 @@
     {
       "artifacts": {
         "codex": {
-          "content_sha256": "73b28bbb76788e605e5fb4d1c44c83d6a80855fe924e742a0ff198ec8adc0f05",
+          "content_sha256": "3873c20e588c9def7124a5ff78b7bce96bacc6e3f94b1396fce21505b3b12128",
           "file_count": 47,
           "files": [
             {
@@ -1249,6 +1249,36 @@
               "path": "DISTRIBUTION.md",
               "sha256": "dbeb064984aef29a29fecc8aaf13e6bb19876b09c47d487859a88dca37afc150",
               "size": 1306
+            },
+            {
+              "path": "LICENSE",
+              "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
+              "size": 1086
+            },
+            {
+              "path": "PRIVACY.md",
+              "sha256": "03ba4a750be160156f5f2fd9ba92624566d7aa39946bc75158c71e33c9fa72c7",
+              "size": 377
+            },
+            {
+              "path": "README.md",
+              "sha256": "d24e7c96b448fc1d043c26035599292643f73fd0912b30d7f64d9dab9ef59639",
+              "size": 1277
+            },
+            {
+              "path": "SECURITY.md",
+              "sha256": "efda2c67df15190ef57cf1be43ed8c167de82571f84410e2c1b8a479393933c7",
+              "size": 413
+            },
+            {
+              "path": "THIRD_PARTY_CONTENT.md",
+              "sha256": "ba0f91254a29e76fa315373332441aaa1d28a627b65bdbc054063fbbdcc412c9",
+              "size": 322
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "4b52036a191d5bf94e61c2d1b575494e10c73f6242ed16bd42d8d39545096cad",
+              "size": 221
             },
             {
               "path": "docs/application-invariants.md",
@@ -1296,19 +1326,9 @@
               "size": 1354
             },
             {
-              "path": "LICENSE",
-              "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
-              "size": 1086
-            },
-            {
-              "path": "PRIVACY.md",
-              "sha256": "03ba4a750be160156f5f2fd9ba92624566d7aa39946bc75158c71e33c9fa72c7",
-              "size": 377
-            },
-            {
-              "path": "README.md",
-              "sha256": "d24e7c96b448fc1d043c26035599292643f73fd0912b30d7f64d9dab9ef59639",
-              "size": 1277
+              "path": "scripts/README.md",
+              "sha256": "1a45f5d1fdc113c83e3b54e7e875d41535a07f1c6c86e78c9f2c17547a08e250",
+              "size": 258
             },
             {
               "path": "scripts/build_marketplace_release.py",
@@ -1326,14 +1346,9 @@
               "size": 5437
             },
             {
-              "path": "scripts/README.md",
-              "sha256": "1a45f5d1fdc113c83e3b54e7e875d41535a07f1c6c86e78c9f2c17547a08e250",
-              "size": 258
-            },
-            {
-              "path": "SECURITY.md",
-              "sha256": "efda2c67df15190ef57cf1be43ed8c167de82571f84410e2c1b8a479393933c7",
-              "size": 413
+              "path": "skills/creating-application-plugin-design-specifications/SKILL.md",
+              "sha256": "a5e9f144c56dd0507bff06559deabb47099056f06e623539109f2816ef84ecb5",
+              "size": 1691
             },
             {
               "path": "skills/creating-application-plugin-design-specifications/agents/openai.yaml",
@@ -1351,9 +1366,9 @@
               "size": 2627
             },
             {
-              "path": "skills/creating-application-plugin-design-specifications/SKILL.md",
-              "sha256": "a5e9f144c56dd0507bff06559deabb47099056f06e623539109f2816ef84ecb5",
-              "size": 1691
+              "path": "skills/creating-design-statements/SKILL.md",
+              "sha256": "6efabf88fdc28367fd32e93cec0d54db8e7078d5f0c91594b4708bbcf4faf2af",
+              "size": 1707
             },
             {
               "path": "skills/creating-design-statements/agents/openai.yaml",
@@ -1366,9 +1381,9 @@
               "size": 2964
             },
             {
-              "path": "skills/creating-design-statements/SKILL.md",
-              "sha256": "6efabf88fdc28367fd32e93cec0d54db8e7078d5f0c91594b4708bbcf4faf2af",
-              "size": 1707
+              "path": "skills/designing-application-workflows-and-instruction-modules/SKILL.md",
+              "sha256": "2ddef62121825b19f643bf3749fad4cff7e7076befd725dfc8699f11d1a9d14c",
+              "size": 1797
             },
             {
               "path": "skills/designing-application-workflows-and-instruction-modules/agents/openai.yaml",
@@ -1391,9 +1406,9 @@
               "size": 2704
             },
             {
-              "path": "skills/designing-application-workflows-and-instruction-modules/SKILL.md",
-              "sha256": "2ddef62121825b19f643bf3749fad4cff7e7076befd725dfc8699f11d1a9d14c",
-              "size": 1797
+              "path": "skills/evaluating-reference-materials/SKILL.md",
+              "sha256": "63c6273758e43ec4e49b9c813bdc0050d8ed46ac4d1bf96cff8392ea574487b2",
+              "size": 1498
             },
             {
               "path": "skills/evaluating-reference-materials/agents/openai.yaml",
@@ -1411,9 +1426,9 @@
               "size": 1840
             },
             {
-              "path": "skills/evaluating-reference-materials/SKILL.md",
-              "sha256": "63c6273758e43ec4e49b9c813bdc0050d8ed46ac4d1bf96cff8392ea574487b2",
-              "size": 1498
+              "path": "skills/guiding-ai-application-design-sessions/SKILL.md",
+              "sha256": "a6c880959252d8203d236918e08e4b19235469caf7b446f7ecc183ab96092d15",
+              "size": 2150
             },
             {
               "path": "skills/guiding-ai-application-design-sessions/agents/openai.yaml",
@@ -1426,9 +1441,9 @@
               "size": 3243
             },
             {
-              "path": "skills/guiding-ai-application-design-sessions/SKILL.md",
-              "sha256": "a6c880959252d8203d236918e08e4b19235469caf7b446f7ecc183ab96092d15",
-              "size": 2150
+              "path": "skills/planning-application-tests-and-improvements/SKILL.md",
+              "sha256": "4495ded4de106057f2e31e79ff2d2a041ae46de982ce85d3b3d04e088a49c98b",
+              "size": 1283
             },
             {
               "path": "skills/planning-application-tests-and-improvements/agents/openai.yaml",
@@ -1446,9 +1461,9 @@
               "size": 1283
             },
             {
-              "path": "skills/planning-application-tests-and-improvements/SKILL.md",
-              "sha256": "4495ded4de106057f2e31e79ff2d2a041ae46de982ce85d3b3d04e088a49c98b",
-              "size": 1283
+              "path": "skills/reviewing-application-implementations/SKILL.md",
+              "sha256": "708069c4ed495c946c0146e19b8c1715e9eccc513b4b638ea887567c230fa2b4",
+              "size": 1485
             },
             {
               "path": "skills/reviewing-application-implementations/agents/openai.yaml",
@@ -1459,27 +1474,12 @@
               "path": "skills/reviewing-application-implementations/references/implementation-review-contract.md",
               "sha256": "6209bbcf811eeda18c8bf92569721d37f7a7e5602f72c4e594943cedb7c47c93",
               "size": 2323
-            },
-            {
-              "path": "skills/reviewing-application-implementations/SKILL.md",
-              "sha256": "708069c4ed495c946c0146e19b8c1715e9eccc513b4b638ea887567c230fa2b4",
-              "size": 1485
-            },
-            {
-              "path": "THIRD_PARTY_CONTENT.md",
-              "sha256": "ba0f91254a29e76fa315373332441aaa1d28a627b65bdbc054063fbbdcc412c9",
-              "size": 322
-            },
-            {
-              "path": "THIRD_PARTY_NOTICES.md",
-              "sha256": "4b52036a191d5bf94e61c2d1b575494e10c73f6242ed16bd42d8d39545096cad",
-              "size": 221
             }
           ],
           "total_bytes": 115614
         },
         "openclaw": {
-          "content_sha256": "05dd651525019d2e073dfad2f3a1d4383eb9c5fc9c94bc634830fe74791011f2",
+          "content_sha256": "88c5f7331ad7489216ab7831b6159a8e56f4f8a4affb8f3521ffb11c878e9c23",
           "file_count": 49,
           "files": [
             {
@@ -1496,6 +1496,36 @@
               "path": "DISTRIBUTION.md",
               "sha256": "8e8161b92cd5ac56a551293719895091dde1334d441cc9d0cf8bac9d5cdd4879",
               "size": 1283
+            },
+            {
+              "path": "LICENSE",
+              "sha256": "40b321bc8e642103f76ccb883a6be822f4d072aa9522e5f86aec9c8fa8230fb2",
+              "size": 1065
+            },
+            {
+              "path": "PRIVACY.md",
+              "sha256": "4d8670006cae0fcaf95615c944e7e656a5b1497db9f5dd04a461aa79bae2c82c",
+              "size": 369
+            },
+            {
+              "path": "README.md",
+              "sha256": "cb50f4880b31516ed75c7257d9be41894a15e1078b1b7fa1e4c2a406c57da726",
+              "size": 953
+            },
+            {
+              "path": "SECURITY.md",
+              "sha256": "479264abf0dffaa56bb74cc487e44f96e3f76552d73f71df7038d0cd3ca7eb99",
+              "size": 404
+            },
+            {
+              "path": "THIRD_PARTY_CONTENT.md",
+              "sha256": "edb4c86eaf9c4eeb43fe7f11a00710e46c6e3f60ef4737e3ed7fcfacf5e55086",
+              "size": 315
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "55620e4b599a0634dbb3a306022c88cf88c24846ab5d11c16bf1c26fbaba228e",
+              "size": 216
             },
             {
               "path": "docs/application-invariants.md",
@@ -1543,24 +1573,14 @@
               "size": 1354
             },
             {
-              "path": "LICENSE",
-              "sha256": "40b321bc8e642103f76ccb883a6be822f4d072aa9522e5f86aec9c8fa8230fb2",
-              "size": 1065
-            },
-            {
               "path": "package.json",
               "sha256": "22ae5f4bf26e7fa19cbdbf98890f3e9b38dbd36c09c84eed0f3ba54937e264ce",
               "size": 297
             },
             {
-              "path": "PRIVACY.md",
-              "sha256": "4d8670006cae0fcaf95615c944e7e656a5b1497db9f5dd04a461aa79bae2c82c",
-              "size": 369
-            },
-            {
-              "path": "README.md",
-              "sha256": "cb50f4880b31516ed75c7257d9be41894a15e1078b1b7fa1e4c2a406c57da726",
-              "size": 953
+              "path": "scripts/README.md",
+              "sha256": "acddb9e6755f9f39e1abc551198d933f7d690be11520363989f6274e82370771",
+              "size": 253
             },
             {
               "path": "scripts/build_marketplace_release.py",
@@ -1578,14 +1598,9 @@
               "size": 5267
             },
             {
-              "path": "scripts/README.md",
-              "sha256": "acddb9e6755f9f39e1abc551198d933f7d690be11520363989f6274e82370771",
-              "size": 253
-            },
-            {
-              "path": "SECURITY.md",
-              "sha256": "479264abf0dffaa56bb74cc487e44f96e3f76552d73f71df7038d0cd3ca7eb99",
-              "size": 404
+              "path": "skills/creating-application-plugin-design-specifications/SKILL.md",
+              "sha256": "0db0aa6fc7e393e077bb166a71100aa019dcdbdb28c26ba99655bf2cb6862b32",
+              "size": 1659
             },
             {
               "path": "skills/creating-application-plugin-design-specifications/agents/openai.yaml",
@@ -1603,9 +1618,9 @@
               "size": 2567
             },
             {
-              "path": "skills/creating-application-plugin-design-specifications/SKILL.md",
-              "sha256": "0db0aa6fc7e393e077bb166a71100aa019dcdbdb28c26ba99655bf2cb6862b32",
-              "size": 1659
+              "path": "skills/creating-design-statements/SKILL.md",
+              "sha256": "1c0de778d5d2f816a5d2aa9faa0d27cd4fd680f3d86fa81391363666b3bc0dfd",
+              "size": 1675
             },
             {
               "path": "skills/creating-design-statements/agents/openai.yaml",
@@ -1618,9 +1633,9 @@
               "size": 2886
             },
             {
-              "path": "skills/creating-design-statements/SKILL.md",
-              "sha256": "1c0de778d5d2f816a5d2aa9faa0d27cd4fd680f3d86fa81391363666b3bc0dfd",
-              "size": 1675
+              "path": "skills/designing-application-workflows-and-instruction-modules/SKILL.md",
+              "sha256": "80114c3c90bc30342b5bcbab285d23e192264485184e42fc3d7a7dc7105c8941",
+              "size": 1764
             },
             {
               "path": "skills/designing-application-workflows-and-instruction-modules/agents/openai.yaml",
@@ -1643,9 +1658,9 @@
               "size": 2661
             },
             {
-              "path": "skills/designing-application-workflows-and-instruction-modules/SKILL.md",
-              "sha256": "80114c3c90bc30342b5bcbab285d23e192264485184e42fc3d7a7dc7105c8941",
-              "size": 1764
+              "path": "skills/evaluating-reference-materials/SKILL.md",
+              "sha256": "62e99200029f994dcce43e0206376ec06a2268c7f422406448c25547617f732d",
+              "size": 1469
             },
             {
               "path": "skills/evaluating-reference-materials/agents/openai.yaml",
@@ -1663,9 +1678,9 @@
               "size": 1810
             },
             {
-              "path": "skills/evaluating-reference-materials/SKILL.md",
-              "sha256": "62e99200029f994dcce43e0206376ec06a2268c7f422406448c25547617f732d",
-              "size": 1469
+              "path": "skills/guiding-ai-application-design-sessions/SKILL.md",
+              "sha256": "c581e1cf3a6d87915386a967d85ea112e433c10a2ad8fda1561accaa2a1db24e",
+              "size": 2109
             },
             {
               "path": "skills/guiding-ai-application-design-sessions/agents/openai.yaml",
@@ -1678,9 +1693,9 @@
               "size": 3176
             },
             {
-              "path": "skills/guiding-ai-application-design-sessions/SKILL.md",
-              "sha256": "c581e1cf3a6d87915386a967d85ea112e433c10a2ad8fda1561accaa2a1db24e",
-              "size": 2109
+              "path": "skills/planning-application-tests-and-improvements/SKILL.md",
+              "sha256": "2d9e1183f4e833b0dca45f80f2470235be6ec5c26424fe70a58a780c1a33450e",
+              "size": 1258
             },
             {
               "path": "skills/planning-application-tests-and-improvements/agents/openai.yaml",
@@ -1698,9 +1713,9 @@
               "size": 1257
             },
             {
-              "path": "skills/planning-application-tests-and-improvements/SKILL.md",
-              "sha256": "2d9e1183f4e833b0dca45f80f2470235be6ec5c26424fe70a58a780c1a33450e",
-              "size": 1258
+              "path": "skills/reviewing-application-implementations/SKILL.md",
+              "sha256": "b7e5b76ae23866794b75eafc2593bc5e14144e55db12695565d4a379648d8c09",
+              "size": 1458
             },
             {
               "path": "skills/reviewing-application-implementations/agents/openai.yaml",
@@ -1711,21 +1726,6 @@
               "path": "skills/reviewing-application-implementations/references/implementation-review-contract.md",
               "sha256": "221769cf98cd4f12af142a3bf491ea9b35b65733021e247f2cf77ccee7c6f434",
               "size": 2271
-            },
-            {
-              "path": "skills/reviewing-application-implementations/SKILL.md",
-              "sha256": "b7e5b76ae23866794b75eafc2593bc5e14144e55db12695565d4a379648d8c09",
-              "size": 1458
-            },
-            {
-              "path": "THIRD_PARTY_CONTENT.md",
-              "sha256": "edb4c86eaf9c4eeb43fe7f11a00710e46c6e3f60ef4737e3ed7fcfacf5e55086",
-              "size": 315
-            },
-            {
-              "path": "THIRD_PARTY_NOTICES.md",
-              "sha256": "55620e4b599a0634dbb3a306022c88cf88c24846ab5d11c16bf1c26fbaba228e",
-              "size": 216
             }
           ],
           "total_bytes": 125744
@@ -1889,7 +1889,7 @@
     {
       "artifacts": {
         "codex": {
-          "content_sha256": "443b40add7c9274ae96925ee1dc509fbd566ff021f9e9efb3bb3b13b6e2db550",
+          "content_sha256": "05395d690ba8262416dad7550f1c93c26988c4d318d9aafb764244e4083aa2c3",
           "file_count": 37,
           "files": [
             {
@@ -1901,6 +1901,36 @@
               "path": "DISTRIBUTION.md",
               "sha256": "a0ddb2a4eb4ebcfa910387a3e2a99afdc3f217f1e73e20a44b4546fefb8a533b",
               "size": 474
+            },
+            {
+              "path": "LICENSE",
+              "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
+              "size": 1086
+            },
+            {
+              "path": "PRIVACY.md",
+              "sha256": "e06bb103900f28aa1b7c6d3eac0a1611bc340ce6fa365ad609f581327ac17074",
+              "size": 427
+            },
+            {
+              "path": "README.md",
+              "sha256": "574fec78f7e6ddb840ba2207380aa40fe697ef66756a4d3a9bed6c2874e8794b",
+              "size": 1263
+            },
+            {
+              "path": "SECURITY.md",
+              "sha256": "7917098c7a602dfd071e69819f4fe000f2242c660d37399f4cbb1f735b7fbac0",
+              "size": 428
+            },
+            {
+              "path": "THIRD_PARTY_CONTENT.md",
+              "sha256": "b9fd672f916c23d6444be659b4f74b0628b246a3287ed065ff3286b48b015601",
+              "size": 327
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "95201506015694c277456772b4af82233b96b39ec9f8032e6742f0b1bd98cc26",
+              "size": 257
             },
             {
               "path": "docs/application-invariants.md",
@@ -1923,21 +1953,6 @@
               "size": 3017
             },
             {
-              "path": "LICENSE",
-              "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
-              "size": 1086
-            },
-            {
-              "path": "PRIVACY.md",
-              "sha256": "e06bb103900f28aa1b7c6d3eac0a1611bc340ce6fa365ad609f581327ac17074",
-              "size": 427
-            },
-            {
-              "path": "README.md",
-              "sha256": "574fec78f7e6ddb840ba2207380aa40fe697ef66756a4d3a9bed6c2874e8794b",
-              "size": 1263
-            },
-            {
               "path": "scripts/build_marketplace_release.py",
               "sha256": "28d52e2bd46d1c7e578d8085dac3407afaefb9c61391e1424143a5f55f4d93ba",
               "size": 5639
@@ -1953,9 +1968,9 @@
               "size": 10333
             },
             {
-              "path": "SECURITY.md",
-              "sha256": "7917098c7a602dfd071e69819f4fe000f2242c660d37399f4cbb1f735b7fbac0",
-              "size": 428
+              "path": "skills/creating-implementation-prompts/SKILL.md",
+              "sha256": "da994498b33fbbfd12063ff6a667292fb2b17cf62ad543935db0271ba5e4a2ce",
+              "size": 1205
             },
             {
               "path": "skills/creating-implementation-prompts/agents/openai.yaml",
@@ -1968,9 +1983,9 @@
               "size": 899
             },
             {
-              "path": "skills/creating-implementation-prompts/SKILL.md",
-              "sha256": "da994498b33fbbfd12063ff6a667292fb2b17cf62ad543935db0271ba5e4a2ce",
-              "size": 1205
+              "path": "skills/creating-repo-development-packages/SKILL.md",
+              "sha256": "e2bafc3a3c464925e59dccb02467e4a285c8dff5bef728709b3efdefc63a0369",
+              "size": 1250
             },
             {
               "path": "skills/creating-repo-development-packages/agents/openai.yaml",
@@ -1983,9 +1998,9 @@
               "size": 1226
             },
             {
-              "path": "skills/creating-repo-development-packages/SKILL.md",
-              "sha256": "e2bafc3a3c464925e59dccb02467e4a285c8dff5bef728709b3efdefc63a0369",
-              "size": 1250
+              "path": "skills/creating-software-design-specifications/SKILL.md",
+              "sha256": "298232ead86c303c483faab828cbec18c817caf1223df33e14dbff7f2a2d21b5",
+              "size": 1589
             },
             {
               "path": "skills/creating-software-design-specifications/agents/openai.yaml",
@@ -1998,9 +2013,9 @@
               "size": 2604
             },
             {
-              "path": "skills/creating-software-design-specifications/SKILL.md",
-              "sha256": "298232ead86c303c483faab828cbec18c817caf1223df33e14dbff7f2a2d21b5",
-              "size": 1589
+              "path": "skills/designing-data-services-and-workflows/SKILL.md",
+              "sha256": "1ce4c74a4edaba2b8331e6b012fc73b624f3649b93f580fdbd023fab445722d6",
+              "size": 1594
             },
             {
               "path": "skills/designing-data-services-and-workflows/agents/openai.yaml",
@@ -2018,9 +2033,9 @@
               "size": 1799
             },
             {
-              "path": "skills/designing-data-services-and-workflows/SKILL.md",
-              "sha256": "1ce4c74a4edaba2b8331e6b012fc73b624f3649b93f580fdbd023fab445722d6",
-              "size": 1594
+              "path": "skills/guiding-vibe-design-sessions/SKILL.md",
+              "sha256": "3a0bc0140b00f7029bd6171c65b512722e55e875aca55f3234c7de08d1ed46aa",
+              "size": 1791
             },
             {
               "path": "skills/guiding-vibe-design-sessions/agents/openai.yaml",
@@ -2033,9 +2048,9 @@
               "size": 1843
             },
             {
-              "path": "skills/guiding-vibe-design-sessions/SKILL.md",
-              "sha256": "3a0bc0140b00f7029bd6171c65b512722e55e875aca55f3234c7de08d1ed46aa",
-              "size": 1791
+              "path": "skills/planning-software-tests/SKILL.md",
+              "sha256": "bbd14de24313e94d8be370118f16ca344176b6008928820d10edccaed3c5f6d2",
+              "size": 1093
             },
             {
               "path": "skills/planning-software-tests/agents/openai.yaml",
@@ -2048,9 +2063,9 @@
               "size": 901
             },
             {
-              "path": "skills/planning-software-tests/SKILL.md",
-              "sha256": "bbd14de24313e94d8be370118f16ca344176b6008928820d10edccaed3c5f6d2",
-              "size": 1093
+              "path": "skills/reviewing-software-design-specifications/SKILL.md",
+              "sha256": "bbb98a0eb087e430bd7b2bc3a93b46a8f171233fe7511b3f1ce2f63fda7bbc27",
+              "size": 1157
             },
             {
               "path": "skills/reviewing-software-design-specifications/agents/openai.yaml",
@@ -2061,27 +2076,12 @@
               "path": "skills/reviewing-software-design-specifications/references/review-contract.md",
               "sha256": "9e7c2b4f8c895c4ca311808e09bb8e6de1942513be1aed020197c5b9fed0bd4b",
               "size": 956
-            },
-            {
-              "path": "skills/reviewing-software-design-specifications/SKILL.md",
-              "sha256": "bbb98a0eb087e430bd7b2bc3a93b46a8f171233fe7511b3f1ce2f63fda7bbc27",
-              "size": 1157
-            },
-            {
-              "path": "THIRD_PARTY_CONTENT.md",
-              "sha256": "b9fd672f916c23d6444be659b4f74b0628b246a3287ed065ff3286b48b015601",
-              "size": 327
-            },
-            {
-              "path": "THIRD_PARTY_NOTICES.md",
-              "sha256": "95201506015694c277456772b4af82233b96b39ec9f8032e6742f0b1bd98cc26",
-              "size": 257
             }
           ],
           "total_bytes": 53642
         },
         "openclaw": {
-          "content_sha256": "ba0c68eeadd945dec46fce27b26276fd5e132271e0909606595117e7e8cda0ae",
+          "content_sha256": "b6310cf8324dc241ca6984006388b393ac2daddebbcbe4732dce13b12149c515",
           "file_count": 39,
           "files": [
             {
@@ -2098,6 +2098,36 @@
               "path": "DISTRIBUTION.md",
               "sha256": "524a4fd29e900a62ba54d32ca59cd5bf8b7c938eb728afa0df3aceb5cd7955bf",
               "size": 469
+            },
+            {
+              "path": "LICENSE",
+              "sha256": "40b321bc8e642103f76ccb883a6be822f4d072aa9522e5f86aec9c8fa8230fb2",
+              "size": 1065
+            },
+            {
+              "path": "PRIVACY.md",
+              "sha256": "966759dc44ea6925f47168672386130c6fcbc79ce76eb28215696b0d452f0918",
+              "size": 422
+            },
+            {
+              "path": "README.md",
+              "sha256": "0c3144b5a4f7e7831540d23b2cb92d01818d0b6b44e2e2907d73c30de2deb52f",
+              "size": 381
+            },
+            {
+              "path": "SECURITY.md",
+              "sha256": "4a9e0009b84d371cf4402e0eb94222c48395d4f9312496176cf6ee91ab828075",
+              "size": 423
+            },
+            {
+              "path": "THIRD_PARTY_CONTENT.md",
+              "sha256": "39cc88f7f775117d8bb5010b904931a1e43cc467393c5b67648c76c030dc2c07",
+              "size": 324
+            },
+            {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "sha256": "d31b093d0442193c4fd2c166a49d82f6fd4f1aab4d1fb840118d2d4a8343174a",
+              "size": 254
             },
             {
               "path": "docs/application-invariants.md",
@@ -2120,24 +2150,9 @@
               "size": 2940
             },
             {
-              "path": "LICENSE",
-              "sha256": "40b321bc8e642103f76ccb883a6be822f4d072aa9522e5f86aec9c8fa8230fb2",
-              "size": 1065
-            },
-            {
               "path": "package.json",
               "sha256": "441a7b5603a2b1ee02ae6717346138ebe65c9173a4c8ce13000f19bc9291d166",
               "size": 281
-            },
-            {
-              "path": "PRIVACY.md",
-              "sha256": "966759dc44ea6925f47168672386130c6fcbc79ce76eb28215696b0d452f0918",
-              "size": 422
-            },
-            {
-              "path": "README.md",
-              "sha256": "0c3144b5a4f7e7831540d23b2cb92d01818d0b6b44e2e2907d73c30de2deb52f",
-              "size": 381
             },
             {
               "path": "scripts/build_marketplace_release.py",
@@ -2155,9 +2170,9 @@
               "size": 10088
             },
             {
-              "path": "SECURITY.md",
-              "sha256": "4a9e0009b84d371cf4402e0eb94222c48395d4f9312496176cf6ee91ab828075",
-              "size": 423
+              "path": "skills/creating-implementation-prompts/SKILL.md",
+              "sha256": "0c58d7bf5bb76dab09f4cbb3c77a224e551c322efe0c0b6c60f104f717a981fa",
+              "size": 1191
             },
             {
               "path": "skills/creating-implementation-prompts/agents/openai.yaml",
@@ -2170,9 +2185,9 @@
               "size": 886
             },
             {
-              "path": "skills/creating-implementation-prompts/SKILL.md",
-              "sha256": "0c58d7bf5bb76dab09f4cbb3c77a224e551c322efe0c0b6c60f104f717a981fa",
-              "size": 1191
+              "path": "skills/creating-repo-development-packages/SKILL.md",
+              "sha256": "40ef2a78cbe91497321bce76665c703d26e1fe93e1a1460c19549a9bf9bbb99a",
+              "size": 1236
             },
             {
               "path": "skills/creating-repo-development-packages/agents/openai.yaml",
@@ -2185,9 +2200,9 @@
               "size": 1213
             },
             {
-              "path": "skills/creating-repo-development-packages/SKILL.md",
-              "sha256": "40ef2a78cbe91497321bce76665c703d26e1fe93e1a1460c19549a9bf9bbb99a",
-              "size": 1236
+              "path": "skills/creating-software-design-specifications/SKILL.md",
+              "sha256": "59cb60e55751175e0d6179c55dd925960f252256e9ea9670cebc0b53523092e9",
+              "size": 1573
             },
             {
               "path": "skills/creating-software-design-specifications/agents/openai.yaml",
@@ -2200,9 +2215,9 @@
               "size": 2575
             },
             {
-              "path": "skills/creating-software-design-specifications/SKILL.md",
-              "sha256": "59cb60e55751175e0d6179c55dd925960f252256e9ea9670cebc0b53523092e9",
-              "size": 1573
+              "path": "skills/designing-data-services-and-workflows/SKILL.md",
+              "sha256": "91eb9e5849d580feb7d3e6e6664b679c25abe2e3d21a2923e7f381f3bac1b746",
+              "size": 1575
             },
             {
               "path": "skills/designing-data-services-and-workflows/agents/openai.yaml",
@@ -2220,9 +2235,9 @@
               "size": 1771
             },
             {
-              "path": "skills/designing-data-services-and-workflows/SKILL.md",
-              "sha256": "91eb9e5849d580feb7d3e6e6664b679c25abe2e3d21a2923e7f381f3bac1b746",
-              "size": 1575
+              "path": "skills/guiding-vibe-design-sessions/SKILL.md",
+              "sha256": "a94066fab29ee2f2c0d6105617766fabd693169f8b3a8001a44ed953acb3251b",
+              "size": 1766
             },
             {
               "path": "skills/guiding-vibe-design-sessions/agents/openai.yaml",
@@ -2235,9 +2250,9 @@
               "size": 1818
             },
             {
-              "path": "skills/guiding-vibe-design-sessions/SKILL.md",
-              "sha256": "a94066fab29ee2f2c0d6105617766fabd693169f8b3a8001a44ed953acb3251b",
-              "size": 1766
+              "path": "skills/planning-software-tests/SKILL.md",
+              "sha256": "2a1f26f33ade13cdcb0e099dec202aa265ef95c1ede5ee5bb3c53543e49ad675",
+              "size": 1081
             },
             {
               "path": "skills/planning-software-tests/agents/openai.yaml",
@@ -2250,9 +2265,9 @@
               "size": 885
             },
             {
-              "path": "skills/planning-software-tests/SKILL.md",
-              "sha256": "2a1f26f33ade13cdcb0e099dec202aa265ef95c1ede5ee5bb3c53543e49ad675",
-              "size": 1081
+              "path": "skills/reviewing-software-design-specifications/SKILL.md",
+              "sha256": "00e822756dac7b46587de151dbf5601f7afaa9937d59ca442361c22704f456ba",
+              "size": 1145
             },
             {
               "path": "skills/reviewing-software-design-specifications/agents/openai.yaml",
@@ -2263,21 +2278,6 @@
               "path": "skills/reviewing-software-design-specifications/references/review-contract.md",
               "sha256": "ed4966efb822043c9ef39ba3bbdb25513588f64c736044dcce36b1336f569a31",
               "size": 939
-            },
-            {
-              "path": "skills/reviewing-software-design-specifications/SKILL.md",
-              "sha256": "00e822756dac7b46587de151dbf5601f7afaa9937d59ca442361c22704f456ba",
-              "size": 1145
-            },
-            {
-              "path": "THIRD_PARTY_CONTENT.md",
-              "sha256": "39cc88f7f775117d8bb5010b904931a1e43cc467393c5b67648c76c030dc2c07",
-              "size": 324
-            },
-            {
-              "path": "THIRD_PARTY_NOTICES.md",
-              "sha256": "d31b093d0442193c4fd2c166a49d82f6fd4f1aab4d1fb840118d2d4a8343174a",
-              "size": 254
             }
           ],
           "total_bytes": 61688
