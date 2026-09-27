@@ -28,7 +28,7 @@ class MarketplaceCatalogTests(unittest.TestCase):
         self.assertEqual({item["name"] for item in openclaw["plugins"]}, EXPECTED)
 
         for item in codex["plugins"]:
-            self.assertEqual(item["source"].get("source", "local"), "local")
+            self.assertEqual(item["source"]["source"], "local")
             if "policy" in item:
                 self.assertEqual(item["policy"]["installation"], "AVAILABLE")
                 self.assertIn(

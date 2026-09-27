@@ -31,7 +31,8 @@
     {
       "name": "cool-plugin-design-assistant",
       "source": {
-        "path": "./plugins/cool-plugin-design-assistant"
+        "path": "./plugins/cool-plugin-design-assistant",
+        "source": "local"
       }
     }
   ]
