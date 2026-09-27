@@ -1,200 +1,276 @@
 {
-  "content_sha256": "81851d9a2297c3de6cf2edd1e850daf4f21c326292f375944049bf8e8fc2a226",
+  "content_sha256": "28d51e629ce05f806c209710592d9e503347d26c36f99c19beaa611109f59fa8",
   "file_count": 38,
   "files": [
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": ".codex-plugin/plugin.json",
-      "sha256": "2c326e997fe6526c6756bf4456976000c47cbe59bf1996e049387c873c76e72b",
-      "size": 1474
+      "sha256": "d3ce1dab51994857a9fc8908ebfa3236601819cf3e8e54733f0287a50ceea9f0",
+      "size": 1445
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "DISTRIBUTION.md",
-      "sha256": "a0ddb2a4eb4ebcfa910387a3e2a99afdc3f217f1e73e20a44b4546fefb8a533b",
-      "size": 474
+      "sha256": "524a4fd29e900a62ba54d32ca59cd5bf8b7c938eb728afa0df3aceb5cd7955bf",
+      "size": 469
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "LICENSE",
-      "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
-      "size": 1086
+      "sha256": "40b321bc8e642103f76ccb883a6be822f4d072aa9522e5f86aec9c8fa8230fb2",
+      "size": 1065
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "PRIVACY.md",
-      "sha256": "e06bb103900f28aa1b7c6d3eac0a1611bc340ce6fa365ad609f581327ac17074",
-      "size": 427
+      "sha256": "966759dc44ea6925f47168672386130c6fcbc79ce76eb28215696b0d452f0918",
+      "size": 422
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "README.md",
-      "sha256": "c2ce27699676849b92dcb01aefd9e6891ea06b10d864be331837e8e0de81a935",
-      "size": 386
+      "sha256": "0c3144b5a4f7e7831540d23b2cb92d01818d0b6b44e2e2907d73c30de2deb52f",
+      "size": 381
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "SECURITY.md",
-      "sha256": "7917098c7a602dfd071e69819f4fe000f2242c660d37399f4cbb1f735b7fbac0",
-      "size": 428
+      "sha256": "4a9e0009b84d371cf4402e0eb94222c48395d4f9312496176cf6ee91ab828075",
+      "size": 423
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "THIRD_PARTY_CONTENT.md",
-      "sha256": "b9fd672f916c23d6444be659b4f74b0628b246a3287ed065ff3286b48b015601",
-      "size": 327
+      "sha256": "39cc88f7f775117d8bb5010b904931a1e43cc467393c5b67648c76c030dc2c07",
+      "size": 324
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "95201506015694c277456772b4af82233b96b39ec9f8032e6742f0b1bd98cc26",
-      "size": 257
+      "sha256": "d31b093d0442193c4fd2c166a49d82f6fd4f1aab4d1fb840118d2d4a8343174a",
+      "size": 254
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "docs/application-invariants.md",
-      "sha256": "339d0a3202aafcb58c2c375e469b971fd2c4b5bebc4c44aa50425f56d627f100",
-      "size": 943
+      "sha256": "52d9b790ab41995cc932730a79356080466f1854de66f81e497c1afdae5220dd",
+      "size": 931
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "docs/runtime-compatibility.md",
-      "sha256": "31d4faeeeddbfa75e5ffd8116fe32419017428b23e8ed1cc9ffb12928c3dfc6b",
-      "size": 1540
+      "sha256": "284f7439c0ff1ef85acff7ba9ede9694f166d263fd5184534b98b437b2bb160d",
+      "size": 1513
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "docs/source-decisions.md",
-      "sha256": "4c85d0abae4f6fde4139da76052df61abc7bbc0ffb1eec0ed925010a36b32c95",
-      "size": 1129
+      "sha256": "8006a65995197c5d0b79738aae497695c4245caa917dc8d6ba2ca02cd2131495",
+      "size": 1108
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "docs/source-inventory.json",
-      "sha256": "74ea64f3cda17d901dfb62d317f6b8d8a54de54ec5d75d1f2e2ed37e02bc91c6",
-      "size": 3017
+      "sha256": "8567ae380f9d54a55a0fadacd1db33dde7e9de85ba6995bbbee559a9a32d8e4a",
+      "size": 2940
     },
     {
+      "canonicalization": "canonical-json-v1",
+      "classification": "generated-json",
       "path": "package.json",
       "sha256": "441a7b5603a2b1ee02ae6717346138ebe65c9173a4c8ce13000f19bc9291d166",
       "size": 281
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "scripts/build_marketplace_release.py",
-      "sha256": "0f30b642f8ebc678e2d26582b9d121294b2b5417c696012103a4497467075a36",
-      "size": 5505
+      "sha256": "ec03db4e8bd356da3807214c044ef71901e78fb945406483a11119d6f9167cb6",
+      "size": 5485
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "scripts/distribution_audit.py",
-      "sha256": "1c125cec0fbc408fa2d0a91e4e3754f9846b1f55d1bb672cef1dbfed5623988b",
-      "size": 3434
+      "sha256": "e63e7ee130c977eed59bceabca308424bdf8821992a58536d01488f9fecb18a9",
+      "size": 3338
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "scripts/vibe_designer.py",
-      "sha256": "aabbfa9d87bfe751e9894d02f937f2aa466f1f768f62073250dea37c65066c73",
-      "size": 10333
+      "sha256": "273330e10d0dc4937ec9dd5d849b53801ea1f58cfdf720fa5c0711cddcfd7c26",
+      "size": 10088
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-implementation-prompts/SKILL.md",
-      "sha256": "da994498b33fbbfd12063ff6a667292fb2b17cf62ad543935db0271ba5e4a2ce",
-      "size": 1205
+      "sha256": "0c58d7bf5bb76dab09f4cbb3c77a224e551c322efe0c0b6c60f104f717a981fa",
+      "size": 1191
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-implementation-prompts/agents/openai.yaml",
-      "sha256": "795554f31452a4b47c760de90c55b2d4e57eef5a29b910b5e20e3865deaef315",
-      "size": 148
+      "sha256": "471bff8a34dc2a38f9c3949f7b024bbb1d132ea0c01c5e884b57d98fb1a0c2ac",
+      "size": 145
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-implementation-prompts/references/prompt-contract.md",
-      "sha256": "f2e81e93da5f577e2f892ae21e648ecfe4feded8cc541b9000197bfa30a9989f",
-      "size": 899
+      "sha256": "4cbd4f6259857055bf1b97ca5523fea55ea5ef21518407e4de9957aa81ef05e3",
+      "size": 886
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-repo-development-packages/SKILL.md",
-      "sha256": "e2bafc3a3c464925e59dccb02467e4a285c8dff5bef728709b3efdefc63a0369",
-      "size": 1250
+      "sha256": "40ef2a78cbe91497321bce76665c703d26e1fe93e1a1460c19549a9bf9bbb99a",
+      "size": 1236
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-repo-development-packages/agents/openai.yaml",
-      "sha256": "80145206083aa454704d5f163e3d0095db1f4b131aa978b180c475231509073c",
-      "size": 146
+      "sha256": "c191ed37802b1a3c746dc60ebab8f3155b932a1e064c1e7df2f55df8eb5c7b72",
+      "size": 143
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-repo-development-packages/references/repo-package-contract.md",
-      "sha256": "97aa9a714da2d98f96ca2c72aa1cc856a86a35108f063c02742d88091890bc80",
-      "size": 1226
+      "sha256": "65fde27630762ab786673bd43fea21c536594267b42cb484fec9efafefd82764",
+      "size": 1213
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-software-design-specifications/SKILL.md",
-      "sha256": "298232ead86c303c483faab828cbec18c817caf1223df33e14dbff7f2a2d21b5",
-      "size": 1589
+      "sha256": "59cb60e55751175e0d6179c55dd925960f252256e9ea9670cebc0b53523092e9",
+      "size": 1573
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-software-design-specifications/agents/openai.yaml",
-      "sha256": "daca942a4fca6e50c2e6dac14856f3db8671fd809dfce0ada60df8d1aa81a309",
-      "size": 141
+      "sha256": "0a689ac1c1107a0e64784848296ccf312760aac2940f019a6fa5717abeb4a43b",
+      "size": 138
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/creating-software-design-specifications/references/software-design-contract.md",
-      "sha256": "3f875fbc33f0d95ef076cd985df142d60579187902b2edf8365e652b5282970f",
-      "size": 2604
+      "sha256": "8ec975cbfb7f078471791e20829710de6d8f0b14cbeef14a3b231bd2608b3bd8",
+      "size": 2575
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/designing-data-services-and-workflows/SKILL.md",
-      "sha256": "1ce4c74a4edaba2b8331e6b012fc73b624f3649b93f580fdbd023fab445722d6",
-      "size": 1594
+      "sha256": "91eb9e5849d580feb7d3e6e6664b679c25abe2e3d21a2923e7f381f3bac1b746",
+      "size": 1575
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/designing-data-services-and-workflows/agents/openai.yaml",
-      "sha256": "5d22f837f0edddc753be8756296a4e5e45652062e2eae0f1a07d02b198fb6e67",
-      "size": 149
-    },
-    {
-      "path": "skills/designing-data-services-and-workflows/references/data-and-service-contracts.md",
-      "sha256": "6b9fc088c766f88c48ff68b5aa5b4d5efb81bb68ba46f870d9b3c3bd1f1724a7",
-      "size": 966
-    },
-    {
-      "path": "skills/designing-data-services-and-workflows/references/workflow-execution-map.md",
-      "sha256": "1f70c7c922869dee203c0146511cec0b27fb1d6d1ec112739c0ecdbf49500674",
-      "size": 1799
-    },
-    {
-      "path": "skills/guiding-vibe-design-sessions/SKILL.md",
-      "sha256": "3a0bc0140b00f7029bd6171c65b512722e55e875aca55f3234c7de08d1ed46aa",
-      "size": 1791
-    },
-    {
-      "path": "skills/guiding-vibe-design-sessions/agents/openai.yaml",
-      "sha256": "69d0710893f09236841668e87113f75524ab7b4f7d8e2108b3fc9b031c764994",
-      "size": 142
-    },
-    {
-      "path": "skills/guiding-vibe-design-sessions/references/session-contract.md",
-      "sha256": "241ee8d4861ff9359751899c029ae388b02ef57ff3d58208f4c823e957ce0228",
-      "size": 1843
-    },
-    {
-      "path": "skills/planning-software-tests/SKILL.md",
-      "sha256": "bbd14de24313e94d8be370118f16ca344176b6008928820d10edccaed3c5f6d2",
-      "size": 1093
-    },
-    {
-      "path": "skills/planning-software-tests/agents/openai.yaml",
-      "sha256": "d71902dc4c6fc37dab764b126d8718ff168467f8442c19af0c72a96ef8de7bff",
-      "size": 126
-    },
-    {
-      "path": "skills/planning-software-tests/references/test-plan-contract.md",
-      "sha256": "13b58e792a1ef45028365b60f3636a148318b8b1fa4d052c8c187eab59384650",
-      "size": 901
-    },
-    {
-      "path": "skills/reviewing-software-design-specifications/SKILL.md",
-      "sha256": "bbb98a0eb087e430bd7b2bc3a93b46a8f171233fe7511b3f1ce2f63fda7bbc27",
-      "size": 1157
-    },
-    {
-      "path": "skills/reviewing-software-design-specifications/agents/openai.yaml",
-      "sha256": "0a1a8923e2895f947bd7fb82f47762f262f941cae7224e26c9b6c9b460975949",
+      "sha256": "61595e8ceab2180005609c18795546aa4288bfc21b98469323fca8c48e9fc44d",
       "size": 146
     },
     {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/designing-data-services-and-workflows/references/data-and-service-contracts.md",
+      "sha256": "a3b1e0eca21c65e1607dfffdc76fe7b95c5e6a1745be1d5c8afe30116de7c619",
+      "size": 947
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/designing-data-services-and-workflows/references/workflow-execution-map.md",
+      "sha256": "6563a85e2c7e17b49ffef1e3aefdabd6ab001d2cb48e38bd66faed462500241d",
+      "size": 1771
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/guiding-vibe-design-sessions/SKILL.md",
+      "sha256": "a94066fab29ee2f2c0d6105617766fabd693169f8b3a8001a44ed953acb3251b",
+      "size": 1766
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/guiding-vibe-design-sessions/agents/openai.yaml",
+      "sha256": "50175bf290bfc41d052064cad21d2110712de7ffcf0f73c4418c6e31335da3ab",
+      "size": 139
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/guiding-vibe-design-sessions/references/session-contract.md",
+      "sha256": "7aac59f7e4be6d287d7052d4728cef20b00bcf9dc135390a79c8f239512fde8c",
+      "size": 1818
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/planning-software-tests/SKILL.md",
+      "sha256": "2a1f26f33ade13cdcb0e099dec202aa265ef95c1ede5ee5bb3c53543e49ad675",
+      "size": 1081
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/planning-software-tests/agents/openai.yaml",
+      "sha256": "5ee5b8631ac2719240d9980052973d1e844591628c5d384e658836f1afa6722d",
+      "size": 123
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/planning-software-tests/references/test-plan-contract.md",
+      "sha256": "78a6d16f4074449a8509c4b8a2e4a80c19721b21e352ed9eb88aaf87dd1e520d",
+      "size": 885
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/reviewing-software-design-specifications/SKILL.md",
+      "sha256": "00e822756dac7b46587de151dbf5601f7afaa9937d59ca442361c22704f456ba",
+      "size": 1145
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "skills/reviewing-software-design-specifications/agents/openai.yaml",
+      "sha256": "458fcebac0cb70770da6c79b077112d9f8ed3439585c02088be65dff334bfe48",
+      "size": 143
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
       "path": "skills/reviewing-software-design-specifications/references/review-contract.md",
-      "sha256": "9e7c2b4f8c895c4ca311808e09bb8e6de1942513be1aed020197c5b9fed0bd4b",
-      "size": 956
+      "sha256": "ed4966efb822043c9ef39ba3bbdb25513588f64c736044dcce36b1336f569a31",
+      "size": 939
     }
   ],
   "plugin_id": "vibe-coding-designer",
-  "schema_version": 1,
-  "total_bytes": 52912,
+  "schema_version": 2,
+  "total_bytes": 52045,
   "version": "1.0.0"
 }

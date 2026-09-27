@@ -1,5 +1,5 @@
 {
-  "content_sha256": "2c72f762639274668ea1cc6442417df79edf0844855e40d84c2a0ee67c76e032",
+  "content_sha256": "653c25be0f764226049025b686bb106b29bef3db5c9e459abf1dd2007b65f69e",
   "file_count": 92,
   "files": [
     {
@@ -9,13 +9,13 @@
     },
     {
       "path": ".gitattributes",
-      "sha256": "7c750881d32ba8993a5b94b13041af95fe724159c110479364df064877c4994b",
-      "size": 449
+      "sha256": "edac343e38f84a6b024b1860bb786c0c44c683bf9fa01df7370af5ec0c0839e8",
+      "size": 635
     },
     {
       "path": "DISTRIBUTION.md",
-      "sha256": "177b8666301be6c6e137d680c84ade9e4f71166d73838cd5e4e94d20f223a20d",
-      "size": 7430
+      "sha256": "9ad7ce38d513c04d7d33c8201e7e458cc1afd54ebfaa51f0891656e602e8cc69",
+      "size": 7436
     },
     {
       "path": "LICENSE",
@@ -24,33 +24,33 @@
     },
     {
       "path": "PRIVACY.md",
-      "sha256": "a776bf2c6b222b7cff42cccb41c416e1b5739c1c293f100c2c9f3b74d15d86bb",
-      "size": 1246
+      "sha256": "427a8815e9fc61b96f52464bc03887b18a543020a8a266105aa810fc85e087c2",
+      "size": 1248
     },
     {
       "path": "README.md",
-      "sha256": "c720975cc2ccb342e35c9eebc84b6e761e4ccfc14f9f32d2f5a654ab788cd95b",
-      "size": 2911
+      "sha256": "52ca13f8a316feb7eebcea4dcd174b8d309fd3cdee1669a1c20a792df1dc8fff",
+      "size": 2966
     },
     {
       "path": "SECURITY.md",
-      "sha256": "d5b7649c18df13b2fabeb153a0229f0595ce9ec89cb7c4b1196662b2873bdbf8",
-      "size": 1162
+      "sha256": "55c3ee4efa6781f81633b3e9721ff063e21db1e5a8fd87a1687e9dde15b1b7eb",
+      "size": 1163
     },
     {
       "path": "THIRD_PARTY_CONTENT.md",
-      "sha256": "a7707155e2ac1ee52be6149a21dc0e50b9d927d6051ff38857e415e3fb6f3629",
-      "size": 2257
+      "sha256": "15f133ad2c6a3e7b0d699533025e8286de4508a39211506e97b9c1e79897fb19",
+      "size": 2260
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "fbfeb19462ced6828014456097f251cc7a12e7b74993b2746874116e8a5ad145",
-      "size": 2755
+      "sha256": "fc43f7a10e0ace315cadf8a4836e90ca1bebe2fc766b7602c26ef7b42d862618",
+      "size": 2758
     },
     {
       "path": "assets/openclaw/remote-assets.json",
-      "sha256": "f523f35b67cc569f4af43e50d94f340c3108adafc00b645d4af3c448d6bba975",
-      "size": 1858
+      "sha256": "4456151da79a1c968c6fdbc23b077d02acf64eff8e272d53d053de941666df5d",
+      "size": 1907
     },
     {
       "path": "assets/rag/bge-large-zh-v1.5-model-manifest.json",
@@ -79,23 +79,23 @@
     },
     {
       "path": "docs/top-level-launcher-pattern.md",
-      "sha256": "2a1da48b40658ab270610451e2390e832da364d5f4892c22ac9aa44085f54cac",
-      "size": 2015
+      "sha256": "1991dc604b5e59d9655e78eabf44d7fc27442de6d294b4fa377ee48cda99ac1a",
+      "size": 2017
     },
     {
       "path": "package.json",
-      "sha256": "e8398baf6d6bc920b40d4463cfd51ce46210d5f236763440393f81ea3af97da9",
-      "size": 273
+      "sha256": "f3b10f18ec084da01949b32cffe63eb83c12536619b4fc76278f0cfe9c7649a0",
+      "size": 283
     },
     {
       "path": "scripts/build_marketplace_release.py",
-      "sha256": "469ea0914da53489ecb67010ad5bc0f49800416b9158f6d38827f94d909ae04d",
-      "size": 6495
+      "sha256": "74e80ac192d44634eb5338a2966caaa563acd60b49c2ce2dde5ac169df368afc",
+      "size": 6506
     },
     {
       "path": "scripts/cool_bible_tutor.py",
-      "sha256": "a347744681a74742a878b18a6ad977e374b5bfbadfd9a4a3a3c5b024c050b767",
-      "size": 19721
+      "sha256": "3396af654ab93600a32cdd7c65be22ef7fa44905db5f2fa06b54f3f8d505525b",
+      "size": 19731
     },
     {
       "path": "scripts/distribution_audit.py",
@@ -114,8 +114,8 @@
     },
     {
       "path": "scripts/openclaw_distribution.py",
-      "sha256": "09de3efee6f98da2f584af3008d235664bec309cca81aafd49e090b021ea5de0",
-      "size": 2050
+      "sha256": "20bf704c179d6edd8ed9ce1b9dc5b5b6dd643301897564c4c6740ca785695940",
+      "size": 2103
     },
     {
       "path": "skills/applying-biblical-truth/SKILL.md",
@@ -259,8 +259,8 @@
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/references/setup-scripture-data.md",
-      "sha256": "7e4a57ec5a8054598f401846753f67e65e50db79a719c22efbc9006f02d7925a",
-      "size": 7013
+      "sha256": "b4c25506c0cec67297dd8c388858f73c01024440f3e237d5919ea0bd89cc240d",
+      "size": 7027
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/book_names.py",
@@ -279,8 +279,8 @@
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/discover_bible_references.py",
-      "sha256": "440425f5d785077adf91478bccf68797ff2b747cb6c0138f9558ca94de33fa03",
-      "size": 10126
+      "sha256": "fe26e62d52293ffcba9e43c559c98acf64392da0064ee64eb30755ce38d547bc",
+      "size": 10174
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/get_passage.py",
@@ -289,8 +289,8 @@
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/ingest_bible_rag.py",
-      "sha256": "8860b53c996665b04bcd99444257feb32c34bdda859163af577f3faddd6d648b",
-      "size": 8739
+      "sha256": "37dbcf9e35669e873e716fa73c85bec782a54373a6bb620f9ab5a9bf097fbd0d",
+      "size": 8775
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/ocr_adapter.py",
@@ -309,13 +309,13 @@
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_runtime.py",
-      "sha256": "5f767a5af4372784e06e2537b1af9139e42764d9864fca2019c94d329babbdd3",
-      "size": 10180
+      "sha256": "e366b18af71262e4af6ce62b58bd1dee2f6f2b51c4a93a50554e0d512fdf40bf",
+      "size": 10212
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_setup.py",
-      "sha256": "8dbf9dec0d8d87356d884f9cc3368b10c571daec389bd518c3ff274447650886",
-      "size": 33027
+      "sha256": "af685ff541485bdc7cba6678eec0fac634676be0e1025ed3d17d7416945fb1d2",
+      "size": 33342
     },
     {
       "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_vector_lock.py",
@@ -399,38 +399,38 @@
     },
     {
       "path": "vendor/obvious-one-runtime/obvious_one_runtime/__init__.py",
-      "sha256": "be8283003b02823f058c8b59b0ddc84c5a74c0f2493c6d1a5a0192196ee14ca8",
-      "size": 105
+      "sha256": "5774617628b0f2a8a5a9390b1ae37e8675f667d0c6d3560819279eb67b1fe524",
+      "size": 108
     },
     {
       "path": "vendor/obvious-one-runtime/obvious_one_runtime/adapters.py",
-      "sha256": "49316f9abbbb0969cfe7e08d0125976a711a11b3f67ce7b7c905c106085ddf4d",
-      "size": 3693
+      "sha256": "6999cbaf33f3c6c4dc96507f9785faba7e2e2c282851cf618c046e7ccb495d9d",
+      "size": 3802
     },
     {
       "path": "vendor/obvious-one-runtime/obvious_one_runtime/cache.py",
-      "sha256": "bdac11d03d1eeb79f963c7c41152cf9cbe785d9d0cfd0c30935ac8d21ba045d6",
-      "size": 3424
+      "sha256": "29a85828420bcfc37d5147c1fc424a4e5baf6d805553ec7c0f175a7ae5b59879",
+      "size": 3535
     },
     {
       "path": "vendor/obvious-one-runtime/obvious_one_runtime/paths.py",
-      "sha256": "61ccca5b989fd85e341e14c752099a36d78e20f099a047327ecda510090e9147",
-      "size": 1417
+      "sha256": "b4136ac033eb2e4cd7c02d3939a1d12e0997b4483eb817aeb71edbf1468bf67e",
+      "size": 1467
     },
     {
       "path": "vendor/obvious-one-runtime/obvious_one_runtime/remote_assets.py",
-      "sha256": "1f398f585ef66d138cdac44fe70e627366ecc1f652d4687843fea0f2d13fa80c",
-      "size": 4599
+      "sha256": "97b3d040d00e8740147e4c2cca784b7e5b4eacc100872e8232c4195bcd844077",
+      "size": 4723
     },
     {
       "path": "vendor/obvious-one-runtime/obvious_one_runtime/setup.py",
-      "sha256": "351aaffe0f4fa89dd83ed7886bedb713d352269274fffc6c78858f6ef7f88095",
-      "size": 6204
+      "sha256": "a5e13a07e8534815295b8539661373706f19647381af7e486194686114cab12f",
+      "size": 6387
     },
     {
       "path": "vendor/obvious-one-runtime/obvious_one_runtime/status.py",
-      "sha256": "653019d61f496e9f5223f3cf8694502be95cd29dedc7bc2971a1bcdfd479dc55",
-      "size": 820
+      "sha256": "ec10fbce46849a519a02ce2181f66aa2baf58c004d926bf3daa4577890a3a90d",
+      "size": 852
     },
     {
       "path": "vendor/rag-runtime/model-manifest.json",
@@ -465,6 +465,6 @@
   ],
   "plugin_id": "cool-bible-tutor",
   "schema_version": 1,
-  "total_bytes": 5911020,
+  "total_bytes": 5912468,
   "version": "2.4.6"
 }

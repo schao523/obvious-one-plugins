@@ -1,2 +1,6 @@
 /plugins/vibe-coding-designer/** -text whitespace=cr-at-eol
 /openclaw/vibe-coding-designer/** -text whitespace=cr-at-eol
+/plugins/cool-bible-tutor/** -text whitespace=cr-at-eol
+/openclaw/cool-bible-tutor/** -text whitespace=cr-at-eol
+/openclaw/cool-plugin-design-assistant/** -text whitespace=cr-at-eol
+/plugins/cool-plugin-design-assistant/** -text whitespace=cr-at-eol
