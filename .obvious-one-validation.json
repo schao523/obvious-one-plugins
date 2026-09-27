@@ -1216,17 +1216,6 @@
           ],
           "artifact": "codex",
           "id": "runtime-status-codex"
-        },
-        {
-          "argv": [
-            "{python}",
-            "-B",
-            "{artifact_root}/scripts/cool_bible_tutor.py",
-            "status",
-            "--json"
-          ],
-          "artifact": "openclaw",
-          "id": "runtime-status-openclaw"
         }
       ],
       "mode": "verify_existing",

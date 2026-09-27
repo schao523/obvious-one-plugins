@@ -101,6 +101,23 @@ class MarketplaceCatalogTests(unittest.TestCase):
                 paths = [record["path"] for record in artifact["files"]]
                 self.assertEqual(paths, sorted(paths))
 
+    def test_legacy_bible_smokes_match_runnable_marketplace_artifacts(self) -> None:
+        registry = json.loads(
+            (ROOT / ".obvious-one-validation.json").read_text(encoding="utf-8")
+        )
+        plugin = next(
+            item for item in registry["plugins"] if item["plugin_id"] == "cool-bible-tutor"
+        )
+
+        self.assertEqual(
+            [(command["id"], command["artifact"]) for command in plugin["commands"]],
+            [
+                ("distribution-audit-codex", "codex"),
+                ("exact-passage-openclaw", "openclaw"),
+                ("runtime-status-codex", "codex"),
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
