@@ -7,11 +7,13 @@ import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED = {
+EXPECTED_CODEX = {
     "cool-bible-tutor",
     "cool-plugin-design-assistant",
+    "plugin-builder",
     "vibe-coding-designer",
 }
+EXPECTED_OPENCLAW = EXPECTED_CODEX - {"plugin-builder"}
 
 
 class MarketplaceCatalogTests(unittest.TestCase):
@@ -24,8 +26,10 @@ class MarketplaceCatalogTests(unittest.TestCase):
         )
         self.assertEqual(codex["name"], "obvious-one")
         self.assertEqual(openclaw["name"], "obvious-one")
-        self.assertEqual({item["name"] for item in codex["plugins"]}, EXPECTED)
-        self.assertEqual({item["name"] for item in openclaw["plugins"]}, EXPECTED)
+        self.assertEqual({item["name"] for item in codex["plugins"]}, EXPECTED_CODEX)
+        self.assertEqual(
+            {item["name"] for item in openclaw["plugins"]}, EXPECTED_OPENCLAW
+        )
 
         for item in codex["plugins"]:
             self.assertEqual(item["source"]["source"], "local")
@@ -89,7 +93,7 @@ class MarketplaceCatalogTests(unittest.TestCase):
         self.assertIn("data = json.load(open('.obvious-one-validation.json'", workflow)
         self.assertIn("plugin: ${{ fromJson(needs.matrix.outputs.matrix).plugin }}", workflow)
         self.assertIn("tools/verify_marketplace.py --registry", workflow)
-        for plugin_id in EXPECTED:
+        for plugin_id in EXPECTED_CODEX:
             self.assertNotIn(f"  {plugin_id}:\n", workflow)
 
     def test_artifact_registry_uses_portable_posix_path_order(self) -> None:
@@ -97,9 +101,26 @@ class MarketplaceCatalogTests(unittest.TestCase):
             (ROOT / ".obvious-one-validation.json").read_text(encoding="utf-8")
         )
         for plugin in registry["plugins"]:
-            for artifact in plugin["artifacts"].values():
+            for target in plugin["targets"].values():
+                if target["state"] == "NOT APPLICABLE":
+                    self.assertEqual(target, {"state": "NOT APPLICABLE"})
+                    continue
+                artifact = target["artifact"]
                 paths = [record["path"] for record in artifact["files"]]
                 self.assertEqual(paths, sorted(paths))
+
+    def test_target_specific_release_versions(self) -> None:
+        registry = json.loads(
+            (ROOT / ".obvious-one-validation.json").read_text(encoding="utf-8")
+        )
+        plugins = {item["plugin_id"]: item for item in registry["plugins"]}
+
+        self.assertEqual(plugins["cool-plugin-design-assistant"]["version"], "1.0.1")
+        self.assertEqual(plugins["plugin-builder"]["version"], "1.0.0")
+        self.assertEqual(
+            plugins["plugin-builder"]["targets"]["openclaw"],
+            {"state": "NOT APPLICABLE"},
+        )
 
     def test_legacy_bible_smokes_match_runnable_marketplace_artifacts(self) -> None:
         registry = json.loads(
