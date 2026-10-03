@@ -98,6 +98,12 @@ part of that identity. The stage includes both Cool Plugin Design Assistant
 artifacts, the catalog entries, the generated verifier and workflow, the legacy
 verification target, and the schema-v3 Vibe Coding Designer build canary.
 
-Git index, commit, fresh-checkout, publication, and post-publication install
-verification remain separate gates. No public marketplace mutation, release,
-or registry submission had been performed when this artifact was built.
+Git index, commit, and fresh-checkout verification passed before publication.
+Marketplace PR #1 was merged as
+`4b4a4f4a9dc48b2a089a76bb1cf8763c56788dff`. Post-publication Codex installation
+then exposed a missing local-source discriminator in the catalog entry; the
+regression-tested correction was published through marketplace PR #2 as
+`5daa24e7f38e05c16aa4254fa296c5381eab4e97`. GitHub-source installation,
+seven-Skill discovery, and all packaged validation commands subsequently passed
+in both Codex and OpenClaw. No GitHub Release or external registry submission
+was performed.

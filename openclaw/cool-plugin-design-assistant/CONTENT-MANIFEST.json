@@ -1,12 +1,12 @@
 {
-  "content_sha256": "01acce2483de35d572b49d401033be0d28c4dfd2e2141dfcf28d99c99978cd71",
-  "file_count": 48,
+  "content_sha256": "008c25d16c6a5c090c27705185417bfc402b460b3a7ebb8d30d9c62bdb7b9e99",
+  "file_count": 49,
   "files": [
     {
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": ".codex-plugin/plugin.json",
-      "sha256": "32d53d56602c225a06af7db8c9b21266f4cca8a07614bf96397c920267e4038e",
+      "sha256": "eb470f1f3e9f904cf6db7c3db60dba6a5185b4c482f78aa97a554fe739cf469e",
       "size": 1539
     },
     {
@@ -69,8 +69,8 @@
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "docs/runtime-compatibility.md",
-      "sha256": "d7e7777f79469c7109fec7024edca6797d19b6229a6cc25ef5641487cc4b33fe",
-      "size": 5669
+      "sha256": "8d35796de18d7d3be87daad0c338ccb061596e2dfec8762d5ef138bcd7ddd38c",
+      "size": 6026
     },
     {
       "canonicalization": "utf8-lf",
@@ -83,7 +83,7 @@
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "docs/source-inventory.json",
-      "sha256": "9ebc4302efa8df57393ba8497d86103ef7b0c28c864054942dc9ead6d62b0407",
+      "sha256": "7edc404049a2887fb75e64dba8b58e710e941bc2cc079006b0e1400524c99451",
       "size": 3376
     },
     {
@@ -125,7 +125,7 @@
       "canonicalization": "canonical-json-v1",
       "classification": "generated-json",
       "path": "package.json",
-      "sha256": "22ae5f4bf26e7fa19cbdbf98890f3e9b38dbd36c09c84eed0f3ba54937e264ce",
+      "sha256": "ae56da6af1216827358bf772f52e7b6d4bc8c01c0d2d0bb0d9cf7f52eb7ff88a",
       "size": 297
     },
     {
@@ -139,15 +139,15 @@
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "scripts/build_marketplace_release.py",
-      "sha256": "12791a90fd0369c8cecd3373d7b6616ffe3073d4d0c9d4d3c474b739a03c4213",
-      "size": 6338
+      "sha256": "8b88ca3f14dece2988bfad34a7dc4b3700a41e1c2b00f778f9ec8983bdaec2fd",
+      "size": 7334
     },
     {
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "scripts/cool_plugin_design_assistant.py",
-      "sha256": "d6dd5942b997f3c745206066405af804b1da025a43df0697edc46c8c4f52908c",
-      "size": 32558
+      "sha256": "427120825c20bea234f55ddb7d765d2090393085940a9295def43f63bfbfeb1b",
+      "size": 35690
     },
     {
       "canonicalization": "utf8-lf",
@@ -155,6 +155,13 @@
       "path": "scripts/distribution_audit.py",
       "sha256": "c9d5ff8e61589b375d193c84fab2438af66145a4ea2956c1b29676859138665a",
       "size": 5267
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "scripts/workbench_handoff_bootstrap.py",
+      "sha256": "77345239dca3ee64483c7dc4d296c8cb871c6ffccbf1804568bb5cf1f83acb7f",
+      "size": 944
     },
     {
       "canonicalization": "utf8-lf",
@@ -181,8 +188,8 @@
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "skills/creating-application-plugin-design-specifications/references/workbench-handoff-contract.md",
-      "sha256": "7bbe4a582f752c66029bcf64172e208da9b213149507d89391ed35def775042a",
-      "size": 2567
+      "sha256": "6a15b786f93bcdb66647a07476273d74fb47fa395851f69a5a2f6d981cd111b9",
+      "size": 4242
     },
     {
       "canonicalization": "utf8-lf",
@@ -341,6 +348,6 @@
   ],
   "plugin_id": "cool-plugin-design-assistant",
   "schema_version": 2,
-  "total_bytes": 113226,
-  "version": "1.0.0"
+  "total_bytes": 120330,
+  "version": "1.0.1"
 }
