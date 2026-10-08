@@ -18,8 +18,8 @@ permissions:
   contents: read
 
 env:
-  VERSION: "2.4.6"
-  RELEASE_TAG: "cool-bible-tutor-v2.4.6"
+  VERSION: "2.4.7"
+  RELEASE_TAG: "cool-bible-tutor-v2.4.7"
   CLAWHUB_VERSION: "0.23.3"
 
 jobs:
@@ -44,7 +44,7 @@ jobs:
           import hashlib, json, pathlib, zipfile
           plugin = pathlib.Path('plugins/cool-bible-tutor')
           manifest = json.loads((plugin / 'assets/openclaw/remote-assets.json').read_text(encoding='utf-8'))
-          assert manifest['version'] == '2.4.6' and manifest['release_tag'] == 'cool-bible-tutor-v2.4.6'
+          assert manifest['version'] == '2.4.7' and manifest['release_tag'] == 'cool-bible-tutor-v2.4.7'
           output = pathlib.Path('release-assets')
           output.mkdir()
           for group in manifest['asset_groups']:
@@ -78,7 +78,7 @@ jobs:
           python -B plugins/cool-bible-tutor/scripts/cool_bible_tutor.py rag-discover "神的愛與救恩" --top-k 5
       - uses: actions/upload-artifact@v4
         with:
-          name: cool-bible-tutor-v2.4.6-release-assets
+          name: cool-bible-tutor-v2.4.7-release-assets
           path: release-assets/*
           if-no-files-found: error
 
@@ -96,7 +96,7 @@ jobs:
           node-version: "22"
       - uses: actions/download-artifact@v4
         with:
-          name: cool-bible-tutor-v2.4.6-release-assets
+          name: cool-bible-tutor-v2.4.7-release-assets
           path: release-assets
       - name: Refuse an existing immutable release version
         env:

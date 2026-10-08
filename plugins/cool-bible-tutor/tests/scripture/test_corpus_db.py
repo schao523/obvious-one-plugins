@@ -57,7 +57,7 @@ class CorpusDatabaseTests(unittest.TestCase):
         self.assertEqual(resolve_database(None, {}), BUNDLED_DATABASE)
 
     def test_bundled_database_connection_rejects_mutation(self):
-        with open_corpus_read_only(BUNDLED_DATABASE) as connection:
+        with closing(open_corpus_read_only(BUNDLED_DATABASE)) as connection:
             with self.assertRaises(sqlite3.OperationalError):
                 connection.execute("DELETE FROM verses")
 

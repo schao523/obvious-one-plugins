@@ -14,10 +14,10 @@ if VENDORED_RUNTIME.is_dir() and str(VENDORED_RUNTIME) not in sys.path:
 try:
     from obvious_one_runtime.adapters import IngestionRequest, validate_ingestion_request
 except ModuleNotFoundError:
-    REPOSITORY_ROOT = Path(__file__).resolve().parents[4]
+    REPOSITORY_ROOT = Path(__file__).resolve().parents[5]
     if str(REPOSITORY_ROOT) not in sys.path:
         sys.path.insert(0, str(REPOSITORY_ROOT))
-    from tools.obvious_one_plugin_framework.adapters import (
+    from obvious_one_plugin_framework.adapters import (
         IngestionRequest,
         validate_ingestion_request,
     )

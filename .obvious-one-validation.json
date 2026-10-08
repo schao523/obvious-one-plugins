@@ -45,23 +45,23 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "2f0c5ca79f71f933dd2a11e0d363d19a09234b3432525d2f9251931d810aa724",
-            "file_count": 139,
+            "content_sha256": "d7b1ed83ceadd6c424028d898929708f7952ee25f5aadd8b07a3b12201687788",
+            "file_count": 138,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "d97eb8b5002d9ab245b6e1d474b87004f559c55e43f877e48ce80bdeffbd6794",
+                "sha256": "5aeb9ffa7fc385d3cc708c9bc3d63eb19cb01dee7013537d28121114b55bb6ab",
                 "size": 1402
               },
               {
                 "path": ".gitattributes",
-                "sha256": "edac343e38f84a6b024b1860bb786c0c44c683bf9fa01df7370af5ec0c0839e8",
-                "size": 635
+                "sha256": "7c750881d32ba8993a5b94b13041af95fe724159c110479364df064877c4994b",
+                "size": 449
               },
               {
                 "path": "DISTRIBUTION.md",
-                "sha256": "9ad7ce38d513c04d7d33c8201e7e458cc1afd54ebfaa51f0891656e602e8cc69",
-                "size": 7436
+                "sha256": "4e520e1ce51b5d416b7264f1120dcab71914014030a989b5afb1f9779e634e14",
+                "size": 7635
               },
               {
                 "path": "LICENSE",
@@ -75,8 +75,8 @@
               },
               {
                 "path": "README.md",
-                "sha256": "c76977030b3334de1814e91ba8f8d7dd8c650b7970d26b7b99f3f79676493731",
-                "size": 6025
+                "sha256": "e037d814bf896dcb1d8afb44dc0d85b098aabbbd48f31a5dbee3444f1ba06793",
+                "size": 6384
               },
               {
                 "path": "SECURITY.md",
@@ -95,8 +95,13 @@
               },
               {
                 "path": "assets/openclaw/remote-assets.json",
-                "sha256": "4456151da79a1c968c6fdbc23b077d02acf64eff8e272d53d053de941666df5d",
-                "size": 1907
+                "sha256": "b633601e80bbae28460fc070ae14e7fadb60329c82bf42f0cba4cb1be1326fad",
+                "size": 1858
+              },
+              {
+                "path": "assets/openclaw/runtime-compatibility.json",
+                "sha256": "179f6e802b20f6052b99f332e5de77c39834eaa0e9ea24a4192c91e1e3020cc6",
+                "size": 508
               },
               {
                 "path": "assets/rag/bge-large-zh-v1.5-model-manifest.json",
@@ -139,19 +144,24 @@
                 "size": 5410816
               },
               {
+                "path": "docs/runtime-compatibility-contract.md",
+                "sha256": "5cd2e30aabe743c88942d326b6f68ac05dbcfac330b45f48973d3e327676945a",
+                "size": 2960
+              },
+              {
                 "path": "docs/top-level-launcher-pattern.md",
                 "sha256": "1991dc604b5e59d9655e78eabf44d7fc27442de6d294b4fa377ee48cda99ac1a",
                 "size": 2017
               },
               {
                 "path": "scripts/build_marketplace_release.py",
-                "sha256": "74e80ac192d44634eb5338a2966caaa563acd60b49c2ce2dde5ac169df368afc",
-                "size": 6506
+                "sha256": "41357c3f02254ad536b2350068d75b1993b105bceae3a28c1c9c3c996efddfae",
+                "size": 6587
               },
               {
                 "path": "scripts/cool_bible_tutor.py",
-                "sha256": "3396af654ab93600a32cdd7c65be22ef7fa44905db5f2fa06b54f3f8d505525b",
-                "size": 19731
+                "sha256": "ba0d6f0ae5f288e555b3da874d17676272a44db4aa56589a28aaffd698d98ceb",
+                "size": 25044
               },
               {
                 "path": "scripts/distribution_audit.py",
@@ -172,6 +182,11 @@
                 "path": "scripts/openclaw_distribution.py",
                 "sha256": "20bf704c179d6edd8ed9ce1b9dc5b5b6dd643301897564c4c6740ca785695940",
                 "size": 2103
+              },
+              {
+                "path": "scripts/repair_vendored_rag_wheel.py",
+                "sha256": "9a8fc01e01a763834de0a1c557bcbe09fc67b4abd966efd2748ed83d3c2e722f",
+                "size": 3550
               },
               {
                 "path": "skills/applying-biblical-truth/SKILL.md",
@@ -335,8 +350,8 @@
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/discover_bible_references.py",
-                "sha256": "fe26e62d52293ffcba9e43c559c98acf64392da0064ee64eb30755ce38d547bc",
-                "size": 10174
+                "sha256": "86044e913210b6e8c9076685e80376868eac57e2a74efbcbeb141561050787cc",
+                "size": 10491
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/get_passage.py",
@@ -345,8 +360,8 @@
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/ingest_bible_rag.py",
-                "sha256": "37dbcf9e35669e873e716fa73c85bec782a54373a6bb620f9ab5a9bf097fbd0d",
-                "size": 8775
+                "sha256": "7e9529f54b4df26e57f08dedf70c1060565332341922b2643eda655e39588cad",
+                "size": 8769
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/ocr_adapter.py",
@@ -365,8 +380,8 @@
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_runtime.py",
-                "sha256": "e366b18af71262e4af6ce62b58bd1dee2f6f2b51c4a93a50554e0d512fdf40bf",
-                "size": 10212
+                "sha256": "2ff7f46bcd43cd94ca6d2fc69895fae56b92193abb38b8e4c13e90413686bc7e",
+                "size": 10600
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_setup.py",
@@ -459,21 +474,6 @@
                 "size": 46
               },
               {
-                "path": "tests/_runtime_fixture/.gitkeep",
-                "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
-                "size": 2
-              },
-              {
-                "path": "tests/_runtime_fixture/cache-fixture/.gitkeep",
-                "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
-                "size": 2
-              },
-              {
-                "path": "tests/_runtime_fixture/references/.gitkeep",
-                "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
-                "size": 2
-              },
-              {
                 "path": "tests/behavior/applying-biblical-truth.md",
                 "sha256": "7de05bc78f86d3a5329bfcc9c183dd9dbc5a80127256d7a1c87a6e1737276b47",
                 "size": 937
@@ -545,13 +545,13 @@
               },
               {
                 "path": "tests/scripture/test_corpus_db.py",
-                "sha256": "1cef3c68dcca0c8024954692ba32795c4d09d89341cd03f5f7e6d613ea25b2fd",
-                "size": 3077
+                "sha256": "9f790a782b82177432b638b349122af0151bac76177e367c20d9f3255609bbf6",
+                "size": 3086
               },
               {
                 "path": "tests/scripture/test_discover_bible_references.py",
-                "sha256": "c5f2d3ea44c404ce484a133db33a20b780b35d87a243afe10cbbf938d71d4b3a",
-                "size": 11291
+                "sha256": "4b02de83554871f0c0732d4ab13ad20faef034351563b273544d1e323e90042b",
+                "size": 13501
               },
               {
                 "path": "tests/scripture/test_freeze_public_corpus.py",
@@ -600,8 +600,8 @@
               },
               {
                 "path": "tests/scripture/test_rag_setup.py",
-                "sha256": "ab90eaf8e31d3d93f0020e507286435989080d210ee571b0749196d3d599ae4d",
-                "size": 23306
+                "sha256": "725c206c6a8bb3d38e3a409103a4e9f1dad67614ee7b67d9b25ac814babbaacc",
+                "size": 23304
               },
               {
                 "path": "tests/scripture/test_references.py",
@@ -644,24 +644,14 @@
                 "size": 6621
               },
               {
-                "path": "tests/test_clawhub_retry_workflow.py",
-                "sha256": "2f2842099edeb40159f5680f08a1aa76da7763ffa7c13da3c129ed74ef5fe724",
-                "size": 942
-              },
-              {
                 "path": "tests/test_distribution.py",
-                "sha256": "2a92612e2610733454915b3475a885a2d9d6849cad4b0c47148a635cb1bf7d39",
-                "size": 12090
+                "sha256": "140afb5bcf39bf78b4dfc089b218e75de69a1cb2c1f681209384a694fb15f304",
+                "size": 12083
               },
               {
                 "path": "tests/test_marketplace_release.py",
-                "sha256": "6a043ef068786a6cf5fcbe4a9d0c2984683fa76bf09b6ce8f58bdda97de2f325",
-                "size": 2610
-              },
-              {
-                "path": "tests/test_openclaw_marketplace.py",
-                "sha256": "7338805c2a39e621c72960f0bdc9b53c9a36da72798c250ef7b7681696decfd4",
-                "size": 2033
+                "sha256": "50a6a4378113fcee635d00bc2e52051e5fba6dbf0ee512d6b850f2ea5aaa2036",
+                "size": 2990
               },
               {
                 "path": "tests/test_references.py",
@@ -670,13 +660,18 @@
               },
               {
                 "path": "tests/test_setup_launcher.py",
-                "sha256": "92ae02f98c2b3abe67b5986c00f326fd38911c34bee8d63f8b1573678af8ffcb",
-                "size": 17096
+                "sha256": "16da2199bf63fdbb4e7857cdb745ff2e1a6f692a09eab6404e06e24e033fc873",
+                "size": 20855
               },
               {
                 "path": "tests/test_skill_contracts.py",
                 "sha256": "72f9740a945c8ca3574c5495cb09ca466c930505366ef77595594aae5eb4491c",
                 "size": 11570
+              },
+              {
+                "path": "tests/test_vendored_rag_wheel.py",
+                "sha256": "ffdee008fe2c3c763b97489b1938b10aebc7865ec3194299ddd87a0b08a4a8a4",
+                "size": 907
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/__init__.py",
@@ -690,8 +685,8 @@
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/cache.py",
-                "sha256": "29a85828420bcfc37d5147c1fc424a4e5baf6d805553ec7c0f175a7ae5b59879",
-                "size": 3535
+                "sha256": "3fb8ace596727b1d9bed377410566c2cc0322aa6c51b6b965f7a8664237ccb47",
+                "size": 3768
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/paths.py",
@@ -705,8 +700,8 @@
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/setup.py",
-                "sha256": "a5e13a07e8534815295b8539661373706f19647381af7e486194686114cab12f",
-                "size": 6387
+                "sha256": "10dce7de579e7309ad19ca3dc939b30d8cc4abed21afe59630dbadfac2a3d26f",
+                "size": 6389
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/status.py",
@@ -730,85 +725,90 @@
               },
               {
                 "path": "vendor/rag-runtime/runtime-lock.json",
-                "sha256": "b70660a9331edb8a6a210ee1db6c558bc1d6916e6dcf45a6f9c88973b24294a2",
+                "sha256": "b74d5303f2213b1e9c535da7f72b5b0512681c61ac4dc0227762ff3a13ca2231",
                 "size": 1275
               },
               {
                 "path": "vendor/rag-subsystem/manifest.json",
-                "sha256": "f0d4220de40503a23e29d732394be8dbfd4a141ea2c25b22c3d59ed101c2caf7",
-                "size": 225
+                "sha256": "66efd872908d6a589a6fff3f82b6473709a841197484f49b5438f24ca740e052",
+                "size": 301
               },
               {
                 "path": "vendor/rag-subsystem/rag_subsystem-0.2.1-py3-none-any.whl",
-                "sha256": "163778ca8b3e6cf1ffcf591395beab4ce4467024d3293a12c9a41bd6a9d746df",
-                "size": 30983
+                "sha256": "f0b2cbfa9d5c6ccac3d726d56b0fc3b231a07dc3711714ca9f3674d7599dba71",
+                "size": 31427
               }
             ],
-            "total_bytes": 67181605
+            "total_bytes": 67200069
           },
-          "mode": "verify_existing",
+          "mode": "build",
           "path": "plugins/cool-bible-tutor",
           "state": "STATICALLY VERIFIED"
         },
         "openclaw": {
           "artifact": {
-            "content_sha256": "e3ae2a009d1e78bd03e1da40c275bb0103f30ab10b1337aa3255ce0a838e7fd2",
-            "file_count": 93,
+            "content_sha256": "3d00a21211ae67ce5efaf30fe937817e244673040108d3a93ae476aa4d2bd331",
+            "file_count": 96,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "d97eb8b5002d9ab245b6e1d474b87004f559c55e43f877e48ce80bdeffbd6794",
+                "sha256": "5aeb9ffa7fc385d3cc708c9bc3d63eb19cb01dee7013537d28121114b55bb6ab",
                 "size": 1402
               },
               {
                 "path": ".gitattributes",
-                "sha256": "edac343e38f84a6b024b1860bb786c0c44c683bf9fa01df7370af5ec0c0839e8",
-                "size": 635
+                "sha256": "b9960233e82de416917a8222af70bbcd0e106e3a7360163e5f407d6da44ae2d5",
+                "size": 436
               },
               {
                 "path": "CONTENT-MANIFEST.json",
-                "sha256": "c6b663e9790d551821e7b0bc39fad5523201fae3f539d085a1465e3eb1632f04",
-                "size": 17463
+                "sha256": "9f9469915f6a030285250229969dac7efa07c0d681b72c1d05f54b9db08c497c",
+                "size": 24666
               },
               {
                 "path": "DISTRIBUTION.md",
-                "sha256": "9ad7ce38d513c04d7d33c8201e7e458cc1afd54ebfaa51f0891656e602e8cc69",
-                "size": 7436
+                "sha256": "270beb2dd17fb6cdb28296da4a5cfb908c3da2e8df054354499410c107d062ee",
+                "size": 7567
               },
               {
                 "path": "LICENSE",
-                "sha256": "683283ade5fa0067609e1591e23fc9dddfd40b294a7d6a2f8b5f04693d6072db",
-                "size": 1086
+                "sha256": "40b321bc8e642103f76ccb883a6be822f4d072aa9522e5f86aec9c8fa8230fb2",
+                "size": 1065
               },
               {
                 "path": "PRIVACY.md",
-                "sha256": "427a8815e9fc61b96f52464bc03887b18a543020a8a266105aa810fc85e087c2",
-                "size": 1248
+                "sha256": "92102d6c091083fc6a4f0ba15345958f59d63431ac1d2bf10d20046284b533fe",
+                "size": 1239
               },
               {
                 "path": "README.md",
-                "sha256": "52ca13f8a316feb7eebcea4dcd174b8d309fd3cdee1669a1c20a792df1dc8fff",
-                "size": 2966
+                "sha256": "bd49a831e94a42a217f01bc958312e46d6466558e1a3fa6380b1bf876fba077c",
+                "size": 3377
               },
               {
                 "path": "SECURITY.md",
-                "sha256": "55c3ee4efa6781f81633b3e9721ff063e21db1e5a8fd87a1687e9dde15b1b7eb",
-                "size": 1163
+                "sha256": "bc7e0e5172d18e2d8b95c56334cdf9c81415bb7ce97847d20b67020ec57781fb",
+                "size": 1154
               },
               {
                 "path": "THIRD_PARTY_CONTENT.md",
-                "sha256": "15f133ad2c6a3e7b0d699533025e8286de4508a39211506e97b9c1e79897fb19",
-                "size": 2260
+                "sha256": "a6b69bd6e70a2117ec8fe95f45a7afcc176f8d372f4874d5f392578c2fa1a2f4",
+                "size": 2238
               },
               {
                 "path": "THIRD_PARTY_NOTICES.md",
-                "sha256": "fc43f7a10e0ace315cadf8a4836e90ca1bebe2fc766b7602c26ef7b42d862618",
-                "size": 2758
+                "sha256": "0305979ab072d8c19d74436d44fb311c1a6e1c3684ed390befeeea5c6c359189",
+                "size": 2692
               },
               {
                 "path": "assets/openclaw/remote-assets.json",
-                "sha256": "4456151da79a1c968c6fdbc23b077d02acf64eff8e272d53d053de941666df5d",
-                "size": 1907
+                "sha256": "b633601e80bbae28460fc070ae14e7fadb60329c82bf42f0cba4cb1be1326fad",
+                "size": 1858
+              },
+              {
+                "path": "assets/openclaw/runtime-compatibility.json",
+                "sha256": "03ad5eeaf139285d02a63bd0428af3deb36f851000420af779f875dca393c333",
+                "size": 491
               },
               {
                 "path": "assets/rag/bge-large-zh-v1.5-model-manifest.json",
@@ -836,359 +836,369 @@
                 "size": 5410816
               },
               {
+                "path": "docs/runtime-compatibility-contract.md",
+                "sha256": "ade479cfe8cf7df3e50ac20e63553cf2008fd83aab3efa74df33152e6c9e7fc4",
+                "size": 2911
+              },
+              {
                 "path": "docs/top-level-launcher-pattern.md",
-                "sha256": "1991dc604b5e59d9655e78eabf44d7fc27442de6d294b4fa377ee48cda99ac1a",
-                "size": 2017
+                "sha256": "47df42c53f0145b644bedd55bb91330022e0b23190017a519586b38ac9778390",
+                "size": 1996
               },
               {
                 "path": "package.json",
-                "sha256": "f3b10f18ec084da01949b32cffe63eb83c12536619b4fc76278f0cfe9c7649a0",
-                "size": 283
+                "sha256": "556025d73aba0693d01c731ec949b5fb3d58dbaadf310b9bf6a01082b0e453f8",
+                "size": 273
               },
               {
                 "path": "scripts/build_marketplace_release.py",
-                "sha256": "74e80ac192d44634eb5338a2966caaa563acd60b49c2ce2dde5ac169df368afc",
-                "size": 6506
+                "sha256": "90f8989d72f77024d23f2f27bd58fc1b5e784e447bcd06facb668ca4a698dc3b",
+                "size": 6407
               },
               {
                 "path": "scripts/cool_bible_tutor.py",
-                "sha256": "3396af654ab93600a32cdd7c65be22ef7fa44905db5f2fa06b54f3f8d505525b",
-                "size": 19731
+                "sha256": "d750c287b5158828657dc46e0d058ef86886ddb903c4f41d064966532ae6b55f",
+                "size": 24386
               },
               {
                 "path": "scripts/distribution_audit.py",
-                "sha256": "81fee21f668d6d9fcaee49d5f613cc0317a654466f8bdc62f173d2f23f41be87",
-                "size": 16191
+                "sha256": "e0f525c23c4976a1c295ce725af918a31be9e5ac8ca0ad039d8e8a0f633c7132",
+                "size": 15853
               },
               {
                 "path": "scripts/freeze_public_corpus.py",
-                "sha256": "d8a991413c021329d8c9d74e2fd73c9a0abf0e1bb3b0ca6f1d948a78ed5ad696",
-                "size": 6956
+                "sha256": "1522e0392f36709ae17bf91c05079a5c4045b8afb1baa142dbf3aa07a148f248",
+                "size": 6776
               },
               {
                 "path": "scripts/freeze_public_rag_index.py",
-                "sha256": "cd630c484e4ff5314a07b21e0b53a60494bc746f6eb95cb7a72936ec2788cf9a",
-                "size": 16960
+                "sha256": "410ba025f508ae97c28dbe214c58152f72694c6a4fc84d9c11742b828b415fab",
+                "size": 16504
               },
               {
                 "path": "scripts/openclaw_distribution.py",
-                "sha256": "20bf704c179d6edd8ed9ce1b9dc5b5b6dd643301897564c4c6740ca785695940",
-                "size": 2103
+                "sha256": "09de3efee6f98da2f584af3008d235664bec309cca81aafd49e090b021ea5de0",
+                "size": 2050
+              },
+              {
+                "path": "scripts/repair_vendored_rag_wheel.py",
+                "sha256": "1050be4608a5d45ae574b5de4ffd58fe7c0130fa88e60dbfe7dcfa72858b8b74",
+                "size": 3462
               },
               {
                 "path": "skills/applying-biblical-truth/SKILL.md",
-                "sha256": "c045024f751d501d1277650bedffc4ad5dbed0074a7c4c4cf3404f2fecb245a8",
-                "size": 1736
+                "sha256": "5b40fd16655518d07961751ec66c0410cb73e0dbdf44262161255928b8ac3282",
+                "size": 1709
               },
               {
                 "path": "skills/applying-biblical-truth/agents/openai.yaml",
-                "sha256": "26a53788b012883ae68445a05edec899e7bb78a014f0636db73bc626a82cdcdb",
-                "size": 263
+                "sha256": "288d43e1c6fa9c0af1b506ad0e6ac8442a89704d30eef5b186ab12bb05be1fcc",
+                "size": 259
               },
               {
                 "path": "skills/applying-biblical-truth/references/action.md",
-                "sha256": "4d929767fa8355b9c847951c17d7154256d08c1fa072b70d0da3d7ee69e978b5",
-                "size": 1017
+                "sha256": "3a7ff7878fe9420c123a5ddb0ba61d7e07f82dc1c431a0d1979fc92905b30326",
+                "size": 1006
               },
               {
                 "path": "skills/applying-biblical-truth/references/principles.md",
-                "sha256": "ea130ad33c137e771bfd1b4cbe44fc5f8e89eae0c99da01f0b87eccf53d1b332",
-                "size": 994
+                "sha256": "4067fa086910653241bec0262c47ed2774da17347884df6011809696eaf18b55",
+                "size": 982
               },
               {
                 "path": "skills/applying-biblical-truth/references/specifics.md",
-                "sha256": "68493b15f61ecb8503ebf25e96e28a223d60108d0c29dcd75896585ade1f55e9",
-                "size": 1002
-              },
-              {
-                "path": "skills/comparing-biblical-words-and-translations/SKILL.md",
-                "sha256": "2c5569fed6a839a16ed9b02ea34b865a58694058830e87a3ddaf0daaccc2b24e",
-                "size": 2697
-              },
-              {
-                "path": "skills/comparing-biblical-words-and-translations/agents/openai.yaml",
-                "sha256": "6f49172354191630357b146457db32c318266421ee977d64ae630a68d472feb6",
-                "size": 293
-              },
-              {
-                "path": "skills/discussing-biblical-theology/SKILL.md",
-                "sha256": "c9cc5cb841168b8a5d23f724d70b8dacc22e48525105f78c6a48c686bab5dbb4",
-                "size": 2927
-              },
-              {
-                "path": "skills/discussing-biblical-theology/agents/openai.yaml",
-                "sha256": "96b834a94567ed3aac429b3cae60d420cfc013d660a944717ed50afaab519a39",
-                "size": 271
-              },
-              {
-                "path": "skills/guiding-bible-tutor-sessions/SKILL.md",
-                "sha256": "7f633cb38be944d70d89ed3dc0aa42eaec9b320261f7358815c83671549cfb4e",
-                "size": 2991
-              },
-              {
-                "path": "skills/guiding-bible-tutor-sessions/agents/openai.yaml",
-                "sha256": "d0c1e604b2c339b1949e589e5d0a2e37371aae8a8ac4ce33db4ac1294424e04f",
-                "size": 266
-              },
-              {
-                "path": "skills/guiding-bible-tutor-sessions/references/interaction-contract.md",
-                "sha256": "07bf7d0dd97583942683a8bfd35784e2dbbe7a91193d1824390b9c991ff963e8",
-                "size": 1928
-              },
-              {
-                "path": "skills/guiding-bible-tutor-sessions/references/scripture-theology-safety.md",
-                "sha256": "e253f299481529d64028916c973f108d5f0afc3a8e6e10e43a48ca93c11211fa",
-                "size": 1708
-              },
-              {
-                "path": "skills/interpreting-biblical-passages/SKILL.md",
-                "sha256": "4a78bb8cd19d90a33395573174fe5cccb9445da069be46e04388612b933f1193",
-                "size": 2091
-              },
-              {
-                "path": "skills/interpreting-biblical-passages/agents/openai.yaml",
-                "sha256": "61bffc274ad04a250659fd3b41a96d93da615570ec552a21e87365e0280e77fe",
-                "size": 267
-              },
-              {
-                "path": "skills/interpreting-biblical-passages/references/answering.md",
-                "sha256": "6d92894178d27b370c77c29cdaf302d3eb5e504e5a5d761ec5128748f2ff1ea8",
-                "size": 1774
-              },
-              {
-                "path": "skills/interpreting-biblical-passages/references/synthesis.md",
-                "sha256": "1693ac36824a7c67d50ae3d6071db3b00b807452ca33f4cad690a2ff482bbdec",
-                "size": 744
-              },
-              {
-                "path": "skills/interpreting-biblical-passages/references/theme.md",
-                "sha256": "0098761677bbc1d9a68574f7b5813489c2dfb782bda940ea098863d78fbf460a",
-                "size": 898
-              },
-              {
-                "path": "skills/observing-biblical-passages/SKILL.md",
-                "sha256": "705b1a249a7a0f824084cb52c7494fc421741996c8b4c59e3718c38b936164c5",
-                "size": 1560
-              },
-              {
-                "path": "skills/observing-biblical-passages/agents/openai.yaml",
-                "sha256": "83a52c80536ae6401871c40717101f55b80f14a7a5529441fea4c7e38c3474f9",
-                "size": 251
-              },
-              {
-                "path": "skills/observing-biblical-passages/references/observation.md",
-                "sha256": "58bc162a7ffbf870c73565015f0f322f18c7f4b2e820fdaee76881ee3036be8e",
-                "size": 1619
-              },
-              {
-                "path": "skills/observing-biblical-passages/references/questions.md",
-                "sha256": "4401f9ad83649256c75aa1e91cbc860c5fb0d4b0dfdbab2e5f117fe9783c3b18",
+                "sha256": "61b51978274ca0d31f7012c3ebab6a522c9cc782f8cf0b85a17ced1f0db3bee8",
                 "size": 985
               },
               {
+                "path": "skills/comparing-biblical-words-and-translations/SKILL.md",
+                "sha256": "9f269061fe32fa94a713046a2f6a46448848766cdb2de7fa8337515805c0e158",
+                "size": 2668
+              },
+              {
+                "path": "skills/comparing-biblical-words-and-translations/agents/openai.yaml",
+                "sha256": "6082f5bf7a7c4a199290ea250fa72f83cccb039a6236a0e41655d5edb03958da",
+                "size": 289
+              },
+              {
+                "path": "skills/discussing-biblical-theology/SKILL.md",
+                "sha256": "901406be77a3119f6da011d4249563f855ae57d1d5748407f47d0998eaf468c1",
+                "size": 2896
+              },
+              {
+                "path": "skills/discussing-biblical-theology/agents/openai.yaml",
+                "sha256": "c9cb493e7f2fef2d11b04a62a44bbb635d2818eec12ba9b56c210408323db899",
+                "size": 267
+              },
+              {
+                "path": "skills/guiding-bible-tutor-sessions/SKILL.md",
+                "sha256": "4478f39cdf8333d3e413b31295992e903e7943fa8d6dbc8a731cc7683de28260",
+                "size": 2956
+              },
+              {
+                "path": "skills/guiding-bible-tutor-sessions/agents/openai.yaml",
+                "sha256": "70a96f281df7afec43264fa3725afbbda4304b5788eba9fffaa85a5da701b137",
+                "size": 262
+              },
+              {
+                "path": "skills/guiding-bible-tutor-sessions/references/interaction-contract.md",
+                "sha256": "7b0c8baa66de16387ee95a1143fd0039f06f7807673a97ca37e8bdcb95fc1a1c",
+                "size": 1895
+              },
+              {
+                "path": "skills/guiding-bible-tutor-sessions/references/scripture-theology-safety.md",
+                "sha256": "9736e53085ce22d3537fa6a3e253119ca42e50c38abfbe67ea3a43131c443918",
+                "size": 1685
+              },
+              {
+                "path": "skills/interpreting-biblical-passages/SKILL.md",
+                "sha256": "791186f2eb3a2532ba807c52eaeed451224f103e4e6284aed08885207341106b",
+                "size": 2062
+              },
+              {
+                "path": "skills/interpreting-biblical-passages/agents/openai.yaml",
+                "sha256": "7f3da8cc8ab59d9a15ba139a84e985054a8c1d26350e8fb22f417b44029444e9",
+                "size": 263
+              },
+              {
+                "path": "skills/interpreting-biblical-passages/references/answering.md",
+                "sha256": "14e4e04bb13caf7472b63386c8cdf12121dc878612edf601a770923024294bcf",
+                "size": 1750
+              },
+              {
+                "path": "skills/interpreting-biblical-passages/references/synthesis.md",
+                "sha256": "9471829b6ea81f56e71988d0b41ca7b06eaa0344624d00c7d01bcd147c5634ae",
+                "size": 733
+              },
+              {
+                "path": "skills/interpreting-biblical-passages/references/theme.md",
+                "sha256": "6f4e4a9b24427f166b27f2157363ab26611683e5a22fb9b6a7f816c711cffdb7",
+                "size": 885
+              },
+              {
+                "path": "skills/observing-biblical-passages/SKILL.md",
+                "sha256": "98d4b576177ff008bd2166c84b3ae91e7e0a193ac09589b8aa538a6042e26dc1",
+                "size": 1532
+              },
+              {
+                "path": "skills/observing-biblical-passages/agents/openai.yaml",
+                "sha256": "2bbf267833ec9e2b970c83698dfb2edba5ebbf84a714d9b487089e0b5f331afb",
+                "size": 247
+              },
+              {
+                "path": "skills/observing-biblical-passages/references/observation.md",
+                "sha256": "db33a8b626820c12afb2f7b9c2f3c5264718e523e42793195f2a3f9d847315a4",
+                "size": 1594
+              },
+              {
+                "path": "skills/observing-biblical-passages/references/questions.md",
+                "sha256": "88786fd09cc0f3ebd8b4afadab9a9857ec2d120f4f76ad9ce2d1de1d63df3666",
+                "size": 966
+              },
+              {
                 "path": "skills/observing-biblical-passages/references/relationships.md",
-                "sha256": "4b68587e8108c67c1133f8e77133ce5adb621ffdd631c219f357b59432dc946d",
-                "size": 1400
+                "sha256": "2a1d4c16a17a5616931c86c46717337f29d8239d60cc09984b00561855a68f6e",
+                "size": 1376
               },
               {
                 "path": "skills/observing-biblical-passages/references/structure.md",
-                "sha256": "1e219adbb69afe625c1a4b3d3bde6b9e50e1f030196b33f1151de065dcf87ab5",
-                "size": 1082
+                "sha256": "a50a975245d10d76bf8ed8ed6cfc38668180c16cb0b3cb51793c1e7a5ea71212",
+                "size": 1058
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/SKILL.md",
-                "sha256": "4762ef8b595551f4e5619c2c11052bcfd45366bc66e4de484a722848c7318ec6",
-                "size": 5146
+                "sha256": "da5f61f0b8931e3becd62450361f8202c15da79d1934470008c48d605bee643c",
+                "size": 5105
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/agents/openai.yaml",
-                "sha256": "f9176be086e26664aba2427503813f447a8699caa4c775bcd5863ea2cd587cd3",
-                "size": 288
+                "sha256": "3db9332e72d160b22a7bbf1083a66234c4beb81d6b6ecefa7f67383c400bbb25",
+                "size": 284
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/data/.gitignore",
-                "sha256": "4bb38be6d6d9ef0d2f9bcc339850ff48d821eccfa739369402b354c9ba946ea2",
-                "size": 16
+                "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
+                "size": 14
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/references/corpus-and-verification.md",
-                "sha256": "cabd1fe3fb5d5b9fc930cb6a647511abcb24c720f03ac394780d57aa0ecc92c8",
-                "size": 3565
+                "sha256": "05a564cf47495e4d90bdd0211ee1b885ba6837f73e07b0e8c60e9427a41ae3bc",
+                "size": 3527
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/references/setup-scripture-data.md",
-                "sha256": "b4c25506c0cec67297dd8c388858f73c01024440f3e237d5919ea0bd89cc240d",
-                "size": 7027
+                "sha256": "261205b5cd3fcef5e5454a464e9df3c5ca6b8a68e9d867e6d9964cac98ad612e",
+                "size": 6939
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/book_names.py",
-                "sha256": "68e4ed41d2446dad5666e01a0eaa3626eb2bdb2749ef0ca23dbbe65fe84edd30",
-                "size": 5175
+                "sha256": "dc1c848a06ad342a7a19c433d1292d24474f8d497908bd8228d44c085189017b",
+                "size": 5053
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/build_cuv_index.py",
-                "sha256": "fb3a5d77ff5a384343dcb7639a16f70fdaf76dbd0edd0db29c2d5847c39a296a",
-                "size": 10429
+                "sha256": "83893fe4645f2194020407fae61deea385b70ebe738f7c6b3d54f2d05ffff270",
+                "size": 10176
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/corpus_db.py",
-                "sha256": "33a885bebe5d836f699d26ed0ce0d1965601ad71c34d1fd3138caf3e33cfba0d",
-                "size": 6246
+                "sha256": "ddcb71c8dfed15f7db4aed17ea12910c09c137b43daf52b7594d1dfbe57b3465",
+                "size": 6076
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/discover_bible_references.py",
-                "sha256": "fe26e62d52293ffcba9e43c559c98acf64392da0064ee64eb30755ce38d547bc",
-                "size": 10174
+                "sha256": "84774f0917f1e98cebca20c92348e1a215c6188e2f8958f71c00e68bb2f91eee",
+                "size": 10205
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/get_passage.py",
-                "sha256": "49dbc0afdb17d97379877f479f68c35b92d73b28d76822dac26c3803f64bea1c",
-                "size": 2529
+                "sha256": "1a9f532ac2c2597f22023e2a43b199443c861549613e61986023ff7a985dc731",
+                "size": 2457
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/ingest_bible_rag.py",
-                "sha256": "37dbcf9e35669e873e716fa73c85bec782a54373a6bb620f9ab5a9bf097fbd0d",
-                "size": 8775
+                "sha256": "d45df0dab1e3db39f5aaa364ea50bc368da3c8de4db60e36c47dbb8979c74cb2",
+                "size": 8554
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/ocr_adapter.py",
-                "sha256": "725162eb67c259c3d36dd164442ac8203d35d18cf6a73cb5e223d9ad4e6cc054",
-                "size": 3436
+                "sha256": "f250450f4bdbf146fb238ccd2ea13ef434a5a51d2ea811fee444330e371d9553",
+                "size": 3329
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_documents.py",
-                "sha256": "96ccb4e6024f43feeb8cc671546a547d78600398edba36136950d653f71bc715",
-                "size": 6179
+                "sha256": "39978a14cc07eb9aaac6da38c9793de330b33e0fcda7f46ed7ef238f2c48b2e1",
+                "size": 6024
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_metadata_sync.py",
-                "sha256": "6274fd11d304f2a949ad218fc888bd9d0b0262cf4a620688a6250c1fbe164cbd",
-                "size": 17574
+                "sha256": "f21940501068199a52cd3fbf67f771a220a9ed84298a71d57acb41f2de929e22",
+                "size": 17183
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_runtime.py",
-                "sha256": "e366b18af71262e4af6ce62b58bd1dee2f6f2b51c4a93a50554e0d512fdf40bf",
-                "size": 10212
+                "sha256": "efdf8a2e10444cdb50461f3172a03968e2beced05a1cb0ca2fdd51e898f97056",
+                "size": 10352
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_setup.py",
-                "sha256": "af685ff541485bdc7cba6678eec0fac634676be0e1025ed3d17d7416945fb1d2",
-                "size": 33342
+                "sha256": "7150a2490c7b0a3c5a267e4757c852c342a4d5e1beae098da98245d6d1f7f753",
+                "size": 32530
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_vector_lock.py",
-                "sha256": "ae3e3d6c6c28a1eb44e1b56a9c4d4cc97fd504ec6e152a949d247a6342035f3c",
-                "size": 1931
+                "sha256": "77c9e3ba608c7bf7cf71690934f353e5960631baf9a9a10fd937c2c47e58ee94",
+                "size": 1872
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/rag_vector_manifest.py",
-                "sha256": "c005d8c495c9c6c41833b9d12ade5935e644c5df418f360210b22c8b7737d580",
-                "size": 1472
+                "sha256": "5a5916a5d2371c9a7b02f0f859df751dfb5d71224bc38a7c6555c2916a0b713b",
+                "size": 1432
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/references.py",
-                "sha256": "0825e0a658081e742e136f44570e475afb3de02c2938fa3f2fabb739a18ecc2b",
-                "size": 2663
+                "sha256": "39971bbbc8b4d2460d4128d92af3b6142e36dc1968dca5f5425a03bbde1d7429",
+                "size": 2583
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/review_cuv_index.py",
-                "sha256": "29ab5337e8f6b841457c0e89c8cafa93f8ded0a0f191734c2d8b3dcbb1be8dd1",
-                "size": 3375
+                "sha256": "81b60b1c95cd2fc73e596a7d4248c1af32d36150d9dcbe829ec7e925b7fe19d4",
+                "size": 3282
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/review_mutations.py",
-                "sha256": "4d0913c3ab2d098c70e2648671516c2c865b291eded7f6fdf36e2d1d069c09df",
-                "size": 14196
+                "sha256": "424de009f56b562f8f5645e0fe2384aac3de0f3b12a420880118561e39a70cb1",
+                "size": 13869
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/review_server.py",
-                "sha256": "f09462625eaf7716c0d95d0052ae816acb130bfb7ab8454bbf0159d2f1132af9",
-                "size": 16170
+                "sha256": "ad00d78d42e6ccfc137d3dc309b5236b353497ceb0b669c6f7f66502c091b435",
+                "size": 15807
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/review_sources.py",
-                "sha256": "0ba5b7727d357e8d84d602880722d3ad49d0c7ba588bacdbf3b7e9d06b3056dd",
-                "size": 4583
+                "sha256": "02aff97cc8762d36f1bb3243bc189171473cc4fb9e44e5bbdc9f3caa9200ed94",
+                "size": 4456
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/review_store.py",
-                "sha256": "336034f8980d157f6d92183137961bd55a30fa64c0d98443b173632ea8b37be0",
-                "size": 11056
+                "sha256": "2d367571ad1d5e6b432deef0895486fd908c9b8b715089910cc3b51a58274d55",
+                "size": 10811
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/review_web/app.js",
-                "sha256": "4261d0b8fd893ad591f8a714d7e67684c6b270cfc4fcd31ad4488f0225001ddc",
-                "size": 14712
+                "sha256": "cc089d068d64ea883ac033c179a91e61965e1994ad06f9231da41687b76dc469",
+                "size": 14357
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/review_web/index.html",
-                "sha256": "163c812dc80902551e9df52552b975a5e364b876802ad9537dd673e206a0a64b",
-                "size": 6834
+                "sha256": "f55c4b95d966c3eb1aed1e5e21b042dffe326e4991b3fb8e752e9c44b7e91f77",
+                "size": 6711
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/review_web/styles.css",
-                "sha256": "56006ca5feb6780886b33aa5883c32a0facb36cb99e153e2a5f3e6c4516fda77",
-                "size": 6990
+                "sha256": "d200744db1b4394ed9d964419637eb0725c7bae55791fc4495022a8627d8fde2",
+                "size": 6882
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/scripture_sources.py",
-                "sha256": "0275d3d3473cbf8c3c12aec4a1a5fd3598fa7a529eb17f5bbf3179c95cbaf1d3",
-                "size": 2382
+                "sha256": "c199b79ef46159dbe068937afc6ca98839f6939096945307ff21daa19da000a5",
+                "size": 2310
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/scripts/verify_cuv_index.py",
-                "sha256": "1fd4c5cdf5fa775b7638dca2d268559c5416e13bc7182eae15253e08be4743d0",
-                "size": 13336
+                "sha256": "0eb95d27d30e356ef0484cb97c8941ff8fcda747daf4936c4464c347db3aa853",
+                "size": 13013
               },
               {
                 "path": "skills/supporting-biblical-exegesis/SKILL.md",
-                "sha256": "2edd4a311943025c239cf40012d57cd70eae391fead8c6e2129eb9a8ee9f6baf",
-                "size": 2068
+                "sha256": "32b5c37739615d9ed16d45e686a8773e2bc03f5403c6567ff5363dcf038eda23",
+                "size": 2046
               },
               {
                 "path": "skills/supporting-biblical-exegesis/agents/openai.yaml",
-                "sha256": "d817b13e4f47ccf27c1fca62bf7b4aa75a03c9839914a3c04cf52edcddc11dcb",
-                "size": 277
+                "sha256": "cd5632901099c065156b1a239b4e52ecf9ca1a49a9a90aa0422297ce8789e955",
+                "size": 273
               },
               {
                 "path": "skills/supporting-biblical-exegesis/references/eight-contexts.md",
-                "sha256": "ecc6f9946e73ea08f6ef95932d5ed4e7e457103c123b3a596d2f958fa154ea2e",
-                "size": 3696
+                "sha256": "718e90e4efda3a4bef4fcc423f997185e6775c7a9433163db677b98cd224a59f",
+                "size": 3652
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/__init__.py",
-                "sha256": "5774617628b0f2a8a5a9390b1ae37e8675f667d0c6d3560819279eb67b1fe524",
-                "size": 108
+                "sha256": "be8283003b02823f058c8b59b0ddc84c5a74c0f2493c6d1a5a0192196ee14ca8",
+                "size": 105
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/adapters.py",
-                "sha256": "6999cbaf33f3c6c4dc96507f9785faba7e2e2c282851cf618c046e7ccb495d9d",
-                "size": 3802
+                "sha256": "49316f9abbbb0969cfe7e08d0125976a711a11b3f67ce7b7c905c106085ddf4d",
+                "size": 3693
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/cache.py",
-                "sha256": "29a85828420bcfc37d5147c1fc424a4e5baf6d805553ec7c0f175a7ae5b59879",
-                "size": 3535
+                "sha256": "f7a4c3b0143967baffdacdcbb43d8cb4b7e78a61556b879759c54601a68e0b8c",
+                "size": 3654
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/paths.py",
-                "sha256": "b4136ac033eb2e4cd7c02d3939a1d12e0997b4483eb817aeb71edbf1468bf67e",
-                "size": 1467
+                "sha256": "61ccca5b989fd85e341e14c752099a36d78e20f099a047327ecda510090e9147",
+                "size": 1417
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/remote_assets.py",
-                "sha256": "97b3d040d00e8740147e4c2cca784b7e5b4eacc100872e8232c4195bcd844077",
-                "size": 4723
+                "sha256": "1f398f585ef66d138cdac44fe70e627366ecc1f652d4687843fea0f2d13fa80c",
+                "size": 4599
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/setup.py",
-                "sha256": "a5e13a07e8534815295b8539661373706f19647381af7e486194686114cab12f",
-                "size": 6387
+                "sha256": "6b762d8778596643cfdcc866dccc36d00a53624d59e0174649b672d8a7cf3e9e",
+                "size": 6206
               },
               {
                 "path": "vendor/obvious-one-runtime/obvious_one_runtime/status.py",
-                "sha256": "ec10fbce46849a519a02ce2181f66aa2baf58c004d926bf3daa4577890a3a90d",
-                "size": 852
+                "sha256": "653019d61f496e9f5223f3cf8694502be95cd29dedc7bc2971a1bcdfd479dc55",
+                "size": 820
               },
               {
                 "path": "vendor/rag-runtime/model-manifest.json",
@@ -1207,28 +1217,28 @@
               },
               {
                 "path": "vendor/rag-runtime/runtime-lock.json",
-                "sha256": "b70660a9331edb8a6a210ee1db6c558bc1d6916e6dcf45a6f9c88973b24294a2",
+                "sha256": "b74d5303f2213b1e9c535da7f72b5b0512681c61ac4dc0227762ff3a13ca2231",
                 "size": 1275
               },
               {
                 "path": "vendor/rag-subsystem/manifest.json",
-                "sha256": "f0d4220de40503a23e29d732394be8dbfd4a141ea2c25b22c3d59ed101c2caf7",
-                "size": 225
+                "sha256": "66efd872908d6a589a6fff3f82b6473709a841197484f49b5438f24ca740e052",
+                "size": 301
               },
               {
                 "path": "vendor/rag-subsystem/rag_subsystem-0.2.1-py3-none-any.whl",
-                "sha256": "163778ca8b3e6cf1ffcf591395beab4ce4467024d3293a12c9a41bd6a9d746df",
-                "size": 30983
+                "sha256": "f0b2cbfa9d5c6ccac3d726d56b0fc3b231a07dc3711714ca9f3674d7599dba71",
+                "size": 31427
               }
             ],
-            "total_bytes": 5929931
+            "total_bytes": 5942674
           },
-          "mode": "verify_existing",
+          "mode": "build",
           "path": "openclaw/cool-bible-tutor",
           "state": "STATICALLY VERIFIED"
         }
       },
-      "version": "2.4.6"
+      "version": "2.4.7"
     },
     {
       "clawhub": {
@@ -1695,7 +1705,7 @@
             ],
             "total_bytes": 228813
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "plugins/cool-plugin-design-assistant",
           "state": "STATICALLY VERIFIED"
         },
@@ -1957,7 +1967,7 @@
             ],
             "total_bytes": 133088
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "openclaw/cool-plugin-design-assistant",
           "state": "STATICALLY VERIFIED"
         }
@@ -2291,7 +2301,7 @@
             ],
             "total_bytes": 316927
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "plugins/plugin-builder",
           "state": "STATICALLY VERIFIED"
         },
