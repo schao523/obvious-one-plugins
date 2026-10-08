@@ -45,7 +45,7 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "d7b1ed83ceadd6c424028d898929708f7952ee25f5aadd8b07a3b12201687788",
+            "content_sha256": "238f4c9538e9892ec3296b969300ab10557024e5919fb182ddadb5f8800dab1f",
             "file_count": 138,
             "files": [
               {
@@ -55,8 +55,8 @@
               },
               {
                 "path": ".gitattributes",
-                "sha256": "7c750881d32ba8993a5b94b13041af95fe724159c110479364df064877c4994b",
-                "size": 449
+                "sha256": "22dfd9bc58eac254e1cea393289ceb1711d5e8306469997977b15888ea139162",
+                "size": 473
               },
               {
                 "path": "DISTRIBUTION.md",
@@ -739,15 +739,15 @@
                 "size": 31427
               }
             ],
-            "total_bytes": 67200069
+            "total_bytes": 67200093
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "plugins/cool-bible-tutor",
           "state": "STATICALLY VERIFIED"
         },
         "openclaw": {
           "artifact": {
-            "content_sha256": "3d00a21211ae67ce5efaf30fe937817e244673040108d3a93ae476aa4d2bd331",
+            "content_sha256": "c6c64c6049aac82f290f10bc961cf4f73e0c1f7525d5616e9da510656d325e72",
             "file_count": 96,
             "files": [
               {
@@ -757,12 +757,12 @@
               },
               {
                 "path": ".gitattributes",
-                "sha256": "b9960233e82de416917a8222af70bbcd0e106e3a7360163e5f407d6da44ae2d5",
-                "size": 436
+                "sha256": "6584a6f0230f69bde10b8ba011c04ed82499dad40c610d27b0a4e73a43c53a81",
+                "size": 462
               },
               {
                 "path": "CONTENT-MANIFEST.json",
-                "sha256": "9f9469915f6a030285250229969dac7efa07c0d681b72c1d05f54b9db08c497c",
+                "sha256": "54ba02a3004f71e0ab5171c2d7e20b0d96955e7eaa34e9d1b25bde3cab94b433",
                 "size": 24666
               },
               {
@@ -1231,9 +1231,9 @@
                 "size": 31427
               }
             ],
-            "total_bytes": 5942674
+            "total_bytes": 5942700
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "openclaw/cool-bible-tutor",
           "state": "STATICALLY VERIFIED"
         }
@@ -1394,18 +1394,18 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "2a42eea8ccd56d44773fb577495cf0008148807d38368090c98900e3c2e7118d",
-            "file_count": 61,
+            "content_sha256": "235b49c26aa57064768d0b1b18251a82c492fbafa3a3f2ffd8bfa8d856a17bd3",
+            "file_count": 64,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "ee6734059dc11cf873280fca4c60078509b4fdcf7848b06b1bf715daa8af9e6a",
-                "size": 1571
+                "sha256": "115429bf2a5b466d17334a72ebec2efb562d05ce7ddd236a400217c49094a167",
+                "size": 1487
               },
               {
                 "path": "DISTRIBUTION.md",
-                "sha256": "dbeb064984aef29a29fecc8aaf13e6bb19876b09c47d487859a88dca37afc150",
-                "size": 1306
+                "sha256": "7a04409727095d4045c6a88e14954444dfeb2a9d2d818ccbca55091891077908",
+                "size": 1727
               },
               {
                 "path": "LICENSE",
@@ -1419,8 +1419,8 @@
               },
               {
                 "path": "README.md",
-                "sha256": "173e2a7ecc3bc03fdce3fdfaec734bb61e066ee98186eb88e2162e59eb753cb4",
-                "size": 1910
+                "sha256": "790b9459aea5f3c9867b2bfb7e3c19cd9212329e7a71d1ce638c777a31062837",
+                "size": 2181
               },
               {
                 "path": "SECURITY.md",
@@ -1483,24 +1483,29 @@
                 "size": 1373
               },
               {
+                "path": "plugin.json",
+                "sha256": "87ba5118f47b092f115fae3ca2b817e44f0b2a98b035650ca0daa55a495baa85",
+                "size": 1649
+              },
+              {
                 "path": "scripts/README.md",
                 "sha256": "1a45f5d1fdc113c83e3b54e7e875d41535a07f1c6c86e78c9f2c17547a08e250",
                 "size": 258
               },
               {
                 "path": "scripts/build_marketplace_release.py",
-                "sha256": "5cd32126dd118779348f74dc65cc5d9b0220ac4f4f1814ff02c899923ac7d2b1",
-                "size": 7522
+                "sha256": "9ca827cece6e47aa4e44fbcef8f5859c2a82c11a2096bfc5e771f7885721d9f1",
+                "size": 8381
               },
               {
                 "path": "scripts/cool_plugin_design_assistant.py",
-                "sha256": "e3da9f005f08e08e16a1167274d68de6cf8ebf196bba3ee9300823360f173be2",
-                "size": 36513
+                "sha256": "28027bd31841f280b769e481979269be0eb8452788ca361351ccafa279b86916",
+                "size": 39576
               },
               {
                 "path": "scripts/distribution_audit.py",
-                "sha256": "82dad514cb174b97c74e36f294fc7841e9a1f53c166decb53bf5617cbd91798a",
-                "size": 5437
+                "sha256": "74151d28d049a2697ac71077740ced2ef383ecc2540f4f0af2d358601f68fdfe",
+                "size": 5454
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/__init__.py",
@@ -1509,13 +1514,18 @@
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/__init__.py",
-                "sha256": "8ff43c79092baf619ab3d10ae599186395ffc88ba3247f17753293618abb7401",
-                "size": 1757
+                "sha256": "255432992ea4ad7041095082ce513ab6f4eccb13982f5014b011f4db8964a661",
+                "size": 2191
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/archive.py",
                 "sha256": "7386943e74d5fb7161382a5da67bb8f53e746552f9e63df0d9a656fe347bbb56",
                 "size": 12721
+              },
+              {
+                "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/capabilities.py",
+                "sha256": "06f66b928680f20b1ec27d9e88489b3ad097090af4c176bab7ede620da0b693c",
+                "size": 4664
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/identity.py",
@@ -1533,14 +1543,19 @@
                 "size": 7890
               },
               {
+                "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/runtime_realization.py",
+                "sha256": "482971ca40a775aabe25ae24e9bc04ff41cdc33b212340a17e83ba8862fb1851",
+                "size": 5982
+              },
+              {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/tools.py",
-                "sha256": "db19ee0af1d1ba29609d42381d4e5bbcd7718abc2a6bf0934713c16207f83ff6",
-                "size": 9273
+                "sha256": "3f9486ba15e971b15f3323ed83058667df7abc0d95a5bac364a17e524b391232",
+                "size": 26724
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/validation.py",
-                "sha256": "8da92cc1045c8c8f9c4a7c203d2e1ea44f17c94cb06f54763053b21592a047f2",
-                "size": 17784
+                "sha256": "ffbe7931cd579114d3faf0c50bb5e1bbae28f2c507929900fd4c53412198a921",
+                "size": 20583
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/__init__.py",
@@ -1559,8 +1574,8 @@
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/normalization.py",
-                "sha256": "6003ac7180cbc4e59f102b8b3f2cc6e2298b69950e7c81f416fdf4c31191ee15",
-                "size": 25667
+                "sha256": "b5e2804c9f4b38e8cb9d9925d69e0457b710e3658bf8b451d37c2844453f2d5c",
+                "size": 25775
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/profiles.py",
@@ -1569,13 +1584,13 @@
               },
               {
                 "path": "scripts/workbench_handoff_bootstrap.py",
-                "sha256": "77345239dca3ee64483c7dc4d296c8cb871c6ffccbf1804568bb5cf1f83acb7f",
-                "size": 944
+                "sha256": "03f9c6a9986f28f733f934e0c782196074a34f60e3eb61cfd7570c372c420021",
+                "size": 1139
               },
               {
                 "path": "skills/creating-application-plugin-design-specifications/SKILL.md",
-                "sha256": "a5e9f144c56dd0507bff06559deabb47099056f06e623539109f2816ef84ecb5",
-                "size": 1691
+                "sha256": "dbc369e1c26b6dd8a93d64d22624e55ec88f3b768634ac2a64c792d9bdb93a18",
+                "size": 2054
               },
               {
                 "path": "skills/creating-application-plugin-design-specifications/agents/openai.yaml",
@@ -1589,8 +1604,8 @@
               },
               {
                 "path": "skills/creating-application-plugin-design-specifications/references/workbench-handoff-contract.md",
-                "sha256": "e80bb3083b8b678419b704410e2006a915cd004c2b64f11c044a600b693ecac4",
-                "size": 4298
+                "sha256": "f9eccf5844ce468ff4d324a093b60c393a0680adf0fd36bf454e6f5b9e72f3a8",
+                "size": 4958
               },
               {
                 "path": "skills/creating-design-statements/SKILL.md",
@@ -1703,31 +1718,31 @@
                 "size": 2323
               }
             ],
-            "total_bytes": 228813
+            "total_bytes": 267665
           },
-          "mode": "verify_existing",
+          "mode": "build",
           "path": "plugins/cool-plugin-design-assistant",
           "state": "STATICALLY VERIFIED"
         },
         "openclaw": {
           "artifact": {
-            "content_sha256": "e778dcca45ca721f2a7216dfdcbb4e89e8a8d75d1169f589d537e9ca77864dd7",
-            "file_count": 50,
+            "content_sha256": "92314978adcb4257aa6fc533b5f48cc6ee92e6b20ca3c6cc403dc2a2f6c52655",
+            "file_count": 51,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "eb470f1f3e9f904cf6db7c3db60dba6a5185b4c482f78aa97a554fe739cf469e",
-                "size": 1539
+                "sha256": "f69bf3e1ec5210c29b2986c8fc76f0850d08b228efb290679b3b9fdeb376b6e8",
+                "size": 1459
               },
               {
                 "path": "CONTENT-MANIFEST.json",
-                "sha256": "b3653fcc0e92ad909998dd75760a399efb4fbfe846dec13f9a62708e9be255d4",
-                "size": 12758
+                "sha256": "68ff204d04a3fd3a28783006a4621fe795e8ac1503d341f5abe20871bcbb56aa",
+                "size": 12973
               },
               {
                 "path": "DISTRIBUTION.md",
-                "sha256": "8e8161b92cd5ac56a551293719895091dde1334d441cc9d0cf8bac9d5cdd4879",
-                "size": 1283
+                "sha256": "3e0b1d8558ad010d843ae180a963ce1bcf5787c3ee4a2bff7eed701bdd38bf87",
+                "size": 1705
               },
               {
                 "path": "LICENSE",
@@ -1806,8 +1821,13 @@
               },
               {
                 "path": "package.json",
-                "sha256": "ae56da6af1216827358bf772f52e7b6d4bc8c01c0d2d0bb0d9cf7f52eb7ff88a",
+                "sha256": "29a236fa886c6b0e90103a510fe241a8e9a8716c7e28d291b982a01ca077c71f",
                 "size": 297
+              },
+              {
+                "path": "plugin.json",
+                "sha256": "87ba5118f47b092f115fae3ca2b817e44f0b2a98b035650ca0daa55a495baa85",
+                "size": 1649
               },
               {
                 "path": "scripts/README.md",
@@ -1816,28 +1836,28 @@
               },
               {
                 "path": "scripts/build_marketplace_release.py",
-                "sha256": "8b88ca3f14dece2988bfad34a7dc4b3700a41e1c2b00f778f9ec8983bdaec2fd",
-                "size": 7334
+                "sha256": "c06e465b8ffb6500e2b627842fcad3be998644e3fe2c19c4aaf3cd510c744df6",
+                "size": 8203
               },
               {
                 "path": "scripts/cool_plugin_design_assistant.py",
-                "sha256": "427120825c20bea234f55ddb7d765d2090393085940a9295def43f63bfbfeb1b",
-                "size": 35690
+                "sha256": "b937cca4bc688d433c334a23e80ae3865cf35586e905fce08e47fd9fcad30ece",
+                "size": 38753
               },
               {
                 "path": "scripts/distribution_audit.py",
-                "sha256": "c9d5ff8e61589b375d193c84fab2438af66145a4ea2956c1b29676859138665a",
-                "size": 5267
+                "sha256": "1f9488bb8aa058e073b9f3b20e100bcaee68776c4433255f18ea0aae52f76524",
+                "size": 5286
               },
               {
                 "path": "scripts/workbench_handoff_bootstrap.py",
-                "sha256": "77345239dca3ee64483c7dc4d296c8cb871c6ffccbf1804568bb5cf1f83acb7f",
-                "size": 944
+                "sha256": "03f9c6a9986f28f733f934e0c782196074a34f60e3eb61cfd7570c372c420021",
+                "size": 1139
               },
               {
                 "path": "skills/creating-application-plugin-design-specifications/SKILL.md",
-                "sha256": "0db0aa6fc7e393e077bb166a71100aa019dcdbdb28c26ba99655bf2cb6862b32",
-                "size": 1659
+                "sha256": "92ebadc6f9bf2a81ed0853d98b7d0bd4232f2a20ab6264b818599121a5a12ff8",
+                "size": 2026
               },
               {
                 "path": "skills/creating-application-plugin-design-specifications/agents/openai.yaml",
@@ -1851,8 +1871,8 @@
               },
               {
                 "path": "skills/creating-application-plugin-design-specifications/references/workbench-handoff-contract.md",
-                "sha256": "6a15b786f93bcdb66647a07476273d74fb47fa395851f69a5a2f6d981cd111b9",
-                "size": 4242
+                "sha256": "a1ee4a26c5a15c6c5f442b45c2e5ddd1b9b2f5154760bac2c5118db6803603e4",
+                "size": 4902
               },
               {
                 "path": "skills/creating-design-statements/SKILL.md",
@@ -1965,14 +1985,14 @@
                 "size": 2271
               }
             ],
-            "total_bytes": 133088
+            "total_bytes": 140467
           },
-          "mode": "verify_existing",
+          "mode": "build",
           "path": "openclaw/cool-plugin-design-assistant",
           "state": "STATICALLY VERIFIED"
         }
       },
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     {
       "clawhub": {
@@ -1995,18 +2015,18 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "b2dc6bf44ee08805fa24e57dcd01442bdec859d923fe8d4b8faf80a5f44b006c",
-            "file_count": 60,
+            "content_sha256": "8df699cea07e55d8672e6d5cd834f366c670c57aca5157198832b50b8b62c260",
+            "file_count": 78,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "f5683b4918e80db4f8fb15068801f25e19b06dd714182bd8a2c4af233fa49f74",
+                "sha256": "cf0c9d3421c3c044dc5c5296a9adea7dc713883030116b73315645802a7f4145",
                 "size": 737
               },
               {
                 "path": "DISTRIBUTION.md",
-                "sha256": "bf3be6ee9d7a55028e0bcafd0b0bc862ac993d856e1a9a0f45309057de497594",
-                "size": 1694
+                "sha256": "4f38ab2739502e911842271b36c1a435f20d00ed4433cfecb60098814e5bc09d",
+                "size": 1908
               },
               {
                 "path": "LICENSE",
@@ -2020,8 +2040,8 @@
               },
               {
                 "path": "README.md",
-                "sha256": "a8b7a9edd64171020416e13e6c8148b00ce1eb923f486f69fa939dd56590d212",
-                "size": 2348
+                "sha256": "59b362fd13e18bf306859f6d9be67769d6a0e3301e502197957f9ed0235ec950",
+                "size": 3630
               },
               {
                 "path": "SECURITY.md",
@@ -2035,38 +2055,78 @@
               },
               {
                 "path": "THIRD_PARTY_NOTICES.md",
-                "sha256": "2ccdc170b4930f2545e96a0a30adbf60196c40d0eae852b1b6d02aaacfe77754",
+                "sha256": "57d2d260526c908f6dec7d68fc8f762f946897d636e133ef2345ae18b8f8510e",
                 "size": 235
               },
               {
+                "path": "contracts/openai-interface-vocabulary-v1.json",
+                "sha256": "d91d7bd3bb136f50b55e6e0aa4386ffca47afcc1dab3de13270b76a9ccaf3bc1",
+                "size": 262
+              },
+              {
                 "path": "docs/application-invariants.md",
-                "sha256": "84ff6c9ec37eeecf30fe73b1d490cfaa266d5d095b0d18a9fb63c30666e4dd97",
-                "size": 3908
+                "sha256": "d4be38251a148429c0a51b910127f428ecf3388257d99398cf75be2f70efe1a4",
+                "size": 4603
               },
               {
                 "path": "docs/runtime-compatibility.md",
-                "sha256": "38b4ab6de15640df53b272304437092c2134bb6f02bf415607a95107e5b6ace8",
-                "size": 6359
+                "sha256": "3fdd20f90ccc04af7e7c6a35b65e18694f283604a6356e269922d6225b11406a",
+                "size": 6832
               },
               {
                 "path": "plugin.json",
-                "sha256": "eb0d1e488a785bea044c21b557ad2f60dc2ddcf0e3c83ebc9bb1303ee8ea53b0",
+                "sha256": "26cf24f6c0a416122f83dfb44254f9fbe7546efe86c4ed13f76eb1695febef4a",
                 "size": 918
               },
               {
+                "path": "runtime/T1-T7-runtime-scenarios.md",
+                "sha256": "6fb464839370e0353847543d8a3faba608a8a1ca22459c7b7db1f9a742ff4879",
+                "size": 6159
+              },
+              {
+                "path": "runtime/T8-runtime-realization-scenario.md",
+                "sha256": "36feb500b6726b85c3f18d919d507061f6d4b36d13f8a9528fb89b54886452fb",
+                "size": 2917
+              },
+              {
+                "path": "runtime/create-plan.json",
+                "sha256": "a8f3f59fd72c69393c716098395527e12147c9057bcd667447012f9d307dbeb7",
+                "size": 11507
+              },
+              {
+                "path": "runtime/mcp_server_fixture.py",
+                "sha256": "22372ffb40f01e2c9c481e5bcb625e7d9b2e8349e6120e5682bf08142fa81258",
+                "size": 3475
+              },
+              {
+                "path": "runtime/prepare-runtime-scenarios.py",
+                "sha256": "2d2e1dd3fcb53e8a9887351dd01238c0e7e67009a211df4a05bf919ca601f088",
+                "size": 10177
+              },
+              {
+                "path": "runtime/runtime-result-v3-schema.json",
+                "sha256": "5cea7c76db94df4678d925473d402776b257089bd0ac2f3a3eadc53919bbf82d",
+                "size": 6877
+              },
+              {
+                "path": "runtime/runtime-result-v3-template.json",
+                "sha256": "df16df3281fb68ca8a042273b8a4728c12ad033827c71078103c6543b8cb4b8d",
+                "size": 1912
+              },
+              {
                 "path": "scripts/build_marketplace_release.py",
-                "sha256": "d9946b946e161e199d806516084dbabc1eb3dc7a4b7e3698e00ec8779242497e",
-                "size": 11856
+                "sha256": "92c591e10ab4af8304275a9909974a03ecafd82f723fef975283913c1d44982c",
+                "size": 12705
               },
               {
                 "path": "scripts/distribution_audit.py",
-                "sha256": "80db656cd82e2f429ab1c0e80f4c1c0be3d2994509350956ef163a309297eec7",
-                "size": 6614
+                "sha256": "e2549639f0e2b34f57f1166caa251d9f06eff080c41fdb5abf2c16474ae75564",
+                "size": 7227
               },
               {
                 "path": "scripts/plugin_builder.py",
-                "sha256": "e7b31dfd432adb9229cdd77391df1f709d5307e2db41ad7cd139f253f8d20a21",
-                "size": 11612
+                "sha256": "b650d038967cbd58c9caba2867a99d0d5a6e4aae3b8a52f7d891576585392247",
+                "size": 12656
               },
               {
                 "path": "scripts/plugin_builder_core/__init__.py",
@@ -2075,23 +2135,33 @@
               },
               {
                 "path": "scripts/plugin_builder_core/approvals.py",
-                "sha256": "0b32e03d4adb2bb9606c1a959dff791de3931450171b199f627323870d9adaae",
-                "size": 7282
+                "sha256": "afb00733d234fbea5f782cc08dca42dcdad335aba4fe28b5dede3161e5560e4a",
+                "size": 15935
+              },
+              {
+                "path": "scripts/plugin_builder_core/artifact_quality.py",
+                "sha256": "d508fa59382598781814d4379917b476654a3e55e7bf4eb0274a980df1202fb2",
+                "size": 9452
               },
               {
                 "path": "scripts/plugin_builder_core/bootstrap.py",
-                "sha256": "81aebe3896c8f68c2ccf526b2d174243fc6accce52c58bd3d062fa9abdb7a465",
-                "size": 1747
+                "sha256": "45d34ee573d88ab1d9a9091dd808fb0b402a4bf8d5c2ae68a308ac1a11a3e161",
+                "size": 2088
               },
               {
                 "path": "scripts/plugin_builder_core/candidate.py",
-                "sha256": "e49e178786437b09e5694efd8835c4adf82661d625486537a1549a08cbccb1f4",
-                "size": 9752
+                "sha256": "325531148926fbf01dd5ee9eb736d53ec58483d4b76a1566936ce80b71176715",
+                "size": 9815
+              },
+              {
+                "path": "scripts/plugin_builder_core/candidate_identity.py",
+                "sha256": "8bc65f24ace091ce7cbe2604c53d7d251ebe367d8b6d1579c252817e073de126",
+                "size": 3680
               },
               {
                 "path": "scripts/plugin_builder_core/evidence.py",
-                "sha256": "49fa68c0d744658c6b3d114c223e6ced8963bf97020d6d3c65b35ef1b382fe06",
-                "size": 9451
+                "sha256": "1d402dce26473e6e11b54269d3d21ce721e42256e65412e2374290d7c6b8f4e0",
+                "size": 35083
               },
               {
                 "path": "scripts/plugin_builder_core/handoff_normalization.py",
@@ -2100,8 +2170,8 @@
               },
               {
                 "path": "scripts/plugin_builder_core/implementation_plan.py",
-                "sha256": "47a2e169354a1945090e8413cee114a380268a09f22b8eb1db6980f8f94548ed",
-                "size": 18013
+                "sha256": "d7a0b20d712453fb6d1d4c8527aa70ebc8eade306c59b468b08be6e150ad2527",
+                "size": 25832
               },
               {
                 "path": "scripts/plugin_builder_core/inspection.py",
@@ -2109,9 +2179,29 @@
                 "size": 20487
               },
               {
+                "path": "scripts/plugin_builder_core/manifest_profile.py",
+                "sha256": "769fd7155e4a2c33440e8644767f6f30a2454942f8b926d48967e393bc1daa02",
+                "size": 6567
+              },
+              {
+                "path": "scripts/plugin_builder_core/mcp_local_verification.py",
+                "sha256": "10bba823011f15c689f5234ad4cac2cd433e19f9c816e1c7c53b0adaee21c46d",
+                "size": 11641
+              },
+              {
+                "path": "scripts/plugin_builder_core/mcp_realization.py",
+                "sha256": "3a896d88a817ec79b807550a5012ac6c3e614bad5de4a63b7b589eea9c165228",
+                "size": 7916
+              },
+              {
                 "path": "scripts/plugin_builder_core/packaging.py",
-                "sha256": "d51770bcd0cb67367295695e854255c81425720d3c2a0270b22606cecd8c6cb6",
-                "size": 10151
+                "sha256": "fc456dbe89866f76bdcb0e6a4c2f6881ca3e3df0069a09034ac10c8ee18c7275",
+                "size": 14796
+              },
+              {
+                "path": "scripts/plugin_builder_core/proposed_tree.py",
+                "sha256": "9fa7fba015dcaacef796e2546ec01683439138f5e9a855ec94538a8fcb96643d",
+                "size": 8883
               },
               {
                 "path": "scripts/plugin_builder_core/result.py",
@@ -2119,9 +2209,19 @@
                 "size": 476
               },
               {
+                "path": "scripts/plugin_builder_core/runtime_adapters.py",
+                "sha256": "6d89feb87c27b468e5509bd7257b4deaeabf223a280f4faae05825cffa25c0fc",
+                "size": 5559
+              },
+              {
+                "path": "scripts/plugin_builder_core/runtime_commands.py",
+                "sha256": "1d7a0b81cc4a1c1a0f8804c297b5859b72fc84c82e817da95d8444a842146b49",
+                "size": 1401
+              },
+              {
                 "path": "scripts/plugin_builder_core/session_contract.py",
-                "sha256": "2b76168e03a81dcd1c9121a0383e5b2b69c08c6806adb59c4286b7ffad550f12",
-                "size": 29079
+                "sha256": "78f6411b463c5ef40287b8e02681b2585305b37212988c2eeffb153fb338fa62",
+                "size": 30514
               },
               {
                 "path": "scripts/plugin_builder_core/session_state.py",
@@ -2130,13 +2230,13 @@
               },
               {
                 "path": "scripts/plugin_builder_core/tool_contract.py",
-                "sha256": "5438ef808b511f00cae8a037d3ca187e2c0ca5a06e3e339b36d95b438b4fe402",
-                "size": 1394
+                "sha256": "f39befc70bb1ad251b9fee7f938cffa33db4341448f246de82026d984da6a46a",
+                "size": 1733
               },
               {
                 "path": "scripts/plugin_builder_core/tool_verification.py",
-                "sha256": "bacbf6c86ec0e752cae54383b1d92e6a1c5d3793a247b8a6d5abd2ee4f363c5a",
-                "size": 5045
+                "sha256": "29cc476e810787daa871f08e8eb262df69829f4da5d311daa67d3ea77ec19089",
+                "size": 7072
               },
               {
                 "path": "scripts/plugin_builder_core/update.py",
@@ -2145,13 +2245,13 @@
               },
               {
                 "path": "scripts/plugin_builder_core/update_candidate.py",
-                "sha256": "3bdd370873300a4bc57254eeaed22b221470158d4947bc9be9da51ee67d20571",
-                "size": 11692
+                "sha256": "6694e437e9b181e0874393dec79bdd5488f23c93a557e6bb03cbaaa1e0a0d773",
+                "size": 12110
               },
               {
                 "path": "scripts/plugin_builder_core/verification.py",
-                "sha256": "8a2fca4442f67c15c4ce3e41c6a2ce4d24578619ac645dc816a1c716237282e7",
-                "size": 11470
+                "sha256": "0731da28dd0a429e276ed5e695999ae76679fe2d21351c6d7a545c67efbdcba9",
+                "size": 18966
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/__init__.py",
@@ -2160,13 +2260,18 @@
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/__init__.py",
-                "sha256": "8ff43c79092baf619ab3d10ae599186395ffc88ba3247f17753293618abb7401",
-                "size": 1757
+                "sha256": "255432992ea4ad7041095082ce513ab6f4eccb13982f5014b011f4db8964a661",
+                "size": 2191
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/archive.py",
                 "sha256": "7386943e74d5fb7161382a5da67bb8f53e746552f9e63df0d9a656fe347bbb56",
                 "size": 12721
+              },
+              {
+                "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/capabilities.py",
+                "sha256": "06f66b928680f20b1ec27d9e88489b3ad097090af4c176bab7ede620da0b693c",
+                "size": 4664
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/identity.py",
@@ -2184,14 +2289,19 @@
                 "size": 7890
               },
               {
+                "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/runtime_realization.py",
+                "sha256": "482971ca40a775aabe25ae24e9bc04ff41cdc33b212340a17e83ba8862fb1851",
+                "size": 5982
+              },
+              {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/tools.py",
-                "sha256": "db19ee0af1d1ba29609d42381d4e5bbcd7718abc2a6bf0934713c16207f83ff6",
-                "size": 9273
+                "sha256": "3f9486ba15e971b15f3323ed83058667df7abc0d95a5bac364a17e524b391232",
+                "size": 26724
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/validation.py",
-                "sha256": "8da92cc1045c8c8f9c4a7c203d2e1ea44f17c94cb06f54763053b21592a047f2",
-                "size": 17784
+                "sha256": "ffbe7931cd579114d3faf0c50bb5e1bbae28f2c507929900fd4c53412198a921",
+                "size": 20583
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/__init__.py",
@@ -2210,8 +2320,8 @@
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/normalization.py",
-                "sha256": "6003ac7180cbc4e59f102b8b3f2cc6e2298b69950e7c81f416fdf4c31191ee15",
-                "size": 25667
+                "sha256": "b5e2804c9f4b38e8cb9d9925d69e0457b710e3658bf8b451d37c2844453f2d5c",
+                "size": 25775
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/profiles.py",
@@ -2220,8 +2330,8 @@
               },
               {
                 "path": "skills/building-and-updating-plugins/SKILL.md",
-                "sha256": "8e289ebabb820429044ad7e4a5c153992930b3ec2a6011b2d1574ade93808cbe",
-                "size": 1562
+                "sha256": "0720de795a1395652bae54f9a23a60cfa566a24f6ee9a69e4f893650d1c7279a",
+                "size": 1841
               },
               {
                 "path": "skills/building-and-updating-plugins/agents/openai.yaml",
@@ -2230,18 +2340,18 @@
               },
               {
                 "path": "skills/building-and-updating-plugins/references/application-tool-contract.md",
-                "sha256": "0cebc9134eb2690b1ca4d46e7b89d200c3a9cbee39c846c8130fb3e48de51f4a",
-                "size": 1409
+                "sha256": "01c13e7a07f8952dfe3b83acd4995b4b6bb81c928a8f61a95764b8e761bfdca8",
+                "size": 2278
               },
               {
                 "path": "skills/building-and-updating-plugins/references/candidate-and-update-contract.md",
-                "sha256": "864a27d3b37e176a393dda8bdaeb687ab48e8c6b11555e138b949455f8e26644",
-                "size": 1554
+                "sha256": "983e3347ea6a6819e82562eccca534453afb680758b7d5a69eeab1766acacbd2",
+                "size": 1845
               },
               {
                 "path": "skills/guiding-plugin-builder-sessions/SKILL.md",
-                "sha256": "fcefb4f57977426f68a811f6684f69cef3e645295b1cbe30b9bd5fab0da92950",
-                "size": 1994
+                "sha256": "f785cfc4289afd58bcda450fd7740d40c49222dd1f66b824d62ad48d7d474698",
+                "size": 2277
               },
               {
                 "path": "skills/guiding-plugin-builder-sessions/agents/openai.yaml",
@@ -2260,8 +2370,8 @@
               },
               {
                 "path": "skills/planning-plugin-implementations/SKILL.md",
-                "sha256": "ca17a201cd51006480722ac9a9aa62bfd97fa37eaa36682da2a36fb3f623f830",
-                "size": 1390
+                "sha256": "13c74d712602fad91e700aab61ee2bebb27a9ab92b3a9c57dd856b427ea3a4f9",
+                "size": 2090
               },
               {
                 "path": "skills/planning-plugin-implementations/agents/openai.yaml",
@@ -2270,8 +2380,8 @@
               },
               {
                 "path": "skills/planning-plugin-implementations/references/input-and-plan-contract.md",
-                "sha256": "d30a633ca64b9876631e62c01cf74dc8418ea5d8613a08c2f52fa5ab1d7d2e66",
-                "size": 2192
+                "sha256": "862508655b7aa482cf36fdb0ad08167a246e183328360599241b2caa168bb65a",
+                "size": 3899
               },
               {
                 "path": "skills/planning-plugin-implementations/references/requirement-coverage-contract.md",
@@ -2280,8 +2390,8 @@
               },
               {
                 "path": "skills/verifying-and-packaging-plugins/SKILL.md",
-                "sha256": "1aa6c35e8d5e619c0664f6f1be309da1bb34707e46d0b5bc46f6eb0d52a1da7b",
-                "size": 1470
+                "sha256": "4842af2b15ee9d7c4faf75b4eeb3fdaa7bb686c117c19f030d51ddb3bebb27e9",
+                "size": 1802
               },
               {
                 "path": "skills/verifying-and-packaging-plugins/agents/openai.yaml",
@@ -2290,18 +2400,18 @@
               },
               {
                 "path": "skills/verifying-and-packaging-plugins/references/evidence-and-package-contract.md",
-                "sha256": "ed96b18db7728e3d6fadc0e584fa0410b70ff81978f58ed32a51602e4a49f5f6",
-                "size": 1645
+                "sha256": "59bfd743aa55c92ff3c2611a19b31090ef4e8d0804ba99879c41cfe72b7e2ad5",
+                "size": 2298
               },
               {
                 "path": "skills/verifying-and-packaging-plugins/references/tool-evidence-contract.md",
-                "sha256": "50261d3665c5f5930d67b3858a966bad2b19d20cc91c9ecb1f79e2be205c7c26",
-                "size": 1072
+                "sha256": "8ea6989d99ef3db84f911b39289a10f5186e23d0f2fa2cbc47bafb85b53fc099",
+                "size": 2946
               }
             ],
-            "total_bytes": 316927
+            "total_bytes": 517776
           },
-          "mode": "verify_existing",
+          "mode": "build",
           "path": "plugins/plugin-builder",
           "state": "STATICALLY VERIFIED"
         },
@@ -2309,7 +2419,7 @@
           "state": "NOT APPLICABLE"
         }
       },
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "clawhub": {

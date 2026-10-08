@@ -1,20 +1,20 @@
 {
-  "content_sha256": "008c25d16c6a5c090c27705185417bfc402b460b3a7ebb8d30d9c62bdb7b9e99",
-  "file_count": 49,
+  "content_sha256": "b2e067e1abac89cd2912d815f42b3cf68eea23e9ca9761f6dc92a3ef438b995f",
+  "file_count": 50,
   "files": [
     {
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": ".codex-plugin/plugin.json",
-      "sha256": "eb470f1f3e9f904cf6db7c3db60dba6a5185b4c482f78aa97a554fe739cf469e",
-      "size": 1539
+      "sha256": "f69bf3e1ec5210c29b2986c8fc76f0850d08b228efb290679b3b9fdeb376b6e8",
+      "size": 1459
     },
     {
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "DISTRIBUTION.md",
-      "sha256": "8e8161b92cd5ac56a551293719895091dde1334d441cc9d0cf8bac9d5cdd4879",
-      "size": 1283
+      "sha256": "3e0b1d8558ad010d843ae180a963ce1bcf5787c3ee4a2bff7eed701bdd38bf87",
+      "size": 1705
     },
     {
       "canonicalization": "utf8-lf",
@@ -125,8 +125,15 @@
       "canonicalization": "canonical-json-v1",
       "classification": "generated-json",
       "path": "package.json",
-      "sha256": "ae56da6af1216827358bf772f52e7b6d4bc8c01c0d2d0bb0d9cf7f52eb7ff88a",
+      "sha256": "29a236fa886c6b0e90103a510fe241a8e9a8716c7e28d291b982a01ca077c71f",
       "size": 297
+    },
+    {
+      "canonicalization": "utf8-lf",
+      "classification": "text",
+      "path": "plugin.json",
+      "sha256": "87ba5118f47b092f115fae3ca2b817e44f0b2a98b035650ca0daa55a495baa85",
+      "size": 1649
     },
     {
       "canonicalization": "utf8-lf",
@@ -139,36 +146,36 @@
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "scripts/build_marketplace_release.py",
-      "sha256": "8b88ca3f14dece2988bfad34a7dc4b3700a41e1c2b00f778f9ec8983bdaec2fd",
-      "size": 7334
+      "sha256": "c06e465b8ffb6500e2b627842fcad3be998644e3fe2c19c4aaf3cd510c744df6",
+      "size": 8203
     },
     {
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "scripts/cool_plugin_design_assistant.py",
-      "sha256": "427120825c20bea234f55ddb7d765d2090393085940a9295def43f63bfbfeb1b",
-      "size": 35690
+      "sha256": "b937cca4bc688d433c334a23e80ae3865cf35586e905fce08e47fd9fcad30ece",
+      "size": 38753
     },
     {
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "scripts/distribution_audit.py",
-      "sha256": "c9d5ff8e61589b375d193c84fab2438af66145a4ea2956c1b29676859138665a",
-      "size": 5267
+      "sha256": "1f9488bb8aa058e073b9f3b20e100bcaee68776c4433255f18ea0aae52f76524",
+      "size": 5286
     },
     {
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "scripts/workbench_handoff_bootstrap.py",
-      "sha256": "77345239dca3ee64483c7dc4d296c8cb871c6ffccbf1804568bb5cf1f83acb7f",
-      "size": 944
+      "sha256": "03f9c6a9986f28f733f934e0c782196074a34f60e3eb61cfd7570c372c420021",
+      "size": 1139
     },
     {
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "skills/creating-application-plugin-design-specifications/SKILL.md",
-      "sha256": "0db0aa6fc7e393e077bb166a71100aa019dcdbdb28c26ba99655bf2cb6862b32",
-      "size": 1659
+      "sha256": "92ebadc6f9bf2a81ed0853d98b7d0bd4232f2a20ab6264b818599121a5a12ff8",
+      "size": 2026
     },
     {
       "canonicalization": "utf8-lf",
@@ -188,8 +195,8 @@
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": "skills/creating-application-plugin-design-specifications/references/workbench-handoff-contract.md",
-      "sha256": "6a15b786f93bcdb66647a07476273d74fb47fa395851f69a5a2f6d981cd111b9",
-      "size": 4242
+      "sha256": "a1ee4a26c5a15c6c5f442b45c2e5ddd1b9b2f5154760bac2c5118db6803603e4",
+      "size": 4902
     },
     {
       "canonicalization": "utf8-lf",
@@ -348,6 +355,6 @@
   ],
   "plugin_id": "cool-plugin-design-assistant",
   "schema_version": 2,
-  "total_bytes": 120330,
-  "version": "1.0.1"
+  "total_bytes": 127494,
+  "version": "1.0.2"
 }
