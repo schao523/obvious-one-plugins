@@ -1,5 +1,5 @@
 {
-  "content_sha256": "8ee3c08e105286a48a37a898739b26864b46590613f30d7457c5d4626599df10",
+  "content_sha256": "674d5e70ac5ef945a605242cbd35bb0dfc80e3f85fe14f73a192828a7c65e50c",
   "file_count": 95,
   "files": [
     {
@@ -13,8 +13,8 @@
       "canonicalization": "utf8-lf",
       "classification": "text",
       "path": ".gitattributes",
-      "sha256": "b9960233e82de416917a8222af70bbcd0e106e3a7360163e5f407d6da44ae2d5",
-      "size": 436
+      "sha256": "6584a6f0230f69bde10b8ba011c04ed82499dad40c610d27b0a4e73a43c53a81",
+      "size": 462
     },
     {
       "canonicalization": "utf8-lf",
@@ -670,6 +670,6 @@
   ],
   "plugin_id": "cool-bible-tutor",
   "schema_version": 2,
-  "total_bytes": 5918008,
+  "total_bytes": 5918034,
   "version": "2.4.7"
 }
