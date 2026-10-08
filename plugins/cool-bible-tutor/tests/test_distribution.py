@@ -5,7 +5,6 @@ import unittest
 import uuid
 from pathlib import Path
 
-
 MODULE_PATH = Path(__file__).parents[1] / "scripts" / "distribution_audit.py"
 FIXTURE_ROOT = Path(__file__).parent / "_runtime_fixture"
 OLD_PATH = "assets/scripture/Bible 舊約聖經和合本.pdf"
@@ -244,7 +243,7 @@ class DistributionAuditTests(unittest.TestCase):
         self.assertIn("build_cuv_index.py --data-dir", setup)
         self.assertIn("RAGenius", third_party)
         self.assertIn("MIT", third_party)
-        self.assertEqual(manifest["version"], "2.4.6")
+        self.assertEqual(manifest["version"], "2.4.7")
 
         combined = "\n".join((distribution, third_party, setup))
         self.assertIn("ObviousOne/shared-rag/runtimes", combined)

@@ -2,6 +2,8 @@
 
 酷聖經教師是「明明可知 Obvious One」的繁體中文歸納式查經插件。插件內附兩份經發布者聲明為公版、並以雜湊鎖定的和合本 PDF，以及由它們凍結、完整核實且唯讀的 `assets/scripture/cuv.sqlite3`。安裝後可立即精確檢索經文；人工核對紀錄、替代語料與私人 RAG 資料仍留在插件外部。
 
+OpenClaw 發行版是 native-free 的 Codex-format compatible bundle，不是原生 OpenClaw code plugin。技能透過內嵌 Python 啟動器執行支援功能；`rag_subsystem` 是啟動器背後的 Python 相依套件，不是另行註冊的 agent tool。完整分層契約見 [Runtime Compatibility Contract](docs/runtime-compatibility-contract.md)。
+
 ## 快速設定
 
 所有本機操作都由插件根目錄的 `scripts/cool_bible_tutor.py` 統一啟動。精確檢索不需先安裝 Poppler、Tesseract、建立資料庫或連線網路：

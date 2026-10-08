@@ -15,7 +15,7 @@ The plugin is skill-only: it bundles no private source documents, credentials, d
 
 ## 酷聖經教師 Cool Bible Tutor
 
-`cool-bible-tutor` v2.4.6 是繁體中文歸納式聖經教師，涵蓋觀察、解釋、釋經處境、神學討論、原文／譯本比較與生活應用。The plugin provides the complete Bible Tutor v2.4 workflow; the church-ministry prompt-template module is intentionally excluded.
+`cool-bible-tutor` v2.4.7 是繁體中文歸納式聖經教師，涵蓋觀察、解釋、釋經處境、神學討論、原文／譯本比較與生活應用。The plugin provides the complete Bible Tutor v2.4 workflow; the church-ministry prompt-template module is intentionally excluded.
 
 Two editions are generated from the same verified source:
 

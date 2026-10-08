@@ -11,7 +11,3 @@ vendor/rag-subsystem/*.json text eol=lf
 assets/**/*.pdf binary
 assets/**/*.sqlite3 binary
 vendor/**/*.whl binary
-
-# Preserve the audited release bytes exactly; nested text rules above document
-# the historical build but must not rewrite committed marketplace artifacts.
-** -text whitespace=cr-at-eol

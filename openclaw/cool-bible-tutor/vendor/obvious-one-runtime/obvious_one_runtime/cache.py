@@ -21,7 +21,7 @@ def _remove_tree(path: Path) -> None:
     def retry(function, value, _error):
         os.chmod(value, stat.S_IWRITE)
         function(value)
-    shutil.rmtree(path, onexc=retry)
+    shutil.rmtree(path, onerror=retry)
 
 
 class CacheLock:
@@ -71,7 +71,10 @@ def ensure_cached_object(
     populate: Callable[[Path], None],
     verify: Callable[[Path], None],
 ) -> Path:
-    target = Path(target).resolve()
+    # ``Path.resolve()`` can switch to a ``\\?\``-prefixed spelling on Windows
+    # after another thread creates the target. Preserve one stable lexical
+    # absolute spelling across both sides of that race.
+    target = Path(os.path.abspath(os.fspath(target)))
     if _is_complete(target, digest):
         verify(target)
         return target
