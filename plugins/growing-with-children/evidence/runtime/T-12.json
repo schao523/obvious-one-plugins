@@ -1,0 +1,12 @@
+{
+  "test_id": "T-12",
+  "evidence_state": "NOT VERIFIED",
+  "environment": "installed target runtime not executed in this build session",
+  "selected_route": null,
+  "consulted_references": [],
+  "user_visible_output": null,
+  "wait_transition_behavior": null,
+  "fallback_behavior": null,
+  "result": "NOT VERIFIED",
+  "limitation": "Static candidate inspection cannot establish conversational runtime behavior."
+}

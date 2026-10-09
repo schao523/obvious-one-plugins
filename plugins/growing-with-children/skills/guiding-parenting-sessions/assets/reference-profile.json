@@ -1,0 +1,47 @@
+{
+  "conditional": [
+    "assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+    "assets/contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md",
+    "assets/contracts/UIP-01-to-UIP-04-Canonical-Protocols-v1.0_APPROVED.md"
+  ],
+  "delegated_references": [
+    {
+      "access_mode": "HANDOFF",
+      "local_copy": false,
+      "owner_skill": "guiding-biblical-study",
+      "reference_id": "RM-04A"
+    },
+    {
+      "access_mode": "HANDOFF",
+      "local_copy": false,
+      "owner_skill": "guiding-biblical-study",
+      "reference_id": "RM-04B"
+    }
+  ],
+  "fallback": "If a required stage/safety authority is unavailable, give only safe generic guidance or stop/escalate as defined; exact Scripture routes to guiding-biblical-study.",
+  "major_intents": [
+    "S0/S1/S2 triage",
+    "life-stage adaptation",
+    "role routing",
+    "safety precedence",
+    "pause/resume/stop/revise/skip"
+  ],
+  "optional": [
+    "assets/knowledge/PK-01-heart-behavior-and-motivation.md",
+    "assets/knowledge/PK-04-biblical-parent-child-communication.md"
+  ],
+  "prohibited_substitutions": [
+    "Do not use model memory as if it were a required approved reference.",
+    "Do not quote exact CUV text locally; hand off to guiding-biblical-study."
+  ],
+  "required": [
+    "assets/knowledge/CP-01-safety-and-escalation-policy.md",
+    "assets/knowledge/PK-07-early-childhood-parenting.md",
+    "assets/knowledge/PK-08-middle-childhood-parenting.md",
+    "assets/knowledge/PK-09-adolescent-parenting.md",
+    "assets/knowledge/PK-10-adult-child-mutuality.md",
+    "assets/contracts/WF-01-Parent-Guidance-Workflow-v1.0_APPROVED.md"
+  ],
+  "schema": "skill-reference-profile-v2",
+  "skill": "guiding-parenting-sessions"
+}

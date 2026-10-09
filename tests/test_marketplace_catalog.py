@@ -10,10 +10,11 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_CODEX = {
     "cool-bible-tutor",
     "cool-plugin-design-assistant",
+    "growing-with-children",
     "plugin-builder",
     "vibe-coding-designer",
 }
-EXPECTED_OPENCLAW = EXPECTED_CODEX - {"plugin-builder"}
+EXPECTED_OPENCLAW = EXPECTED_CODEX - {"growing-with-children", "plugin-builder"}
 
 
 class MarketplaceCatalogTests(unittest.TestCase):
@@ -115,8 +116,9 @@ class MarketplaceCatalogTests(unittest.TestCase):
         )
         plugins = {item["plugin_id"]: item for item in registry["plugins"]}
 
-        self.assertEqual(plugins["cool-plugin-design-assistant"]["version"], "1.0.1")
-        self.assertEqual(plugins["plugin-builder"]["version"], "1.0.0")
+        self.assertEqual(plugins["cool-plugin-design-assistant"]["version"], "1.0.2")
+        self.assertEqual(plugins["growing-with-children"]["version"], "1.0.2")
+        self.assertEqual(plugins["plugin-builder"]["version"], "1.0.1")
         self.assertEqual(
             plugins["plugin-builder"]["targets"]["openclaw"],
             {"state": "NOT APPLICABLE"},

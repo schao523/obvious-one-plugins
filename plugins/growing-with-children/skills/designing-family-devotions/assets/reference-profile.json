@@ -1,0 +1,44 @@
+{
+  "conditional": [
+    "assets/knowledge/PK-07-early-childhood-parenting.md",
+    "assets/knowledge/PK-08-middle-childhood-parenting.md",
+    "assets/knowledge/PK-09-adolescent-parenting.md",
+    "assets/knowledge/PK-10-adult-child-mutuality.md",
+    "assets/knowledge/CP-01-safety-and-escalation-policy.md"
+  ],
+  "delegated_references": [
+    {
+      "access_mode": "HANDOFF",
+      "local_copy": false,
+      "owner_skill": "guiding-biblical-study",
+      "reference_id": "RM-04A"
+    },
+    {
+      "access_mode": "HANDOFF",
+      "local_copy": false,
+      "owner_skill": "guiding-biblical-study",
+      "reference_id": "RM-04B"
+    }
+  ],
+  "fallback": "If Scripture is requested, hand to guiding-biblical-study for verified text; otherwise produce a non-quotation activity using available approved principles.",
+  "major_intents": [
+    "Partner",
+    "family devotion",
+    "relational/spiritual activity co-design"
+  ],
+  "optional": [
+    "assets/knowledge/PK-11-thinking-with-children.md",
+    "assets/knowledge/PK-12-child-curiosity-and-philosophical-dialogue.md"
+  ],
+  "prohibited_substitutions": [
+    "Do not fabricate exact CUV wording locally.",
+    "Do not treat adult children as young children."
+  ],
+  "required": [
+    "assets/knowledge/PK-04-biblical-parent-child-communication.md",
+    "assets/knowledge/PK-05-listening-timing-and-open-dialogue.md",
+    "assets/knowledge/PK-06-gospel-centered-parenting.md"
+  ],
+  "schema": "skill-reference-profile-v2",
+  "skill": "designing-family-devotions"
+}

@@ -41,6 +41,13 @@
         "path": "./plugins/plugin-builder",
         "source": "local"
       }
+    },
+    {
+      "name": "growing-with-children",
+      "source": {
+        "path": "./plugins/growing-with-children",
+        "source": "local"
+      }
     }
   ]
 }
