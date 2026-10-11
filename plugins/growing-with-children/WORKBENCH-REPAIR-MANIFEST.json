@@ -127,7 +127,7 @@
     },
     {
       "path": "skills/coaching-parenting-and-sensitive-conversations/SKILL.md",
-      "sha256": "bc910d1a67d0cc27c7ae36cc89ca25cd1339684d3d5037941c5eed5735c03f27",
+      "sha256": "a08fdfff118bdcc2f60190cf3fd8c495f754229350a0a88d860e5410d704a4fc",
       "size": 12610
     },
     {
@@ -327,7 +327,7 @@
     },
     {
       "path": "skills/designing-family-devotions/SKILL.md",
-      "sha256": "f8e25ac985cf36972f2b1f0294e5763ed526233707f2e1bae8bf20366addb4db",
+      "sha256": "ad411937c453de1ac89d383ff8e1136f7ba21b1b9a54129b20ad6a3a6b0c5b3f",
       "size": 8876
     },
     {
@@ -737,7 +737,7 @@
     },
     {
       "path": "skills/guiding-parenting-sessions/SKILL.md",
-      "sha256": "62365feb0402266b7333f3c143534dce5ac22cabb82a14d9b5d37230efb10ad0",
+      "sha256": "0341dc0072d0afaf2cd8027c6ba27429f6de1debc584c4e3bc188200182481e7",
       "size": 14271
     },
     {
@@ -937,7 +937,7 @@
     },
     {
       "path": "skills/supporting-parent-reflection/SKILL.md",
-      "sha256": "1e80db17e83d22ec58d5911536131699ccb2b003f9585299f667179f0366eded",
+      "sha256": "9c93770fa01474c92fd329ab6fbbbbff41be74d8d15751dee6a45d225bc0a59c",
       "size": 9121
     },
     {
@@ -1136,7 +1136,7 @@
       "size": 1690
     }
   ],
-  "content_tree_sha256": "0a0327a763b975d233fdcfebf0b06beb59abeaa3d0b19c303885178101663d99",
+  "content_tree_sha256": "aba0147a1141dc752fcbda46d840c952e14e15976547ecf95fe9aebe8f3b2385",
   "non_owner_skills": [
     "coaching-parenting-and-sensitive-conversations",
     "designing-family-devotions",

@@ -88,7 +88,7 @@ This Skill owns Mentor/pastoral parent-reflection execution after `guiding-paren
 ## Delegated reference handoff
 
 - Access: HANDOFF to `guiding-biblical-study` for RM-04A and RM-04B.
-- Triggers: exact CUV quotation or verification; formal Bible study.
-- Input: pass the relevant passage, question, established session context, and requested output.
+- Triggers: any request requiring the delegated professional references.
+- Input: pass the relevant request, established session context, and requested output.
 - Return: the result returns to the response owner for the ongoing workflow.
-- Fallback: if the owner or references are unavailable, disclose the limitation and do not fabricate exact Scripture.
+- Fallback: if the owner or references are unavailable, disclose the limitation and do not claim reference-grounded output.

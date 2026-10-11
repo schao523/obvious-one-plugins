@@ -2003,13 +2003,18 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "81af77bd8d359572fa74cf3e6afd705a45d0e2c7023177b0c092a3aa4d585acd",
-            "file_count": 227,
+            "content_sha256": "d7378703283ff62f98e6e7b680f36d5fdc2e82b53f0c5973dea8b98160492c0d",
+            "file_count": 228,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
                 "sha256": "ad12dc8a2b36482d1dc7702e4a5af5f1f904f3b1ef67fbf987678bdf098a284f",
                 "size": 1231
+              },
+              {
+                "path": "LICENSE",
+                "sha256": "e31ef2620c66c2bd09ef56abd6d43264132415e2d1d4cad31452b12143aea8b5",
+                "size": 1059
               },
               {
                 "path": "PLUGIN-BUILDER-CHANGES.json",
@@ -2028,7 +2033,7 @@
               },
               {
                 "path": "WORKBENCH-REPAIR-MANIFEST.json",
-                "sha256": "0fed6d581a628fe483b222f556a7d3a34be08e6137f23d296750ae79a0be89cf",
+                "sha256": "81433859812bba52c7aae7aee1fd10c7d0a6287ac83092ec462056d35360727a",
                 "size": 50715
               },
               {
@@ -2133,7 +2138,7 @@
               },
               {
                 "path": "skills/coaching-parenting-and-sensitive-conversations/SKILL.md",
-                "sha256": "bc910d1a67d0cc27c7ae36cc89ca25cd1339684d3d5037941c5eed5735c03f27",
+                "sha256": "a08fdfff118bdcc2f60190cf3fd8c495f754229350a0a88d860e5410d704a4fc",
                 "size": 12610
               },
               {
@@ -2333,7 +2338,7 @@
               },
               {
                 "path": "skills/designing-family-devotions/SKILL.md",
-                "sha256": "f8e25ac985cf36972f2b1f0294e5763ed526233707f2e1bae8bf20366addb4db",
+                "sha256": "ad411937c453de1ac89d383ff8e1136f7ba21b1b9a54129b20ad6a3a6b0c5b3f",
                 "size": 8876
               },
               {
@@ -2743,7 +2748,7 @@
               },
               {
                 "path": "skills/guiding-parenting-sessions/SKILL.md",
-                "sha256": "62365feb0402266b7333f3c143534dce5ac22cabb82a14d9b5d37230efb10ad0",
+                "sha256": "0341dc0072d0afaf2cd8027c6ba27429f6de1debc584c4e3bc188200182481e7",
                 "size": 14271
               },
               {
@@ -2943,7 +2948,7 @@
               },
               {
                 "path": "skills/supporting-parent-reflection/SKILL.md",
-                "sha256": "1e80db17e83d22ec58d5911536131699ccb2b003f9585299f667179f0366eded",
+                "sha256": "9c93770fa01474c92fd329ab6fbbbbff41be74d8d15751dee6a45d225bc0a59c",
                 "size": 9121
               },
               {
@@ -3142,7 +3147,7 @@
                 "size": 1690
               }
             ],
-            "total_bytes": 7190877
+            "total_bytes": 7191936
           },
           "mode": "build",
           "path": "plugins/growing-with-children",
