@@ -1,0 +1,1171 @@
+{
+  "approval_record": {
+    "confirmed_by": "decision-owner",
+    "decision": "APPROVED",
+    "recorded_at": "2026-10-09"
+  },
+  "content_members": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "ad12dc8a2b36482d1dc7702e4a5af5f1f904f3b1ef67fbf987678bdf098a284f",
+      "size": 1231
+    },
+    {
+      "path": "PLUGIN-BUILDER-CHANGES.json",
+      "sha256": "0da8bfe35a713b045a089a72ebca27917963a1f98c6557bda14c28bec8e47901",
+      "size": 2956
+    },
+    {
+      "path": "README.md",
+      "sha256": "ac844cfe4ed249dbe7713038ded3cbe5c3532d0645f0963eda2b9e4b3c4ece9f",
+      "size": 462
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "59f7a11cde8c29c25d7dc77b00bc5d071bb3f03b6f3e7e8622101ff3ab0597b3",
+      "size": 768
+    },
+    {
+      "path": "docs/orchestration-map.md",
+      "sha256": "9f20ac1de82221fbe61450413b6da6e3c7e31ae7a2c8b526a087bf1c91745afa",
+      "size": 2432
+    },
+    {
+      "path": "docs/provenance/source-PLUGIN-BUILDER-MANIFEST.json",
+      "sha256": "11a8885c934e58d0daf1189b90fe02098500a413a36c49455713ac66c3b8fdaf",
+      "size": 70296
+    },
+    {
+      "path": "docs/reference-layout.md",
+      "sha256": "732013ddf5a3954e5e43e0882ee6195ca8870d482e648feed6add582e4406b17",
+      "size": 664
+    },
+    {
+      "path": "docs/runtime-compatibility.md",
+      "sha256": "8c140526dcc0d3cf99b5ab6df54acc71440db16a81fa44310a246fe5a3d8cc4c",
+      "size": 418
+    },
+    {
+      "path": "docs/traceability.json",
+      "sha256": "3cfcffacdbd9ec5579e5e5d405e185b36a0c2ec38c008fa4c59dde3e5a9bfe0f",
+      "size": 6911
+    },
+    {
+      "path": "docs/traceability.md",
+      "sha256": "b7f556358bd282be7f7483a0c43e797a54e4f3f87569a063492f0108714a217c",
+      "size": 4931
+    },
+    {
+      "path": "docs/verification-scenarios.md",
+      "sha256": "cbfef1da9eda1643cecbef95f8a2edaafc57e09939b21671083f1250b40b1607",
+      "size": 2370
+    },
+    {
+      "path": "evidence/runtime/T-01.json",
+      "sha256": "5e6942d41a2fc9fcf00ab4cd13f9e64707b1d0c10fa2c606eeac7b8bbbe51a5f",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-02.json",
+      "sha256": "8050f7ca3e6c17b91e514b17721e43313414319e9da71f3efe9c93c11b0b7a35",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-03.json",
+      "sha256": "dc258759cae65a4a4e79b097c7581fb532551a1b0f5f17e533e530d8ec69bbd9",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-04.json",
+      "sha256": "08f207d25ab12f8632a777f296f01b6a2b90a49cd162812dc0433bcdc15c64d3",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-05.json",
+      "sha256": "5457ac819ba1ea28caf321099efd5a32757cece2d30fb2adfd95de86af97253b",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-06.json",
+      "sha256": "0eb78e3f41f9408fe32ce15ad531bf302f85141e3d9016cf330840bad0ea08db",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-07.json",
+      "sha256": "afe5caf1b99e7dde615b69d22ba8386ceaab0178e5fadb05977ce2f4e3ffb147",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-08.json",
+      "sha256": "e4108f339c5fc217d7847954b4d0482e37c5e6a12026e99f9410b73b97c2d239",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-09.json",
+      "sha256": "42077552754be861595988e31fa63ada462dc4955e6532afcbbdbe2c778e5e5b",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-10.json",
+      "sha256": "fd1b0981a03f1964cedd2594a3089cfd14e13235b289446bdcf52cd0c63ebbfa",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-11.json",
+      "sha256": "0443305770c8e27235b9f2ef88aeb0b01aa4676040e1e555e845ae39ded3019f",
+      "size": 417
+    },
+    {
+      "path": "evidence/runtime/T-12.json",
+      "sha256": "905da2391cc7062dda54681195fd4b5b82bd74616d651fa832874f2b4d040830",
+      "size": 417
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "5d7df51b83c085976d95743c561796505261f32efd224f85753a0c3e36461304",
+      "size": 1377
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/SKILL.md",
+      "sha256": "a08fdfff118bdcc2f60190cf3fd8c495f754229350a0a88d860e5410d704a4fc",
+      "size": 12610
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/agents/openai.yaml",
+      "sha256": "bab4dac59a53eb68ca790a81ea74f019566f5c3265a51ac51d85d8a9bad3d563",
+      "size": 191
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md",
+      "sha256": "c82f00f3ba61188cffc8211b0b47bc2d1b66670b5ad3546f8104861cfc4e7075",
+      "size": 16438
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/contracts/UIP-01-to-UIP-04-Canonical-Protocols-v1.0_APPROVED.md",
+      "sha256": "3f3fa4df459689dcb3b0fae7afb9ecb515577b6f985b6fc2c41aebf848236e4e",
+      "size": 5430
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/contracts/WF-01-Parent-Guidance-Workflow-v1.0_APPROVED.md",
+      "sha256": "6793e77c2c50a293934fb4b95bdb50ecfb384b87dc5b78bbeefbbc984f75fc03",
+      "size": 14284
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/governance/ACCEPTANCE-CRITERIA-AND-SCENARIOS.md",
+      "sha256": "edf065cbf43a7cba6f4c1d93a23e34cca2f808c477ba52f02a0681e298f219ef",
+      "size": 1503
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/governance/APPLICATION-INVARIANTS-AND-HITL.md",
+      "sha256": "a93f007d524380ed0b7f4be1f4b2de0c959e7dbe604dae3aca2c928d81d66d12",
+      "size": 1610
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/governance/RIGHTS-AND-REDISTRIBUTION.md",
+      "sha256": "e7804aade440bfacc20c7625a51ea13037689b963a2cdb40f0a910069b8eb3ce",
+      "size": 1476
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge-index.json",
+      "sha256": "c34fae964395134f2cbc0a23e201a637457ee991fe562072a42445d3ab4b2419",
+      "size": 45148
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/CP-01-safety-and-escalation-policy.md",
+      "sha256": "87556280243beabfd0c32bf51e1230cccbef628973544220a55f21c943d87e2d",
+      "size": 9731
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-01-heart-vs-surface-behavior.md",
+      "sha256": "06070acbe97c5cf1cb683b5edcd69febb99689c43268a8dc41f3afd5f9f02d82",
+      "size": 2167
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-02-listening-before-correcting.md",
+      "sha256": "bcf3a230deb05abd7b9ff5ea550d7b42890fd9117619c2cae7eb2d731930c0c7",
+      "size": 1613
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-03-adolescent-faith-doubt.md",
+      "sha256": "8795254b4c372cfc9031695e2925db3a2636ca1888239605c11176f276f21c92",
+      "size": 1921
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-04-transition-to-adult-child-relationship.md",
+      "sha256": "37cb5bfcd3b98bc2a382d338bb96df802641b9593c43047be11507359537d161",
+      "size": 1647
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-05-thinking-through-fairness.md",
+      "sha256": "6f8c938f5921422a36c57f99ffddfb57c68626b3a25776c35699da691d8c0128",
+      "size": 1131
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-06-questioning-without-preaching.md",
+      "sha256": "07dc65d101416e46e9dfa65185f833de82eb2b37242024ad1c9a5be514aa4106",
+      "size": 1394
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-07-parental-authority-dialogue.md",
+      "sha256": "740cd2d3b69d9fbede721e76468ff29e0bb5d51a383f9b3045b84bd829421553",
+      "size": 1506
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-08-wonder-and-joint-inquiry.md",
+      "sha256": "980cfa1e36933120bf67883df55451770ffd1867d8cb2a9325e6fe20285aa888",
+      "size": 1125
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/EX-09-sensitive-issue-conversations.md",
+      "sha256": "d5610dc98b1d2b813aee5464b5b372679cf277878a572cb6ea90fcaf33c1d1bb",
+      "size": 4693
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-01-heart-behavior-and-motivation.md",
+      "sha256": "0b16f94d48bd40da4029222ea0aa6dd9af170dc32397635690cedca458801b7d",
+      "size": 3423
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-02-parental-role-authority-and-service.md",
+      "sha256": "e4b149ff7e44cdf80a3b307e5f853f6f72e95e3e8cfa0750d7e9b6eeca6f1372",
+      "size": 3186
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-03-parenting-goals-and-heart-direction.md",
+      "sha256": "b4976f484589b3d576674256f18e000682f07d47163caf7e3dedc221e16f40a2",
+      "size": 3074
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-04-biblical-parent-child-communication.md",
+      "sha256": "fc60e516e87fadb4114a9bfd1b8459b7c5223de259a9684dd5de174e982882ac",
+      "size": 3155
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-05-listening-timing-and-open-dialogue.md",
+      "sha256": "e6303397fa7ebacbc961409fc8d6ee3999d4bdc67d41e8682d4b2bef5a65a37e",
+      "size": 3162
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-06-gospel-centered-parenting.md",
+      "sha256": "7cabfc2126332084b1c20b9613dcb018653b75d6865555464927816c649346cf",
+      "size": 3105
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-07-early-childhood-parenting.md",
+      "sha256": "316ec016db7dd69a5a46369f20ae1c0ae17cfa0e36bfe4156fc0d988f3b19b38",
+      "size": 3482
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-08-middle-childhood-parenting.md",
+      "sha256": "93ff64dc88f5e300e41004adc5820678ec435c0a9f2e6f00245f383568766082",
+      "size": 3570
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-09-adolescent-parenting.md",
+      "sha256": "2feeafdd70061ce622e019de0a103334bed29b632b29fbb9c3c60d2a8260db92",
+      "size": 4370
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-10-adult-child-mutuality.md",
+      "sha256": "6950b5c5111b08fc12270518302554119aad1dc4bf862a336a93710cae00acae",
+      "size": 4445
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-11-thinking-with-children.md",
+      "sha256": "fdb1d878f9b9c883808507f8e2f77e59420d6e7fcea98290e685b12c5831af8e",
+      "size": 4261
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-12-child-curiosity-and-philosophical-dialogue.md",
+      "sha256": "bde97ef2bcd59bc1c92c34a12738b3753d27448924bdf1dea69f85b36d35cc38",
+      "size": 3676
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-13-authority-power-responsibility-and-autonomy.md",
+      "sha256": "cd33d594751cceb1596fd78b5b969fdc96b60c6c072e535183439bec04676547",
+      "size": 4183
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-14-punishment-responsibility-and-reflection.md",
+      "sha256": "b053ce7bbdbc8e84fcbdd9496d0387ef8568f28a0fc74e1e4b140a539f2af61a",
+      "size": 4378
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+      "sha256": "c2a803d7b1206136c496a20e147a965bbd2a633c145b676fb0444cd979026ced",
+      "size": 11239
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-16-inductive-bible-study-method.md",
+      "sha256": "1fec30fd2c542afa6cacc36305f53ea0076388766816df56a42d3b7ea1f478aa",
+      "size": 6256
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/reference-material/RM-03-formal-evaluation.md",
+      "sha256": "4b8d601409daef5f1e4e326260719b0da52f7ad9c78b5fb1e3b51519b9bb7c04",
+      "size": 2910
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/reference-material/RM-04A-B-formal-evaluation.md",
+      "sha256": "82bec01f7a5b940b7f52f83fa06cf47338aea737dd1bd79b1454d36d12a235fb",
+      "size": 2616
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/reference-material/Reference_Material_Evaluation_v1.1.md",
+      "sha256": "5e203e117947f944243fab4ac5b4c06650ecdf699e279bf5edbe0ce6d6e0eca5",
+      "size": 4274
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/reference-material/Reference_Usage_Map_v1.1.md",
+      "sha256": "5ff672e29f8549e28cd08d9c268af22ea03026b6cc4cd7207d603d758c4cc3a7",
+      "size": 6448
+    },
+    {
+      "path": "skills/coaching-parenting-and-sensitive-conversations/assets/reference-profile.json",
+      "sha256": "7980795bc24c59f8f109afc2ed61402e2d9aa69f43a1ad3bb823ac8e0384605a",
+      "size": 1734
+    },
+    {
+      "path": "skills/designing-family-devotions/SKILL.md",
+      "sha256": "ad411937c453de1ac89d383ff8e1136f7ba21b1b9a54129b20ad6a3a6b0c5b3f",
+      "size": 8876
+    },
+    {
+      "path": "skills/designing-family-devotions/agents/openai.yaml",
+      "sha256": "e1172d83443e49b95fad28760dc52331f287c557d80fca833e7095fb8784a354",
+      "size": 138
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md",
+      "sha256": "c82f00f3ba61188cffc8211b0b47bc2d1b66670b5ad3546f8104861cfc4e7075",
+      "size": 16438
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/contracts/UIP-01-to-UIP-04-Canonical-Protocols-v1.0_APPROVED.md",
+      "sha256": "3f3fa4df459689dcb3b0fae7afb9ecb515577b6f985b6fc2c41aebf848236e4e",
+      "size": 5430
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/contracts/WF-01-Parent-Guidance-Workflow-v1.0_APPROVED.md",
+      "sha256": "6793e77c2c50a293934fb4b95bdb50ecfb384b87dc5b78bbeefbbc984f75fc03",
+      "size": 14284
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/governance/ACCEPTANCE-CRITERIA-AND-SCENARIOS.md",
+      "sha256": "edf065cbf43a7cba6f4c1d93a23e34cca2f808c477ba52f02a0681e298f219ef",
+      "size": 1503
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/governance/APPLICATION-INVARIANTS-AND-HITL.md",
+      "sha256": "a93f007d524380ed0b7f4be1f4b2de0c959e7dbe604dae3aca2c928d81d66d12",
+      "size": 1610
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/governance/RIGHTS-AND-REDISTRIBUTION.md",
+      "sha256": "e7804aade440bfacc20c7625a51ea13037689b963a2cdb40f0a910069b8eb3ce",
+      "size": 1476
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge-index.json",
+      "sha256": "c34fae964395134f2cbc0a23e201a637457ee991fe562072a42445d3ab4b2419",
+      "size": 45148
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/CP-01-safety-and-escalation-policy.md",
+      "sha256": "87556280243beabfd0c32bf51e1230cccbef628973544220a55f21c943d87e2d",
+      "size": 9731
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-01-heart-vs-surface-behavior.md",
+      "sha256": "06070acbe97c5cf1cb683b5edcd69febb99689c43268a8dc41f3afd5f9f02d82",
+      "size": 2167
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-02-listening-before-correcting.md",
+      "sha256": "bcf3a230deb05abd7b9ff5ea550d7b42890fd9117619c2cae7eb2d731930c0c7",
+      "size": 1613
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-03-adolescent-faith-doubt.md",
+      "sha256": "8795254b4c372cfc9031695e2925db3a2636ca1888239605c11176f276f21c92",
+      "size": 1921
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-04-transition-to-adult-child-relationship.md",
+      "sha256": "37cb5bfcd3b98bc2a382d338bb96df802641b9593c43047be11507359537d161",
+      "size": 1647
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-05-thinking-through-fairness.md",
+      "sha256": "6f8c938f5921422a36c57f99ffddfb57c68626b3a25776c35699da691d8c0128",
+      "size": 1131
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-06-questioning-without-preaching.md",
+      "sha256": "07dc65d101416e46e9dfa65185f833de82eb2b37242024ad1c9a5be514aa4106",
+      "size": 1394
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-07-parental-authority-dialogue.md",
+      "sha256": "740cd2d3b69d9fbede721e76468ff29e0bb5d51a383f9b3045b84bd829421553",
+      "size": 1506
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-08-wonder-and-joint-inquiry.md",
+      "sha256": "980cfa1e36933120bf67883df55451770ffd1867d8cb2a9325e6fe20285aa888",
+      "size": 1125
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/EX-09-sensitive-issue-conversations.md",
+      "sha256": "d5610dc98b1d2b813aee5464b5b372679cf277878a572cb6ea90fcaf33c1d1bb",
+      "size": 4693
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-01-heart-behavior-and-motivation.md",
+      "sha256": "0b16f94d48bd40da4029222ea0aa6dd9af170dc32397635690cedca458801b7d",
+      "size": 3423
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-02-parental-role-authority-and-service.md",
+      "sha256": "e4b149ff7e44cdf80a3b307e5f853f6f72e95e3e8cfa0750d7e9b6eeca6f1372",
+      "size": 3186
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-03-parenting-goals-and-heart-direction.md",
+      "sha256": "b4976f484589b3d576674256f18e000682f07d47163caf7e3dedc221e16f40a2",
+      "size": 3074
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-04-biblical-parent-child-communication.md",
+      "sha256": "fc60e516e87fadb4114a9bfd1b8459b7c5223de259a9684dd5de174e982882ac",
+      "size": 3155
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-05-listening-timing-and-open-dialogue.md",
+      "sha256": "e6303397fa7ebacbc961409fc8d6ee3999d4bdc67d41e8682d4b2bef5a65a37e",
+      "size": 3162
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-06-gospel-centered-parenting.md",
+      "sha256": "7cabfc2126332084b1c20b9613dcb018653b75d6865555464927816c649346cf",
+      "size": 3105
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-07-early-childhood-parenting.md",
+      "sha256": "316ec016db7dd69a5a46369f20ae1c0ae17cfa0e36bfe4156fc0d988f3b19b38",
+      "size": 3482
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-08-middle-childhood-parenting.md",
+      "sha256": "93ff64dc88f5e300e41004adc5820678ec435c0a9f2e6f00245f383568766082",
+      "size": 3570
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-09-adolescent-parenting.md",
+      "sha256": "2feeafdd70061ce622e019de0a103334bed29b632b29fbb9c3c60d2a8260db92",
+      "size": 4370
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-10-adult-child-mutuality.md",
+      "sha256": "6950b5c5111b08fc12270518302554119aad1dc4bf862a336a93710cae00acae",
+      "size": 4445
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-11-thinking-with-children.md",
+      "sha256": "fdb1d878f9b9c883808507f8e2f77e59420d6e7fcea98290e685b12c5831af8e",
+      "size": 4261
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-12-child-curiosity-and-philosophical-dialogue.md",
+      "sha256": "bde97ef2bcd59bc1c92c34a12738b3753d27448924bdf1dea69f85b36d35cc38",
+      "size": 3676
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-13-authority-power-responsibility-and-autonomy.md",
+      "sha256": "cd33d594751cceb1596fd78b5b969fdc96b60c6c072e535183439bec04676547",
+      "size": 4183
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-14-punishment-responsibility-and-reflection.md",
+      "sha256": "b053ce7bbdbc8e84fcbdd9496d0387ef8568f28a0fc74e1e4b140a539f2af61a",
+      "size": 4378
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+      "sha256": "c2a803d7b1206136c496a20e147a965bbd2a633c145b676fb0444cd979026ced",
+      "size": 11239
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/knowledge/PK-16-inductive-bible-study-method.md",
+      "sha256": "1fec30fd2c542afa6cacc36305f53ea0076388766816df56a42d3b7ea1f478aa",
+      "size": 6256
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/reference-material/RM-03-formal-evaluation.md",
+      "sha256": "4b8d601409daef5f1e4e326260719b0da52f7ad9c78b5fb1e3b51519b9bb7c04",
+      "size": 2910
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/reference-material/RM-04A-B-formal-evaluation.md",
+      "sha256": "82bec01f7a5b940b7f52f83fa06cf47338aea737dd1bd79b1454d36d12a235fb",
+      "size": 2616
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/reference-material/Reference_Material_Evaluation_v1.1.md",
+      "sha256": "5e203e117947f944243fab4ac5b4c06650ecdf699e279bf5edbe0ce6d6e0eca5",
+      "size": 4274
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/reference-material/Reference_Usage_Map_v1.1.md",
+      "sha256": "5ff672e29f8549e28cd08d9c268af22ea03026b6cc4cd7207d603d758c4cc3a7",
+      "size": 6448
+    },
+    {
+      "path": "skills/designing-family-devotions/assets/reference-profile.json",
+      "sha256": "b3137e953f4b6f65499a7cdcea4d643595187fe456c99d3d60bcb6885e2a8463",
+      "size": 1524
+    },
+    {
+      "path": "skills/guiding-biblical-study/SKILL.md",
+      "sha256": "0ccb18231f8303702e4dafa02835aa86b9b01c4bedaa39d87e817fa8736476c7",
+      "size": 9206
+    },
+    {
+      "path": "skills/guiding-biblical-study/agents/openai.yaml",
+      "sha256": "191d0e2f8628b8ffda9385396367acf236eb96424c02f18dcb9c6a376fdbdfe6",
+      "size": 152
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md",
+      "sha256": "c82f00f3ba61188cffc8211b0b47bc2d1b66670b5ad3546f8104861cfc4e7075",
+      "size": 16438
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/contracts/UIP-01-to-UIP-04-Canonical-Protocols-v1.0_APPROVED.md",
+      "sha256": "3f3fa4df459689dcb3b0fae7afb9ecb515577b6f985b6fc2c41aebf848236e4e",
+      "size": 5430
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/contracts/WF-01-Parent-Guidance-Workflow-v1.0_APPROVED.md",
+      "sha256": "6793e77c2c50a293934fb4b95bdb50ecfb384b87dc5b78bbeefbbc984f75fc03",
+      "size": 14284
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/governance/ACCEPTANCE-CRITERIA-AND-SCENARIOS.md",
+      "sha256": "edf065cbf43a7cba6f4c1d93a23e34cca2f808c477ba52f02a0681e298f219ef",
+      "size": 1503
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/governance/APPLICATION-INVARIANTS-AND-HITL.md",
+      "sha256": "a93f007d524380ed0b7f4be1f4b2de0c959e7dbe604dae3aca2c928d81d66d12",
+      "size": 1610
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/governance/RIGHTS-AND-REDISTRIBUTION.md",
+      "sha256": "e7804aade440bfacc20c7625a51ea13037689b963a2cdb40f0a910069b8eb3ce",
+      "size": 1476
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge-index.json",
+      "sha256": "56d9d5bce99ba8565f1b73e5f710c2660c0620437feb20238005d6832b878405",
+      "size": 47088
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/CP-01-safety-and-escalation-policy.md",
+      "sha256": "87556280243beabfd0c32bf51e1230cccbef628973544220a55f21c943d87e2d",
+      "size": 9731
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-01-heart-vs-surface-behavior.md",
+      "sha256": "06070acbe97c5cf1cb683b5edcd69febb99689c43268a8dc41f3afd5f9f02d82",
+      "size": 2167
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-02-listening-before-correcting.md",
+      "sha256": "bcf3a230deb05abd7b9ff5ea550d7b42890fd9117619c2cae7eb2d731930c0c7",
+      "size": 1613
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-03-adolescent-faith-doubt.md",
+      "sha256": "8795254b4c372cfc9031695e2925db3a2636ca1888239605c11176f276f21c92",
+      "size": 1921
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-04-transition-to-adult-child-relationship.md",
+      "sha256": "37cb5bfcd3b98bc2a382d338bb96df802641b9593c43047be11507359537d161",
+      "size": 1647
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-05-thinking-through-fairness.md",
+      "sha256": "6f8c938f5921422a36c57f99ffddfb57c68626b3a25776c35699da691d8c0128",
+      "size": 1131
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-06-questioning-without-preaching.md",
+      "sha256": "07dc65d101416e46e9dfa65185f833de82eb2b37242024ad1c9a5be514aa4106",
+      "size": 1394
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-07-parental-authority-dialogue.md",
+      "sha256": "740cd2d3b69d9fbede721e76468ff29e0bb5d51a383f9b3045b84bd829421553",
+      "size": 1506
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-08-wonder-and-joint-inquiry.md",
+      "sha256": "980cfa1e36933120bf67883df55451770ffd1867d8cb2a9325e6fe20285aa888",
+      "size": 1125
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/EX-09-sensitive-issue-conversations.md",
+      "sha256": "d5610dc98b1d2b813aee5464b5b372679cf277878a572cb6ea90fcaf33c1d1bb",
+      "size": 4693
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-01-heart-behavior-and-motivation.md",
+      "sha256": "0b16f94d48bd40da4029222ea0aa6dd9af170dc32397635690cedca458801b7d",
+      "size": 3423
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-02-parental-role-authority-and-service.md",
+      "sha256": "e4b149ff7e44cdf80a3b307e5f853f6f72e95e3e8cfa0750d7e9b6eeca6f1372",
+      "size": 3186
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-03-parenting-goals-and-heart-direction.md",
+      "sha256": "b4976f484589b3d576674256f18e000682f07d47163caf7e3dedc221e16f40a2",
+      "size": 3074
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-04-biblical-parent-child-communication.md",
+      "sha256": "fc60e516e87fadb4114a9bfd1b8459b7c5223de259a9684dd5de174e982882ac",
+      "size": 3155
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-05-listening-timing-and-open-dialogue.md",
+      "sha256": "e6303397fa7ebacbc961409fc8d6ee3999d4bdc67d41e8682d4b2bef5a65a37e",
+      "size": 3162
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-06-gospel-centered-parenting.md",
+      "sha256": "7cabfc2126332084b1c20b9613dcb018653b75d6865555464927816c649346cf",
+      "size": 3105
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-07-early-childhood-parenting.md",
+      "sha256": "316ec016db7dd69a5a46369f20ae1c0ae17cfa0e36bfe4156fc0d988f3b19b38",
+      "size": 3482
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-08-middle-childhood-parenting.md",
+      "sha256": "93ff64dc88f5e300e41004adc5820678ec435c0a9f2e6f00245f383568766082",
+      "size": 3570
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-09-adolescent-parenting.md",
+      "sha256": "2feeafdd70061ce622e019de0a103334bed29b632b29fbb9c3c60d2a8260db92",
+      "size": 4370
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-10-adult-child-mutuality.md",
+      "sha256": "6950b5c5111b08fc12270518302554119aad1dc4bf862a336a93710cae00acae",
+      "size": 4445
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-11-thinking-with-children.md",
+      "sha256": "fdb1d878f9b9c883808507f8e2f77e59420d6e7fcea98290e685b12c5831af8e",
+      "size": 4261
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-12-child-curiosity-and-philosophical-dialogue.md",
+      "sha256": "bde97ef2bcd59bc1c92c34a12738b3753d27448924bdf1dea69f85b36d35cc38",
+      "size": 3676
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-13-authority-power-responsibility-and-autonomy.md",
+      "sha256": "cd33d594751cceb1596fd78b5b969fdc96b60c6c072e535183439bec04676547",
+      "size": 4183
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-14-punishment-responsibility-and-reflection.md",
+      "sha256": "b053ce7bbdbc8e84fcbdd9496d0387ef8568f28a0fc74e1e4b140a539f2af61a",
+      "size": 4378
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+      "sha256": "c2a803d7b1206136c496a20e147a965bbd2a633c145b676fb0444cd979026ced",
+      "size": 11239
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/knowledge/PK-16-inductive-bible-study-method.md",
+      "sha256": "1fec30fd2c542afa6cacc36305f53ea0076388766816df56a42d3b7ea1f478aa",
+      "size": 6256
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/reference-material/RM-03-formal-evaluation.md",
+      "sha256": "4b8d601409daef5f1e4e326260719b0da52f7ad9c78b5fb1e3b51519b9bb7c04",
+      "size": 2910
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/reference-material/RM-04A-B-formal-evaluation.md",
+      "sha256": "82bec01f7a5b940b7f52f83fa06cf47338aea737dd1bd79b1454d36d12a235fb",
+      "size": 2616
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/reference-material/RM-04A_Bible_\u820a\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN.pdf",
+      "sha256": "2740a6f824f96374cb127d78c3d646b489963898dacc252b842d9a8894a91125",
+      "size": 4427709
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/reference-material/RM-04B_Bible_\u65b0\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN.pdf",
+      "sha256": "4f0f9ef4c4a78b83f918c74e8f368a7e0eae515c17866c7767c310ca75786490",
+      "size": 1557874
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/reference-material/Reference_Material_Evaluation_v1.1.md",
+      "sha256": "5e203e117947f944243fab4ac5b4c06650ecdf699e279bf5edbe0ce6d6e0eca5",
+      "size": 4274
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/reference-material/Reference_Usage_Map_v1.1.md",
+      "sha256": "5ff672e29f8549e28cd08d9c268af22ea03026b6cc4cd7207d603d758c4cc3a7",
+      "size": 6448
+    },
+    {
+      "path": "skills/guiding-biblical-study/assets/reference-profile.json",
+      "sha256": "7d82a63e92ed5a0f1835b84a05822ca9fd3ac4b5499d02a851400503ac617d8c",
+      "size": 1062
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/SKILL.md",
+      "sha256": "0341dc0072d0afaf2cd8027c6ba27429f6de1debc584c4e3bc188200182481e7",
+      "size": 14271
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/agents/openai.yaml",
+      "sha256": "e3c999fa4e59715f05c3c18b6766a2cfb5562509751fa74e4aecefe6f4b22ed1",
+      "size": 184
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md",
+      "sha256": "c82f00f3ba61188cffc8211b0b47bc2d1b66670b5ad3546f8104861cfc4e7075",
+      "size": 16438
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/contracts/UIP-01-to-UIP-04-Canonical-Protocols-v1.0_APPROVED.md",
+      "sha256": "3f3fa4df459689dcb3b0fae7afb9ecb515577b6f985b6fc2c41aebf848236e4e",
+      "size": 5430
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/contracts/WF-01-Parent-Guidance-Workflow-v1.0_APPROVED.md",
+      "sha256": "6793e77c2c50a293934fb4b95bdb50ecfb384b87dc5b78bbeefbbc984f75fc03",
+      "size": 14284
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/governance/ACCEPTANCE-CRITERIA-AND-SCENARIOS.md",
+      "sha256": "edf065cbf43a7cba6f4c1d93a23e34cca2f808c477ba52f02a0681e298f219ef",
+      "size": 1503
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/governance/APPLICATION-INVARIANTS-AND-HITL.md",
+      "sha256": "a93f007d524380ed0b7f4be1f4b2de0c959e7dbe604dae3aca2c928d81d66d12",
+      "size": 1610
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/governance/RIGHTS-AND-REDISTRIBUTION.md",
+      "sha256": "e7804aade440bfacc20c7625a51ea13037689b963a2cdb40f0a910069b8eb3ce",
+      "size": 1476
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge-index.json",
+      "sha256": "c34fae964395134f2cbc0a23e201a637457ee991fe562072a42445d3ab4b2419",
+      "size": 45148
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/CP-01-safety-and-escalation-policy.md",
+      "sha256": "87556280243beabfd0c32bf51e1230cccbef628973544220a55f21c943d87e2d",
+      "size": 9731
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-01-heart-vs-surface-behavior.md",
+      "sha256": "06070acbe97c5cf1cb683b5edcd69febb99689c43268a8dc41f3afd5f9f02d82",
+      "size": 2167
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-02-listening-before-correcting.md",
+      "sha256": "bcf3a230deb05abd7b9ff5ea550d7b42890fd9117619c2cae7eb2d731930c0c7",
+      "size": 1613
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-03-adolescent-faith-doubt.md",
+      "sha256": "8795254b4c372cfc9031695e2925db3a2636ca1888239605c11176f276f21c92",
+      "size": 1921
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-04-transition-to-adult-child-relationship.md",
+      "sha256": "37cb5bfcd3b98bc2a382d338bb96df802641b9593c43047be11507359537d161",
+      "size": 1647
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-05-thinking-through-fairness.md",
+      "sha256": "6f8c938f5921422a36c57f99ffddfb57c68626b3a25776c35699da691d8c0128",
+      "size": 1131
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-06-questioning-without-preaching.md",
+      "sha256": "07dc65d101416e46e9dfa65185f833de82eb2b37242024ad1c9a5be514aa4106",
+      "size": 1394
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-07-parental-authority-dialogue.md",
+      "sha256": "740cd2d3b69d9fbede721e76468ff29e0bb5d51a383f9b3045b84bd829421553",
+      "size": 1506
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-08-wonder-and-joint-inquiry.md",
+      "sha256": "980cfa1e36933120bf67883df55451770ffd1867d8cb2a9325e6fe20285aa888",
+      "size": 1125
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/EX-09-sensitive-issue-conversations.md",
+      "sha256": "d5610dc98b1d2b813aee5464b5b372679cf277878a572cb6ea90fcaf33c1d1bb",
+      "size": 4693
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-01-heart-behavior-and-motivation.md",
+      "sha256": "0b16f94d48bd40da4029222ea0aa6dd9af170dc32397635690cedca458801b7d",
+      "size": 3423
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-02-parental-role-authority-and-service.md",
+      "sha256": "e4b149ff7e44cdf80a3b307e5f853f6f72e95e3e8cfa0750d7e9b6eeca6f1372",
+      "size": 3186
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-03-parenting-goals-and-heart-direction.md",
+      "sha256": "b4976f484589b3d576674256f18e000682f07d47163caf7e3dedc221e16f40a2",
+      "size": 3074
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-04-biblical-parent-child-communication.md",
+      "sha256": "fc60e516e87fadb4114a9bfd1b8459b7c5223de259a9684dd5de174e982882ac",
+      "size": 3155
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-05-listening-timing-and-open-dialogue.md",
+      "sha256": "e6303397fa7ebacbc961409fc8d6ee3999d4bdc67d41e8682d4b2bef5a65a37e",
+      "size": 3162
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-06-gospel-centered-parenting.md",
+      "sha256": "7cabfc2126332084b1c20b9613dcb018653b75d6865555464927816c649346cf",
+      "size": 3105
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-07-early-childhood-parenting.md",
+      "sha256": "316ec016db7dd69a5a46369f20ae1c0ae17cfa0e36bfe4156fc0d988f3b19b38",
+      "size": 3482
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-08-middle-childhood-parenting.md",
+      "sha256": "93ff64dc88f5e300e41004adc5820678ec435c0a9f2e6f00245f383568766082",
+      "size": 3570
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-09-adolescent-parenting.md",
+      "sha256": "2feeafdd70061ce622e019de0a103334bed29b632b29fbb9c3c60d2a8260db92",
+      "size": 4370
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-10-adult-child-mutuality.md",
+      "sha256": "6950b5c5111b08fc12270518302554119aad1dc4bf862a336a93710cae00acae",
+      "size": 4445
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-11-thinking-with-children.md",
+      "sha256": "fdb1d878f9b9c883808507f8e2f77e59420d6e7fcea98290e685b12c5831af8e",
+      "size": 4261
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-12-child-curiosity-and-philosophical-dialogue.md",
+      "sha256": "bde97ef2bcd59bc1c92c34a12738b3753d27448924bdf1dea69f85b36d35cc38",
+      "size": 3676
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-13-authority-power-responsibility-and-autonomy.md",
+      "sha256": "cd33d594751cceb1596fd78b5b969fdc96b60c6c072e535183439bec04676547",
+      "size": 4183
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-14-punishment-responsibility-and-reflection.md",
+      "sha256": "b053ce7bbdbc8e84fcbdd9496d0387ef8568f28a0fc74e1e4b140a539f2af61a",
+      "size": 4378
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+      "sha256": "c2a803d7b1206136c496a20e147a965bbd2a633c145b676fb0444cd979026ced",
+      "size": 11239
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/knowledge/PK-16-inductive-bible-study-method.md",
+      "sha256": "1fec30fd2c542afa6cacc36305f53ea0076388766816df56a42d3b7ea1f478aa",
+      "size": 6256
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/reference-material/RM-03-formal-evaluation.md",
+      "sha256": "4b8d601409daef5f1e4e326260719b0da52f7ad9c78b5fb1e3b51519b9bb7c04",
+      "size": 2910
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/reference-material/RM-04A-B-formal-evaluation.md",
+      "sha256": "82bec01f7a5b940b7f52f83fa06cf47338aea737dd1bd79b1454d36d12a235fb",
+      "size": 2616
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/reference-material/Reference_Material_Evaluation_v1.1.md",
+      "sha256": "5e203e117947f944243fab4ac5b4c06650ecdf699e279bf5edbe0ce6d6e0eca5",
+      "size": 4274
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/reference-material/Reference_Usage_Map_v1.1.md",
+      "sha256": "5ff672e29f8549e28cd08d9c268af22ea03026b6cc4cd7207d603d758c4cc3a7",
+      "size": 6448
+    },
+    {
+      "path": "skills/guiding-parenting-sessions/assets/reference-profile.json",
+      "sha256": "fa22171bccbd2de85e60e52ac05c26fa04188ea3b8729dc40518a15a6a58391f",
+      "size": 1730
+    },
+    {
+      "path": "skills/supporting-parent-reflection/SKILL.md",
+      "sha256": "9c93770fa01474c92fd329ab6fbbbbff41be74d8d15751dee6a45d225bc0a59c",
+      "size": 9121
+    },
+    {
+      "path": "skills/supporting-parent-reflection/agents/openai.yaml",
+      "sha256": "45abee53effccf8977e20d968fa02442f4c32ab2b6428ee152bfc95d861566ab",
+      "size": 180
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md",
+      "sha256": "c82f00f3ba61188cffc8211b0b47bc2d1b66670b5ad3546f8104861cfc4e7075",
+      "size": 16438
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/contracts/UIP-01-to-UIP-04-Canonical-Protocols-v1.0_APPROVED.md",
+      "sha256": "3f3fa4df459689dcb3b0fae7afb9ecb515577b6f985b6fc2c41aebf848236e4e",
+      "size": 5430
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/contracts/WF-01-Parent-Guidance-Workflow-v1.0_APPROVED.md",
+      "sha256": "6793e77c2c50a293934fb4b95bdb50ecfb384b87dc5b78bbeefbbc984f75fc03",
+      "size": 14284
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/governance/ACCEPTANCE-CRITERIA-AND-SCENARIOS.md",
+      "sha256": "edf065cbf43a7cba6f4c1d93a23e34cca2f808c477ba52f02a0681e298f219ef",
+      "size": 1503
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/governance/APPLICATION-INVARIANTS-AND-HITL.md",
+      "sha256": "a93f007d524380ed0b7f4be1f4b2de0c959e7dbe604dae3aca2c928d81d66d12",
+      "size": 1610
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/governance/RIGHTS-AND-REDISTRIBUTION.md",
+      "sha256": "e7804aade440bfacc20c7625a51ea13037689b963a2cdb40f0a910069b8eb3ce",
+      "size": 1476
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge-index.json",
+      "sha256": "c34fae964395134f2cbc0a23e201a637457ee991fe562072a42445d3ab4b2419",
+      "size": 45148
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/CP-01-safety-and-escalation-policy.md",
+      "sha256": "87556280243beabfd0c32bf51e1230cccbef628973544220a55f21c943d87e2d",
+      "size": 9731
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-01-heart-vs-surface-behavior.md",
+      "sha256": "06070acbe97c5cf1cb683b5edcd69febb99689c43268a8dc41f3afd5f9f02d82",
+      "size": 2167
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-02-listening-before-correcting.md",
+      "sha256": "bcf3a230deb05abd7b9ff5ea550d7b42890fd9117619c2cae7eb2d731930c0c7",
+      "size": 1613
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-03-adolescent-faith-doubt.md",
+      "sha256": "8795254b4c372cfc9031695e2925db3a2636ca1888239605c11176f276f21c92",
+      "size": 1921
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-04-transition-to-adult-child-relationship.md",
+      "sha256": "37cb5bfcd3b98bc2a382d338bb96df802641b9593c43047be11507359537d161",
+      "size": 1647
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-05-thinking-through-fairness.md",
+      "sha256": "6f8c938f5921422a36c57f99ffddfb57c68626b3a25776c35699da691d8c0128",
+      "size": 1131
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-06-questioning-without-preaching.md",
+      "sha256": "07dc65d101416e46e9dfa65185f833de82eb2b37242024ad1c9a5be514aa4106",
+      "size": 1394
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-07-parental-authority-dialogue.md",
+      "sha256": "740cd2d3b69d9fbede721e76468ff29e0bb5d51a383f9b3045b84bd829421553",
+      "size": 1506
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-08-wonder-and-joint-inquiry.md",
+      "sha256": "980cfa1e36933120bf67883df55451770ffd1867d8cb2a9325e6fe20285aa888",
+      "size": 1125
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/EX-09-sensitive-issue-conversations.md",
+      "sha256": "d5610dc98b1d2b813aee5464b5b372679cf277878a572cb6ea90fcaf33c1d1bb",
+      "size": 4693
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-01-heart-behavior-and-motivation.md",
+      "sha256": "0b16f94d48bd40da4029222ea0aa6dd9af170dc32397635690cedca458801b7d",
+      "size": 3423
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-02-parental-role-authority-and-service.md",
+      "sha256": "e4b149ff7e44cdf80a3b307e5f853f6f72e95e3e8cfa0750d7e9b6eeca6f1372",
+      "size": 3186
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-03-parenting-goals-and-heart-direction.md",
+      "sha256": "b4976f484589b3d576674256f18e000682f07d47163caf7e3dedc221e16f40a2",
+      "size": 3074
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-04-biblical-parent-child-communication.md",
+      "sha256": "fc60e516e87fadb4114a9bfd1b8459b7c5223de259a9684dd5de174e982882ac",
+      "size": 3155
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-05-listening-timing-and-open-dialogue.md",
+      "sha256": "e6303397fa7ebacbc961409fc8d6ee3999d4bdc67d41e8682d4b2bef5a65a37e",
+      "size": 3162
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-06-gospel-centered-parenting.md",
+      "sha256": "7cabfc2126332084b1c20b9613dcb018653b75d6865555464927816c649346cf",
+      "size": 3105
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-07-early-childhood-parenting.md",
+      "sha256": "316ec016db7dd69a5a46369f20ae1c0ae17cfa0e36bfe4156fc0d988f3b19b38",
+      "size": 3482
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-08-middle-childhood-parenting.md",
+      "sha256": "93ff64dc88f5e300e41004adc5820678ec435c0a9f2e6f00245f383568766082",
+      "size": 3570
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-09-adolescent-parenting.md",
+      "sha256": "2feeafdd70061ce622e019de0a103334bed29b632b29fbb9c3c60d2a8260db92",
+      "size": 4370
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-10-adult-child-mutuality.md",
+      "sha256": "6950b5c5111b08fc12270518302554119aad1dc4bf862a336a93710cae00acae",
+      "size": 4445
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-11-thinking-with-children.md",
+      "sha256": "fdb1d878f9b9c883808507f8e2f77e59420d6e7fcea98290e685b12c5831af8e",
+      "size": 4261
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-12-child-curiosity-and-philosophical-dialogue.md",
+      "sha256": "bde97ef2bcd59bc1c92c34a12738b3753d27448924bdf1dea69f85b36d35cc38",
+      "size": 3676
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-13-authority-power-responsibility-and-autonomy.md",
+      "sha256": "cd33d594751cceb1596fd78b5b969fdc96b60c6c072e535183439bec04676547",
+      "size": 4183
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-14-punishment-responsibility-and-reflection.md",
+      "sha256": "b053ce7bbdbc8e84fcbdd9496d0387ef8568f28a0fc74e1e4b140a539f2af61a",
+      "size": 4378
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+      "sha256": "c2a803d7b1206136c496a20e147a965bbd2a633c145b676fb0444cd979026ced",
+      "size": 11239
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/knowledge/PK-16-inductive-bible-study-method.md",
+      "sha256": "1fec30fd2c542afa6cacc36305f53ea0076388766816df56a42d3b7ea1f478aa",
+      "size": 6256
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/reference-material/RM-03-formal-evaluation.md",
+      "sha256": "4b8d601409daef5f1e4e326260719b0da52f7ad9c78b5fb1e3b51519b9bb7c04",
+      "size": 2910
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/reference-material/RM-04A-B-formal-evaluation.md",
+      "sha256": "82bec01f7a5b940b7f52f83fa06cf47338aea737dd1bd79b1454d36d12a235fb",
+      "size": 2616
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/reference-material/Reference_Material_Evaluation_v1.1.md",
+      "sha256": "5e203e117947f944243fab4ac5b4c06650ecdf699e279bf5edbe0ce6d6e0eca5",
+      "size": 4274
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/reference-material/Reference_Usage_Map_v1.1.md",
+      "sha256": "5ff672e29f8549e28cd08d9c268af22ea03026b6cc4cd7207d603d758c4cc3a7",
+      "size": 6448
+    },
+    {
+      "path": "skills/supporting-parent-reflection/assets/reference-profile.json",
+      "sha256": "ecabfc1a0fc1804fe44917ea328a00a7f845d16ff4cf80b646a0c2e3d9b00024",
+      "size": 1690
+    }
+  ],
+  "content_tree_sha256": "aba0147a1141dc752fcbda46d840c952e14e15976547ecf95fe9aebe8f3b2385",
+  "non_owner_skills": [
+    "coaching-parenting-and-sensitive-conversations",
+    "designing-family-devotions",
+    "guiding-parenting-sessions",
+    "supporting-parent-reflection"
+  ],
+  "owner_skill": "guiding-biblical-study",
+  "plugin_id": "growing-with-children",
+  "references": [
+    {
+      "owner_relative_path": "assets/reference-material/RM-04A_Bible_\u820a\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN.pdf",
+      "reference_id": "RM-04A",
+      "sha256": "2740a6f824f96374cb127d78c3d646b489963898dacc252b842d9a8894a91125"
+    },
+    {
+      "owner_relative_path": "assets/reference-material/RM-04B_Bible_\u65b0\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN.pdf",
+      "reference_id": "RM-04B",
+      "sha256": "4f0f9ef4c4a78b83f918c74e8f368a7e0eae515c17866c7767c310ca75786490"
+    }
+  ],
+  "schema": "workbench-repair-manifest-v1",
+  "source_archive_sha256": "e20ab7f970565dde1d2bfa8529d82da12366dfbed6a6672aed9dc51eedb6d1f1",
+  "source_manifest_sha256": "11a8885c934e58d0daf1189b90fe02098500a413a36c49455713ac66c3b8fdaf",
+  "source_version": "1.0.1",
+  "target_version": "1.0.2",
+  "third_party_notice": {
+    "classification": "PUBLIC_DOMAIN",
+    "confirmed_by": "SC",
+    "recorded_at": "2026-10-10",
+    "redistribution_approved": true
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "plugin-builder-traceability-v1",
+  "specification": {
+    "name": "與孩子一起成長 — Application Plugin Design Specification v1.0",
+    "source_attachment": "與孩子一起成長_Application_Plugin_Design_Specification_v1.0_DRAFT(1).zip",
+    "source_sha256": "041b32b276fcb0996625cc5b73048d64ffae739629b090a28d7347a00c93bb28",
+    "semantic_use": "REQ-001–REQ-012 verbatim text supplied by owner to close W2 semantic-verification gap",
+    "provenance_note": "The attached artifact metadata says DRAFT_FOR_EXPLICIT_APPROVAL; the approved implementation delta identifies Application Plugin Design Specification v1.0 as its APPROVED baseline. This candidate preserves that distinction and does not rewrite the source artifact."
+  },
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "verbatim": "Preserve five behavioral roles and route according to user need.",
+      "owners": [
+        "guiding-parenting-sessions",
+        "coaching-parenting-and-sensitive-conversations",
+        "supporting-parent-reflection",
+        "guiding-biblical-study",
+        "designing-family-devotions"
+      ],
+      "evidence": [
+        "docs/orchestration-map.md",
+        "skills/guiding-parenting-sessions/assets/contracts/WF-01-Parent-Guidance-Workflow-v1.0_APPROVED.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED"
+    },
+    {
+      "id": "REQ-002",
+      "verbatim": "Adapt substantive guidance to life stage when material.",
+      "owners": [
+        "guiding-parenting-sessions",
+        "all specialist Skills"
+      ],
+      "evidence": [
+        "skills/guiding-parenting-sessions/assets/knowledge/PK-07-early-childhood-parenting.md",
+        "skills/guiding-parenting-sessions/assets/knowledge/PK-08-middle-childhood-parenting.md",
+        "skills/guiding-parenting-sessions/assets/knowledge/PK-09-adolescent-parenting.md",
+        "skills/guiding-parenting-sessions/assets/knowledge/PK-10-adult-child-mutuality.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED"
+    },
+    {
+      "id": "REQ-003",
+      "verbatim": "Use CP-01 safety precedence for credible serious risk.",
+      "owners": [
+        "guiding-parenting-sessions",
+        "all Skills safety handoff"
+      ],
+      "evidence": [
+        "skills/guiding-parenting-sessions/assets/knowledge/CP-01-safety-and-escalation-policy.md",
+        "docs/orchestration-map.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED"
+    },
+    {
+      "id": "REQ-004",
+      "verbatim": "Use PK-15 for sensitive-issue relational handling.",
+      "owners": [
+        "guiding-parenting-sessions",
+        "coaching-parenting-and-sensitive-conversations"
+      ],
+      "evidence": [
+        "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+        "docs/orchestration-map.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED"
+    },
+    {
+      "id": "REQ-005",
+      "verbatim": "Do not create topic-specific sensitive-issue workflows by default.",
+      "owners": [
+        "coaching-parenting-and-sensitive-conversations",
+        "guiding-parenting-sessions"
+      ],
+      "evidence": [
+        "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+        "skills/coaching-parenting-and-sensitive-conversations/SKILL.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED"
+    },
+    {
+      "id": "REQ-006",
+      "verbatim": "Support simple Bible guidance and formal inductive-study modes.",
+      "owners": [
+        "guiding-biblical-study"
+      ],
+      "evidence": [
+        "skills/guiding-biblical-study/SKILL.md",
+        "skills/guiding-biblical-study/assets/contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED"
+    },
+    {
+      "id": "REQ-007",
+      "verbatim": "Verify exact CUV quotation against RM-04A/B.",
+      "owners": [
+        "guiding-biblical-study"
+      ],
+      "evidence": [
+        "skills/guiding-biblical-study/assets/reference-material/RM-04A_Bible_舊約聖經和合本_PUBLIC_DOMAIN.pdf",
+        "skills/guiding-biblical-study/assets/reference-material/RM-04B_Bible_新約聖經和合本_PUBLIC_DOMAIN.pdf",
+        "skills/guiding-biblical-study/assets/reference-profile.json"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED; runtime exact-retrieval behavior NOT VERIFIED"
+    },
+    {
+      "id": "REQ-008",
+      "verbatim": "Use PK-16 for formal ten-step Bible study.",
+      "owners": [
+        "guiding-biblical-study"
+      ],
+      "evidence": [
+        "skills/guiding-biblical-study/assets/knowledge/PK-16-inductive-bible-study-method.md",
+        "skills/guiding-biblical-study/SKILL.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED; runtime ten-step execution NOT VERIFIED"
+    },
+    {
+      "id": "REQ-009",
+      "verbatim": "Preserve pause/resume/stop/revise/skip semantics.",
+      "owners": [
+        "guiding-parenting-sessions",
+        "all Skills"
+      ],
+      "evidence": [
+        "docs/orchestration-map.md",
+        "skills/guiding-parenting-sessions/SKILL.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED; installed-runtime state preservation NOT VERIFIED"
+    },
+    {
+      "id": "REQ-010",
+      "verbatim": "Do not provide diagnosis, psychotherapy, or coercive sensitive-issue guidance.",
+      "owners": [
+        "all Skills"
+      ],
+      "evidence": [
+        "skills/guiding-parenting-sessions/assets/knowledge/CP-01-safety-and-escalation-policy.md",
+        "skills/coaching-parenting-and-sensitive-conversations/assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+        "skills/supporting-parent-reflection/SKILL.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED"
+    },
+    {
+      "id": "REQ-011",
+      "verbatim": "Use defined reference fallbacks instead of silently fabricating grounded authority.",
+      "owners": [
+        "all Skills"
+      ],
+      "evidence": [
+        "skills/guiding-parenting-sessions/assets/reference-profile.json",
+        "skills/coaching-parenting-and-sensitive-conversations/assets/reference-profile.json",
+        "skills/supporting-parent-reflection/assets/reference-profile.json",
+        "skills/guiding-biblical-study/assets/reference-profile.json",
+        "skills/designing-family-devotions/assets/reference-profile.json"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED; runtime fallback scenarios NOT VERIFIED"
+    },
+    {
+      "id": "REQ-012",
+      "verbatim": "Preserve implementation neutrality.",
+      "owners": [
+        "plugin-wide"
+      ],
+      "evidence": [
+        "docs/reference-layout.md",
+        "docs/orchestration-map.md"
+      ],
+      "semantic_coverage_state": "STATICALLY VERIFIED"
+    }
+  ]
+}

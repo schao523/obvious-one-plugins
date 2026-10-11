@@ -1,0 +1,1182 @@
+{
+  "assets": [
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "reference-material/RM-03-formal-evaluation.md",
+      "id": "RM-03-formal-evaluation",
+      "sha256": "4b8d601409daef5f1e4e326260719b0da52f7ad9c78b5fb1e3b51519b9bb7c04",
+      "topic_guide": {
+        "keywords": [
+          "RM",
+          "03",
+          "formal",
+          "evaluation"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# RM-03 Formal Evaluation \u2014 \u300a\u6b78\u7d0d\u91cb\u7d93\u6cd5\u300b",
+          "## Classification",
+          "## Evidence inspected",
+          "## Relevance",
+          "## Authority",
+          "## Behavioral impact",
+          "## Methodological strengths",
+          "## Limitations",
+          "## Provenance",
+          "## Rights decision",
+          "## Runtime decision",
+          "## Fallback"
+        ],
+        "title": "# RM-03 Formal Evaluation \u2014 \u300a\u6b78\u7d0d\u91cb\u7d93\u6cd5\u300b"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "reference-material/Reference_Usage_Map_v1.1.md",
+      "id": "Reference_Usage_Map_v1.1",
+      "sha256": "122226a57f9d727d44ff031bd1989ea30432e4fb2e8bf9063a6b5170061bd4af",
+      "topic_guide": {
+        "keywords": [
+          "Reference_Usage_Map_v1.1"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# Reference Usage Map v1.1 \u2014 Draft for Approval",
+          "## 1. What changed from v1.0",
+          "## 2. Global rules",
+          "## 3. New/updated reference records",
+          "### RM-03 \u2014 \u300a\u6b78\u7d0d\u91cb\u7d93\u6cd5\u300b",
+          "### PK-16 \u2014 Inductive Bible Study Method",
+          "### RM-04A \u2014 Old Testament CUV",
+          "### RM-04B \u2014 New Testament CUV",
+          "## 4. Updated module-centric map",
+          "### IM-01 Context & Life-stage Triage",
+          "### IM-02 Need & Role Routing",
+          "### IM-03 Guided Growth Coaching",
+          "### IM-04 Practical Parenting Advice",
+          "### IM-05 Parent Reflection & Pastoral Support",
+          "### IM-06 Biblical Guidance & Bible Study",
+          "#### Mode A \u2014 Simple guidance",
+          "#### Mode B \u2014 Formal inductive study",
+          "### IM-07 Family Devotion & Activity Design",
+          "### IM-08 Life-stage Adaptation",
+          "### IM-09 Safety, Boundaries & Interaction Control",
+          "### IM-10 Sensitive-Issue Discernment & Response",
+          "## 5. Exact-text rule",
+          "## 6. Interpretation rule",
+          "## 7. Formal-study completion rule",
+          "## 8. Rights-aware runtime policy",
+          "## 9. Status"
+        ],
+        "title": "# Reference Usage Map v1.1 \u2014 Draft for Approval"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "reference-material/Reference_Material_Evaluation_v1.1.md",
+      "id": "Reference_Material_Evaluation_v1.1",
+      "sha256": "e8834589cb2ebadf95dec75631ed6396b596d77d16af59593de8898d515374e2",
+      "topic_guide": {
+        "keywords": [
+          "Reference_Material_Evaluation_v1.1"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# Reference Material Evaluation v1.1 \u2014 Draft for Approval",
+          "## 1. Scope",
+          "## 2. Updated authority hierarchy",
+          "## 3. RM-03 decision",
+          "## 4. RM-04A/B decision",
+          "## 5. IM-06 reference contract",
+          "### Simple Bible guidance",
+          "### Formal inductive Bible study",
+          "## 6. IM-07 reference contract",
+          "## 7. IM-10 sensitive-issue biblical handoff",
+          "## 8. Rights summary",
+          "## 9. Reference gaps after v1.1",
+          "## 10. Decision"
+        ],
+        "title": "# Reference Material Evaluation v1.1 \u2014 Draft for Approval"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "reference-material/RM-04A-B-formal-evaluation.md",
+      "id": "RM-04A-B-formal-evaluation",
+      "sha256": "82bec01f7a5b940b7f52f83fa06cf47338aea737dd1bd79b1454d36d12a235fb",
+      "topic_guide": {
+        "keywords": [
+          "RM",
+          "04A",
+          "B",
+          "formal",
+          "evaluation"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# RM-04A / RM-04B Formal Evaluation \u2014 Chinese Union Version Bible PDFs",
+          "## Materials",
+          "## Classification",
+          "## Evidence inspected",
+          "## Authority",
+          "## Rights / provenance",
+          "## Behavioral use",
+          "### Direct verse request",
+          "### Simple Bible explanation",
+          "### Formal inductive study",
+          "### Parenting advice with biblical principles",
+          "### Family devotion",
+          "## Limitations",
+          "## Fallback"
+        ],
+        "title": "# RM-04A / RM-04B Formal Evaluation \u2014 Chinese Union Version Bible PDFs"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Scripture textual authority",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "reference-material/RM-04B_Bible_\u65b0\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN.pdf",
+      "id": "RM-04B_Bible_\u65b0\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN",
+      "sha256": "4f0f9ef4c4a78b83f918c74e8f368a7e0eae515c17866c7767c310ca75786490",
+      "topic_guide": {
+        "keywords": [
+          "RM",
+          "04B_Bible_\u65b0\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN"
+        ],
+        "page_selection": "Locate book/chapter/verse in RM-04A/B; verify source page before quoting",
+        "sections": [],
+        "title": "RM-04B_Bible_\u65b0\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Scripture textual authority",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "reference-material/RM-04A_Bible_\u820a\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN.pdf",
+      "id": "RM-04A_Bible_\u820a\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN",
+      "sha256": "2740a6f824f96374cb127d78c3d646b489963898dacc252b842d9a8894a91125",
+      "topic_guide": {
+        "keywords": [
+          "RM",
+          "04A_Bible_\u820a\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN"
+        ],
+        "page_selection": "Locate book/chapter/verse in RM-04A/B; verify source page before quoting",
+        "sections": [],
+        "title": "RM-04A_Bible_\u820a\u7d04\u8056\u7d93\u548c\u5408\u672c_PUBLIC_DOMAIN"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-06-questioning-without-preaching.md",
+      "id": "EX-06-questioning-without-preaching",
+      "sha256": "07dc65d101416e46e9dfa65185f833de82eb2b37242024ad1c9a5be514aa4106",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "06",
+          "questioning",
+          "without",
+          "preaching"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-06 \u2014 Questioning Without Preaching",
+          "## Purpose",
+          "## Trigger",
+          "## Poor pattern",
+          "## Better pattern",
+          "### Step 1 \u2014 Invite",
+          "### Step 2 \u2014 Clarify",
+          "### Step 3 \u2014 Reasons",
+          "### Step 4 \u2014 Test gently",
+          "### Step 5 \u2014 Parent contribution",
+          "### Step 6 \u2014 Leave room",
+          "## Appropriate use",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Boundaries"
+        ],
+        "title": "# EX-06 \u2014 Questioning Without Preaching"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-04-biblical-parent-child-communication.md",
+      "id": "PK-04-biblical-parent-child-communication",
+      "sha256": "fc60e516e87fadb4114a9bfd1b8459b7c5223de259a9684dd5de174e982882ac",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "04",
+          "biblical",
+          "parent",
+          "child",
+          "communication"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-04 \u2014 Biblical Parent\u2013Child Communication",
+          "## Purpose",
+          "## Source basis",
+          "## Core principles",
+          "## Communication-selection guide",
+          "## When to consult",
+          "## Application guidance",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-04 \u2014 Biblical Parent\u2013Child Communication"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-14-punishment-responsibility-and-reflection.md",
+      "id": "PK-14-punishment-responsibility-and-reflection",
+      "sha256": "b053ce7bbdbc8e84fcbdd9496d0387ef8568f28a0fc74e1e4b140a539f2af61a",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "14",
+          "punishment",
+          "responsibility",
+          "and",
+          "reflection"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-14 \u2014 Punishment, Responsibility, and Reflection",
+          "## Purpose",
+          "## Source basis",
+          "## Important authority limitation",
+          "## Core reflective dimensions",
+          "## Respect principle",
+          "## Responsibility reflection",
+          "## When to consult",
+          "## Application guidance",
+          "## Relationship to primary parenting knowledge",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-14 \u2014 Punishment, Responsibility, and Reflection"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-08-wonder-and-joint-inquiry.md",
+      "id": "EX-08-wonder-and-joint-inquiry",
+      "sha256": "980cfa1e36933120bf67883df55451770ffd1867d8cb2a9325e6fe20285aa888",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "08",
+          "wonder",
+          "and",
+          "joint",
+          "inquiry"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-08 \u2014 Wonder and Joint Inquiry",
+          "## Purpose",
+          "## Trigger",
+          "## Better pattern",
+          "### Step 1 \u2014 Admit uncertainty",
+          "### Step 2 \u2014 Ask child first",
+          "### Step 3 \u2014 Identify what would help",
+          "### Step 4 \u2014 Explore together",
+          "### Step 5 \u2014 Return",
+          "### Step 6 \u2014 Preserve wonder",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Boundaries"
+        ],
+        "title": "# EX-08 \u2014 Wonder and Joint Inquiry"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-12-child-curiosity-and-philosophical-dialogue.md",
+      "id": "PK-12-child-curiosity-and-philosophical-dialogue",
+      "sha256": "bde97ef2bcd59bc1c92c34a12738b3753d27448924bdf1dea69f85b36d35cc38",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "12",
+          "child",
+          "curiosity",
+          "and",
+          "philosophical",
+          "dialogue"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-12 \u2014 Child Curiosity and Philosophical Dialogue",
+          "## Purpose",
+          "## Source basis",
+          "## Core principles",
+          "## Conversation opportunities",
+          "### Complaint as doorway",
+          "### Curiosity as doorway",
+          "### Emotion as doorway",
+          "## When to consult",
+          "## Application guidance",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-12 \u2014 Child Curiosity and Philosophical Dialogue"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-03-adolescent-faith-doubt.md",
+      "id": "EX-03-adolescent-faith-doubt",
+      "sha256": "8795254b4c372cfc9031695e2925db3a2636ca1888239605c11176f276f21c92",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "03",
+          "adolescent",
+          "faith",
+          "doubt"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-03 \u2014 Adolescent Faith Doubt",
+          "## Purpose",
+          "## Trigger",
+          "## Poor pattern",
+          "## Better pattern",
+          "### Step 1 \u2014 Welcome the question",
+          "### Step 2 \u2014 Clarify",
+          "### Step 3 \u2014 Distinguish",
+          "### Step 4 \u2014 Think together",
+          "### Step 5 \u2014 Respond from faith",
+          "### Step 6 \u2014 Invite study",
+          "### Step 7 \u2014 Keep relationship open",
+          "## Parent reflection",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Boundaries"
+        ],
+        "title": "# EX-03 \u2014 Adolescent Faith Doubt"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-07-parental-authority-dialogue.md",
+      "id": "EX-07-parental-authority-dialogue",
+      "sha256": "740cd2d3b69d9fbede721e76468ff29e0bb5d51a383f9b3045b84bd829421553",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "07",
+          "parental",
+          "authority",
+          "dialogue"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-07 \u2014 Parental Authority Dialogue",
+          "## Purpose",
+          "## Trigger",
+          "## Better pattern",
+          "### Step 1 \u2014 Identify responsibility",
+          "### Step 2 \u2014 Explain purpose",
+          "### Step 3 \u2014 Distinguish negotiable vs non-negotiable",
+          "### Step 4 \u2014 Invite input",
+          "### Step 5 \u2014 Revisit as maturity grows",
+          "## Adult-child variant",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Boundaries"
+        ],
+        "title": "# EX-07 \u2014 Parental Authority Dialogue"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-07-early-childhood-parenting.md",
+      "id": "PK-07-early-childhood-parenting",
+      "sha256": "316ec016db7dd69a5a46369f20ae1c0ae17cfa0e36bfe4156fc0d988f3b19b38",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "07",
+          "early",
+          "childhood",
+          "parenting"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-07 \u2014 Early Childhood Parenting",
+          "## Purpose",
+          "## Source basis",
+          "## Source-supported developmental emphasis",
+          "## Core principles",
+          "## When to consult",
+          "## Application guidance",
+          "### Prefer",
+          "### Avoid",
+          "## Life-stage adaptation rule",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-07 \u2014 Early Childhood Parenting"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-03-parenting-goals-and-heart-direction.md",
+      "id": "PK-03-parenting-goals-and-heart-direction",
+      "sha256": "b4976f484589b3d576674256f18e000682f07d47163caf7e3dedc221e16f40a2",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "03",
+          "parenting",
+          "goals",
+          "and",
+          "heart",
+          "direction"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-03 \u2014 Parenting Goals and Heart Direction",
+          "## Purpose",
+          "## Source basis",
+          "## Core principles",
+          "## When to consult",
+          "## Goal clarification prompts",
+          "## Application guidance",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-03 \u2014 Parenting Goals and Heart Direction"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-15-sensitive-issue-relational-response.md",
+      "id": "PK-15-sensitive-issue-relational-response",
+      "sha256": "c2a803d7b1206136c496a20e147a965bbd2a633c145b676fb0444cd979026ced",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "15",
+          "sensitive",
+          "issue",
+          "relational",
+          "response"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-15 \u2014 Sensitive-Issue Relational Response",
+          "## Purpose",
+          "## Source basis",
+          "### Primary source",
+          "### Supporting source",
+          "## Source authority",
+          "## What counts as a sensitive issue",
+          "## Core principles",
+          "### 1. Do not confuse shock with emergency",
+          "### 2. Regulate before responding",
+          "### 3. Listen before correcting",
+          "### 4. Clarify what the child actually means",
+          "### 5. Preserve dignity",
+          "### 6. Distinguish understanding from agreement",
+          "### 7. Identify the real parental responsibility",
+          "### 8. Adapt to life stage",
+          "#### Early childhood",
+          "#### Middle childhood",
+          "#### Adolescence",
+          "#### Adult child",
+          "### 9. Think with the child when appropriate",
+          "### 10. Apply faith after understanding",
+          "### 11. Do not solve everything in one conversation",
+          "## Sensitive-Issue Response Sequence",
+          "### SIR-1 \u2014 Regulate",
+          "### SIR-2 \u2014 Receive",
+          "### SIR-3 \u2014 Safety check",
+          "### SIR-4 \u2014 Clarify",
+          "### SIR-5 \u2014 Understand",
+          "### SIR-6 \u2014 Locate responsibility",
+          "### SIR-7 \u2014 Select response mode",
+          "### SIR-8 \u2014 Agree next step",
+          "## Parent reflection prompts",
+          "## Interaction protocol",
+          "## When to consult",
+          "## Do not create topic proliferation by default",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-15 \u2014 Sensitive-Issue Relational Response"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-06-gospel-centered-parenting.md",
+      "id": "PK-06-gospel-centered-parenting",
+      "sha256": "7cabfc2126332084b1c20b9613dcb018653b75d6865555464927816c649346cf",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "06",
+          "gospel",
+          "centered",
+          "parenting"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-06 \u2014 Gospel-Centered Parenting",
+          "## Purpose",
+          "## Source basis",
+          "## Core principles",
+          "## When to consult",
+          "## Application guidance",
+          "### A. Moral clarity",
+          "### B. Heart reflection",
+          "### C. Gospel response",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-06 \u2014 Gospel-Centered Parenting"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-02-parental-role-authority-and-service.md",
+      "id": "PK-02-parental-role-authority-and-service",
+      "sha256": "e4b149ff7e44cdf80a3b307e5f853f6f72e95e3e8cfa0750d7e9b6eeca6f1372",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "02",
+          "parental",
+          "role",
+          "authority",
+          "and",
+          "service"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-02 \u2014 Parental Role, Authority, and Service",
+          "## Purpose",
+          "## Source basis",
+          "## Core principles",
+          "## When to consult",
+          "## Application guidance",
+          "## Parent self-check",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-02 \u2014 Parental Role, Authority, and Service"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-02-listening-before-correcting.md",
+      "id": "EX-02-listening-before-correcting",
+      "sha256": "bcf3a230deb05abd7b9ff5ea550d7b42890fd9117619c2cae7eb2d731930c0c7",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "02",
+          "listening",
+          "before",
+          "correcting"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-02 \u2014 Listening Before Correcting",
+          "## Purpose",
+          "## Trigger",
+          "## Poor pattern",
+          "## Better pattern",
+          "### Step 1 \u2014 Receive",
+          "### Step 2 \u2014 Invite",
+          "### Step 3 \u2014 Listen",
+          "### Step 4 \u2014 Reflect",
+          "### Step 5 \u2014 Clarify",
+          "### Step 6 \u2014 Respond",
+          "## Parent reminder",
+          "## Life-stage adaptation",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Boundaries"
+        ],
+        "title": "# EX-02 \u2014 Listening Before Correcting"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-08-middle-childhood-parenting.md",
+      "id": "PK-08-middle-childhood-parenting",
+      "sha256": "93ff64dc88f5e300e41004adc5820678ec435c0a9f2e6f00245f383568766082",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "08",
+          "middle",
+          "childhood",
+          "parenting"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-08 \u2014 Middle Childhood Parenting",
+          "## Purpose",
+          "## Source basis",
+          "## Source-supported developmental shift",
+          "## Core principles",
+          "## When to consult",
+          "## Character coaching process",
+          "## Application guidance",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-08 \u2014 Middle Childhood Parenting"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-16-inductive-bible-study-method.md",
+      "id": "PK-16-inductive-bible-study-method",
+      "sha256": "1fec30fd2c542afa6cacc36305f53ea0076388766816df56a42d3b7ea1f478aa",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "16",
+          "inductive",
+          "bible",
+          "study",
+          "method"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-16 \u2014 Inductive Bible Study Method",
+          "## Purpose",
+          "## Source basis",
+          "## Methodological frame",
+          "## Ten-step method",
+          "### Step 1 \u2014 \u7d30\u5bdf\u4e8b\u5be6 / Observe the facts",
+          "### Step 2 \u2014 \u8a8d\u6e05\u95dc\u4fc2 / Identify relationships",
+          "### Step 3 \u2014 \u6ce8\u610f\u7d50\u69cb / Observe structure",
+          "### Step 4 \u2014 \u52e4\u767c\u554f\u984c / Form questions",
+          "### Step 5 \u2014 \u9010\u984c\u89e3\u7b54 / Answer the questions",
+          "### Step 6 \u2014 \u6b78\u7d0d\u7e3d\u610f / Synthesize the meaning",
+          "### Step 7 \u2014 \u627e\u51fa\u4e3b\u984c / Identify the theme",
+          "### Step 8 \u2014 \u5beb\u4e0b\u539f\u5247 / Derive the principle",
+          "### Step 9 \u2014 \u5217\u51fa\u7d30\u7bc0 / Specify application",
+          "### Step 10 \u2014 \u8eab\u9ad4\u529b\u884c / Put into practice",
+          "## IM-06 operating modes",
+          "### Mode A \u2014 Simple Bible guidance",
+          "### Mode B \u2014 Formal inductive Bible study",
+          "## Interaction rules",
+          "## Interpretation safeguards",
+          "## Relevant Instruction Modules",
+          "## Rights / provenance",
+          "## Fallback"
+        ],
+        "title": "# PK-16 \u2014 Inductive Bible Study Method"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-13-authority-power-responsibility-and-autonomy.md",
+      "id": "PK-13-authority-power-responsibility-and-autonomy",
+      "sha256": "cd33d594751cceb1596fd78b5b969fdc96b60c6c072e535183439bec04676547",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "13",
+          "authority",
+          "power",
+          "responsibility",
+          "and",
+          "autonomy"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-13 \u2014 Authority, Power, Responsibility, and Autonomy",
+          "## Purpose",
+          "## Source basis",
+          "## Core distinctions",
+          "### Power",
+          "### Authority",
+          "### Responsibility",
+          "### Autonomy",
+          "## Source-derived principles",
+          "## Authority-scope questions",
+          "## When to consult",
+          "## Application guidance",
+          "## Authority hierarchy",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-13 \u2014 Authority, Power, Responsibility, and Autonomy"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Safety policy",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/CP-01-safety-and-escalation-policy.md",
+      "id": "CP-01-safety-and-escalation-policy",
+      "sha256": "87556280243beabfd0c32bf51e1230cccbef628973544220a55f21c943d87e2d",
+      "topic_guide": {
+        "keywords": [
+          "CP",
+          "01",
+          "safety",
+          "and",
+          "escalation",
+          "policy"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# CP-01 \u2014 Safety & Escalation Policy",
+          "## Classification",
+          "## Source status",
+          "## Purpose",
+          "## Core rule",
+          "## Safety trigger categories",
+          "### ST-1 \u2014 Immediate danger",
+          "### ST-2 \u2014 Self-harm / suicide concern",
+          "### ST-3 \u2014 Abuse, sexual abuse, exploitation, or coercion",
+          "### ST-4 \u2014 Serious violence risk",
+          "### ST-5 \u2014 Severe mental-health or behavioral crisis",
+          "### ST-6 \u2014 Serious safeguarding uncertainty",
+          "## Triage sequence",
+          "### CP-S0 \u2014 Detect",
+          "### CP-S1 \u2014 Clarify urgency",
+          "### CP-S2 \u2014 Immediate-danger branch",
+          "### CP-S3 \u2014 Abuse / exploitation branch",
+          "### CP-S4 \u2014 Self-harm / suicide branch",
+          "### CP-S5 \u2014 Serious but non-immediate branch",
+          "### CP-S6 \u2014 Return-to-parenting branch",
+          "## Interaction rules",
+          "### Ask only what changes action",
+          "### Use direct language for safety",
+          "### No false reassurance",
+          "### No diagnosis",
+          "### No coercive disclosure",
+          "### No automatic secrecy",
+          "### No moral/theological debate during acute danger",
+          "## Sensitive topic \u2260 safety trigger",
+          "## Life-stage considerations",
+          "### Minor child",
+          "### Adolescent",
+          "### Adult child",
+          "## Professional-support categories",
+          "## Stop conditions",
+          "## Recovery / re-entry",
+          "## Relevant Instruction Modules",
+          "## Limitations",
+          "## Provenance"
+        ],
+        "title": "# CP-01 \u2014 Safety & Escalation Policy"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-05-thinking-through-fairness.md",
+      "id": "EX-05-thinking-through-fairness",
+      "sha256": "6f8c938f5921422a36c57f99ffddfb57c68626b3a25776c35699da691d8c0128",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "05",
+          "thinking",
+          "through",
+          "fairness"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-05 \u2014 Thinking Through Fairness",
+          "## Purpose",
+          "## Trigger",
+          "## Better pattern",
+          "### Step 1 \u2014 Ask meaning",
+          "### Step 2 \u2014 Ask reason",
+          "### Step 3 \u2014 Compare cases",
+          "### Step 4 \u2014 Perspective shift",
+          "### Step 5 \u2014 Parent view",
+          "### Step 6 \u2014 Re-evaluate",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Boundaries"
+        ],
+        "title": "# EX-05 \u2014 Thinking Through Fairness"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-04-transition-to-adult-child-relationship.md",
+      "id": "EX-04-transition-to-adult-child-relationship",
+      "sha256": "37cb5bfcd3b98bc2a382d338bb96df802641b9593c43047be11507359537d161",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "04",
+          "transition",
+          "to",
+          "adult",
+          "child",
+          "relationship"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-04 \u2014 Transition to Adult-Child Relationship",
+          "## Purpose",
+          "## Trigger",
+          "## Poor pattern",
+          "## Better pattern",
+          "### Step 1 \u2014 Clarify role",
+          "### Step 2 \u2014 Ask permission",
+          "### Step 3 \u2014 Listen first",
+          "### Step 4 \u2014 Share, not command",
+          "### Step 5 \u2014 State conviction without control",
+          "### Step 6 \u2014 Maintain real boundaries",
+          "### Step 7 \u2014 Preserve relationship",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Boundaries"
+        ],
+        "title": "# EX-04 \u2014 Transition to Adult-Child Relationship"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-05-listening-timing-and-open-dialogue.md",
+      "id": "PK-05-listening-timing-and-open-dialogue",
+      "sha256": "e6303397fa7ebacbc961409fc8d6ee3999d4bdc67d41e8682d4b2bef5a65a37e",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "05",
+          "listening",
+          "timing",
+          "and",
+          "open",
+          "dialogue"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-05 \u2014 Listening, Timing, and Open Dialogue",
+          "## Purpose",
+          "## Source basis",
+          "## Core principles",
+          "## Open-dialogue protocol",
+          "### Step 1 \u2014 Open",
+          "### Step 2 \u2014 Clarify",
+          "### Step 3 \u2014 Reflect",
+          "### Step 4 \u2014 Respond",
+          "## When to consult",
+          "## Application guidance",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-05 \u2014 Listening, Timing, and Open Dialogue"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-10-adult-child-mutuality.md",
+      "id": "PK-10-adult-child-mutuality",
+      "sha256": "6950b5c5111b08fc12270518302554119aad1dc4bf862a336a93710cae00acae",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "10",
+          "adult",
+          "child",
+          "mutuality"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-10 \u2014 Adult-Child Mutuality",
+          "## Purpose",
+          "## Source basis",
+          "## Evidence limitation",
+          "## Core principles",
+          "## Source-derived mutuality pattern",
+          "## When to consult",
+          "## Adult-child response sequence",
+          "## Sensitive-issue adaptation",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-10 \u2014 Adult-Child Mutuality"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-01-heart-behavior-and-motivation.md",
+      "id": "PK-01-heart-behavior-and-motivation",
+      "sha256": "0b16f94d48bd40da4029222ea0aa6dd9af170dc32397635690cedca458801b7d",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "01",
+          "heart",
+          "behavior",
+          "and",
+          "motivation"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-01 \u2014 Heart, Behavior, and Motivation",
+          "## Purpose",
+          "## Source basis",
+          "## Core principles",
+          "## When to consult",
+          "## Suggested diagnostic questions",
+          "## Application guidance",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-01 \u2014 Heart, Behavior, and Motivation"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-09-adolescent-parenting.md",
+      "id": "PK-09-adolescent-parenting",
+      "sha256": "2feeafdd70061ce622e019de0a103334bed29b632b29fbb9c3c60d2a8260db92",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "09",
+          "adolescent",
+          "parenting"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-09 \u2014 Adolescent Parenting",
+          "## Purpose",
+          "## Source basis",
+          "## Source-supported developmental shift",
+          "## Core principles",
+          "## Three source-derived developmental concerns",
+          "## When to consult",
+          "## Adolescent guidance sequence",
+          "## Sensitive-issue adaptation",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-09 \u2014 Adolescent Parenting"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-09-sensitive-issue-conversations.md",
+      "id": "EX-09-sensitive-issue-conversations",
+      "sha256": "d5610dc98b1d2b813aee5464b5b372679cf277878a572cb6ea90fcaf33c1d1bb",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "09",
+          "sensitive",
+          "issue",
+          "conversations"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-09 \u2014 Sensitive-Issue Conversation Patterns",
+          "## Purpose",
+          "## Pattern A \u2014 Unexpected Disclosure",
+          "### Trigger",
+          "### Sequence",
+          "### Success",
+          "## Pattern B \u2014 Serious Moral / Value Disagreement",
+          "### Trigger",
+          "### Sequence",
+          "### Sample functional language",
+          "## Pattern C \u2014 Serious Mistake",
+          "### Trigger",
+          "### Sequence",
+          "### Avoid",
+          "## Pattern D \u2014 Child Refuses to Talk",
+          "### Trigger",
+          "### Sequence",
+          "### Boundary",
+          "## Pattern E \u2014 Parent Too Emotionally Activated",
+          "### Trigger",
+          "### Sequence",
+          "### Sample functional language",
+          "## Pattern F \u2014 Parent Wants Biblical Guidance Immediately",
+          "### Trigger",
+          "### Sequence",
+          "## Pattern G \u2014 Adult Child Sensitive Disclosure",
+          "### Trigger",
+          "### Sequence",
+          "## Pattern H \u2014 Safety Overrides Ordinary Dialogue",
+          "### Trigger",
+          "### Sequence",
+          "## Cross-pattern principles",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Provenance"
+        ],
+        "title": "# EX-09 \u2014 Sensitive-Issue Conversation Patterns"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Example, optional",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/EX-01-heart-vs-surface-behavior.md",
+      "id": "EX-01-heart-vs-surface-behavior",
+      "sha256": "06070acbe97c5cf1cb683b5edcd69febb99689c43268a8dc41f3afd5f9f02d82",
+      "topic_guide": {
+        "keywords": [
+          "EX",
+          "01",
+          "heart",
+          "vs",
+          "surface",
+          "behavior"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# EX-01 \u2014 Heart vs. Surface Behavior",
+          "## Purpose",
+          "## Pattern type",
+          "## Trigger",
+          "## Poor pattern",
+          "## Better pattern",
+          "### Step 1 \u2014 Describe",
+          "### Step 2 \u2014 Explore",
+          "### Step 3 \u2014 Clarify meaning",
+          "### Step 4 \u2014 Identify deeper issue",
+          "### Step 5 \u2014 Connect to character / faith",
+          "### Step 6 \u2014 Next action",
+          "## Parent-coaching version",
+          "## Life-stage adaptation",
+          "## Related knowledge",
+          "## Relevant modules",
+          "## Boundaries"
+        ],
+        "title": "# EX-01 \u2014 Heart vs. Surface Behavior"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    },
+    {
+      "authority": "Approved professional knowledge or reference governance",
+      "consultation": "Exact Scripture: relevant source PDF page; focused Markdown: full file when applicable",
+      "file": "knowledge/PK-11-thinking-with-children.md",
+      "id": "PK-11-thinking-with-children",
+      "sha256": "fdb1d878f9b9c883808507f8e2f77e59420d6e7fcea98290e685b12c5831af8e",
+      "topic_guide": {
+        "keywords": [
+          "PK",
+          "11",
+          "thinking",
+          "with",
+          "children"
+        ],
+        "page_selection": null,
+        "sections": [
+          "# PK-11 \u2014 Thinking with Children",
+          "## Purpose",
+          "## Source basis",
+          "## Core principles",
+          "## Reusable questioning moves",
+          "## Thinking-with-child sequence",
+          "## When to consult",
+          "## Life-stage adaptation",
+          "## Application guidance",
+          "## Boundaries",
+          "## Relevant Instruction Modules",
+          "## Related knowledge",
+          "## Provenance"
+        ],
+        "title": "# PK-11 \u2014 Thinking with Children"
+      },
+      "trigger_and_bindings": "See contracts/IM-01-to-IM-10-Canonical-Contracts-v1.0_APPROVED.md and references/Reference_Usage_Map_v1.1.md"
+    }
+  ],
+  "fallback_policy": "Use explicit approved fallbacks; do not fabricate exact Scripture or reference authority.",
+  "usage_map": "reference-material/Reference_Usage_Map_v1.1.md"
+}

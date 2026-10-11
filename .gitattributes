@@ -5,3 +5,4 @@
 /openclaw/cool-plugin-design-assistant/** -text whitespace=cr-at-eol
 /plugins/cool-plugin-design-assistant/** -text whitespace=cr-at-eol
 /plugins/plugin-builder/** -text whitespace=cr-at-eol
+/plugins/growing-with-children/** -text whitespace=cr-at-eol

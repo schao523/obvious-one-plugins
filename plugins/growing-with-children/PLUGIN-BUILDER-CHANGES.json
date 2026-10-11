@@ -1,0 +1,59 @@
+{
+  "schema": "plugin-builder-update-changes-v1",
+  "mode": "UPDATE",
+  "baseline": {
+    "filename": "與孩子一起成長_v1.0.0(2).zip",
+    "sha256": "4719f3d75e83415e06963742314851f47ff897193661e45d23e1dac9bfcc1435",
+    "version": "1.0.0"
+  },
+  "approved_delta": {
+    "filename": "與孩子一起成長_Implementation_Delta_v1.0-delta-01.zip",
+    "sha256": "23488f5806bc21bdc727909eac1e442ab8a1bc4bf4101195b1cdaa058f955a7c",
+    "id": "v1.0-delta-01"
+  },
+  "candidate_version": "1.0.1",
+  "behavioral_scope_change": "NONE",
+  "w1": "APPROVED",
+  "w2": "PENDING",
+  "semantic_verification_update": {
+    "source_spec_sha256": "041b32b276fcb0996625cc5b73048d64ffae739629b090a28d7347a00c93bb28",
+    "REQ-001_to_REQ-012": "STATICALLY VERIFIED",
+    "note": "Verbatim requirement text mapped to concrete implementation owners/evidence; installed-runtime behavior remains separately NOT VERIFIED."
+  },
+  "removed_members": [
+    "skills/coaching-parenting-and-sensitive-conversations/assets/reference-material/RM-04A_Bible_舊約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "skills/coaching-parenting-and-sensitive-conversations/assets/reference-material/RM-04B_Bible_新約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "skills/designing-family-devotions/assets/reference-material/RM-04A_Bible_舊約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "skills/designing-family-devotions/assets/reference-material/RM-04B_Bible_新約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "skills/guiding-parenting-sessions/assets/reference-material/RM-04A_Bible_舊約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "skills/guiding-parenting-sessions/assets/reference-material/RM-04B_Bible_新約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "skills/supporting-parent-reflection/assets/reference-material/RM-04A_Bible_舊約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "skills/supporting-parent-reflection/assets/reference-material/RM-04B_Bible_新約聖經和合本_PUBLIC_DOMAIN.pdf"
+  ],
+  "added_artifacts": [
+    "docs/orchestration-map.md",
+    "docs/reference-layout.md",
+    "docs/traceability.md",
+    "docs/traceability.json",
+    "skills/coaching-parenting-and-sensitive-conversations/assets/reference-profile.json",
+    "skills/designing-family-devotions/assets/reference-profile.json",
+    "skills/guiding-biblical-study/assets/reference-profile.json",
+    "skills/guiding-parenting-sessions/assets/reference-profile.json",
+    "skills/supporting-parent-reflection/assets/reference-profile.json",
+    "evidence/runtime/T-01.json",
+    "evidence/runtime/T-02.json",
+    "evidence/runtime/T-03.json",
+    "evidence/runtime/T-04.json",
+    "evidence/runtime/T-05.json",
+    "evidence/runtime/T-06.json",
+    "evidence/runtime/T-07.json",
+    "evidence/runtime/T-08.json",
+    "evidence/runtime/T-09.json",
+    "evidence/runtime/T-10.json",
+    "evidence/runtime/T-11.json",
+    "evidence/runtime/T-12.json"
+  ],
+  "limitations": [
+    "T-01–T-12 installed-runtime execution NOT VERIFIED."
+  ]
+}

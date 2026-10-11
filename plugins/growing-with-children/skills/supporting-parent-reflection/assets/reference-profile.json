@@ -1,0 +1,46 @@
+{
+  "conditional": [
+    "assets/knowledge/PK-06-gospel-centered-parenting.md",
+    "assets/knowledge/PK-14-punishment-responsibility-and-reflection.md",
+    "assets/knowledge/PK-15-sensitive-issue-relational-response.md",
+    "assets/knowledge/CP-01-safety-and-escalation-policy.md",
+    "assets/knowledge/PK-07-early-childhood-parenting.md",
+    "assets/knowledge/PK-08-middle-childhood-parenting.md",
+    "assets/knowledge/PK-09-adolescent-parenting.md",
+    "assets/knowledge/PK-10-adult-child-mutuality.md"
+  ],
+  "delegated_references": [
+    {
+      "access_mode": "HANDOFF",
+      "local_copy": false,
+      "owner_skill": "guiding-biblical-study",
+      "reference_id": "RM-04A"
+    },
+    {
+      "access_mode": "HANDOFF",
+      "local_copy": false,
+      "owner_skill": "guiding-biblical-study",
+      "reference_id": "RM-04B"
+    }
+  ],
+  "fallback": "If reflective authority is unavailable, disclose the limitation and offer only non-clinical generic reflection; Bible quotation/study hands to guiding-biblical-study.",
+  "major_intents": [
+    "Mentor",
+    "pastoral parent reflection",
+    "emotion/expectation reflection"
+  ],
+  "optional": [
+    "assets/knowledge/PK-04-biblical-parent-child-communication.md"
+  ],
+  "prohibited_substitutions": [
+    "Do not turn pastoral reflection into diagnosis or psychotherapy.",
+    "Do not fabricate exact CUV wording."
+  ],
+  "required": [
+    "assets/knowledge/PK-01-heart-behavior-and-motivation.md",
+    "assets/knowledge/PK-03-parenting-goals-and-heart-direction.md",
+    "assets/knowledge/PK-05-listening-timing-and-open-dialogue.md"
+  ],
+  "schema": "skill-reference-profile-v2",
+  "skill": "supporting-parent-reflection"
+}

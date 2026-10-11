@@ -1,0 +1,27 @@
+{
+  "schema": "skill-reference-profile-v1",
+  "skill": "guiding-biblical-study",
+  "major_intents": [
+    "Tutor",
+    "simple Bible guidance",
+    "exact CUV quotation",
+    "formal ten-step inductive study"
+  ],
+  "required": [
+    "assets/reference-material/RM-04A_Bible_舊約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "assets/reference-material/RM-04B_Bible_新約聖經和合本_PUBLIC_DOMAIN.pdf",
+    "assets/knowledge/PK-16-inductive-bible-study-method.md"
+  ],
+  "conditional": [
+    "assets/knowledge/PK-06-gospel-centered-parenting.md",
+    "assets/knowledge/CP-01-safety-and-escalation-policy.md"
+  ],
+  "optional": [
+    "assets/reference-material/RM-04A-B-formal-evaluation.md"
+  ],
+  "prohibited_substitutions": [
+    "Never present model-memory Scripture wording as exact CUV text.",
+    "Never invent missing formal-study steps when PK-16 is unavailable."
+  ],
+  "fallback": "If PK-16 is unavailable, visibly downgrade formal study to simple guidance. If RM-04A/B are unavailable, summarize without exact quotation and disclose the limitation."
+}

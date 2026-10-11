@@ -1,0 +1,48 @@
+{
+  "conditional": [
+    "assets/knowledge/CP-01-safety-and-escalation-policy.md",
+    "assets/knowledge/PK-07-early-childhood-parenting.md",
+    "assets/knowledge/PK-08-middle-childhood-parenting.md",
+    "assets/knowledge/PK-09-adolescent-parenting.md",
+    "assets/knowledge/PK-10-adult-child-mutuality.md",
+    "assets/knowledge/PK-06-gospel-centered-parenting.md"
+  ],
+  "delegated_references": [
+    {
+      "access_mode": "HANDOFF",
+      "local_copy": false,
+      "owner_skill": "guiding-biblical-study",
+      "reference_id": "RM-04A"
+    },
+    {
+      "access_mode": "HANDOFF",
+      "local_copy": false,
+      "owner_skill": "guiding-biblical-study",
+      "reference_id": "RM-04B"
+    }
+  ],
+  "fallback": "If a required reference is unavailable, disclose the limitation and reduce to safe generic guidance; Bible quotation/study hands to guiding-biblical-study.",
+  "major_intents": [
+    "Coach",
+    "Consultant",
+    "practical parenting",
+    "growth coaching",
+    "sensitive conversations"
+  ],
+  "optional": [
+    "assets/knowledge/PK-11-thinking-with-children.md",
+    "assets/knowledge/PK-12-child-curiosity-and-philosophical-dialogue.md",
+    "assets/knowledge/PK-14-punishment-responsibility-and-reflection.md"
+  ],
+  "prohibited_substitutions": [
+    "Do not replace PK-15 with topic-specific ideology or model memory.",
+    "Do not independently fabricate exact CUV wording."
+  ],
+  "required": [
+    "assets/knowledge/PK-01-heart-behavior-and-motivation.md",
+    "assets/knowledge/PK-03-parenting-goals-and-heart-direction.md",
+    "assets/knowledge/PK-15-sensitive-issue-relational-response.md"
+  ],
+  "schema": "skill-reference-profile-v2",
+  "skill": "coaching-parenting-and-sensitive-conversations"
+}
