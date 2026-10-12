@@ -4201,7 +4201,7 @@
             ],
             "total_bytes": 50969384
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "plugins/sermon-coach",
           "state": "STATICALLY VERIFIED"
         },
