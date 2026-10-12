@@ -6,3 +6,12 @@
 /plugins/cool-plugin-design-assistant/** -text whitespace=cr-at-eol
 /plugins/plugin-builder/** -text whitespace=cr-at-eol
 /plugins/growing-with-children/** -text whitespace=cr-at-eol
+/openclaw/cool-bible-tutor/** -text -whitespace
+/openclaw/cool-plugin-design-assistant/** -text -whitespace
+/openclaw/vibe-coding-designer/** -text -whitespace
+/plugins/cool-bible-tutor/** -text -whitespace
+/plugins/cool-plugin-design-assistant/** -text -whitespace
+/plugins/growing-with-children/** -text -whitespace
+/plugins/plugin-builder/** -text -whitespace
+/plugins/sermon-coach/** -text -whitespace
+/plugins/vibe-coding-designer/** -text -whitespace
