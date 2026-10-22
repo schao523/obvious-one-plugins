@@ -62,6 +62,13 @@
         "path": "./plugins/gpt-37ecb98690a080478ad351d953cdf07e",
         "source": "local"
       }
+    },
+    {
+      "name": "gpt-5eb8e20a084b19c2d2ad46132e933596",
+      "source": {
+        "path": "./plugins/gpt-5eb8e20a084b19c2d2ad46132e933596",
+        "source": "local"
+      }
     }
   ]
 }
