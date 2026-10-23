@@ -69,6 +69,13 @@
         "path": "./plugins/gpt-5eb8e20a084b19c2d2ad46132e933596",
         "source": "local"
       }
+    },
+    {
+      "name": "cool-gpt-application-design-assistant",
+      "source": {
+        "path": "./plugins/cool-gpt-application-design-assistant",
+        "source": "local"
+      }
     }
   ]
 }
