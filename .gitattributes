@@ -21,3 +21,4 @@
 /.github/workflows/validate.yml -text -whitespace
 /plugins/gpt-37ecb98690a080478ad351d953cdf07e/** -text -whitespace
 /plugins/gpt-5eb8e20a084b19c2d2ad46132e933596/** -text -whitespace
+/plugins/cool-gpt-application-design-assistant/** -text -whitespace
