@@ -1520,7 +1520,7 @@
             ],
             "total_bytes": 327842
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "plugins/cool-gpt-application-design-assistant",
           "state": "STATICALLY VERIFIED"
         },
