@@ -76,6 +76,13 @@
         "path": "./plugins/cool-gpt-application-design-assistant",
         "source": "local"
       }
+    },
+    {
+      "name": "steam-parent-child-learning",
+      "source": {
+        "path": "./plugins/steam-parent-child-learning",
+        "source": "local"
+      }
     }
   ]
 }
