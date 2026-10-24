@@ -5521,7 +5521,7 @@
             ],
             "total_bytes": 198420
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "plugins/steam-parent-child-learning",
           "state": "STATICALLY VERIFIED"
         },
