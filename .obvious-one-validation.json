@@ -1725,7 +1725,7 @@
             ],
             "total_bytes": 7328535
           },
-          "mode": "build",
+          "mode": "verify_existing",
           "path": "plugins/cool-leadership-coach",
           "state": "STATICALLY VERIFIED"
         },
