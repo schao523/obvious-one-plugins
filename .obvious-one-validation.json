@@ -1684,7 +1684,7 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "e6c9637101399ca4facbb83f2160b518e27974bd63b247d72217d89aae2017db",
+            "content_sha256": "b6bc405b0731374b8f1fd734b9a89e64ae39c7265ed9a788c0d23e9573aa9f0f",
             "file_count": 68,
             "files": [
               {
@@ -1849,8 +1849,8 @@
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/validation.py",
-                "sha256": "034a8d219187d91b608963bedf43e4e4005487d11bd0b123d4cf21c35607ac0a",
-                "size": 20860
+                "sha256": "0a2fae0d34f722098ada2cfee4ebfe5fd2f5aae63adc73325ec0962a73fceb3d",
+                "size": 21189
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/__init__.py",
@@ -2028,7 +2028,7 @@
                 "size": 2323
               }
             ],
-            "total_bytes": 307478
+            "total_bytes": 307807
           },
           "mode": "build",
           "path": "plugins/cool-plugin-design-assistant",
