@@ -107,3 +107,17 @@ regression-tested correction was published through marketplace PR #2 as
 seven-Skill discovery, and all packaged validation commands subsequently passed
 in both Codex and OpenClaw. No GitHub Release or external registry submission
 was performed.
+
+Version 1.0.2 was subsequently published for Codex and OpenClaw through
+marketplace PR #5 at commit
+`5deedc580acb9afa276f81abeca15e91ce20a56c`. The source repository records
+that immutable marketplace binding after publication; no GitHub Release,
+ClawHub publication, or OpenAI universal-directory submission was performed.
+
+## Version 1.0.3 candidate
+
+The Source Handoff preflight and Chat-to-Work routing are local 1.0.3 changes.
+The preceding installed-runtime observations remain evidence for their named
+earlier artifacts. Codex and OpenClaw installed discovery, representative
+execution, and cross-runtime equivalence for the changed 1.0.3 artifact are
+`NOT VERIFIED` until separately observed. The 1.0.3 candidate is unpublished.
