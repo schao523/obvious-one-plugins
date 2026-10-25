@@ -83,6 +83,13 @@
         "path": "./plugins/steam-parent-child-learning",
         "source": "local"
       }
+    },
+    {
+      "name": "cool-leadership-coach",
+      "source": {
+        "path": "./plugins/cool-leadership-coach",
+        "source": "local"
+      }
     }
   ]
 }
