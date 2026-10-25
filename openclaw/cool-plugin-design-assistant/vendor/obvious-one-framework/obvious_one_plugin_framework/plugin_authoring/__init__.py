@@ -1,0 +1,77 @@
+"""Portable primitives for deterministic plugin authoring."""
+
+from .archive import (
+    ArchiveInventory,
+    ArchiveLimits,
+    ArchiveMember,
+    LocatedPluginRoot,
+    PluginAuthoringError,
+    extract_archive,
+    inventory_archive,
+    locate_plugin_archive_root,
+)
+from .identity import TreeMember, tree_manifest, tree_sha256, write_deterministic_zip
+from .manifests import (
+    PORTABLE_PLUGIN_SCHEMA,
+    ManifestPairIdentity,
+    legacy_overlay_from_portable,
+    manifest_pair_mismatches,
+    materialize_manifest_pair,
+    portable_manifest_from_legacy,
+)
+from .validation import (
+    ValidationIssue,
+    validate_manifest_pair,
+    validate_plugin_tree,
+    validate_portable_manifest,
+    validate_reference_closure,
+    validate_path_bindings,
+    validate_skill_tree,
+)
+from .tools import ApplicationToolContract, validate_application_tool_contract
+from .capabilities import (
+    CapabilityContract,
+    validate_capability_contract,
+    validate_capability_register,
+)
+from .runtime_realization import RuntimeRealizationContract, validate_runtime_realization
+from .materialize import materialize_files, overlay_files
+from .delegated_references import validate_delegated_references
+
+__all__ = [
+    "ArchiveInventory",
+    "ArchiveLimits",
+    "ArchiveMember",
+    "LocatedPluginRoot",
+    "PluginAuthoringError",
+    "TreeMember",
+    "extract_archive",
+    "inventory_archive",
+    "locate_plugin_archive_root",
+    "tree_manifest",
+    "tree_sha256",
+    "write_deterministic_zip",
+    "PORTABLE_PLUGIN_SCHEMA",
+    "ManifestPairIdentity",
+    "legacy_overlay_from_portable",
+    "manifest_pair_mismatches",
+    "materialize_manifest_pair",
+    "portable_manifest_from_legacy",
+    "ValidationIssue",
+    "validate_manifest_pair",
+    "validate_plugin_tree",
+    "validate_portable_manifest",
+    "validate_reference_closure",
+    "validate_path_bindings",
+    "validate_skill_tree",
+    "ApplicationToolContract",
+    "validate_application_tool_contract",
+    "CapabilityContract",
+    "validate_capability_contract",
+    "validate_capability_register",
+    "RuntimeRealizationContract",
+    "validate_runtime_realization",
+    "materialize_files",
+    "overlay_files",
+    "validate_delegated_references",
+]
