@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "author": {
-    "name": "schao523"
+    "name": "Shen-Chang Chao"
   },
   "description": "Guide human-centered AI Application design and produce approval-gated specifications for an Application Workbench.",
   "extensions": {
@@ -18,7 +18,7 @@
           "協助我設計任務工作流程、Instruction Modules 與 user-interaction protocols。",
           "把已確認的設計整理成 Application Plugin Design Specification。"
         ],
-        "developerName": "schao523",
+        "developerName": "Shen-Chang Chao",
         "displayName": "Cool Plugin Design Assistant",
         "longDescription": "Guides discovery, Design Statements, behavioral workflows, logical Instruction Modules, Reference Material evaluation, approval-gated Application Plugin Design Specifications, implementation review, and traceable Application Testing without prescribing the designed application's Skill Architecture.",
         "shortDescription": "Design AI applications"
@@ -36,5 +36,5 @@
   "license": "MIT",
   "name": "cool-plugin-design-assistant",
   "repository": "https://github.com/schao523/obvious-one-plugins",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
