@@ -33,12 +33,16 @@ _PORTABLE_FORBIDDEN_KEYS = {"apps", "interface", "mcpServers", "skills"}
 _INTERFACE_KEYS = {
     "capabilities",
     "category",
+    "composerIcon",
+    "composerIconDark",
     "defaultPrompt",
     "developerName",
     "displayName",
     "iconLarge",
     "iconSmall",
     "longDescription",
+    "logo",
+    "logoDark",
     "shortDescription",
 }
 _REQUIRED_INTERFACE_KEYS = {
@@ -63,6 +67,10 @@ _WINDOWS_DRIVE = re.compile(r"^[A-Za-z]:")
 _PATH_TOKEN = re.compile(
     r"(?:[A-Za-z]:[\\/][^\s`\"'<>]+|(?:\.\.?[\\/])[^\s`\"'<>]+|"
     r"(?:[A-Za-z0-9_.-]+[\\/])+[A-Za-z0-9_.-]+\.(?:md|json|ya?ml|py|txt))"
+)
+_PREFIXED_SKILL_PATH = re.compile(
+    r"(?<![A-Za-z0-9_./:\\>-])[\\/]+"
+    r"(?:[A-Za-z0-9_.-]+[\\/])+[A-Za-z0-9_.-]+\.(?:md|json|ya?ml|py|txt)"
 )
 
 
@@ -424,6 +432,7 @@ def validate_path_bindings(root: Path) -> tuple[ValidationIssue, ...]:
         tokens = _path_tokens(payload)
         if path.name == "SKILL.md":
             tokens.update(_markdown_targets(text))
+            tokens.update(match.group(0) for match in _PREFIXED_SKILL_PATH.finditer(text))
         for token in sorted(tokens):
             if "://" in token:
                 continue
@@ -432,9 +441,10 @@ def validate_path_bindings(root: Path) -> tuple[ValidationIssue, ...]:
                 issues.append(_issue("path_binding_invalid", relative, token))
                 continue
             if path.name == "SKILL.md":
-                target = path.parent.joinpath(*PurePosixPath(safe).parts)
+                scope = plugin_root if safe.startswith(("tools/", "skills/")) else path.parent
+                target = scope.joinpath(*PurePosixPath(safe).parts)
                 try:
-                    target.resolve(strict=False).relative_to(path.parent.resolve(strict=True))
+                    target.resolve(strict=False).relative_to(scope.resolve(strict=True))
                 except (OSError, ValueError):
                     issues.append(_issue("path_binding_invalid", relative, token))
                 else:
@@ -452,8 +462,11 @@ def validate_plugin_tree(root: Path) -> tuple[ValidationIssue, ...]:
     plugin_root = Path(root)
     if not plugin_root.is_dir():
         return (_issue("plugin_root_missing"),)
+    from .delegated_references import validate_delegated_references
+
     issues = list(validate_manifest_pair(plugin_root))
     issues.extend(validate_skill_tree(plugin_root))
     issues.extend(validate_reference_closure(plugin_root))
     issues.extend(validate_path_bindings(plugin_root))
+    issues.extend(validate_delegated_references(plugin_root))
     return _sorted_unique(issues)

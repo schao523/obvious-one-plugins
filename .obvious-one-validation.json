@@ -45,13 +45,13 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "238f4c9538e9892ec3296b969300ab10557024e5919fb182ddadb5f8800dab1f",
+            "content_sha256": "79d8093a287a1419bb63c6c18b85e67b6e8e66bc3052e8ade2493d83bd57d8fe",
             "file_count": 138,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "5aeb9ffa7fc385d3cc708c9bc3d63eb19cb01dee7013537d28121114b55bb6ab",
-                "size": 1402
+                "sha256": "68e6c67e99e40ffd316ae262a23f0058b84e9d4363d847dade8fd3678ec351b8",
+                "size": 1458
               },
               {
                 "path": ".gitattributes",
@@ -739,11 +739,14 @@
                 "size": 31427
               }
             ],
-            "total_bytes": 67200093
+            "total_bytes": 67200149
           },
-          "mode": "verify_existing",
+          "author_name": "Shen-Chang Chao",
+          "developer_name": "Shen-Chang Chao",
+          "mode": "metadata_patch",
           "path": "plugins/cool-bible-tutor",
-          "state": "STATICALLY VERIFIED"
+          "state": "STATICALLY VERIFIED",
+          "version": "2.4.8"
         },
         "openclaw": {
           "artifact": {
@@ -1889,13 +1892,13 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "b6bc405b0731374b8f1fd734b9a89e64ae39c7265ed9a788c0d23e9573aa9f0f",
+            "content_sha256": "dd34d3805220a4e34d5318241f6f807b5401c6333898f3bc2dfc9680be37b793",
             "file_count": 68,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "d6f32911396a00e765ea946d5a92397a13279436656d85ce8ca47bf43406dc07",
-                "size": 1491
+                "sha256": "60bd7ec4e27e524a0287c12aaadab95f13a9e939ad65bac9fd49e2970298a6df",
+                "size": 1497
               },
               {
                 "path": "DISTRIBUTION.md",
@@ -1979,8 +1982,8 @@
               },
               {
                 "path": "plugin.json",
-                "sha256": "f2f26a1c2aaedca9dae961d09af4ac254d17517ed8222fabb3ee58a043d8a561",
-                "size": 1689
+                "sha256": "06204d52dc71d03e00b112aa74e73010a898b7f628fcb2f68295772d795658e8",
+                "size": 1663
               },
               {
                 "path": "scripts/README.md",
@@ -2233,11 +2236,14 @@
                 "size": 2323
               }
             ],
-            "total_bytes": 307807
+            "total_bytes": 307787
           },
-          "mode": "verify_existing",
+          "author_name": "Shen-Chang Chao",
+          "developer_name": "Shen-Chang Chao",
+          "mode": "metadata_patch",
           "path": "plugins/cool-plugin-design-assistant",
-          "state": "STATICALLY VERIFIED"
+          "state": "STATICALLY VERIFIED",
+          "version": "1.0.4"
         },
         "openclaw": {
           "artifact": {
@@ -2613,17 +2619,17 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "ade212bb0bfec86b316ee0d2710aa735c803ac610fff64f549a565aa1770224f",
+            "content_sha256": "8f953c606d18561bf87721c64811becde74b353583a7f585bcfb69ad23079d2e",
             "file_count": 94,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "1a3b6d30f27726516ae2719606463396c1da91def2f89e3a0740e8666218d0a3",
-                "size": 1275
+                "sha256": "d714fd8eac975227d9fbc7fa89ac516df22559423a6e92891c35187ad9dbd01a",
+                "size": 1315
               },
               {
                 "path": "CONTENT-MANIFEST.json",
-                "sha256": "e4c8a016ef2b3eb9676dd19477016dd6eba0669d8a42bde4d497613a284b25ee",
+                "sha256": "dbcc45d056c814fd9d12a71f60a9a07bd7528d53e69941652188238c60365138",
                 "size": 18503
               },
               {
@@ -2818,8 +2824,8 @@
               },
               {
                 "path": "plugin.json",
-                "sha256": "2e6eecaf34477c990811cae3e0349a42d013e32cfe4554b454fbc1251b053c43",
-                "size": 1309
+                "sha256": "1540853391de16f5724f29b8c2f165852ae8daf6ec9bdd1ef189591e21981ec2",
+                "size": 1353
               },
               {
                 "path": "scripts/production_engine.py",
@@ -3087,11 +3093,14 @@
                 "size": 3818
               }
             ],
-            "total_bytes": 1149006
+            "total_bytes": 1149090
           },
-          "mode": "verify_existing",
+          "author_name": "Shen-Chang Chao",
+          "developer_name": "Shen-Chang Chao",
+          "mode": "metadata_patch",
           "path": "plugins/gpt-37ecb98690a080478ad351d953cdf07e",
-          "state": "STATICALLY VERIFIED"
+          "state": "STATICALLY VERIFIED",
+          "version": "1.0.3"
         },
         "openclaw": {
           "state": "NOT APPLICABLE"
@@ -3418,13 +3427,13 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "d7378703283ff62f98e6e7b680f36d5fdc2e82b53f0c5973dea8b98160492c0d",
+            "content_sha256": "4da236060a9c26addd48c12b1956f7bed0b12658ee36ce2a7805da0a67b67adb",
             "file_count": 228,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "ad12dc8a2b36482d1dc7702e4a5af5f1f904f3b1ef67fbf987678bdf098a284f",
-                "size": 1231
+                "sha256": "9868e9ad95feba84074f24b3a6e1f22f52d23582213fb3ffc3efd916d244f7d3",
+                "size": 834
               },
               {
                 "path": "LICENSE",
@@ -3548,8 +3557,8 @@
               },
               {
                 "path": "plugin.json",
-                "sha256": "5d7df51b83c085976d95743c561796505261f32efd224f85753a0c3e36461304",
-                "size": 1377
+                "sha256": "d7500415b4d02916a347434140716c514a8c9edf2877b55e433e15c2f94bf13a",
+                "size": 980
               },
               {
                 "path": "skills/coaching-parenting-and-sensitive-conversations/SKILL.md",
@@ -4562,11 +4571,14 @@
                 "size": 1690
               }
             ],
-            "total_bytes": 7191936
+            "total_bytes": 7191142
           },
-          "mode": "verify_existing",
+          "author_name": "Shen-Chang Chao",
+          "developer_name": "Shen-Chang Chao",
+          "mode": "metadata_patch",
           "path": "plugins/growing-with-children",
-          "state": "STATICALLY VERIFIED"
+          "state": "STATICALLY VERIFIED",
+          "version": "1.0.3"
         },
         "openclaw": {
           "state": "NOT APPLICABLE"
@@ -4595,18 +4607,18 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "8df699cea07e55d8672e6d5cd834f366c670c57aca5157198832b50b8b62c260",
-            "file_count": 78,
+            "content_sha256": "776760235c1bb2d215b56b6f5636f4a1398ef665ea4e86113aa725350d218a3e",
+            "file_count": 81,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "cf0c9d3421c3c044dc5c5296a9adea7dc713883030116b73315645802a7f4145",
-                "size": 737
+                "sha256": "dee4975000a5a26432ec9295e4321398392b99e37e2092349861736cf052dbba",
+                "size": 746
               },
               {
                 "path": "DISTRIBUTION.md",
-                "sha256": "4f38ab2739502e911842271b36c1a435f20d00ed4433cfecb60098814e5bc09d",
-                "size": 1908
+                "sha256": "2680f2dbd96d6993ab1a69544ed9b5db81b3867acf191fcaa2d914fd3e82ddfd",
+                "size": 1962
               },
               {
                 "path": "LICENSE",
@@ -4620,8 +4632,8 @@
               },
               {
                 "path": "README.md",
-                "sha256": "59b362fd13e18bf306859f6d9be67769d6a0e3301e502197957f9ed0235ec950",
-                "size": 3630
+                "sha256": "fdca4fe14e9db6be8f999f3f79b71c6be8214379718f750ebffb20437f3cfaaa",
+                "size": 3587
               },
               {
                 "path": "SECURITY.md",
@@ -4635,78 +4647,78 @@
               },
               {
                 "path": "THIRD_PARTY_NOTICES.md",
-                "sha256": "57d2d260526c908f6dec7d68fc8f762f946897d636e133ef2345ae18b8f8510e",
-                "size": 235
+                "sha256": "ab9fd02a3b04d9662345d2986687b971ae1644adb099bcc664b4cf9e0fc367ac",
+                "size": 236
               },
               {
                 "path": "contracts/openai-interface-vocabulary-v1.json",
-                "sha256": "d91d7bd3bb136f50b55e6e0aa4386ffca47afcc1dab3de13270b76a9ccaf3bc1",
-                "size": 262
+                "sha256": "b73dda7d42084a3427e778abe3066a8bc7ee2b6de9576fa03a7f6912f8ce0c36",
+                "size": 279
               },
               {
                 "path": "docs/application-invariants.md",
-                "sha256": "d4be38251a148429c0a51b910127f428ecf3388257d99398cf75be2f70efe1a4",
-                "size": 4603
+                "sha256": "344b8b99a6037efe53fd017c907ee652b9ec91642e7c4c26de50f09f2538a432",
+                "size": 4607
               },
               {
                 "path": "docs/runtime-compatibility.md",
-                "sha256": "3fdd20f90ccc04af7e7c6a35b65e18694f283604a6356e269922d6225b11406a",
-                "size": 6832
+                "sha256": "b6d363ee1be7667b7e0e3386c62b77d2b5b386a15b051c02a4c67f00c4327a80",
+                "size": 8339
               },
               {
                 "path": "plugin.json",
-                "sha256": "26cf24f6c0a416122f83dfb44254f9fbe7546efe86c4ed13f76eb1695febef4a",
-                "size": 918
+                "sha256": "088d6fcbf5d913807d7a53ad0219a1621bf577c0ad1be6e78ef65b06182ae50c",
+                "size": 928
               },
               {
                 "path": "runtime/T1-T7-runtime-scenarios.md",
-                "sha256": "6fb464839370e0353847543d8a3faba608a8a1ca22459c7b7db1f9a742ff4879",
-                "size": 6159
+                "sha256": "f7763101dcb01dd292a0db44063f90e65721d48befea8ef45aa12e612f670a1c",
+                "size": 6166
               },
               {
                 "path": "runtime/T8-runtime-realization-scenario.md",
-                "sha256": "36feb500b6726b85c3f18d919d507061f6d4b36d13f8a9528fb89b54886452fb",
-                "size": 2917
+                "sha256": "29bb8cb6cdec2eb77759e31466d21ae8614a63a81e10c91dda0af0f9e00cb44a",
+                "size": 2932
               },
               {
                 "path": "runtime/create-plan.json",
-                "sha256": "a8f3f59fd72c69393c716098395527e12147c9057bcd667447012f9d307dbeb7",
-                "size": 11507
+                "sha256": "98c742625c2d2e5d27bb830e2864b1c3f4b7dab76e84fd9a422a7cf9f24f047e",
+                "size": 11598
               },
               {
                 "path": "runtime/mcp_server_fixture.py",
-                "sha256": "22372ffb40f01e2c9c481e5bcb625e7d9b2e8349e6120e5682bf08142fa81258",
-                "size": 3475
+                "sha256": "7dce1bbe28fef32519687fed329179c89aa2e55b19276494e842660daf846e10",
+                "size": 4083
               },
               {
                 "path": "runtime/prepare-runtime-scenarios.py",
-                "sha256": "2d2e1dd3fcb53e8a9887351dd01238c0e7e67009a211df4a05bf919ca601f088",
-                "size": 10177
+                "sha256": "5c7bb8f3020599328570174aab421c64a209e8c61fbbe0bf7807407709e7cb8f",
+                "size": 10272
               },
               {
                 "path": "runtime/runtime-result-v3-schema.json",
-                "sha256": "5cea7c76db94df4678d925473d402776b257089bd0ac2f3a3eadc53919bbf82d",
-                "size": 6877
+                "sha256": "9b0a0e53f8e9a2f56c624e05dc58e58cab492142f2ab1dfadb5a15ab87a16b33",
+                "size": 7010
               },
               {
                 "path": "runtime/runtime-result-v3-template.json",
-                "sha256": "df16df3281fb68ca8a042273b8a4728c12ad033827c71078103c6543b8cb4b8d",
-                "size": 1912
+                "sha256": "183834acd3e38ba5e1db1b6edf6c77a7370ef42a5b4729a914ecf4467713161b",
+                "size": 1951
               },
               {
                 "path": "scripts/build_marketplace_release.py",
-                "sha256": "92c591e10ab4af8304275a9909974a03ecafd82f723fef975283913c1d44982c",
-                "size": 12705
+                "sha256": "eb1cf5f161984ea147db376a3761d6f316ce361c79adcdf49ea65e1007043c82",
+                "size": 13162
               },
               {
                 "path": "scripts/distribution_audit.py",
-                "sha256": "e2549639f0e2b34f57f1166caa251d9f06eff080c41fdb5abf2c16474ae75564",
-                "size": 7227
+                "sha256": "6d6981149b665ec72acb6f49893c1c0796fd55517cc8cffaa7bfba9f8b0c1713",
+                "size": 7523
               },
               {
                 "path": "scripts/plugin_builder.py",
-                "sha256": "b650d038967cbd58c9caba2867a99d0d5a6e4aae3b8a52f7d891576585392247",
-                "size": 12656
+                "sha256": "b55984c08332239e1964adeefc07bd9463c29513fb8b97cda5055aa422fc9714",
+                "size": 12687
               },
               {
                 "path": "scripts/plugin_builder_core/__init__.py",
@@ -4715,73 +4727,73 @@
               },
               {
                 "path": "scripts/plugin_builder_core/approvals.py",
-                "sha256": "afb00733d234fbea5f782cc08dca42dcdad335aba4fe28b5dede3161e5560e4a",
-                "size": 15935
+                "sha256": "f261a4c1d6a2bce0028ea0256cfb1859933408b45f5625e25b493deb04a54192",
+                "size": 16125
               },
               {
                 "path": "scripts/plugin_builder_core/artifact_quality.py",
-                "sha256": "d508fa59382598781814d4379917b476654a3e55e7bf4eb0274a980df1202fb2",
-                "size": 9452
+                "sha256": "9485587f1c60611d6e91b40769cd9f28fc6f1f62b7020898553964f2156e3a70",
+                "size": 9677
               },
               {
                 "path": "scripts/plugin_builder_core/bootstrap.py",
-                "sha256": "45d34ee573d88ab1d9a9091dd808fb0b402a4bf8d5c2ae68a308ac1a11a3e161",
-                "size": 2088
+                "sha256": "17d0a376de61aeabc87eca72395fe6747f2323619cd01f690d5bd44938914974",
+                "size": 2120
               },
               {
                 "path": "scripts/plugin_builder_core/candidate.py",
-                "sha256": "325531148926fbf01dd5ee9eb736d53ec58483d4b76a1566936ce80b71176715",
-                "size": 9815
+                "sha256": "c3a84637c2a742689435da094fa363c66f6a84a299eec0963186d431769b06a5",
+                "size": 9857
               },
               {
                 "path": "scripts/plugin_builder_core/candidate_identity.py",
-                "sha256": "8bc65f24ace091ce7cbe2604c53d7d251ebe367d8b6d1579c252817e073de126",
-                "size": 3680
+                "sha256": "284aa13527a22944fd3a809e6f2d3c5ad0acb986213d12ed57b41cf2ebb21a27",
+                "size": 3775
               },
               {
                 "path": "scripts/plugin_builder_core/evidence.py",
-                "sha256": "1d402dce26473e6e11b54269d3d21ce721e42256e65412e2374290d7c6b8f4e0",
-                "size": 35083
+                "sha256": "896f8e0abfa03acb14cb2ec3d79501429586bc8fd52d76bca70d28d90d8fab78",
+                "size": 35524
               },
               {
                 "path": "scripts/plugin_builder_core/handoff_normalization.py",
-                "sha256": "895414f54968063714d092f030b701e17f73256112df4f36952f1b6c3ecef782",
-                "size": 920
+                "sha256": "03d00cfda5854036af959591b849dd0ab369c7d24996efa5ca6284ba0e6928fc",
+                "size": 948
               },
               {
                 "path": "scripts/plugin_builder_core/implementation_plan.py",
-                "sha256": "d7a0b20d712453fb6d1d4c8527aa70ebc8eade306c59b468b08be6e150ad2527",
-                "size": 25832
+                "sha256": "36c7c22d9ffe9876fc723111a057a787baabe326255602f1091fc214a3fa850f",
+                "size": 26027
               },
               {
                 "path": "scripts/plugin_builder_core/inspection.py",
-                "sha256": "96107753b8687a81223535422d18f342603d565bf2f6928d93e1f9cbd13a9129",
-                "size": 20487
+                "sha256": "285076ae8b901161db5ffc1ecdffccae4b0974a492f3908d295083af9bbc8be7",
+                "size": 20555
               },
               {
                 "path": "scripts/plugin_builder_core/manifest_profile.py",
-                "sha256": "769fd7155e4a2c33440e8644767f6f30a2454942f8b926d48967e393bc1daa02",
-                "size": 6567
+                "sha256": "1cf4b7a3c621dcc93895d2068a74e0e1913dd80017e5257662eb76142edb2203",
+                "size": 6711
               },
               {
                 "path": "scripts/plugin_builder_core/mcp_local_verification.py",
-                "sha256": "10bba823011f15c689f5234ad4cac2cd433e19f9c816e1c7c53b0adaee21c46d",
-                "size": 11641
+                "sha256": "9dd2b79686c861a80fa0cb2f5de6f38e73b06148a128f614859ab5197a9cfc46",
+                "size": 13339
               },
               {
                 "path": "scripts/plugin_builder_core/mcp_realization.py",
-                "sha256": "3a896d88a817ec79b807550a5012ac6c3e614bad5de4a63b7b589eea9c165228",
-                "size": 7916
+                "sha256": "eb76c5f558c9275e6d2deea7efe1345c1ac4bc38820972e0e0f2e9b576e558a5",
+                "size": 8113
               },
               {
                 "path": "scripts/plugin_builder_core/packaging.py",
-                "sha256": "fc456dbe89866f76bdcb0e6a4c2f6881ca3e3df0069a09034ac10c8ee18c7275",
-                "size": 14796
+                "sha256": "785034a32f1e5ea7d474490f1ad9aed4dd3bdbb99507480793c405e323514102",
+                "size": 14896
               },
               {
                 "path": "scripts/plugin_builder_core/proposed_tree.py",
-                "sha256": "9fa7fba015dcaacef796e2546ec01683439138f5e9a855ec94538a8fcb96643d",
-                "size": 8883
+                "sha256": "fbc1f48e940d1b2f664ac2c49a7b785fe0fc468383558f3567321ce827768469",
+                "size": 9077
               },
               {
                 "path": "scripts/plugin_builder_core/result.py",
@@ -4790,18 +4802,18 @@
               },
               {
                 "path": "scripts/plugin_builder_core/runtime_adapters.py",
-                "sha256": "6d89feb87c27b468e5509bd7257b4deaeabf223a280f4faae05825cffa25c0fc",
-                "size": 5559
+                "sha256": "646513da62aa3be4303469b31666a4ffba26d17643bb81d142cc8165984aaaff",
+                "size": 7166
               },
               {
                 "path": "scripts/plugin_builder_core/runtime_commands.py",
-                "sha256": "1d7a0b81cc4a1c1a0f8804c297b5859b72fc84c82e817da95d8444a842146b49",
-                "size": 1401
+                "sha256": "a8f366fa4cc88694370f2536fd124b2205dcac62f8e68e0d4860ba65a8dc52aa",
+                "size": 1445
               },
               {
                 "path": "scripts/plugin_builder_core/session_contract.py",
-                "sha256": "78f6411b463c5ef40287b8e02681b2585305b37212988c2eeffb153fb338fa62",
-                "size": 30514
+                "sha256": "d9efdefa205f5b7c35839a376e6fa9366b813fd579d93bf214759aac5d615b79",
+                "size": 30588
               },
               {
                 "path": "scripts/plugin_builder_core/session_state.py",
@@ -4810,13 +4822,13 @@
               },
               {
                 "path": "scripts/plugin_builder_core/tool_contract.py",
-                "sha256": "f39befc70bb1ad251b9fee7f938cffa33db4341448f246de82026d984da6a46a",
-                "size": 1733
+                "sha256": "021c1060c8b2d0ae4861e253eefb800415e35175d79c022ff9ad23143a6e7f91",
+                "size": 1745
               },
               {
                 "path": "scripts/plugin_builder_core/tool_verification.py",
-                "sha256": "29cc476e810787daa871f08e8eb262df69829f4da5d311daa67d3ea77ec19089",
-                "size": 7072
+                "sha256": "d99254fd22733da0e71c340feda2bb2fdc6dc6d8e1d5090009da64a4bf282628",
+                "size": 7153
               },
               {
                 "path": "scripts/plugin_builder_core/update.py",
@@ -4825,13 +4837,13 @@
               },
               {
                 "path": "scripts/plugin_builder_core/update_candidate.py",
-                "sha256": "6694e437e9b181e0874393dec79bdd5488f23c93a557e6bb03cbaaa1e0a0d773",
-                "size": 12110
+                "sha256": "4eca3649198cb2cffdaab9c36399c6cf6c24d42437eacb7bb3dc05bddcf222ca",
+                "size": 12157
               },
               {
                 "path": "scripts/plugin_builder_core/verification.py",
-                "sha256": "0731da28dd0a429e276ed5e695999ae76679fe2d21351c6d7a545c67efbdcba9",
-                "size": 18966
+                "sha256": "5ff796b6271580770a4dc233bb8486841987c523222d1441cc7af2d9cc9fa6d2",
+                "size": 19128
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/__init__.py",
@@ -4840,18 +4852,23 @@
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/__init__.py",
-                "sha256": "255432992ea4ad7041095082ce513ab6f4eccb13982f5014b011f4db8964a661",
-                "size": 2191
+                "sha256": "60a2b25818acc160116eb479babecc725d05690f18545c107cbb823174f9114f",
+                "size": 2311
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/archive.py",
-                "sha256": "7386943e74d5fb7161382a5da67bb8f53e746552f9e63df0d9a656fe347bbb56",
-                "size": 12721
+                "sha256": "cdd5651c60d1dd3bae3b39a63ab27f9f2cabfbae2fbadc29e07292c8a507b4a8",
+                "size": 12740
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/capabilities.py",
-                "sha256": "06f66b928680f20b1ec27d9e88489b3ad097090af4c176bab7ede620da0b693c",
-                "size": 4664
+                "sha256": "a4b95edb5508e80ce2a909d99e972005872ec694be324f6d7d9cc826ad62709f",
+                "size": 4794
+              },
+              {
+                "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/delegated_references.py",
+                "sha256": "9d6e6446bdf581b2344ec01b5978785c711fd5ce86532862618c4d17750978cf",
+                "size": 10121
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/identity.py",
@@ -4860,8 +4877,8 @@
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/manifests.py",
-                "sha256": "9b660800eb60c74b03af6d3204aef27c1e301493f3004939cce71f29735b85ce",
-                "size": 6499
+                "sha256": "d90f9eaef958d3b805d1be89ac234e21c27049f2ef9f855e9a727f93b19e31f9",
+                "size": 6575
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/materialize.py",
@@ -4870,48 +4887,58 @@
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/runtime_realization.py",
-                "sha256": "482971ca40a775aabe25ae24e9bc04ff41cdc33b212340a17e83ba8862fb1851",
-                "size": 5982
+                "sha256": "e67122aeb182fc9bd61a3de9014216903c418cd763eb68e41d0685af29645597",
+                "size": 6141
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/tools.py",
-                "sha256": "3f9486ba15e971b15f3323ed83058667df7abc0d95a5bac364a17e524b391232",
-                "size": 26724
+                "sha256": "b414716432c8c34e8e8011129cfcbde36dfecaa0b79155b75eb3c55ec9bd24ba",
+                "size": 27078
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/plugin_authoring/validation.py",
-                "sha256": "ffbe7931cd579114d3faf0c50bb5e1bbae28f2c507929900fd4c53412198a921",
-                "size": 20583
+                "sha256": "0a2fae0d34f722098ada2cfee4ebfe5fd2f5aae63adc73325ec0962a73fceb3d",
+                "size": 21189
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/__init__.py",
-                "sha256": "a85101ffe9ea3f343d02fa1569edc17d960a81300d17b16b584d888bb4c5ec4e",
-                "size": 903
+                "sha256": "2c4ac9c7b8951a05cf327bc6a8051630a1d89b3b1062eeb0cd33cbe6696150e5",
+                "size": 1211
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/contract.py",
-                "sha256": "8a23bebae4be8bce77054c74580c6fea2702070fb3bc0324de3e96a87f1778fa",
-                "size": 12550
+                "sha256": "104bc11fdcb94cbb0f88266cfd62cd09adc4523ff42e516c164caa4d23223f1c",
+                "size": 12825
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/identity.py",
-                "sha256": "85c3683e984933b0944682238d51c05d7dd616da3a1d4c1721c4ecfab15cced0",
-                "size": 2495
+                "sha256": "9deebba75017dc84484b696f2f67b3f118f50bcef1c050f5971cabf091767985",
+                "size": 2563
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/normalization.py",
-                "sha256": "b5e2804c9f4b38e8cb9d9925d69e0457b710e3658bf8b451d37c2844453f2d5c",
-                "size": 25775
+                "sha256": "df7c2f94369faa18946ba4123444d6fa1454ecc406375e3fd89aa8db887e9c03",
+                "size": 26597
+              },
+              {
+                "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/preflight.py",
+                "sha256": "77be2e751d0791de2679214475e9fd71473ac7c7a2ff3d2e9877e20df2296f29",
+                "size": 5939
               },
               {
                 "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/profiles.py",
-                "sha256": "79cc2963d6bd0a0926321a563ba1066a57cbdb0faf5a6a608620ec57ad850ea4",
-                "size": 3511
+                "sha256": "1f4aba370c773d70e7314c0168d2af2b8b7fca9f25fb74b25856b41f325901cd",
+                "size": 3611
+              },
+              {
+                "path": "scripts/vendor/obvious_one_plugin_framework/workbench_handoff/source_contract.py",
+                "sha256": "22acf098016cd9c26409680e3bbfa271f9f09013b1e9bcebd420bd8ff4c50d85",
+                "size": 11359
               },
               {
                 "path": "skills/building-and-updating-plugins/SKILL.md",
-                "sha256": "0720de795a1395652bae54f9a23a60cfa566a24f6ee9a69e4f893650d1c7279a",
-                "size": 1841
+                "sha256": "097de49c51dc22025ab977979e6bc465efc88227224b3602f96ae8ee681f3c13",
+                "size": 1844
               },
               {
                 "path": "skills/building-and-updating-plugins/agents/openai.yaml",
@@ -4920,18 +4947,18 @@
               },
               {
                 "path": "skills/building-and-updating-plugins/references/application-tool-contract.md",
-                "sha256": "01c13e7a07f8952dfe3b83acd4995b4b6bb81c928a8f61a95764b8e761bfdca8",
-                "size": 2278
+                "sha256": "c8a6c67736b42f43d583d17d16725982e2d251e590c86fc71000a3a9054a3eb7",
+                "size": 2283
               },
               {
                 "path": "skills/building-and-updating-plugins/references/candidate-and-update-contract.md",
-                "sha256": "983e3347ea6a6819e82562eccca534453afb680758b7d5a69eeab1766acacbd2",
-                "size": 1845
+                "sha256": "e704c03ae2fda7bf224a4f34516750875b658d476e4dd19a998a2195fd6b05d0",
+                "size": 1851
               },
               {
                 "path": "skills/guiding-plugin-builder-sessions/SKILL.md",
-                "sha256": "f785cfc4289afd58bcda450fd7740d40c49222dd1f66b824d62ad48d7d474698",
-                "size": 2277
+                "sha256": "723aac6c15bb36b1181098e7072daed743a82ae7b15bfb885dfae276e4d02292",
+                "size": 2280
               },
               {
                 "path": "skills/guiding-plugin-builder-sessions/agents/openai.yaml",
@@ -4940,8 +4967,8 @@
               },
               {
                 "path": "skills/guiding-plugin-builder-sessions/references/session-workflow.md",
-                "sha256": "b4f5d856ffcbc2dc896f6084a217b21f393e4943093ed02cdec55137d0bd34b3",
-                "size": 2305
+                "sha256": "246bdedad10da0d9d7ca2041abfe212ff1369389cb13a27bb65b57b39d7d6be1",
+                "size": 2308
               },
               {
                 "path": "skills/guiding-plugin-builder-sessions/references/state-and-recovery.md",
@@ -4950,8 +4977,8 @@
               },
               {
                 "path": "skills/planning-plugin-implementations/SKILL.md",
-                "sha256": "13c74d712602fad91e700aab61ee2bebb27a9ab92b3a9c57dd856b427ea3a4f9",
-                "size": 2090
+                "sha256": "2ed50f253670f28e12b6dbc43bf60dddc86bd50b658f14b0812dc5a8905a1e17",
+                "size": 2093
               },
               {
                 "path": "skills/planning-plugin-implementations/agents/openai.yaml",
@@ -4960,8 +4987,8 @@
               },
               {
                 "path": "skills/planning-plugin-implementations/references/input-and-plan-contract.md",
-                "sha256": "862508655b7aa482cf36fdb0ad08167a246e183328360599241b2caa168bb65a",
-                "size": 3899
+                "sha256": "436f3278b0d1295d4d19838cc52f4d7ea933a83e9757b068086a80d77e80b490",
+                "size": 3925
               },
               {
                 "path": "skills/planning-plugin-implementations/references/requirement-coverage-contract.md",
@@ -4970,8 +4997,8 @@
               },
               {
                 "path": "skills/verifying-and-packaging-plugins/SKILL.md",
-                "sha256": "4842af2b15ee9d7c4faf75b4eeb3fdaa7bb686c117c19f030d51ddb3bebb27e9",
-                "size": 1802
+                "sha256": "e526e5642db1e956c97e8a6a6dd3490bc89d8ee501b2cedaacb2d4df8c020c59",
+                "size": 1805
               },
               {
                 "path": "skills/verifying-and-packaging-plugins/agents/openai.yaml",
@@ -4980,18 +5007,18 @@
               },
               {
                 "path": "skills/verifying-and-packaging-plugins/references/evidence-and-package-contract.md",
-                "sha256": "59bfd743aa55c92ff3c2611a19b31090ef4e8d0804ba99879c41cfe72b7e2ad5",
-                "size": 2298
+                "sha256": "83bb8b49a34b308d9c038f66df7e16cb5ab3e5e92f0f59154e7c021858f5a344",
+                "size": 2315
               },
               {
                 "path": "skills/verifying-and-packaging-plugins/references/tool-evidence-contract.md",
-                "sha256": "8ea6989d99ef3db84f911b39289a10f5186e23d0f2fa2cbc47bafb85b53fc099",
-                "size": 2946
+                "sha256": "bc06c4dffa70fe0c9d55ca3511d94a716341a1edefc5d9a496c9876a888aece5",
+                "size": 2966
               }
             ],
-            "total_bytes": 517776
+            "total_bytes": 557328
           },
-          "mode": "verify_existing",
+          "mode": "build",
           "path": "plugins/plugin-builder",
           "state": "STATICALLY VERIFIED"
         },
@@ -4999,7 +5026,7 @@
           "state": "NOT APPLICABLE"
         }
       },
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     {
       "clawhub": {
@@ -5010,13 +5037,13 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "484f7ee6d037e0b4f8e66416344baa6d01cec20f6a9766c8d2e24744dcce4338",
+            "content_sha256": "869c69ba1b584318083990a2220fd75262e1509dcc9d960946743416a0e4b786",
             "file_count": 120,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "155cfc2e88e640d3c7f9d5de429d1c518d0f4700df2592c15b5b919e7b22a5be",
-                "size": 789
+                "sha256": "88f7d45665fc06418fdff0eab723b68b8b9cb162f511c5c6f45334d3883baa48",
+                "size": 815
               },
               {
                 "path": "LICENSE",
@@ -5110,8 +5137,8 @@
               },
               {
                 "path": "plugin.json",
-                "sha256": "4fb394d61d089cab411d1410c4dcdea2cab86c82bfa1267cac70aa99f29f74f4",
-                "size": 935
+                "sha256": "223e832e2f12118a7bf0e2e56a8e6972bd6c2e9779209903f51c5a1aad9245d5",
+                "size": 961
               },
               {
                 "path": "references/professional-knowledge/RM-04A_Inductive_Exegesis_Method_Overview.md",
@@ -5614,11 +5641,14 @@
                 "size": 16942
               }
             ],
-            "total_bytes": 50969384
+            "total_bytes": 50969436
           },
-          "mode": "verify_existing",
+          "author_name": "Shen-Chang Chao",
+          "developer_name": "Shen-Chang Chao",
+          "mode": "metadata_patch",
           "path": "plugins/sermon-coach",
-          "state": "STATICALLY VERIFIED"
+          "state": "STATICALLY VERIFIED",
+          "version": "1.0.4"
         },
         "openclaw": {
           "state": "NOT APPLICABLE"
@@ -5883,13 +5913,13 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "05395d690ba8262416dad7550f1c93c26988c4d318d9aafb764244e4083aa2c3",
+            "content_sha256": "a5797d3f5a51923485f1cefe80d182d89f5de747b96bcbc096cca09fa40f0652",
             "file_count": 37,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "2c326e997fe6526c6756bf4456976000c47cbe59bf1996e049387c873c76e72b",
-                "size": 1474
+                "sha256": "e19b3fb05c8edf9773e37822cb11eca86111f4fdbb1955503e36d96b1507e330",
+                "size": 1503
               },
               {
                 "path": "DISTRIBUTION.md",
@@ -6072,11 +6102,14 @@
                 "size": 956
               }
             ],
-            "total_bytes": 53642
+            "total_bytes": 53671
           },
-          "mode": "verify_existing",
+          "author_name": "Shen-Chang Chao",
+          "developer_name": "Shen-Chang Chao",
+          "mode": "metadata_patch",
           "path": "plugins/vibe-coding-designer",
-          "state": "STATICALLY VERIFIED"
+          "state": "STATICALLY VERIFIED",
+          "version": "1.0.1"
         },
         "openclaw": {
           "artifact": {
