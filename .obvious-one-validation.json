@@ -45,12 +45,12 @@
       "targets": {
         "codex": {
           "artifact": {
-            "content_sha256": "79d8093a287a1419bb63c6c18b85e67b6e8e66bc3052e8ade2493d83bd57d8fe",
+            "content_sha256": "5f23bfeb8a59d3af536cb9c48299f0f1a290e193c48c048000e11f3e62085cb7",
             "file_count": 138,
             "files": [
               {
                 "path": ".codex-plugin/plugin.json",
-                "sha256": "68e6c67e99e40ffd316ae262a23f0058b84e9d4363d847dade8fd3678ec351b8",
+                "sha256": "b6531e53a9fdfffcd541fd2e545f88313cf5cc6e74414018f809088f709b0786",
                 "size": 1458
               },
               {
@@ -190,8 +190,8 @@
               },
               {
                 "path": "skills/applying-biblical-truth/SKILL.md",
-                "sha256": "c045024f751d501d1277650bedffc4ad5dbed0074a7c4c4cf3404f2fecb245a8",
-                "size": 1736
+                "sha256": "8672b93e392907f04bce1557336b397e3c58dde7d3c144a6ce620f5851073613",
+                "size": 3246
               },
               {
                 "path": "skills/applying-biblical-truth/agents/openai.yaml",
@@ -215,8 +215,8 @@
               },
               {
                 "path": "skills/comparing-biblical-words-and-translations/SKILL.md",
-                "sha256": "2c5569fed6a839a16ed9b02ea34b865a58694058830e87a3ddaf0daaccc2b24e",
-                "size": 2697
+                "sha256": "bcce4f0bb5f2b0099aee76121e7b41aca7eb014a620b1da2e63be7bef43f9a0c",
+                "size": 4207
               },
               {
                 "path": "skills/comparing-biblical-words-and-translations/agents/openai.yaml",
@@ -225,8 +225,8 @@
               },
               {
                 "path": "skills/discussing-biblical-theology/SKILL.md",
-                "sha256": "c9cc5cb841168b8a5d23f724d70b8dacc22e48525105f78c6a48c686bab5dbb4",
-                "size": 2927
+                "sha256": "4b5cf1547f2a367e76a051aab385ca5817fcb1d8ed4834bdd0ae5c82092fd2e9",
+                "size": 4437
               },
               {
                 "path": "skills/discussing-biblical-theology/agents/openai.yaml",
@@ -235,8 +235,8 @@
               },
               {
                 "path": "skills/guiding-bible-tutor-sessions/SKILL.md",
-                "sha256": "7f633cb38be944d70d89ed3dc0aa42eaec9b320261f7358815c83671549cfb4e",
-                "size": 2991
+                "sha256": "6d72c03d2cee0dce71d9b7caa426b233438cf5ff9698a8e47d168f893a302ff6",
+                "size": 3961
               },
               {
                 "path": "skills/guiding-bible-tutor-sessions/agents/openai.yaml",
@@ -255,8 +255,8 @@
               },
               {
                 "path": "skills/interpreting-biblical-passages/SKILL.md",
-                "sha256": "4a78bb8cd19d90a33395573174fe5cccb9445da069be46e04388612b933f1193",
-                "size": 2091
+                "sha256": "1380a2cdc2ddf475866c1fc728b1a8f00ac027546b6ddb2aa6981280f104d1e7",
+                "size": 3601
               },
               {
                 "path": "skills/interpreting-biblical-passages/agents/openai.yaml",
@@ -280,8 +280,8 @@
               },
               {
                 "path": "skills/observing-biblical-passages/SKILL.md",
-                "sha256": "705b1a249a7a0f824084cb52c7494fc421741996c8b4c59e3718c38b936164c5",
-                "size": 1560
+                "sha256": "6720768703f5fa88cc183f733a4a98a4f9e48dc4dd7d6c6368a5043df2a36e82",
+                "size": 3070
               },
               {
                 "path": "skills/observing-biblical-passages/agents/openai.yaml",
@@ -310,8 +310,8 @@
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/SKILL.md",
-                "sha256": "4762ef8b595551f4e5619c2c11052bcfd45366bc66e4de484a722848c7318ec6",
-                "size": 5146
+                "sha256": "0706f167a9a3665ce36a26954b08c351f49433e270cd74a0ee77685af06d0dbe",
+                "size": 6656
               },
               {
                 "path": "skills/retrieving-chinese-union-version-scripture/agents/openai.yaml",
@@ -455,8 +455,8 @@
               },
               {
                 "path": "skills/supporting-biblical-exegesis/SKILL.md",
-                "sha256": "2edd4a311943025c239cf40012d57cd70eae391fead8c6e2129eb9a8ee9f6baf",
-                "size": 2068
+                "sha256": "001a77ae25c08be7a95bf8eae7203931a725faffb17451f66d9ee3efdfb3f7b2",
+                "size": 3578
               },
               {
                 "path": "skills/supporting-biblical-exegesis/agents/openai.yaml",
@@ -739,14 +739,12 @@
                 "size": 31427
               }
             ],
-            "total_bytes": 67200149
+            "total_bytes": 67211689
           },
-          "author_name": "Shen-Chang Chao",
-          "developer_name": "Shen-Chang Chao",
-          "mode": "metadata_patch",
+          "mode": "verify_existing",
           "path": "plugins/cool-bible-tutor",
           "state": "STATICALLY VERIFIED",
-          "version": "2.4.8"
+          "version": "2.4.9"
         },
         "openclaw": {
           "artifact": {
@@ -2238,9 +2236,7 @@
             ],
             "total_bytes": 307787
           },
-          "author_name": "Shen-Chang Chao",
-          "developer_name": "Shen-Chang Chao",
-          "mode": "metadata_patch",
+          "mode": "verify_existing",
           "path": "plugins/cool-plugin-design-assistant",
           "state": "STATICALLY VERIFIED",
           "version": "1.0.4"
@@ -3095,9 +3091,7 @@
             ],
             "total_bytes": 1149090
           },
-          "author_name": "Shen-Chang Chao",
-          "developer_name": "Shen-Chang Chao",
-          "mode": "metadata_patch",
+          "mode": "verify_existing",
           "path": "plugins/gpt-37ecb98690a080478ad351d953cdf07e",
           "state": "STATICALLY VERIFIED",
           "version": "1.0.3"
@@ -4573,9 +4567,7 @@
             ],
             "total_bytes": 7191142
           },
-          "author_name": "Shen-Chang Chao",
-          "developer_name": "Shen-Chang Chao",
-          "mode": "metadata_patch",
+          "mode": "verify_existing",
           "path": "plugins/growing-with-children",
           "state": "STATICALLY VERIFIED",
           "version": "1.0.3"
@@ -5643,9 +5635,7 @@
             ],
             "total_bytes": 50969436
           },
-          "author_name": "Shen-Chang Chao",
-          "developer_name": "Shen-Chang Chao",
-          "mode": "metadata_patch",
+          "mode": "verify_existing",
           "path": "plugins/sermon-coach",
           "state": "STATICALLY VERIFIED",
           "version": "1.0.4"
@@ -6104,9 +6094,7 @@
             ],
             "total_bytes": 53671
           },
-          "author_name": "Shen-Chang Chao",
-          "developer_name": "Shen-Chang Chao",
-          "mode": "metadata_patch",
+          "mode": "verify_existing",
           "path": "plugins/vibe-coding-designer",
           "state": "STATICALLY VERIFIED",
           "version": "1.0.1"
